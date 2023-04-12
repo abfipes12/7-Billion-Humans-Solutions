@@ -1,0 +1,10 @@
+-- 7 Billion Humans (2214M) --
+-- 21: Big Data by @commonnickname --
+
+step s
+a:
+takefrom s,se
+if myitem < 50:
+	giveto sw
+endif
+jump a

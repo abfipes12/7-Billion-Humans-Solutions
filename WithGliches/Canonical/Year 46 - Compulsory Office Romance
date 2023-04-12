@@ -1,0 +1,6 @@
+-- 7 Billion Humans (2145) --
+-- 46: Compulsory Office Romance by @n05ucc4u and @commonnickname --
+
+a:
+tell [blank] mem1
+jump a

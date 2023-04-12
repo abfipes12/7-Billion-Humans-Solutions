@@ -1,0 +1,15 @@
+-- 7 Billion Humans (2059) --
+-- 15: Shred Lines by @n05ucc4u --
+
+a:
+step n
+if n == datacube:
+	pickup n
+	b:
+	step s
+	if s != shredder:
+		jump b
+	endif
+	giveto s
+endif
+jump a

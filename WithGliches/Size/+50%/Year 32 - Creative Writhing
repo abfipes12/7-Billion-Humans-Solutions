@@ -1,0 +1,10 @@
+-- 7 Billion Humans (2235) --
+-- 32: Creative Writhing by @abfipes12 and @main-gi --
+-- failed 8 out of 100 => 92% successful --
+
+a:
+pickup c,s,e,se
+write 99
+drop
+step nw,sw,ne,se
+jump a

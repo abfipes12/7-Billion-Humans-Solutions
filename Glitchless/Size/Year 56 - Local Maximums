@@ -1,0 +1,19 @@
+-- 7 Billion Humans (2214M) --
+-- 56: Local Maximums by 6e.61.64.6e.65.72.42 [https://steamcommunity.com/profiles/76561198062642335] --
+
+mem1 = nearest shredder
+step w
+step w
+mem2 = foreachdir nw,w,sw,n,s,ne,e,se:
+	if nw <= mem2 and
+	 n <= mem2 and
+	 ne <= mem2 and
+	 w <= mem2 and
+	 e <= mem2 and
+	 sw <= mem2 and
+	 s <= mem2 and
+	 se <= mem2:
+		pickup mem2
+		giveto mem1
+	endif
+endfor

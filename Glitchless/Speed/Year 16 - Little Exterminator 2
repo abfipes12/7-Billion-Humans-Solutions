@@ -1,0 +1,22 @@
+-- 7 Billion Humans (2059) --
+-- 16: Little Exterminator 2 by @n05ucc4u --
+
+step se
+step s
+step s
+if ne == nothing:
+	step s
+	if nw == nothing:
+		step s
+	endif
+	pickup sw
+	step e
+	if ne == nothing:
+		step e
+	endif
+else:
+	pickup sw
+endif
+step se
+step e
+giveto se

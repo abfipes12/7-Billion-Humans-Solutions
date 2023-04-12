@@ -1,0 +1,27 @@
+-- 7 Billion Humans (2214M) --
+-- 44: Unique Fashion Party by @commonnickname --
+
+mem1 = set sw,n
+if mem1 != worker and
+ mem1 == wall:
+	mem4 = set myitem
+	pickup s
+	end
+endif
+if mem1 >= 0:
+	mem2 = nearest worker
+	if mem2 >= 0:
+		mem1 = calc 0 / 0
+	endif
+	if mem2 >= 0:
+		step s
+		pickup sw
+		end
+	endif
+endif
+if mem1 >= 0 and
+ mem2 >= 0:
+	pickup s
+	end
+endif
+mem1 = calc 0 / 0

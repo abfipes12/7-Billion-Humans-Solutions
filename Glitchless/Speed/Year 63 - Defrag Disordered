@@ -1,0 +1,70 @@
+-- 7 Billion Humans (2145) --
+-- 63: Defrag Disordered by @n05ucc4u and @commonnickname --
+
+step n
+jump a
+mem1 = foreachdir nw:
+	mem2 = foreachdir n:
+		mem3 = foreachdir w:
+			a:
+			if mem1 == nothing and
+			 mem2 == datacube and
+			 mem3 == nothing:
+				step ne
+				pickup n
+				step n
+				step n
+				step n
+				step ne
+				drop
+				mem1 = nearest datacube
+				step s
+				step s
+				pickup s
+				step mem1
+			else:
+				if mem1 == hole and
+				 mem3 == hole:
+					pickup ne
+					step n
+					step n
+					step n
+					step n
+					step n
+					drop
+					step se
+					pickup s
+					drop
+					step e
+					pickup se
+				else:
+					if mem3 == worker:
+						step ne
+						step ne
+						pickup s
+						step n
+						step ne
+						drop
+						step sw
+						pickup sw
+						step n
+						step n
+					else:
+						pickup ne
+						step ne
+						step ne
+						step n
+						step n
+						step n
+						drop
+						step sw
+						pickup s
+						step n
+					endif
+				endif
+			endif
+		endfor
+	endfor
+endfor
+step n
+drop

@@ -1,0 +1,39 @@
+-- 7 Billion Humans (2235) --
+-- 22: Number Royale by @abfipes12 and @martinez8859 --
+-- line 8 gives 99.015% success rate instead of 100% --
+
+pickup s
+if myitem < w or
+ myitem < e or
+ myitem < 63:
+	a:
+	step s
+	step s
+endif
+step s
+step w
+step w
+step w
+step w
+step w
+step w
+step w
+step w
+if myitem < w or
+ myitem < sw or
+ myitem < s or
+ myitem < se or
+ myitem < e:
+	step sw
+	jump a
+endif
+step se
+b:
+if myitem < nw or
+ myitem < n or
+ myitem < ne or
+ myitem < w or
+ myitem < e:
+	step s
+endif
+jump b

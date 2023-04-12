@@ -1,0 +1,17 @@
+-- 7 Billion Humans (2235) --
+-- 40: Printing Etiquette 2 by @abfipes12 --
+
+a:
+step w,sw,n,s,e,se
+drop
+if nw == printer or
+ ne == printer or
+ sw == printer or
+ se == printer and
+ mem1 < 5 and
+ myitem != datacube:
+	takefrom nw,sw,ne,se
+	mem1 = calc mem1 + 1
+	write mem1
+endif
+jump a

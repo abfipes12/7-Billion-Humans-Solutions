@@ -1,0 +1,9 @@
+-- 7 Billion Humans (2145) --
+-- 30: Fill the Floor by @martinez8859 --
+
+mem1 = nearest printer
+a:
+takefrom mem1
+step nw,w,sw,s,ne,e,se
+drop
+jump a

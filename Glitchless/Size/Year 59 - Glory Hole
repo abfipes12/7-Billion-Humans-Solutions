@@ -1,0 +1,13 @@
+-- 7 Billion Humans (2059) --
+-- 59: Glory Hole by @eiTTio --
+
+a:
+mem2 = foreachdir nw,w,n,s,ne,se:
+	if mem2 != hole and
+	 c == nothing or
+	 mem2 <= c or
+	 c == 1:
+		step mem2
+	endif
+endfor
+jump a

@@ -1,0 +1,28 @@
+-- 7 Billion Humans (2214M) --
+-- 52: The Mode Code by dmr [https://steamcommunity.com/profiles/76561197960413748] --
+
+mem1 = nearest datacube
+a:
+if c == nothing or
+ s == wall and
+ w == worker or
+ n == wall:
+	mem3 = calc mem3 + 1
+	pickup mem1
+	write mem4
+	drop
+endif
+step w
+if w == wall or
+ w == hole:
+	step ne
+	b:
+	if e != nothing:
+		step e
+		jump b
+	endif
+endif
+if c == mem3:
+	mem4 = calc mem4 + 1
+endif
+jump a

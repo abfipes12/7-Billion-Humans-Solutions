@@ -1,0 +1,20 @@
+-- 7 Billion Humans (2214M) --
+-- 64: Binary Counter by @danrudmin --
+
+a:
+if w == worker and
+ c != switch or
+ se == worker and
+ myitem != datacube:
+	pickup c
+	step s
+endif
+if se == worker and
+ myitem == datacube:
+	drop
+endif
+if n == switch or
+ c == button:
+	step n
+endif
+jump a	

@@ -1,0 +1,212 @@
+-- 7 Billion Humans (2235) --
+-- 42: Important Email Organization by @abfipes12 --
+
+mem2 = nearest datacube
+pickup mem2
+a:
+if myitem < 50:
+	if mem3 == shredder:
+		step mem3
+		if myitem < 30:
+			if myitem < 20:
+				if myitem < 10:
+					step nw
+					step sw
+				else:
+					step w
+				endif
+			endif
+		else:
+			if myitem < 40:
+				step e
+			else:
+				step ne
+				step se
+			endif
+		endif
+		jump b
+	else:
+		if myitem < 30:
+			if myitem < 20:
+				if myitem < 10:
+					mem2 = set 0
+				else:
+					mem2 = set 1
+				endif
+			else:
+				mem2 = set 2
+			endif
+		else:
+			if myitem < 40:
+				mem2 = set 3
+			else:
+				mem2 = set 4
+			endif
+		endif
+	endif
+else:
+	if mem4 == shredder:
+		step mem4
+		if myitem < 80:
+			if myitem < 70:
+				if myitem < 60:
+					step nw
+					step sw
+				else:
+					step w
+				endif
+			endif
+		else:
+			if myitem < 90:
+				step e
+			else:
+				step ne
+				step se
+			endif
+		endif
+		b:
+		jump c
+	else:
+		if myitem < 80:
+			if myitem < 70:
+				if myitem < 60:
+					mem2 = set 5
+				else:
+					mem2 = set 6
+				endif
+			else:
+				mem2 = set 7
+			endif
+		else:
+			if myitem < 90:
+				mem2 = set 8
+			else:
+				mem2 = set 9
+			endif
+		endif
+	endif
+endif
+mem1 = nearest shredder
+step mem1
+d:
+mem1 = nearest datacube
+if mem1 == 2 or
+ mem1 == 7:
+	if mem1 == 2:
+		mem3 = nearest shredder
+	else:
+		mem4 = nearest shredder
+	endif
+endif
+if mem2 != mem1:
+	if mem2 > mem1:
+		step e
+	else:
+		step w
+	endif
+	jump d
+endif
+c:
+mem1 = nearest shredder
+giveto mem1
+e:
+mem1 = nearest datacube
+mem2 = nearest datacube
+if mem1 == mem2:
+	step n
+	mem2 = nearest datacube
+	if mem1 == mem2:
+		step n
+		mem2 = nearest datacube
+		if mem1 == mem2:
+			step n
+			mem2 = nearest datacube
+			if mem1 == mem2:
+				step n
+				mem2 = nearest datacube
+				if mem1 == mem2:
+					step n
+					mem2 = nearest datacube
+					jump f
+				endif
+			endif
+		endif
+	endif
+endif
+jump g
+f:
+if mem1 == mem2:
+	if mem1 < 2 or
+	 mem1 > 7:
+		if mem1 < 2:
+			step ne
+			if mem1 == 0:
+				mem1 = set 1
+			else:
+				mem1 = set 2
+			endif
+		else:
+			step nw
+			if mem1 == 8:
+				mem1 = set 7
+			else:
+				mem1 = set 8
+			endif
+		endif
+	else:
+		step n
+	endif
+	mem2 = nearest datacube
+	if mem1 == mem2:
+		if mem1 < 3 or
+		 mem1 > 6:
+			if mem1 < 3:
+				step ne
+				if mem1 == 1:
+					mem1 = set 2
+				else:
+					mem1 = set 3
+				endif
+			else:
+				step nw
+				if mem1 == 7:
+					mem1 = set 6
+				else:
+					mem1 = set 7
+				endif
+			endif
+		else:
+			step n
+		endif
+		mem2 = nearest datacube
+		if mem1 == mem2:
+			step n
+			end
+		endif
+	endif
+endif
+g:
+h:
+step mem2
+i:
+mem1 = nearest datacube
+if mem1 == mem2:
+	mem1 = nearest worker
+	if mem1 == mem2:
+		step n
+		jump j
+	endif
+	pickup mem2
+else:
+	j:
+	mem2 = nearest datacube
+	if mem2 > 9:
+		jump h
+	endif
+	step mem2
+	if s != shredder:
+		jump i
+	endif
+	jump e
+endif
+jump a

@@ -1,0 +1,13 @@
+-- 7 Billion Humans (2059) --
+-- 16: Little Exterminator 2 by @n05ucc4u and @commonnickname --
+
+a:
+step s
+if w == worker or
+ sw == wall or
+ s == hole:
+	step ne
+	pickup sw
+	giveto se
+endif
+jump a

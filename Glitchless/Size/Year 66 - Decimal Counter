@@ -1,0 +1,26 @@
+-- 7 Billion Humans (2214M) --
+-- 66: Decimal Counter by drm [https://steamcommunity.com/profiles/76561197960413748] --
+
+a:
+if se == button and
+ se == worker or
+ e == 9 and
+ e != datacube or
+ c != switch:
+	pickup c
+	mem1 = calc myitem + 1
+	if mem1 == 10 or
+	 myitem != datacube:
+		mem1 = calc 0 + 0
+	endif
+	step s
+	if e == 9 and
+	 c == 0 or
+	 nw == 1 or
+	 s == wall:
+		write mem1
+		step n
+	endif
+	drop
+endif
+jump a

@@ -1,0 +1,16 @@
+-- 7 Billion Humans (2235) --
+-- 31: Checkerboard Organization by @abfipes12 and @n05ucc4u --
+
+a:
+if nw == hole or
+ ne == hole or
+ sw == hole or
+ se == hole or
+ se == printer and
+ myitem == nothing:
+	takefrom se
+	step w,e
+endif
+step nw,sw,ne,se
+drop
+jump a

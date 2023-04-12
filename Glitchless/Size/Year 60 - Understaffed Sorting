@@ -1,0 +1,18 @@
+-- 7 Billion Humans (2214M) --
+-- failed once on a very unlucky input --
+-- 60: Understaffed Sorting by drm [https://steamcommunity.com/profiles/76561197960413748] --
+
+a:
+if myitem != datacube and
+ s > se and
+ w != datacube:
+	pickup s
+	drop
+	pickup se
+endif
+pickup w
+step s
+drop
+step n
+step w,e
+jump a

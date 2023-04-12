@@ -1,0 +1,18 @@
+-- 7 Billion Humans (2235) --
+-- 22: Number Royale by @eiTTio and @abfipes12 --
+-- see Other/Number_Royale.cpp --
+-- 55.3% successful --
+
+if s < 85 or
+ sw > s or
+ se > s:
+	jump a
+endif
+pickup s
+if myitem < 94:
+	pickup c
+	a:
+	b:
+	step s
+	jump b
+endif

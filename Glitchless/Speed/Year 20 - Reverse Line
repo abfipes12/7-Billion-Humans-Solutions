@@ -1,0 +1,64 @@
+-- 7 Billion Humans (2059) --
+-- 20: Reverse Line by @martinez8859 and @n05ucc4u --
+
+if sw == hole or
+ se == hole:
+	pickup s
+	if sw == hole:
+		step se
+		step e
+		step e
+		step e
+		step e
+		step e
+		step e
+	else:
+		step sw
+		step w
+		step w
+		step w
+		step w
+		step w
+		step w
+	endif
+else:
+	if sw == nothing or
+	 se == nothing:
+		pickup s
+		if w != worker:
+			step ne
+			step e
+			step e
+			step se
+			step se
+		else:
+			step nw
+			step w
+			step w
+			step sw
+			step sw
+		endif
+	else:
+		if sw == nothing or
+		 se == nothing:
+			pickup s
+			if w != worker:
+				step e
+				step e
+				step se
+			else:
+				step w
+				step w
+				step sw
+			endif
+		else:
+			if sw == nothing:
+				pickup se
+			else:
+				pickup sw
+			endif
+			step s
+		endif
+	endif
+endif
+drop

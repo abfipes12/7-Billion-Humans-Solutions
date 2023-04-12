@@ -1,0 +1,78 @@
+-- 7 Billion Humans (2235) --
+-- 21: Big Data by yifeixuer [https://steamcommunity.com/profiles/76561198831890282] --
+-- @commonnickname and @abfipes12 --
+-- 68.31% successful --
+
+step s
+takefrom s
+if myitem == datacube:
+	if myitem < 50:
+		step ne
+		drop
+		step s
+		takefrom sw
+		jump a
+	endif
+else:
+	step sw
+	takefrom se
+	if myitem == datacube:
+		if myitem < 50:
+			step e
+			drop
+			takefrom sw
+			a:
+			jump b
+		endif
+	else:
+		step s
+		if se == printer:
+			takefrom se
+			if myitem < 50:
+				step nw
+				drop
+				step s
+				takefrom se
+				b:
+				jump c
+			endif
+		else:
+			step s
+			takefrom se
+			if myitem < 50:
+				step w
+				drop
+				takefrom se
+				c:
+				if myitem >= 50:
+					jump d
+				endif
+				step w
+				giveto s
+				step e
+				takefrom s
+				if myitem >= 50:
+					d:
+					jump e
+				endif
+				step w
+				giveto s
+				step e
+				takefrom s
+				if myitem >= 50:
+					e:
+					jump f
+				endif
+				step w
+				giveto s
+				step e
+				takefrom s
+			endif
+		endif
+	endif
+endif
+f:
+step n
+step n
+step n
+step n

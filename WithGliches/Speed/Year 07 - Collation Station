@@ -1,0 +1,16 @@
+-- 7 Billion Humans (2059) --
+-- 7: Collation Station by @martinez8859 --
+
+step s
+step s
+step s
+if w == datacube:
+	step s
+	pickup s
+else:
+	pickup n,c,s
+	step s
+endif
+step s
+step s
+drop

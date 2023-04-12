@@ -1,0 +1,19 @@
+-- 7 Billion Humans (2235) --
+-- 43: Multiplication Table by Farzher [https://steamcommunity.com/id/farzher] and @abfipes12 --
+
+a:
+step n,s
+if n == datacube and
+ c == nothing and
+ s == datacube and
+ mem1 == 0:
+	mem1 = set n
+endif
+if c == 0 and
+ mem1 != 0:
+	pickup c
+	mem2 = calc mem1 + n
+	write mem2
+	drop
+endif
+jump a

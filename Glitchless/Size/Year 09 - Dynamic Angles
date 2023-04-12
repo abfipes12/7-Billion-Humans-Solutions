@@ -1,0 +1,10 @@
+-- 7 Billion Humans (2145) --
+-- 9: Dynamic Angles by @n05ucc4u --
+
+pickup s
+a:
+step s
+if nw == nothing:
+	jump a
+endif
+drop

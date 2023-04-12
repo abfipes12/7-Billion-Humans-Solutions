@@ -1,0 +1,27 @@
+-- 7 Billion Humans (2214M) --
+-- 67: Decimal Doubler by drm [https://steamcommunity.com/profiles/76561197960413748] --
+
+a:
+if se == worker or
+ c != switch:
+	step s
+	pickup n
+	if nw == 1 or
+	 c == button and
+	 myitem != datacube or
+	 n == switch:
+		step n
+		if e > 4 or
+		 myitem != datacube:
+			mem1 = calc mem1 + 1
+		endif
+		if mem1 > 9 or
+		 myitem != datacube:
+			mem1 = calc mem1 - 10
+		endif
+		write mem1
+	endif
+	drop
+	mem1 = calc 2 x c
+endif
+jump a

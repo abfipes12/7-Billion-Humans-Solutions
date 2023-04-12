@@ -1,0 +1,13 @@
+-- 7 Billion Humans (2235) --
+-- 39: Printing Etiquette 1 by @main-gi and @abfipes12 --
+
+mem1 = nearest printer
+a:
+if myitem == nothing and
+ mem2 < 5:
+	mem2 = calc mem2 + 1
+	takefrom mem1
+endif
+step nw,w,sw,ne,e,se
+drop
+jump a

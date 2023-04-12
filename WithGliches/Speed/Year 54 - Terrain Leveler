@@ -1,0 +1,112 @@
+-- 7 Billion Humans (2214M) --
+-- 54: Terrain Leveler by @commonnickname --
+
+mem4 = set ne,se
+step n
+if mem4 == wall:
+	step n
+	step n
+	step n
+	mem1 = calc n + c
+	step n
+	mem1 = calc mem1 + n
+	step n
+	mem1 = calc mem1 + n
+	step n
+	mem1 = calc mem1 + n
+	step n
+	mem1 = calc mem1 + n
+	step n
+	pickup n
+	mem1 = calc mem1 + myitem
+	step e
+	step e
+	mem1 = calc mem1 + n
+	mem1 = calc mem1 + nw
+	step n
+	write mem1
+	mem1 = set e
+else:
+	if mem4 == nothing:
+		mem2 = set sw
+		step ne
+		mem1 = calc w + nw
+		step n
+		mem1 = calc mem1 + nw
+		step n
+		mem1 = calc mem1 + nw
+		step n
+		mem1 = calc mem1 + nw
+		step n
+		mem1 = calc mem1 + nw
+		step nw
+		pickup n
+		step nw
+		step nw
+		mem1 = calc mem1 + myitem
+		mem1 = calc mem1 + s
+		step sw
+		mem1 = calc mem1 + mem2
+		mem1 = calc mem1 + e
+		mem1 = calc mem1 + w
+		mem1 = calc mem1 / 49
+		jump a
+	else:
+		mem3 = set n
+		step n
+		step n
+		if mem3 == datacube:
+			mem1 = calc mem3 + c
+		else:
+			mem1 = calc c + n
+			step n
+		endif
+		mem1 = calc mem1 + n
+		step n
+		mem1 = calc mem1 + n
+		step n
+		mem1 = calc mem1 + n
+		step n
+		mem1 = calc mem1 + n
+		step n
+		pickup n
+		step n
+		mem1 = calc mem1 + myitem
+		write mem1
+		mem2 = set nw,n,ne
+		if mem2 == worker:
+			step e
+			mem1 = set mem2
+		else:
+			if mem3 == datacube:
+				step se
+				mem1 = calc [blank] + [blank]
+				mem1 = set n
+				step w
+				step w
+				step nw
+			else:
+				mem1 = calc [blank] + [blank]
+				step ne
+				mem1 = set se
+				step sw
+				mem2 = calc [blank] + [blank]
+				mem2 = calc [blank] + [blank]
+				mem2 = set c
+				mem2 = set c
+				tell everyone hi
+				jump b
+			endif
+		endif
+	endif
+endif
+listenfor hi
+b:
+a:
+write mem1
+c:
+drop
+pickup s
+write mem1
+step s
+jump c

@@ -1,0 +1,22 @@
+-- 7 Billion Humans (2235) --
+-- 10: Emergency Escapades by @abfipes12 --
+
+a:
+if n != hole and
+ c != 3 and
+ c != 1:
+	step n
+endif
+if c == 3 or
+ c == 1 and
+ w == hole:
+	step s
+endif
+if s == wall or
+ n == hole or
+ se == 3 or
+ c == 1 or
+ e == 1:
+	step w
+endif
+jump a

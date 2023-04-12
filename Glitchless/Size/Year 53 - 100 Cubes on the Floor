@@ -1,0 +1,16 @@
+-- 7 Billion Humans (2231) --
+-- 53: 100 Cubes on the Floor by Mrdoogey [https://www.reddit.com/user/Mrdoogey] --
+
+a:
+mem1 = calc mem1 + 1
+mem2 = calc nw + 10
+if mem1 == mem2 and
+ nw != 0 or
+ w == nothing or
+ n == wall:
+	pickup w
+	step w
+	write mem1
+	drop
+endif
+jump a

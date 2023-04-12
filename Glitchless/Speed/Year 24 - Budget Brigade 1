@@ -1,0 +1,80 @@
+-- 7 Billion Humans (2235) --
+-- 24: Budget Brigade 1 by @n05ucc4u --
+
+if w == hole:
+	takefrom s
+	a:
+	if myitem == something:
+		jump a
+	endif
+	b:
+	takefrom s
+endif
+if myitem == myitem:
+	if myitem == myitem:
+		if myitem == myitem:
+			if myitem == myitem:
+				if myitem == myitem:
+					if myitem == myitem:
+						if myitem == myitem:
+							if myitem == myitem:
+							endif
+						endif
+					endif
+				endif
+			endif
+		endif
+	endif
+endif
+if myitem == something:
+	jump b
+endif
+takefrom nw
+c:
+if e == worker:
+	takefrom w
+	if myitem == something:
+		d:
+		if myitem == myitem:
+		endif
+		if myitem == nothing:
+			if myitem == myitem:
+				if myitem == myitem:
+					if myitem == myitem:
+						if myitem == myitem:
+							if myitem == myitem:
+								if myitem == myitem:
+								endif
+							endif
+						endif
+					endif
+				endif
+			endif
+			takefrom w
+		endif
+		jump d
+	endif
+else:
+	takefrom w
+	if myitem == something:
+		e:
+		giveto s
+		if myitem == myitem:
+			if myitem == myitem:
+				if myitem == myitem:
+					if myitem == myitem:
+						if myitem == myitem:
+							if myitem == myitem:
+								if myitem == myitem:
+								endif
+							endif
+						endif
+					endif
+				endif
+			endif
+		endif
+		takefrom w
+		jump e
+	endif
+endif
+jump c

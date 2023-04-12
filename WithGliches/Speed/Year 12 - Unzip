@@ -1,0 +1,34 @@
+-- 7 Billion Humans (2235) --
+-- 12: Unzip by @n05ucc4u --
+
+pickup c
+if w == wall or
+ e == wall:
+	step nw,se
+else:
+	if ne == worker or
+	 sw == worker:
+		step sw,ne
+		if n == nothing:
+			step w
+		else:
+			step e
+		endif
+	else:
+		if nw == worker or
+		 se == worker:
+			step nw,se
+		else:
+			if n == worker and
+			 n != datacube or
+			 ne == worker or
+			 s == datacube and
+			 w == nothing:
+				step nw,s
+			else:
+				step n,se
+			endif
+		endif
+	endif
+endif
+drop

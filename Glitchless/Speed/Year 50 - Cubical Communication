@@ -1,0 +1,39 @@
+-- 7 Billion Humans (2235) --
+-- 50: Cubical Communication by @n05ucc4u --
+
+mem1 = nearest datacube
+mem2 = nearest shredder
+mem3 = nearest printer
+a:
+takefrom mem3
+step e
+if mem1 == 1:
+	giveto mem2
+	tell everyone hi
+	giveto nw
+	step mem2
+	step mem2
+	step mem2
+	step nw
+endif
+if mem1 == 2:
+	listenfor hi
+	step mem2
+	step nw
+	giveto mem2
+	tell everyone morning
+endif
+if mem1 == 3:
+	listenfor morning
+	step mem2
+	step nw
+	giveto mem2
+	tell everyone ready
+endif
+if mem1 == 4:
+	listenfor ready
+	step mem2
+	step nw
+	giveto mem2
+endif
+jump a

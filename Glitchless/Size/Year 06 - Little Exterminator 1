@@ -1,0 +1,20 @@
+-- 7 Billion Humans (2235) --
+-- 6: Little Exterminator 1 by @abfipes12 --
+
+a:
+if e == hole and
+ s == hole or
+ sw == nothing and
+ w != hole or
+ w == datacube:
+	step w
+endif
+if s != hole:
+	step s
+endif
+if e != hole and
+ ne != nothing:
+	step e
+endif
+pickup c
+jump a

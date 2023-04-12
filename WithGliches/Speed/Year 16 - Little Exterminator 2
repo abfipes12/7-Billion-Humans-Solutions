@@ -1,0 +1,17 @@
+-- 7 Billion Humans (2059) --
+-- 16: Little Exterminator 2 by @n05ucc4u --
+
+step s
+step s
+step s
+step s
+step sw
+step e
+pickup w,se
+step e
+step e
+step e
+giveto sw,s,ne
+step e
+step se
+giveto se

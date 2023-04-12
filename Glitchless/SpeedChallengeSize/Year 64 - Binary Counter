@@ -1,0 +1,24 @@
+-- 7 Billion Humans (2235) --
+-- 64: Binary Counter by @abfipes12 --
+
+step s
+step s
+if n == datacube:
+	pickup n
+endif
+a:
+if c == button:
+	tell nw hi
+	step n
+	step s
+	listenfor ready
+	jump a
+endif
+b:
+listenfor hi
+tell everyone ready
+drop
+listenfor hi
+tell w hi
+pickup c
+jump b

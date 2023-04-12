@@ -1,0 +1,11 @@
+-- 7 Billion Humans (2145) --
+-- 6: Little Exterminator 1 by @n05ucc4u --
+
+step s
+step sw
+step sw
+step se
+step e
+step se
+step s
+pickup c,s

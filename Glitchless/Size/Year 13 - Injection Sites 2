@@ -1,0 +1,16 @@
+-- 7 Billion Humans (2214M) --
+-- 13: Injection Sites 2 by Nomana [https://steamcommunity.com/id/Nomana] --
+
+pickup s
+a:
+if e == worker and
+ s == datacube or
+ w == worker:
+	step e
+endif
+step s
+if w != datacube or
+ c != nothing:
+	jump a
+endif
+drop

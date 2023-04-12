@@ -1,0 +1,17 @@
+-- 7 Billion Humans (2214M) --
+-- 54: Terrain Leveler by drm [https://steamcommunity.com/profiles/76561197960413748] --
+
+a:
+if sw == mem2 or
+ se == mem2 and
+ n == wall or
+ s == nothing:
+	mem2 = calc mem1 + 1
+	step mem1
+	mem1 = set c
+endif
+pickup c
+write mem2
+drop
+step n
+jump a

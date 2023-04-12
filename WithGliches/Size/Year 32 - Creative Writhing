@@ -1,0 +1,14 @@
+-- 7 Billion Humans (2235) --
+-- 32: Creative Writhing by @hingston and @abfipes12 --
+
+a:
+if e == 0 or
+ c == 0 or
+ se == 0 or
+ s == 0:
+	pickup c,s,e,se
+	write 99
+	drop
+endif
+step nw,sw,ne,se
+jump a

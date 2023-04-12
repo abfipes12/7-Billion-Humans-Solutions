@@ -1,0 +1,263 @@
+-- 7 Billion Humans (2214M) --
+-- 66: Decimal Counter by @commonnickname --
+
+mem2 = set s
+if mem2 != datacube:
+	step s
+	tell everyone hi
+	mem1 = set myitem
+	step s
+	pickup nw
+	step n
+	write 3
+	step s
+	step nw
+	drop
+	step nw
+	step e
+	pickup s
+	write 6
+	step s
+	drop
+	step e
+	step sw
+	pickup n
+	write 9
+	step n
+	drop
+	step ne
+	step s
+	mem1 = set myitem
+	step s
+	step w
+	step e
+	step w
+	step w
+	step e
+	pickup n
+	write 5
+	step n
+	drop
+	step ne
+	step s
+	pickup w
+	write 8
+	step w
+	drop
+	step w
+	listenfor ready
+	mem1 = set c
+	pickup c
+	write 2
+	step e
+	mem1 = set myitem
+	drop
+else:
+	step s
+	pickup c
+	step s
+	drop
+	if mem2 == 0:
+		listenfor ready
+		mem1 = set myitem
+		mem1 = set myitem
+		mem1 = set myitem
+		mem1 = set myitem
+		mem1 = set myitem
+		mem1 = set myitem
+		pickup e
+		write 1
+		drop
+	else:
+		pickup w
+		if mem2 == 1:
+			write 2
+			drop
+			step e
+			mem1 = set myitem
+			mem1 = set myitem
+			mem1 = set myitem
+			mem1 = set myitem
+			step s
+			step n
+			tell everyone hi
+			step s
+			step n
+			tell everyone hi
+			step s
+			step w
+			step ne
+			step s
+			step w
+			step ne
+			step s
+			step n
+			mem1 = set c
+			step s
+			step n
+			step s
+			step n
+			step sw
+			step e
+			step w
+			step ne
+			tell everyone hi
+			tell everyone hi
+			step s
+			step n
+			mem1 = set c
+			step s
+			step n
+			step s
+			step n
+			tell everyone hi
+			step s
+			step w
+			tell everyone hi
+			step e
+			step w
+			step e
+			step n
+			pickup w
+			mem1 = set myitem
+			mem1 = set myitem
+			mem1 = set myitem
+			step s
+			write 1
+			step nw
+			drop
+			step n
+			pickup s
+		else:
+			if mem2 == 8:
+				write 8
+				drop
+				pickup e
+				write 4
+				step e
+				drop
+				step nw
+				step s
+				pickup e
+				write 7
+				step e
+				drop
+				step nw
+				step e
+				pickup s
+				write 1
+				step s
+				drop
+				step n
+				mem1 = set myitem
+				pickup s
+				write 4
+				step s
+				drop
+				step e
+				step n
+				step w
+				pickup s
+				write 7
+				step s
+				drop
+				step w
+				step s
+				listenfor ready
+				mem1 = set c
+				pickup nw
+				step e
+				step e
+				step w
+				step ne
+				step s
+			else:
+				write 9
+				drop
+				if mem2 == 8:
+					step se
+					step e
+					pickup n
+					write 5
+					step n
+					drop
+					step e
+					step nw
+					pickup s
+					write 8
+					step s
+					drop
+					step mem2
+					mem1 = set myitem
+					mem1 = set myitem
+					mem1 = set myitem
+					mem1 = set myitem
+					mem1 = set myitem
+					mem1 = set myitem
+					mem1 = set myitem
+					mem1 = set myitem
+					mem1 = set myitem
+					mem1 = set myitem
+					mem1 = set myitem
+					mem1 = set myitem
+					mem1 = set myitem
+					mem1 = set myitem
+					pickup e
+					drop
+					pickup e
+					write 3
+					step e
+					drop
+					step nw
+					step s
+					pickup e
+					write 6
+					step e
+					drop
+					step w
+					step n
+					step e
+					pickup s
+					write 9
+					step s
+					drop
+					step e
+					pickup w
+					mem1 = set c
+					step s
+					step w
+				else:
+					if e != worker:
+						step ne
+						step ne
+						mem1 = calc w + w
+						mem1 = calc w + w
+						tell everyone hi
+						step s
+						mem1 = set myitem
+						mem1 = set myitem
+						mem1 = set myitem
+						pickup s
+						write 2
+						step e
+						step s
+						drop
+						step sw
+						step w
+						step nw
+						mem1 = calc w + [blank]
+						mem1 = calc w + [blank]
+						tell everyone hi
+						tell everyone ready
+						step n
+					else:
+						step n
+						listenfor ready
+						mem1 = set c
+					endif
+					pickup s
+				endif
+			endif
+		endif
+	endif
+endif

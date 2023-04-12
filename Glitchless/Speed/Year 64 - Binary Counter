@@ -1,0 +1,109 @@
+-- 7 Billion Humans (2214M) --
+-- 64: Binary Counter by @commonnickname --
+
+mem4 = set se
+if mem4 == nothing:
+	step sw
+	pickup n
+	a:
+	drop
+	pickup c
+	jump a
+else:
+	if mem4 == worker:
+		step s
+		step se
+		step s
+		step n
+		mem1 = set myitem
+		mem1 = set myitem
+		mem1 = set myitem
+		mem1 = set myitem
+		step s
+		step n
+		step s
+		step ne
+		step sw
+		step ne
+		step sw
+		step ne
+		step sw
+		step ne
+		step sw
+		step ne
+		step sw
+		step n
+		step s
+	else:
+		step s
+		if e == nothing:
+			pickup c
+			step s
+			drop
+			mem1 = set myitem
+			mem1 = set myitem
+			mem1 = set myitem
+			mem1 = set myitem
+			mem1 = set myitem
+			mem1 = set myitem
+			mem1 = set myitem
+			mem1 = set myitem
+			mem1 = set myitem
+			mem1 = set myitem
+			b:
+			pickup c
+			mem1 = set c
+			drop
+			mem1 = set c
+			jump b
+		else:
+			if w == worker:
+				mem1 = set myitem
+				step s
+				step se
+				step se
+				step ne
+				step sw
+				mem1 = set myitem
+				mem1 = set myitem
+				step ne
+				step sw
+				mem1 = set myitem
+				mem1 = set myitem
+				mem1 = set myitem
+				mem1 = set myitem
+				mem1 = set myitem
+				step ne
+				step sw
+				mem1 = set myitem
+				mem1 = set myitem
+				step ne
+				step sw
+				mem1 = set myitem
+				mem1 = set myitem
+				step ne
+				step sw
+				mem1 = set myitem
+				mem1 = set myitem
+				step ne
+				step w
+			else:
+				pickup e
+				step se
+				mem4 = set myitem
+				drop
+				step w
+				step nw
+				step s
+				step e
+				mem1 = set myitem
+				pickup e
+				drop
+				step e
+				pickup nw
+				mem1 = set c
+				drop
+			endif
+		endif
+	endif
+endif

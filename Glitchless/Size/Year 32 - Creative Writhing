@@ -1,0 +1,11 @@
+-- 7 Billion Humans (2235) --
+-- 32: Creative Writhing by @hingston and @abfipes12 --
+
+a:
+step nw,sw,n,s,ne,se
+if c == 0:
+	pickup c
+	write 99
+	drop
+endif
+jump a

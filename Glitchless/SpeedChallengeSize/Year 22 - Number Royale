@@ -1,0 +1,20 @@
+-- 7 Billion Humans (2235) --
+-- 22: Number Royale by @martinez8859 and @abfipes12 --
+-- (1/100)^(1/10) = 0.63 -- 
+
+pickup s
+a:
+if myitem < sw or
+ myitem < w or
+ myitem < nw or
+ myitem < n or
+ myitem < ne or
+ myitem < e or
+ myitem < se or
+ myitem < 63:
+	b:
+	step s
+	jump b
+endif
+step e
+jump a

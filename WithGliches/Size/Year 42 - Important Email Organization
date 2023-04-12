@@ -1,0 +1,22 @@
+-- 7 Billion Humans (2214M) --
+-- 42: Important Email Organization by @commonnickname --
+
+a:
+step nw,sw,n,ne,se
+if s == datacube and
+ s > 9 or
+ c == datacube or
+ n == datacube and
+ s != shredder and
+ n != worker:
+	pickup n,c,s
+	mem1 = calc myitem / 10
+	b:
+	step nw,sw,s,e,se
+	if mem1 != c or
+	 s != shredder:
+		jump b
+	endif
+	giveto s
+endif
+jump a

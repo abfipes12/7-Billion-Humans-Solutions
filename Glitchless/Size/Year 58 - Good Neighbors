@@ -1,0 +1,15 @@
+-- 7 Billion Humans (2235) --
+-- 58: Good Neighbors by @commonnickname and @abfipes12 --
+
+a:
+step nw,sw,ne,se
+drop
+if nw == datacube or
+ ne == datacube or
+ sw == datacube or
+ se == datacube and
+ c == 8 and
+ myitem != datacube:
+	pickup c
+endif
+jump a

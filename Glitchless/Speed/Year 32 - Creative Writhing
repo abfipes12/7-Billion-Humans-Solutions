@@ -1,0 +1,135 @@
+-- 7 Billion Humans (2145) --
+-- 32: Creative Writhing by @n05ucc4u and @commonnickname --
+
+pickup s
+write 99
+drop
+step s
+if sw == datacube:
+	pickup w
+	if myitem == datacube:
+		write 99
+		drop
+		step w
+		pickup s
+		write 99
+		drop
+		step s
+		pickup s
+		write 99
+		drop
+		step e
+		pickup s
+		write 99
+		drop
+		step s
+		pickup s
+		write 99
+		drop
+		step s
+		pickup s
+		write 99
+		drop
+		step s
+		pickup s
+		write 99
+		drop
+		step w
+		pickup s
+		write 99
+		drop
+		step s
+		pickup s
+		write 99
+		drop
+		step s
+		pickup s
+		write 99
+		drop
+		step e
+	else:
+		pickup s
+		write 99
+		drop
+		step w
+		pickup s
+		write 99
+		drop
+		step s
+		pickup s
+		write 99
+		drop
+		step s
+		pickup s
+		write 99
+		drop
+		step e
+		pickup s
+		write 99
+		drop
+		step s
+		pickup s
+		write 99
+		drop
+		step s
+		pickup s
+		write 99
+		drop
+		step w
+	endif
+else:
+	pickup s
+	write 99
+	drop
+	step e
+	pickup s
+	write 99
+	drop
+	step s
+	pickup s
+	write 99
+	drop
+	step s
+	pickup s
+	write 99
+	drop
+	step w
+	pickup s
+	write 99
+	drop
+	step s
+	pickup s
+	write 99
+	drop
+	step s
+	pickup s
+	write 99
+	drop
+	pickup se
+	if myitem == datacube:
+		step e
+		write 99
+		drop
+		step s
+		pickup s
+		write 99
+		drop
+		step s
+		pickup s
+		write 99
+		drop
+		step w
+	else:
+		step s
+		pickup s
+		write 99
+		drop
+		step e
+	endif
+endif
+a:
+pickup s
+write 99
+drop
+step s
+jump a

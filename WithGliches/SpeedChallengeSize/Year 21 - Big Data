@@ -1,0 +1,14 @@
+-- 7 Billion Humans (2214M) --
+-- 21: Big Data by by @abfipes12 and @commonnickname --
+
+a:
+step s
+takefrom s,se
+if myitem > 49:
+	step nw
+	b:
+	step n
+	jump b
+endif
+giveto sw
+jump a

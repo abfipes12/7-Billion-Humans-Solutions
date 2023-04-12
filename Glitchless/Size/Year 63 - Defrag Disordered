@@ -1,0 +1,18 @@
+-- 7 Billion Humans (2214M) --
+-- 63: Defrag Disordered by @commonnickname and drm [https://steamcommunity.com/profiles/76561197960413748] --
+
+a:
+mem1 = foreachdir nw,n,ne,e:
+	step n
+	pickup c
+	pickup e
+endfor
+mem1 = foreachdir nw,n,ne:
+	step n
+	drop
+endfor
+step se
+mem1 = foreachdir nw,n,s,ne,e,se:
+	step s
+endfor
+jump a

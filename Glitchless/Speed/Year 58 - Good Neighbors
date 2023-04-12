@@ -1,0 +1,154 @@
+-- 7 Billion Humans (2214M) --
+-- 58: Good Neighbors by @commonnickname --
+
+mem1 = nearest datacube
+mem2 = nearest worker
+jump a
+mem3 = foreachdir se:
+	mem4 = foreachdir n:
+		a:
+		if mem1 == 5 and
+		 mem3 == nothing:
+			mem3 = nearest worker
+			step mem1
+			mem4 = nearest worker
+			jump b
+			mem1 = foreachdir s:
+				mem2 = foreachdir w:
+					b:
+					jump c
+				endfor
+			endfor
+			c:
+			if mem1 == 8 and
+			 mem2 == 5:
+				if mem3 == mem4:
+					step mem1
+					pickup s
+				else:
+					step mem1
+					pickup sw
+				endif
+			else:
+				jump d
+				mem4 = foreachdir n:
+					d:
+					if mem1 == 5:
+						if mem4 == 3:
+							if mem2 == nothing:
+								step e
+								pickup e
+							else:
+								step w
+								pickup w
+							endif
+						else:
+							if mem2 == nothing:
+								pickup ne
+							else:
+								pickup nw
+							endif
+						endif
+					else:
+						if mem1 == 8:
+							step e
+							pickup se
+						else:
+							pickup n
+						endif
+					endif
+				endfor
+			endif
+			mem1 = calc 0 / 0
+		else:
+			if mem2 == mem3 and
+			 mem1 == 3:
+				step sw
+				step s
+				step w
+				pickup sw
+				mem1 = calc 0 / 0
+			endif
+			jump e
+		endif
+	endfor
+endfor
+e:
+if mem1 == 5:
+	jump f
+	mem4 = foreachdir nw:
+		f:
+		if mem4 == worker:
+		else:
+			if mem3 == wall:
+				step mem1
+				pickup nw
+			else:
+				step ne
+				step n
+				pickup ne
+			endif
+		endif
+	endfor
+else:
+	jump g
+	mem1 = foreachdir s:
+		mem2 = foreachdir nw:
+			mem3 = foreachdir sw:
+				mem4 = foreachdir n:
+					g:
+					jump h
+				endfor
+			endfor
+		endfor
+	endfor
+	h:
+	if mem2 == nothing and
+	 mem3 == nothing and
+	 mem4 == nothing:
+		jump i
+		mem4 = foreachdir ne:
+			i:
+			if mem1 == worker or
+			 mem4 == worker:
+				if mem1 == worker:
+					step ne
+					step e
+					pickup ne
+				else:
+					step se
+					step e
+					pickup se
+				endif
+			else:
+				step nw
+				mem1 = nearest datacube
+				if mem1 == 5:
+					step w
+				else:
+					step n
+				endif
+				pickup nw
+			endif
+		endfor
+	else:
+		if mem2 == worker:
+			if mem3 == datacube:
+				step w
+				step s
+				pickup sw
+			else:
+				step ne
+				step ne
+				pickup ne
+			endif
+		else:
+			if mem4 == worker:
+				step ne
+				step e
+				pickup ne
+			endif
+		endif
+	endif
+endif
+mem1 = calc 0 / 0

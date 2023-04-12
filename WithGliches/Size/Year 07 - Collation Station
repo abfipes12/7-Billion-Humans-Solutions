@@ -1,0 +1,8 @@
+-- 7 Billion Humans (2145) --
+-- 7: Collation Station by @n05ucc4u --
+
+a:
+step s
+pickup n,s
+drop
+jump a
