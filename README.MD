@@ -83,8 +83,8 @@ With Gliches
   <tr>
     <td>🥇<a href="WithGliches/Canonical/Year 04 - Long Distance Delivery">Both</a></td>
     <td>n05ucc4u</td>
-    <td>3</td>
-    <td>6s</td>
+    <td width=90>3</td>
+    <td width=90>6s</td>
   </tr>
 </table>
 
@@ -124,8 +124,8 @@ With Gliches
   <tr>
     <td>🥇<a href="WithGliches/Canonical/Year 06 - Little Exterminator 1">Both</a></td>
     <td>n05ucc4u</td>
-    <td>8</td>
-    <td>2s</td>
+    <td width=90>8</td>
+    <td width=90>2s</td>
   </tr>
 </table>
 
@@ -158,8 +158,8 @@ With Gliches
   <tr>
     <td>✍🏻<a href="WithGliches/Size/Year 07 - Collation Station">Size</a></td>
     <td>n05ucc4u</td>
-    <td>4</td>
-    <td>15s</td>
+    <td width=90>4</td>
+    <td width=90>15s</td>
   </tr>
   <tr>
     <td>⚡<a href="WithGliches/Speed/Year 07 - Collation Station">Speed</a></td>
@@ -223,8 +223,8 @@ With Gliches
   <tr>
     <td>✍🏻<a href="WithGliches/Size/Year 10 - Emergency Escapades">Size</a></td>
     <td>n05ucc4u<br>martinez8859</td>
-    <td>5</td>
-    <td>159-221s</td>
+    <td width=90>5</td>
+    <td width=90>159-221s</td>
   </tr>
 </table>
 
@@ -270,8 +270,8 @@ With Gliches
   <tr>
     <td>⚡<a href="WithGliches/Speed/Year 12 - Unzip">Speed</a></td>
     <td>n05ucc4u</td>
-    <td>19</td>
-    <td>3s</td>
+    <td width=90>19</td>
+    <td width=90>3s</td>
   </tr>
 </table>
 
@@ -342,8 +342,8 @@ With Gliches
   <tr>
     <td>⚡<a href="WithGliches/Speed/Year 15 - Shred Lines">Speed</a></td>
     <td>n05ucc4u</td>
-    <td>46</td>
-    <td>11s</td>
+    <td width=90>46</td>
+    <td width=90>11s</td>
   </tr>
 </table>
 
@@ -376,8 +376,8 @@ With Gliches
   <tr>
     <td>⚡<a href="WithGliches/Speed/Year 16 - Little Exterminator 2">Speed</a></td>
     <td>n05ucc4u</td>
-    <td>14</td>
-    <td>7s</td>
+    <td width=90>14</td>
+    <td width=90>7s</td>
   </tr>
 </table>
 
@@ -430,8 +430,8 @@ With Gliches
   <tr>
     <td>🥇<a href="WithGliches/Canonical/Year 19 - Content Creators Bug Fix">Both</a></td>
     <td>n05ucc4u</td>
-    <td>3</td>
-    <td>26s</td>
+    <td width=90>3</td>
+    <td width=90>26s</td>
   </tr>
 </table>
 
@@ -495,8 +495,8 @@ With Gliches
   <tr>
     <td>⚡✍🏻<a href="WithGliches/SpeedChallengeSize/Year 21 - Big Data">Swcs</a></td>
     <td>abfipes12<br>commonnickname</td>
-    <td>8</td>
-    <td>20-27s</td>
+    <td width=90>8</td>
+    <td width=90>20-27s</td>
   </tr>
 </table>
 
@@ -585,8 +585,8 @@ With Gliches
   <tr>
     <td>⚡✍🏻<a href="WithGliches/SpeedChallengeSize/Year 24 - Budget Brigade 1">Swcs</a></td>
     <td>abfipes12</td>
-    <td>7</td>
-    <td>51s</td>
+    <td width=90>7</td>
+    <td width=90>51s</td>
   </tr>
 </table>
 
@@ -709,8 +709,8 @@ With Gliches
   <tr>
     <td>✍🏻<a href="WithGliches/Size/Year 31 - Checkerboard Organization">Size</a></td>
     <td>n05ucc4u<br>abfipes12</td>
-    <td>6</td>
-    <td>294-314s</td>
+    <td width=90>6</td>
+    <td width=90>294-314s</td>
   </tr>
 </table>
 
@@ -903,8 +903,8 @@ With Gliches
   <tr>
     <td>✍🏻<a href="WithGliches/Size/Year 39 - Printing Etiquette 1">Size</a></td>
     <td>abfipes12<br>n05ucc4u</td>
-    <td>6</td>
-    <td>492-580s</td>
+    <td width=90>6</td>
+    <td width=90>492-580s</td>
   </tr>
 </table>
 
@@ -937,8 +937,8 @@ With Gliches
   <tr>
     <td>✍🏻<a href="WithGliches/Size/Year 40 - Printing Etiquette 2">Size</a></td>
     <td>abfipes12</td>
-    <td>7</td>
-    <td>509-593s</td>
+    <td width=90>7</td>
+    <td width=90>509-593s</td>
   </tr>
 </table>
 
@@ -984,8 +984,8 @@ With Gliches
   <tr>
     <td>✍🏻<a href="WithGliches/Size/Year 42 - Important Email Organization">Size</a></td>
     <td>commonnickname</td>
-    <td>9</td>
-    <td>937-982s</td>
+    <td width=90>9</td>
+    <td width=90>937-982s</td>
   </tr>
 </table>
 
@@ -1031,8 +1031,8 @@ With Gliches
   <tr>
     <td>⚡<a href="WithGliches/Speed/Year 44 - Unique Fashion Party">Speed</a></td>
     <td>commonnickname</td>
-    <td>17</td>
-    <td>1s</td>
+    <td width=90>17</td>
+    <td width=90>1s</td>
   </tr>
 </table>
 
@@ -1053,8 +1053,8 @@ With Gliches
   <tr>
     <td>🥇<a href="WithGliches/Canonical/Year 46 - Compulsory Office Romance">Both</a></td>
     <td>n05ucc4u<br>commonnickname</td>
-    <td>2</td>
-    <td>0s</td>
+    <td width=90>2</td>
+    <td width=90>0s</td>
   </tr>
 </table>
 
@@ -1208,8 +1208,8 @@ With Gliches
   <tr>
     <td>⚡<a href="WithGliches/Speed/Year 54 - Terrain Leveler">Speed</a></td>
     <td>commonnickname</td>
-    <td>101</td>
-    <td>42s</td>
+    <td width=90>101</td>
+    <td width=90>42s</td>
   </tr>
 </table>
 
@@ -1236,8 +1236,8 @@ With Gliches
   <tr>
     <td>✍🏻<a href="WithGliches/Size/Year 55 - Data Flowers">Size</a></td>
     <td>n05ucc4u</td>
-    <td>7</td>
-    <td>159s</td>
+    <td width=90>7</td>
+    <td width=90>159s</td>
   </tr>
 </table>
 
@@ -1409,8 +1409,8 @@ With Gliches
   <tr>
     <td>✍🏻<a href="WithGliches/Size/Year 63 - Defrag Disordered">Size</a></td>
     <td>commonnickname<br>drm</td>
-    <td>10</td>
-    <td>110s</td>
+    <td width=90>10</td>
+    <td width=90>110s</td>
   </tr>
 </table>
 
