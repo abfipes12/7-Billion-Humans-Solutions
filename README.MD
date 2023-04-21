@@ -187,7 +187,7 @@ With Gliches
     <td>5s</td>
   </tr>
   <tr>
-    <td>⚡<a href="Glitchless/Speed/Year 07 - Collation Station">Speed</a></td>
+    <td>⚡<a href="Glitchless/Speed/Year 09 - Dynamic Angles">Speed</a></td>
     <td>n05ucc4u</td>
     <td>16</td>
     <td>3s</td>
