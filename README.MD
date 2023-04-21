@@ -54,7 +54,7 @@ e.g.
   </tr>
   <tr>
     <td>🥇<a href="Glitchless/Canonical/Year 03 - Transport Squad">Both</a></td>
-    <td>abfipes12</td>
+    <td>hingston</td>
     <td>5</td>
     <td>2s</td>
   </tr>
