@@ -15,7 +15,7 @@ this solutions must be better than +99% ones
 
 * 🥇Both - best in both size and speed
  
-* ✍🏻Size - Shortest
+* ✍🏻Size - Shortest (in-game lines)
  
 * ⚡Speed - Lowest average completion time
  
@@ -480,8 +480,8 @@ With Gliches
   <tr>
     <td>⚡<a href="Glitchless/Speed/+50%/Year 21 - Big Data">Speed +50%🍀</a></td>
     <td>yifeixuer<br>commonnickname</td>
-    <td width=90>57</td>
-    <td width=90>14-16s</td>
+    <td>57</td>
+    <td>14-16s</td>
   </tr>
 </table>
 With Gliches
@@ -526,8 +526,8 @@ With Gliches
   <tr>
     <td>⚡<a href="Glitchless/Speed/+50%/Year 22 - Number Royale">Speed +50%🍀</a></td>
     <td>eiTTio<br>abfipes12</td>
-    <td width=90>7</td>
-    <td width=90>2s</td>
+    <td>7</td>
+    <td>2s</td>
   </tr>
 </table>
 
@@ -831,7 +831,7 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 37 - Dangerous Spreadsheeting">Size</a></td>
-    <td>danrudmin</td>
+    <td>dmr</td>
     <td>12</td>
     <td>30s</td>
   </tr>
@@ -843,7 +843,7 @@ With Gliches
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 37 - Dangerous Spreadsheeting">Swcs</a></td>
-    <td>danrudmin<br>abfipes12</td>
+    <td>dmr<br>abfipes12</td>
     <td>13</td>
     <td>28s</td>
   </tr>
@@ -869,8 +869,8 @@ With Gliches
   <tr>
     <td>✍🏻<a href="Glitchless/Size/+50%/Year 38 - Seek and Destroy 3">Size +50%🍀</a></td>
     <td>main-gi<br>Faptech</td>
-    <td width=90>8</td>
-    <td width=90>456-480s</td>
+    <td>8</td>
+    <td>456-480s</td>
   </tr>
 </table>
 
@@ -894,8 +894,8 @@ With Gliches
   <tr>
     <td>✍🏻<a href="Glitchless/Size/+50%/Year 39 - Printing Etiquette 1">Size +50%🍀</a></td>
     <td>abfipes12<br>n05ucc4u</td>
-    <td width=90>6</td>
-    <td width=90>932-1023s</td>
+    <td>6</td>
+    <td>932-1023s</td>
   </tr>
 </table>
 With Gliches
@@ -928,8 +928,8 @@ With Gliches
   <tr>
     <td>✍🏻<a href="Glitchless/Size/+50%/Year 40 - Printing Etiquette 2">Size +50%🍀</a></td>
     <td>abfipes12<br>n05ucc4u</td>
-    <td width=90>7</td>
-    <td width=90>951-960s</td>
+    <td>7</td>
+    <td>951-960s</td>
   </tr>
 </table>
 With Gliches
@@ -1013,6 +1013,15 @@ With Gliches
     <td>52s</td>
   </tr>
 </table>
+With Gliches
+<table>
+  <tr>
+    <td>✍🏻<a href="WithGliches/Size/+50%/Year 43 - Multiplication Table">Size +50%🍀</a></td>
+    <td>dmr</td>
+    <td width=90>8</td>
+    <td width=90>850-931s</td>
+  </tr>
+</table>
 
 ### 🟦 Year 44 - Unique Fashion Party 🟦
 <table>
@@ -1020,10 +1029,10 @@ With Gliches
     <th></th> <th>Autor(s)</th> <th>Size [11]</th> <th>Time [75s]</th>
   </tr>
   <tr>
-    <td>✍🏻<a href="Glitchless/Size/Year 44 - Unique Fashion Party">Size</a></td>
-    <td>commonnickname</td>
+    <td>🥇<a href="Glitchless/Canonical/Year 44 - Unique Fashion Party">Both</a></td>
+    <td>dmr</td>
     <td>5</td>
-    <td>58-69s</td>
+    <td>10s</td>
   </tr>
 </table>
 With Gliches
@@ -1186,8 +1195,8 @@ With Gliches
   <tr>
     <td>✍🏻<a href="Glitchless/Size/+50%/Year 53 - 100 Cubes on the Floor">Size +50%🍀</a></td>
     <td>nezhi<br>SDP_Ragequit</td>
-    <td width=90>7</td>
-    <td width=90>1163-1233s</td>
+    <td>7</td>
+    <td>1163-1233s</td>
   </tr>
 </table>
 
@@ -1198,7 +1207,7 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 54 - Terrain Leveler">Size</a></td>
-    <td>drm</td>
+    <td>dmr</td>
     <td>9</td>
     <td>163-198s</td>
   </tr>
@@ -1267,9 +1276,9 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 57 - Neighborly Sweeper">Size</a></td>
-    <td>abfipes12<br>aqueous68</td>
+    <td>dmr<br>abfipes12<br>aqueous68</td>
     <td>9</td>
-    <td>691-799s</td>
+    <td>514-663s</td>
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 57 - Neighborly Sweeper">Speed</a></td>
@@ -1330,7 +1339,7 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 60 - Understaffed Sorting">Size</a></td>
-    <td>drm</td>
+    <td>dmr</td>
     <td>10</td>
     <td>543-614s</td>
   </tr>
@@ -1361,9 +1370,9 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/+50%/Year 61 - Lazy Pathways">Size +50%🍀</a></td>
-    <td>drm</td>
-    <td width=90>7</td>
-    <td width=90>926-951s</td>
+    <td>dmr</td>
+    <td>7</td>
+    <td>926-951s</td>
   </tr>
 </table>
 
@@ -1374,7 +1383,7 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 62 - The Sorting Floor">Size</a></td>
-    <td>danrudmin</td>
+    <td>dmr</td>
     <td>13</td>
     <td>510-686s</td>
   </tr>
@@ -1393,7 +1402,7 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 63 - Defrag Disordered">Size</a></td>
-    <td>commonnickname<br>drm</td>
+    <td>commonnickname<br>dmr</td>
     <td>11</td>
     <td>152s</td>
   </tr>
@@ -1408,7 +1417,7 @@ With Gliches
 <table>
   <tr>
     <td>✍🏻<a href="WithGliches/Size/Year 63 - Defrag Disordered">Size</a></td>
-    <td>commonnickname<br>drm</td>
+    <td>commonnickname<br>dmr</td>
     <td width=90>10</td>
     <td width=90>110s</td>
   </tr>
@@ -1421,7 +1430,7 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 64 - Binary Counter">Size</a></td>
-    <td>danrudmin</td>
+    <td>dmr</td>
     <td>8</td>
     <td>82s</td>
   </tr>
@@ -1465,7 +1474,7 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 66 - Decimal Counter">Size</a></td>
-    <td>drm</td>
+    <td>dmr</td>
     <td>11</td>
     <td>239s</td>
   </tr>
@@ -1484,7 +1493,7 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 67 - Decimal Doubler">Size</a></td>
-    <td>drm</td>
+    <td>dmr</td>
     <td>13</td>
     <td>311s</td>
   </tr>

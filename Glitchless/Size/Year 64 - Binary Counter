@@ -1,5 +1,5 @@
 -- 7 Billion Humans (2214M) --
--- 64: Binary Counter by @danrudmin --
+-- 64: Binary Counter by dmr [https://steamcommunity.com/profiles/76561197960413748] --
 
 a:
 if w == worker and
