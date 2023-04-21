@@ -478,10 +478,10 @@ With Gliches
     <td>24-27s</td>
   </tr>
   <tr>
-    <td>⚡<a href="Glitchless/Speed/+50%/Year 21 - Big Data">Speed +50%🍀</a></td>
+    <td>⚡<a href="Glitchless/Speed/+50/Year 21 - Big Data">Speed +50%🍀</a></td>
     <td>yifeixuer<br>commonnickname</td>
     <td>57</td>
-    <td>14-16s</td>
+    <td>14-17s</td>
   </tr>
 </table>
 With Gliches
@@ -524,7 +524,7 @@ With Gliches
     <td>7-8s</td>
   </tr>
   <tr>
-    <td>⚡<a href="Glitchless/Speed/+50%/Year 22 - Number Royale">Speed +50%🍀</a></td>
+    <td>⚡<a href="Glitchless/Speed/+50/Year 22 - Number Royale">Speed +50%🍀</a></td>
     <td>eiTTio<br>abfipes12</td>
     <td>7</td>
     <td>2s</td>
@@ -732,7 +732,7 @@ With Gliches
     <td>30s</td>
   </tr>
   <tr>
-    <td>✍🏻<a href="Glitchless/Size/+50%/Year 32 - Creative Writhing">Size +50%🍀</a></td>
+    <td>✍🏻<a href="Glitchless/Size/+50/Year 32 - Creative Writhing">Size +50%🍀</a></td>
     <td>main-gi</td>
     <td width=90>5</td>
     <td width=90>945-995s</td>
@@ -747,7 +747,7 @@ With Gliches
     <td>204-243s</td>
   </tr>
   <tr>
-    <td>✍🏻<a href="WithGliches/Size/+50%/Year 32 - Creative Writhing">Size +50%🍀</a></td>
+    <td>✍🏻<a href="WithGliches/Size/+50/Year 32 - Creative Writhing">Size +50%🍀</a></td>
     <td>abfipes12<br>main-gi</td>
     <td width=90>5</td>
     <td width=90>456-587s</td>
@@ -789,6 +789,12 @@ With Gliches
     <td>aqueous68</td>
     <td>39</td>
     <td>8s</td>
+  </tr>
+  <tr>
+    <td>⚡<a href="Glitchless/Speed/+50/Year 34 - Seek and Destroy 1">Speed +50%🍀</a></td>
+    <td>commonnickname</td>
+    <td>104</td>
+    <td>7s</td>
   </tr>
 </table>
 
@@ -867,7 +873,7 @@ With Gliches
     <td>10-11s</td>
   </tr>
   <tr>
-    <td>✍🏻<a href="Glitchless/Size/+50%/Year 38 - Seek and Destroy 3">Size +50%🍀</a></td>
+    <td>✍🏻<a href="Glitchless/Size/+50/Year 38 - Seek and Destroy 3">Size +50%🍀</a></td>
     <td>main-gi<br>Faptech</td>
     <td>8</td>
     <td>456-480s</td>
@@ -892,7 +898,7 @@ With Gliches
     <td>35s</td>
   </tr>
   <tr>
-    <td>✍🏻<a href="Glitchless/Size/+50%/Year 39 - Printing Etiquette 1">Size +50%🍀</a></td>
+    <td>✍🏻<a href="Glitchless/Size/+50/Year 39 - Printing Etiquette 1">Size +50%🍀</a></td>
     <td>abfipes12<br>n05ucc4u</td>
     <td>6</td>
     <td>932-1023s</td>
@@ -926,7 +932,7 @@ With Gliches
     <td>37s</td>
   </tr>
   <tr>
-    <td>✍🏻<a href="Glitchless/Size/+50%/Year 40 - Printing Etiquette 2">Size +50%🍀</a></td>
+    <td>✍🏻<a href="Glitchless/Size/+50/Year 40 - Printing Etiquette 2">Size +50%🍀</a></td>
     <td>abfipes12<br>n05ucc4u</td>
     <td>7</td>
     <td>951-960s</td>
@@ -1016,7 +1022,7 @@ With Gliches
 With Gliches
 <table>
   <tr>
-    <td>✍🏻<a href="WithGliches/Size/+50%/Year 43 - Multiplication Table">Size +50%🍀</a></td>
+    <td>✍🏻<a href="WithGliches/Size/+50/Year 43 - Multiplication Table">Size +50%🍀</a></td>
     <td>dmr</td>
     <td width=90>8</td>
     <td width=90>850-931s</td>
@@ -1033,6 +1039,12 @@ With Gliches
     <td>dmr</td>
     <td>5</td>
     <td>10s</td>
+  </tr>
+  <tr>
+    <td>⚡<a href="Glitchless/Speed/+50/Year 44 - Unique Fashion Party">Speed +50%🍀</a></td>
+    <td>commonnickname</td>
+    <td>17</td>
+    <td>1s</td>
   </tr>
 </table>
 With Gliches
@@ -1193,7 +1205,7 @@ With Gliches
     <td>24s</td>
   </tr>
   <tr>
-    <td>✍🏻<a href="Glitchless/Size/+50%/Year 53 - 100 Cubes on the Floor">Size +50%🍀</a></td>
+    <td>✍🏻<a href="Glitchless/Size/+50/Year 53 - 100 Cubes on the Floor">Size +50%🍀</a></td>
     <td>nezhi<br>SDP_Ragequit</td>
     <td>7</td>
     <td>1163-1233s</td>
@@ -1369,7 +1381,7 @@ With Gliches
     <td>15s</td>
   </tr>
   <tr>
-    <td>✍🏻<a href="Glitchless/Size/+50%/Year 61 - Lazy Pathways">Size +50%🍀</a></td>
+    <td>✍🏻<a href="Glitchless/Size/+50/Year 61 - Lazy Pathways">Size +50%🍀</a></td>
     <td>dmr</td>
     <td>7</td>
     <td>926-951s</td>
