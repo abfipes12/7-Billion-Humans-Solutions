@@ -449,8 +449,8 @@ With Gliches
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 20 - Reverse Line">Speed</a></td>
     <td>martinez8859<br>n05ucc4u</td>
-    <td>4</td>
-    <td>51s</td>
+    <td>51</td>
+    <td>4s</td>
   </tr>
 </table>
 
@@ -489,14 +489,14 @@ With Gliches
   <tr>
     <td>✍🏻<a href="WithGliches/Size/Year 21 - Big Data">Size</a></td>
     <td>commonnickname</td>
-    <td>5</td>
-    <td>31-40s</td>
+    <td width=90>5</td>
+    <td width=90>31-40s</td>
   </tr>
   <tr>
     <td>⚡✍🏻<a href="WithGliches/SpeedChallengeSize/Year 21 - Big Data">Swcs</a></td>
     <td>abfipes12<br>commonnickname</td>
-    <td width=90>8</td>
-    <td width=90>20-27s</td>
+    <td>8</td>
+    <td>20-27s</td>
   </tr>
 </table>
 
@@ -579,14 +579,14 @@ With Gliches
   <tr>
     <td>✍🏻<a href="WithGliches/Size/Year 24 - Budget Brigade 1">Size</a></td>
     <td>n05ucc4u</td>
-    <td>5</td>
-    <td>70s</td>
+    <td width=90>5</td>
+    <td width=90>70s</td>
   </tr>
   <tr>
     <td>⚡✍🏻<a href="WithGliches/SpeedChallengeSize/Year 24 - Budget Brigade 1">Swcs</a></td>
     <td>abfipes12</td>
-    <td width=90>7</td>
-    <td width=90>51s</td>
+    <td>7</td>
+    <td>51s</td>
   </tr>
 </table>
 
@@ -678,6 +678,21 @@ With Gliches
     <td>233</td>
     <td>81s</td>
   </tr>
+  <tr>
+    <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 30 - Fill the Floor">Swcs</a></td>
+    <td>martinez8859<br>abfipes12</td>
+    <td>6</td>
+    <td>216-247s</td>
+  </tr>
+</table>
+With Gliches
+<table>
+  <tr>
+    <td>✍🏻<a href="WithGliches/Size/+50/Year 32 - Creative Writhing">Size +50%🍀</a></td>
+    <td>abfipes12<br>martinez8859</td>
+    <td width=90>4</td>
+    <td width=90>1127s</td>
+  </tr>
 </table>
 
 ### 🟦 Year 31 - Checkerboard Organization 🟦
@@ -734,8 +749,8 @@ With Gliches
   <tr>
     <td>✍🏻<a href="Glitchless/Size/+50/Year 32 - Creative Writhing">Size +50%🍀</a></td>
     <td>main-gi</td>
-    <td width=90>5</td>
-    <td width=90>945-995s</td>
+    <td>5</td>
+    <td>945-995s</td>
   </tr>
 </table>
 With Gliches
@@ -743,14 +758,14 @@ With Gliches
   <tr>
     <td>✍🏻<a href="WithGliches/Size/Year 32 - Creative Writhing">Size</a></td>
     <td>hingston<br>abfipes12</td>
-    <td>6</td>
-    <td>204-243s</td>
+    <td width=90>6</td>
+    <td width=90>204-243s</td>
   </tr>
   <tr>
     <td>✍🏻<a href="WithGliches/Size/+50/Year 32 - Creative Writhing">Size +50%🍀</a></td>
     <td>abfipes12<br>main-gi</td>
-    <td width=90>5</td>
-    <td width=90>456-587s</td>
+    <td>5</td>
+    <td>456-587s</td>
   </tr>
 </table>
 
