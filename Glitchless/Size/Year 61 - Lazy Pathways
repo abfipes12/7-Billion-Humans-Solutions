@@ -1,16 +1,23 @@
 -- 7 Billion Humans (2214M) --
--- 61: Lazy Pathways by @commonnickname --
+-- 61: Lazy Pathways by Thineboot[?] --
+-- thanks to dmr[https://steamcommunity.com/profiles/76561197960413748] and @commonnickname --
+-- failed 1 out of 200 => 99.5% successful --
 
 a:
 step nw,w,sw,ne,se
-mem1 = nearest datacube
-mem4 = foreachdir nw,w,sw,n,s,ne,e,se:
-	if mem4 < mem1 and
-	 mem4 != wall:
-		mem1 = calc mem4 + 1
+mem1 = foreachdir nw,w,sw,n,s,ne,e,se:
+	if w < c and
+	 c != 3 or
+	 se <= c or
+	 nw >= c or
+	 c > 5 and
+	 c > mem1 and
+	 c > 2 and
+	 mem1 != worker:
+		mem1 = calc mem1 + 1
+		pickup c
+		write mem1
+		drop
 	endif
 endfor
-pickup c
-write mem1
-drop
 jump a

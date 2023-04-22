@@ -1385,9 +1385,9 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 61 - Lazy Pathways">Size</a></td>
-    <td>commonnickname</td>
-    <td>9</td>
-    <td>473-534s</td>
+    <td>Thineboot</td>
+    <td>8</td>
+    <td>573-645s</td>
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 61 - Lazy Pathways">Speed</a></td>
@@ -1550,3 +1550,5 @@ With Gliches
     <td>16s</td>
   </tr>
 </table>
+
+ToDo - Some statistic about solutions, authorship rules, authors and contributor list.
