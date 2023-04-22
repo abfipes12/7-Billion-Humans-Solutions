@@ -1033,14 +1033,11 @@ With Gliches
     <td>11</td>
     <td>52s</td>
   </tr>
-</table>
-With Gliches
-<table>
   <tr>
-    <td>✍🏻<a href="WithGliches/Size/+50/Year 43 - Multiplication Table">Size +50%🍀</a></td>
+    <td>✍🏻<a href="Glitchless/Size/+50/Year 43 - Multiplication Table">Size +50%🍀</a></td>
     <td>dmr</td>
-    <td width=90>8</td>
-    <td width=90>850-931s</td>
+    <td>8</td>
+    <td>850-931s</td>
   </tr>
 </table>
 
@@ -1551,4 +1548,4 @@ With Gliches
   </tr>
 </table>
 
-ToDo - Some statistic about solutions, authorship rules, authors and contributor list.
+ToDo - Some statistic about solutions, authorship rules, authors and contributor list, visual tweaks.
