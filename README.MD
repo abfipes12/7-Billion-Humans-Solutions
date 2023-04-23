@@ -224,7 +224,7 @@ With Gliches
     <td>✍🏻<a href="WithGliches/Size/Year 10 - Emergency Escapades">Size</a></td>
     <td>n05ucc4u<br>martinez8859</td>
     <td width=90>5</td>
-    <td width=90>159-221s</td>
+    <td width=90>155-221s</td>
   </tr>
 </table>
 
@@ -479,9 +479,9 @@ With Gliches
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 21 - Big Data">Swcs</a></td>
-    <td>martinez8859</td>
+    <td>elPablocro</td>
     <td>8</td>
-    <td>24-27s</td>
+    <td>20-25s</td>
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/+50/Year 21 - Big Data">Speed +50%🍀</a></td>
@@ -720,9 +720,9 @@ With Gliches
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 31 - Checkerboard Organization">Swcs</a></td>
-    <td>abfipes12<br>n05ucc4u</td>
+    <td>Spiff</td>
     <td>7</td>
-    <td>128-141s</td>
+    <td>83-99s</td>
   </tr>
 </table>
 With Gliches
@@ -812,6 +812,12 @@ With Gliches
     <td>8s</td>
   </tr>
   <tr>
+    <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 34 - Seek and Destroy 1">Swcs</a></td>
+    <td>n05ucc4u</td>
+    <td>9</td>
+    <td>15s</td>
+  </tr>
+  <tr>
     <td>⚡<a href="Glitchless/Speed/+50/Year 34 - Seek and Destroy 1">Speed +50%🍀</a></td>
     <td>commonnickname</td>
     <td>104</td>
@@ -883,7 +889,7 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 38 - Seek and Destroy 3">Size</a></td>
-    <td>abfipes12<br>main-gi<br>Faptech</td>
+    <td>abfipes12</td>
     <td>10</td>
     <td>399-491s</td>
   </tr>
@@ -892,6 +898,12 @@ With Gliches
     <td>commonnickname</td>
     <td>122</td>
     <td>10-11s</td>
+  </tr>
+  <tr>
+    <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 38 - Seek and Destroy 3">Swcs</a></td>
+    <td>DeepAQ</td>
+    <td>16</td>
+    <td>~~32s</td>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/+50/Year 38 - Seek and Destroy 3">Size +50%🍀</a></td>
@@ -917,6 +929,12 @@ With Gliches
     <td>commonnickname</td>
     <td>173</td>
     <td>35s</td>
+  </tr>
+  <tr>
+    <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 39 - Printing Etiquette 1">Swcs</a></td>
+    <td>landfillbaby</td>
+    <td>8</td>
+    <td>~~48s</td>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/+50/Year 39 - Printing Etiquette 1">Size +50%🍀</a></td>
@@ -951,6 +969,12 @@ With Gliches
     <td>commonnickname</td>
     <td>177</td>
     <td>37s</td>
+  </tr>
+  <tr>
+    <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 40 - Printing Etiquette 2">Swcs</a></td>
+    <td>landfillbaby</td>
+    <td>9</td>
+    <td>~~53s</td>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/+50/Year 40 - Printing Etiquette 2">Size +50%🍀</a></td>
@@ -1004,7 +1028,13 @@ With Gliches
     <td>abfipes12</td>
     <td>153</td>
     <td>72-75s</td>
-  </tr> 
+  </tr>
+  <tr>
+    <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 42 - Important Email Organization">Swcs</a></td>
+    <td>elPablocro<br>Abdullah</td>
+    <td>17</td>
+    <td>~~187s</td>
+  </tr>
 </table>
 With Gliches
 <table>

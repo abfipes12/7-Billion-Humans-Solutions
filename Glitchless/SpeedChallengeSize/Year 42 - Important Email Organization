@@ -1,0 +1,29 @@
+-- 7 Billion Humans (2235) --
+-- 42: Important Email Organization by elPablocro[https://steamcommunity.com/id/pablocro] --
+-- and Abdullah[https://steamcommunity.com/profiles/76561199052237364] --
+
+mem1 = nearest shredder
+a:
+step mem4
+b:
+if s == shredder or
+ c == nothing:
+	step nw,sw,s,ne,se
+	jump b
+endif
+pickup c
+mem3 = calc myitem / 10
+mem4 = nearest datacube
+step mem1
+c:
+if mem3 < c:
+	step w
+	jump c
+endif
+d:
+if mem3 > c:
+	step e
+	jump d
+endif
+giveto s
+jump a

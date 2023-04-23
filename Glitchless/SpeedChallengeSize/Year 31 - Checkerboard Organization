@@ -1,12 +1,12 @@
 -- 7 Billion Humans (2235) --
--- 31: Checkerboard Organization by @abfipes12 --
+-- 31: Checkerboard Organization by @Spiff [https://steamcommunity.com/profiles/76561198144267313] --
 
 mem1 = nearest printer
 a:
-if myitem != datacube:
+if c == nothing:
+	drop
 	takefrom mem1
 	step w,e
 endif
 step nw,sw,ne,se
-drop
 jump a
