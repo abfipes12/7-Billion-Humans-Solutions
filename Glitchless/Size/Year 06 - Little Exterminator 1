@@ -7,8 +7,7 @@ if sw != hole:
 else:
 	step e
 endif
-if se != hole or
- c == datacube:
+if se != hole:
 	step se
 	pickup c
 endif

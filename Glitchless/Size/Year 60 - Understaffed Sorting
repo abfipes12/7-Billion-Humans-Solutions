@@ -1,18 +1,19 @@
 -- 7 Billion Humans (2214M) --
--- failed once on a very unlucky input --
 -- 60: Understaffed Sorting by dmr [https://steamcommunity.com/profiles/76561197960413748] --
+-- failed 0 out of 200 => 100% successful --
 
 a:
-if myitem != datacube and
+if sw == datacube or
+ se == datacube and
+ w == datacube or
  s > se and
- w != datacube:
+ w != worker:
 	pickup s
 	drop
+	pickup w
 	pickup se
 endif
-pickup w
 step s
 drop
-step n
-step w,e
+step nw,n,ne
 jump a

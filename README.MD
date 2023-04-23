@@ -1373,14 +1373,20 @@ With Gliches
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 60 - Understaffed Sorting">Size</a></td>
     <td>dmr</td>
-    <td>10</td>
-    <td>543-614s</td>
+    <td>9</td>
+    <td>654-741s</td>
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 60 - Understaffed Sorting">Speed</a></td>
     <td>commonnickname</td>
     <td>112</td>
     <td>69-74s</td>
+  </tr>
+  <tr>
+    <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 60 - Understaffed Sorting">Swcs</a></td>
+    <td>dmr</td>
+    <td>12</td>
+    <td>329-435s</td>
   </tr>
 </table>
 
