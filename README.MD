@@ -208,7 +208,7 @@ With Gliches
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 10 - Emergency Escapades">Speed</a></td>
     <td>martinez8859</td>
-    <td>38</td>
+    <td>34</td>
     <td>12s</td>
   </tr>
   <tr>
