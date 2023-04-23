@@ -1,41 +1,35 @@
 -- 7 Billion Humans (2235) --
--- 10: Emergency Escapades by @martinez8859 --
+-- 10: Emergency Escapades by @martinez8859 and @landfillbaby --
 
 step w
 step w
 step w
 step w
-if c == datacube:
+if c == 1:
 	jump a
 endif
-if e == datacube:
-	jump b
-endif
-if w == datacube:
-	step w
-else:
-	if s == wall:
-		step n
-		step n
+if w != 3:
+	if w != 1:
+		if s == wall:
+			step n
+			step n
+		endif
+		step w
 	endif
 	step w
-	step w
-endif
-a:
-if w != hole:
-	step w
-else:
-	if nw != hole:
-		step nw
+	a:
+	if w != hole:
+		step w
 	else:
-		if sw != hole and
-		 sw != wall:
-			step sw
-		else:
-			c:
+		if nw == hole:
+			if sw != hole and
+			 sw != wall:
+				step sw
+				jump b
+			endif
 			step n
-			step nw
 		endif
+		step nw
 	endif
 endif
 b:
@@ -49,4 +43,5 @@ step nw
 step n
 step n
 step n
-jump c
+step n
+step nw
