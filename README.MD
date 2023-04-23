@@ -108,9 +108,9 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 06 - Little Exterminator 1">Size</a></td>
-    <td>abfipes12</td>
+    <td>dmr</td>
     <td>8</td>
-    <td>37s</td>
+    <td>13s</td>
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 06 - Little Exterminator 1">Speed</a></td>
@@ -1159,6 +1159,15 @@ With Gliches
     <td>31</td>
     <td>26s</td>
   </tr> 
+</table>
+With Gliches
+<table>
+  <tr>
+    <td>✍🏻<a href="WithGliches/Size/Year 50 - Cubical Communication">Size</a></td>
+    <td>abfipes12</td>
+    <td width=90>5</td>
+    <td width=90>174s</td>
+  </tr>
 </table>
 
 ### 🟨 Year 51 - Identify Yourselves 🟨
