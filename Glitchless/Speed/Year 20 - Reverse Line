@@ -1,5 +1,5 @@
 -- 7 Billion Humans (2059) --
--- 20: Reverse Line by @martinez8859 and @n05ucc4u --
+-- 20: Reverse Line by @martinez8859 --
 
 if sw == hole or
  se == hole:

@@ -5,5 +5,7 @@ step sw
 pickup n
 a:
 step se
+step se
+step se
 giveto s
 jump a
