@@ -1459,8 +1459,8 @@ With Gliches
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 62 - The Sorting Floor">Size</a></td>
     <td>dmr</td>
-    <td>13</td>
-    <td>510-686s</td>
+    <td>12</td>
+    <td>457-577s</td>
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 62 - The Sorting Floor">Speed</a></td>
