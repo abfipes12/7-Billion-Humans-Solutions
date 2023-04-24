@@ -1,61 +1,43 @@
 -- 7 Billion Humans (2145) --
--- 34: Seek and Destroy 1 by @aqueous68 --
+-- 34: Seek and Destroy 1 by @landfillbaby --
 
 mem1 = nearest datacube
+mem4 = nearest shredder
 step mem1
 step n
 mem2 = nearest datacube
-step n
-mem3 = nearest datacube
-step n
-mem4 = nearest datacube
-if mem2 <= mem1 and
- mem2 <= mem3 and
- mem2 <= mem4:
-	mem1 = set mem2
-else:
-	if mem3 <= mem1 and
-	 mem3 <= mem2 and
-	 mem3 <= mem4:
-		mem1 = set mem3
-	else:
-		if mem4 <= mem1 and
-		 mem4 <= mem2 and
-		 mem4 <= mem3:
-			mem1 = set mem4
-		endif
-	endif
+if mem1 > mem2:
+	mem1 = nearest datacube
 endif
 step n
 mem2 = nearest datacube
-step n
-mem3 = nearest datacube
-step n
-if mem2 == mem3:
-	mem3 = nearest datacube
+if mem1 > mem2:
+	mem1 = nearest datacube
 endif
 step n
-mem4 = nearest datacube
-if mem1 <= mem2 and
- mem1 <= mem3 and
- mem1 <= mem4:
-	mem2 = nearest shredder
-	pickup mem1
-	giveto mem2
-else:
-	if mem2 <= mem1 and
-	 mem2 <= mem3 and
-	 mem2 <= mem4:
-		pickup mem2
-	else:
-		if mem3 <= mem1 and
-		 mem3 <= mem2 and
-		 mem3 <= mem4:
-			pickup mem3
-		else:
-			pickup mem4
-		endif
-	endif
-	mem1 = nearest shredder
-	giveto mem1
+mem2 = nearest datacube
+if mem1 > mem2:
+	mem1 = nearest datacube
 endif
+step n
+mem2 = nearest datacube
+if mem1 > mem2:
+	mem1 = nearest datacube
+endif
+step n
+mem2 = nearest datacube
+if mem1 > mem2:
+	mem1 = nearest datacube
+endif
+step n
+mem2 = nearest datacube
+if mem1 > mem2:
+	mem1 = nearest datacube
+endif
+step n
+mem2 = nearest datacube
+if mem1 > mem2:
+	mem1 = nearest datacube
+endif
+pickup mem1
+giveto mem4
