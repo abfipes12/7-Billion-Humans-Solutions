@@ -1,24 +1,21 @@
 -- 7 Billion Humans (2235) --
--- 64: Binary Counter by @abfipes12 --
+-- 64: Binary Counter by davidgauch [?] --
 
 step s
-step s
-if n == datacube:
-	pickup n
-endif
+pickup c
 a:
-if c == button:
-	tell nw hi
+step s
+if myitem != datacube:
+	tell nw go
 	step n
-	step s
 	listenfor ready
 	jump a
 endif
 b:
-listenfor hi
+listenfor go
 tell everyone ready
 drop
-listenfor hi
-tell w hi
+listenfor go
+tell w go
 pickup c
 jump b

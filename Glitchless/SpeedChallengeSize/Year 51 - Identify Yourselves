@@ -1,0 +1,12 @@
+-- 7 Billion Humans (2235) --
+-- 51: Identify Yourselves by @fox [https://steamcommunity.com/id/slavfox] --
+
+a:
+mem1 = calc mem1 + 1
+if w != nothing:
+	jump a
+endif
+pickup s
+write mem1
+step s
+drop

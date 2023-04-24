@@ -1,0 +1,15 @@
+-- 7 Billion Humans (2235) --
+-- 68: Goodbye, Humans! by wuenry [https://steamcommunity.com/id/wuenry] --
+
+a:
+if sw != hole and
+ sw != wall:
+	step sw
+endif
+step se
+mem1 = nearest worker
+if mem1 == nothing:
+	tell everyone goodbye
+endif
+step s
+jump a

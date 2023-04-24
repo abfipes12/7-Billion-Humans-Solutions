@@ -1,0 +1,23 @@
+-- 7 Billion Humans (2231) --
+-- 53: 100 Cubes on the Floor by TabAtkins [https://steamcommunity.com/id/tabatkins] --
+
+a:
+step w
+if c != datacube:
+	jump a
+endif
+b:
+if s != wall:
+	step sw
+	mem1 = calc mem1 + 1
+	jump b
+endif
+c:
+pickup c
+write mem1
+drop
+if n != wall:
+	mem1 = calc mem1 + 10
+	step n
+	jump c
+endif

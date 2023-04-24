@@ -1,0 +1,41 @@
+-- 7 Billion Humans (2231) --
+-- 63: Defrag Disordered by rmsgrey [https://steamcommunity.com/profiles/76561197994979413] --
+
+a:
+mem1 = nearest datacube
+step mem1
+if w != datacube or
+ e != datacube and
+ w != hole and
+ e != hole:
+	pickup mem1
+endif
+step nw
+b:
+if n != hole:
+	step n
+	jump b
+endif
+step s
+c:
+if c == datacube and
+ ne != datacube and
+ ne != worker:
+	step ne
+endif
+if c == datacube and
+ se != datacube and
+ se != worker:
+	step se
+endif
+if c == datacube:
+	step e
+	jump c
+endif
+drop
+d:
+if s != hole:
+	step s
+	jump d
+endif
+jump a

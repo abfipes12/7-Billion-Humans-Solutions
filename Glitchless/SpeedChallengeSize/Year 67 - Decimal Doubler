@@ -1,0 +1,26 @@
+-- 7 Billion Humans (2235) --
+-- 67: Decimal Doubler by Pukeface [https://steamcommunity.com/id/skalmans] and Tiza59 [?] --
+
+step s
+if s != button:
+	pickup c
+	step s
+	a:
+	drop
+	step se
+	step nw
+	mem3 = calc c x 2
+	if e >= 5:
+		mem3 = calc mem3 + 1
+	else:
+		mem1 = calc 0 + 0
+	endif
+	if mem3 >= 10:
+		mem3 = calc mem3 - 10
+	else:
+		mem1 = calc 0 + 0
+	endif
+	pickup c
+	write mem3
+	jump a
+endif

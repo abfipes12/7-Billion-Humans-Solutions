@@ -1,0 +1,24 @@
+-- 7 Billion Humans (2231) --
+-- 57: Neighborly Sweeper by @Pukeface [https://steamcommunity.com/id/skalmans] --
+
+if e == wall:
+	mem4 = set 1
+endif
+a:
+mem2 = set 0
+if mem4 == 1:
+	step w
+else:
+	step e
+endif
+if c == datacube:
+	mem1 = foreachdir nw,w,sw,n,s,ne,e,se:
+		if mem1 == datacube:
+			mem2 = calc mem2 + 1
+		endif
+	endfor
+	pickup c
+	write mem2
+	drop
+endif
+jump a

@@ -1,0 +1,42 @@
+-- 7 Billion Humans (2235) --
+-- 62: The Sorting Floor by Kelin [https://steamcommunity.com/profiles/76561198892048800] --
+
+mem1 = foreachdir nw,n,ne,e,se:
+	step n
+endfor
+a:
+b:
+if s == nothing:
+	step n
+	step n
+else:
+	step s
+endif
+if w == hole or
+ e == hole:
+	listenfor hi
+	drop
+	jump a
+endif
+if w > c:
+	pickup c
+	giveto w
+	pickup w
+	drop
+endif
+if e < c:
+	pickup c
+	giveto e
+	pickup e
+	drop
+endif
+if sw < e:
+	pickup sw
+	giveto e
+	pickup e
+	step sw
+	drop
+	step ne
+endif
+tell everyone hi
+jump b

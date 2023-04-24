@@ -1066,8 +1066,8 @@ With Gliches
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 43 - Multiplication Table">Swcs</a></td>
     <td>abfipes12</td>
-    <td>11</td>
-    <td>52s</td>
+    <td>10</td>
+    <td>43s</td>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/+50/Year 43 - Multiplication Table">Size +50%🍀</a></td>
@@ -1222,7 +1222,13 @@ With Gliches
     <td>commonnickname</td>
     <td>42</td>
     <td>3s</td>
-  </tr> 
+  </tr>
+  <tr>
+    <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 51 - Identify Yourselves">Swcs</a></td>
+    <td>fox</td>
+    <td>7</td>
+    <td>26s</td>
+  </tr>
 </table>
 
 ### 🟨 Year 52 - The Mode Code 🟨
@@ -1241,6 +1247,12 @@ With Gliches
     <td>commonnickname</td>
     <td>196</td>
     <td>43-44s</td>
+  </tr>
+  <tr>
+    <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 52 - The Mode Code">Swcs</a></td>
+    <td>Erik<br>abfipes12</td>
+    <td>24</td>
+    <td>~~134s</td>
   </tr>
 </table>
 
@@ -1262,6 +1274,12 @@ With Gliches
     <td>24s</td>
   </tr>
   <tr>
+    <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 53 - 100 Cubes on the Floor">Swcs</a></td>
+    <td>TabAtkins</td>
+    <td>14</td>
+    <td>73s</td>
+  </tr>
+  <tr>
     <td>✍🏻<a href="Glitchless/Size/+50/Year 53 - 100 Cubes on the Floor">Size +50%🍀</a></td>
     <td>nezhi<br>SDP_Ragequit</td>
     <td>7</td>
@@ -1279,6 +1297,12 @@ With Gliches
     <td>dmr</td>
     <td>9</td>
     <td>163-198s</td>
+  </tr>
+  <tr>
+    <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 54 - Terrain Leveler">Swcs</a></td>
+    <td>elPablocro<br>Dolfos</td>
+    <td>23</td>
+    <td>88s</td>
   </tr>
 </table>
 With Gliches
@@ -1298,9 +1322,9 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 55 - Data Flowers">Size</a></td>
-    <td>abfipes12</td>
+    <td>elPablocro</td>
     <td>8</td>
-    <td>25s</td>
+    <td>24s</td>
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 55 - Data Flowers">Speed</a></td>
@@ -1336,6 +1360,12 @@ With Gliches
     <td>62</td>
     <td>12s</td>
   </tr>
+  <tr>
+    <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 56 - Local Maximums">Swcs</a></td>
+    <td>Pukeface</td>
+    <td>8</td>
+    <td>13s</td>
+  </tr>
 </table>
 
 ### 🟥 Year 57 - Neighborly Sweeper 🟥
@@ -1345,7 +1375,7 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 57 - Neighborly Sweeper">Size</a></td>
-    <td>dmr<br>abfipes12<br>aqueous68</td>
+    <td>dmr</td>
     <td>9</td>
     <td>514-663s</td>
   </tr>
@@ -1354,6 +1384,12 @@ With Gliches
     <td>commonnickname</td>
     <td>224</td>
     <td>12s</td>
+  </tr>
+  <tr>
+    <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 57 - Neighborly Sweeper">Swcs</a></td>
+    <td>Pukeface</td>
+    <td>15</td>
+    <td>96s</td>
   </tr>
 </table>
 
@@ -1399,6 +1435,12 @@ With Gliches
     <td>144</td>
     <td>6s</td>
   </tr>
+  <tr>
+    <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 59 - Glory Hole">Swcs</a></td>
+    <td>JoeKing</td>
+    <td>6</td>
+    <td>12s</td>
+  </tr>
 </table>
 
 ### 🟥 Year 60 - Understaffed Sorting 🟥
@@ -1420,9 +1462,9 @@ With Gliches
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 60 - Understaffed Sorting">Swcs</a></td>
-    <td>dmr</td>
+    <td>wuenry</td>
     <td>12</td>
-    <td>329-435s</td>
+    <td>157-165s</td>
   </tr>
 </table>
 
@@ -1442,6 +1484,12 @@ With Gliches
     <td>commonnickname</td>
     <td>232</td>
     <td>15s</td>
+  </tr>
+  <tr>
+    <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 61 - Lazy Pathways">Swcs</a></td>
+    <td>soerface</td>
+    <td>11</td>
+    <td>~~230s</td>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/+50/Year 61 - Lazy Pathways">Size +50%🍀</a></td>
@@ -1468,6 +1516,12 @@ With Gliches
     <td>216</td>
     <td>10-11s</td>
   </tr>
+  <tr>
+    <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 62 - The Sorting Floor">Swcs</a></td>
+    <td>Kelin</td>
+    <td>30</td>
+    <td>~~145s</td>
+  </tr>
 </table>
 
 ### 🟥 Year 63 - Defrag Disordered 🟥
@@ -1486,6 +1540,12 @@ With Gliches
     <td>n05ucc4u<br>commonnickname</td>
     <td>57</td>
     <td>5s</td>
+  </tr>
+  <tr>
+    <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 63 - Defrag Disordered">Swcs</a></td>
+    <td>rmsgrey</td>
+    <td>21</td>
+    <td>41s</td>
   </tr>
 </table>
 With Gliches
@@ -1517,9 +1577,9 @@ With Gliches
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 64 - Binary Counter">Swcs</a></td>
-    <td>abfipes12</td>
-    <td>17</td>
-    <td>52s</td>
+    <td>davidgauch</td>
+    <td>15</td>
+    <td>48s</td>
   </tr>
 </table>
 
@@ -1559,6 +1619,12 @@ With Gliches
     <td>254</td>
     <td>24s</td>
   </tr>
+  <tr>
+    <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 66 - Decimal Counter">Swcs</a></td>
+    <td>DeepAQ</td>
+    <td>23</td>
+    <td>113s</td>
+  </tr>
 </table>
 
 ### 🟥 Year 67 - Decimal Doubler 🟥
@@ -1578,6 +1644,12 @@ With Gliches
     <td>196</td>
     <td>47s</td>
   </tr>
+  <tr>
+    <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 67 - Decimal Doubler">Swcs</a></td>
+    <td>Pukeface<br>Tiza59</td>
+    <td>19</td>
+    <td>231s</td>
+  </tr>
 </table>
 
 ### 🟥 Year 68 - Goodbye Humans 🟥
@@ -1596,6 +1668,12 @@ With Gliches
     <td>commonnickname</td>
     <td>172</td>
     <td>16s</td>
+  </tr>
+  <tr>
+    <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 68 - Goodbye Humans">Swcs</a></td>
+    <td>wuenry</td>
+    <td>8</td>
+    <td>29s</td>
   </tr>
 </table>
 

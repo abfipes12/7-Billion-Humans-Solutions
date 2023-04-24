@@ -1,10 +1,10 @@
 -- 7 Billion Humans (2235) --
--- 55: Data Flowers by @abfipes12 --
+-- 55: Data Flowers by elPablocro [https://steamcommunity.com/id/pablocro] --
 
 pickup s
 a:
+step n
 if s != datacube:
-	step n
 	jump a
 endif
 mem1 = foreachdir nw,w,sw,n,s,ne,e,se:

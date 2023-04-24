@@ -1,0 +1,37 @@
+-- 7 Billion Humans (2231) --
+-- 52: The Mode Code by Erik [https://steamcommunity.com/profiles/76561197997548970] and @abfipes12 --
+
+mem4 = nearest datacube
+a:
+step w
+if w == worker:
+	mem3 = calc mem3 + 1
+	jump a
+endif
+step n
+b:
+if n == datacube:
+	step n
+	c:
+	mem2 = nearest datacube
+	if mem2 == mem3:
+		mem1 = calc mem1 + 1
+	endif
+	jump b
+endif
+step e
+d:
+if c == mem3:
+	mem1 = calc mem1 + 1
+endif
+if s == datacube:
+	step s
+	jump d
+endif
+if e == datacube:
+	step e
+	jump c
+endif
+pickup mem4
+write mem1
+drop
