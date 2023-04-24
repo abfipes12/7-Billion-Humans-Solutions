@@ -1,15 +1,13 @@
 -- 7 Billion Humans (2235) --
--- 21: Big Data by elPablocro[https://steamcommunity.com/id/pablocro] --
+-- 21: Big Data by @landfillbaby --
 
 step sw
-a:
 step s
-if s != shredder:
-	jump a
-endif
-b:
+step s
+step s
+a:
 takefrom se
 if myitem < 50:
 	giveto sw
-	jump b
+	jump a
 endif

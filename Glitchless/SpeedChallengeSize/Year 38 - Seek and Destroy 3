@@ -1,5 +1,6 @@
 -- 7 Billion Humans (2235) --
 -- 38: Seek and Destroy 3 by DeepAQ [?] --
+-- failed 1 out of 150 => 99.3 succesful --
 
 mem2 = nearest hole
 mem3 = nearest shredder

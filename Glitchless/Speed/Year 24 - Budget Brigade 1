@@ -1,80 +1,43 @@
 -- 7 Billion Humans (2235) --
--- 24: Budget Brigade 1 by @n05ucc4u --
+-- 24: Budget Brigade 1 by @landfillbaby --
 
-if w == hole:
-	takefrom s
-	a:
-	if myitem == something:
-		jump a
-	endif
-	b:
-	takefrom s
+mem1 = nearest datacube
+mem4 = nearest shredder
+step mem1
+step n
+mem2 = nearest datacube
+if mem1 > mem2:
+	mem1 = nearest datacube
 endif
-if myitem == myitem:
-	if myitem == myitem:
-		if myitem == myitem:
-			if myitem == myitem:
-				if myitem == myitem:
-					if myitem == myitem:
-						if myitem == myitem:
-							if myitem == myitem:
-							endif
-						endif
-					endif
-				endif
-			endif
-		endif
-	endif
+step n
+mem2 = nearest datacube
+if mem1 > mem2:
+	mem1 = nearest datacube
 endif
-if myitem == something:
-	jump b
+step n
+mem2 = nearest datacube
+if mem1 > mem2:
+	mem1 = nearest datacube
 endif
-takefrom nw
-c:
-if e == worker:
-	takefrom w
-	if myitem == something:
-		d:
-		if myitem == myitem:
-		endif
-		if myitem == nothing:
-			if myitem == myitem:
-				if myitem == myitem:
-					if myitem == myitem:
-						if myitem == myitem:
-							if myitem == myitem:
-								if myitem == myitem:
-								endif
-							endif
-						endif
-					endif
-				endif
-			endif
-			takefrom w
-		endif
-		jump d
-	endif
-else:
-	takefrom w
-	if myitem == something:
-		e:
-		giveto s
-		if myitem == myitem:
-			if myitem == myitem:
-				if myitem == myitem:
-					if myitem == myitem:
-						if myitem == myitem:
-							if myitem == myitem:
-								if myitem == myitem:
-								endif
-							endif
-						endif
-					endif
-				endif
-			endif
-		endif
-		takefrom w
-		jump e
-	endif
+step n
+mem2 = nearest datacube
+if mem1 > mem2:
+	mem1 = nearest datacube
 endif
-jump c
+step n
+mem2 = nearest datacube
+if mem1 > mem2:
+	mem1 = nearest datacube
+endif
+step n
+mem2 = nearest datacube
+if mem1 > mem2:
+	mem1 = nearest datacube
+endif
+step n
+mem2 = nearest datacube
+if mem1 > mem2:
+	mem1 = nearest datacube
+endif
+pickup mem1
+giveto mem4
