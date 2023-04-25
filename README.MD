@@ -1534,6 +1534,12 @@ With Gliches
     <td>30</td>
     <td>~~145s</td>
   </tr>
+  <tr>
+    <td>✍🏻<a href="Glitchless/Size/+50/Year 62 - The Sorting Floor">Size +50%🍀</a></td>
+    <td>dmr</td>
+    <td>10</td>
+    <td>751-806s</td>
+  </tr>
 </table>
 
 ### 🟥 Year 63 - Defrag Disordered 🟥

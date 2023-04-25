@@ -1,0 +1,33 @@
+-- 7 Billion Humans (2235) --
+-- 62: The Sorting Floor by dmr [https://steamcommunity.com/profiles/76561197960413748] --
+-- failed 6 out of 100 => 94% successful --
+
+a:
+if n == hole:
+	mem1 = foreachdir nw,w,n,ne,e:
+		step s
+	endfor
+endif
+step n
+if c != datacube and
+ e == datacube or
+ e > sw or
+ e > s or
+ e > se and
+ e != worker and
+ se != worker or
+ myitem == datacube:
+	pickup e
+	drop
+endif
+if w < sw or
+ sw != datacube and
+ n == nothing or
+ ne == nothing or
+ w > c and
+ myitem != datacube and
+ e != worker or
+ w == hole:
+	pickup w
+endif
+jump a
