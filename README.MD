@@ -917,6 +917,12 @@ With Gliches
     <td>8</td>
     <td>456-480s</td>
   </tr>
+  <tr>
+    <td>⚡<a href="Glitchless/Speed/+50/Year 38 - Seek and Destroy 3">Speed +50%🍀</a></td>
+    <td>commonnickname<br>abfipes12</td>
+    <td>84</td>
+    <td>7-9s</td>
+  </tr>
 </table>
 
 ### 🟦 Year 39 - Printing Etiquette 1 🟦

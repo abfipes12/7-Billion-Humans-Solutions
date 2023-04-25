@@ -1,0 +1,114 @@
+-- 7 Billion Humans (2235) --
+-- 38: Seek and Destroy 3 by @commonnickname and @abfipes12 --
+
+mem1 = nearest datacube
+mem3 = nearest wall
+mem2 = nearest worker
+step n
+mem4 = nearest wall
+if mem1 == 0:
+	pickup n
+	mem1 = nearest shredder
+	giveto mem1
+	end
+endif
+step n
+if mem3 != mem4:
+	mem3 = nearest wall
+	if mem3 != mem4:
+		step e
+		end
+	endif
+endif
+step n
+mem4 = nearest datacube
+if mem4 <= mem1:
+	if mem4 == 0:
+		jump a
+	endif
+	mem1 = nearest datacube
+endif
+step n
+mem4 = nearest datacube
+if mem4 <= mem1:
+	if mem4 == 0:
+		a:
+		jump b
+	endif
+	mem1 = nearest datacube
+endif
+step n
+mem4 = nearest datacube
+if mem4 <= mem1:
+	if mem4 == 0:
+		b:
+		pickup c
+		mem1 = nearest shredder
+		giveto mem1
+	endif
+	mem1 = nearest datacube
+endif
+if n <= mem1:
+	pickup n
+	mem4 = nearest worker
+	if mem2 < myitem or
+	 mem3 < myitem or
+	 mem4 < myitem:
+		step ne
+		step ne,e
+		mem1 = nearest hole
+		step mem1
+	endif
+else:
+	pickup mem1
+	mem1 = nearest hole
+	mem4 = nearest worker
+	if mem2 < myitem or
+	 mem4 < myitem:
+		step ne
+		step ne,e
+		step mem1
+	endif
+	step sw
+	mem3 = nearest worker
+	if mem2 < myitem or
+	 mem3 < myitem or
+	 mem4 < myitem:
+		step ne
+		step ne,e
+		step mem1
+	endif
+	step w
+	mem3 = nearest worker
+	if mem2 < myitem or
+	 mem3 < myitem or
+	 mem4 < myitem:
+		step ne,e
+		step ne,e
+		step mem1
+	endif
+endif
+mem1 = nearest hole
+mem2 = nearest shredder
+step mem2
+mem3 = nearest worker
+if mem3 < myitem:
+	step mem1
+endif
+step se
+mem3 = nearest worker
+if mem3 < myitem:
+	step mem1
+endif
+step e
+mem3 = nearest worker
+if mem3 < myitem:
+	step mem1
+endif
+step nw
+mem3 = nearest worker
+if mem3 < myitem:
+	step mem1
+endif
+step w
+giveto mem2
