@@ -700,10 +700,10 @@ With Gliches
 With Gliches
 <table>
   <tr>
-    <td>✍🏻<a href="WithGliches/Size/+50/Year 32 - Creative Writhing">Size +50%🍀</a></td>
+    <td>✍🏻<a href="WithGliches/Size/+50/Year 30 - Fill the Floor">Size +50%🍀</a></td>
     <td>abfipes12<br>martinez8859</td>
     <td width=90>4</td>
-    <td width=90>1127s</td>
+    <td width=90>1127s ?</td>
   </tr>
 </table>
 
@@ -769,13 +769,13 @@ With Gliches
 <table>
   <tr>
     <td>✍🏻<a href="WithGliches/Size/Year 32 - Creative Writhing">Size</a></td>
-    <td>hingston<br>abfipes12</td>
+    <td>hingston</td>
     <td width=90>6</td>
     <td width=90>204-243s</td>
   </tr>
   <tr>
     <td>✍🏻<a href="WithGliches/Size/+50/Year 32 - Creative Writhing">Size +50%🍀</a></td>
-    <td>abfipes12<br>main-gi</td>
+    <td>main-gi<br>abfipes12</td>
     <td>5</td>
     <td>456-587s</td>
   </tr>
@@ -882,7 +882,7 @@ With Gliches
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 37 - Dangerous Spreadsheeting">Swcs</a></td>
-    <td>dmr<br>abfipes12</td>
+    <td>dmr</td>
     <td>13</td>
     <td>28s</td>
   </tr>
@@ -993,7 +993,7 @@ With Gliches
 <table>
   <tr>
     <td>✍🏻<a href="WithGliches/Size/Year 40 - Printing Etiquette 2">Size</a></td>
-    <td>abfipes12</td>
+    <td>abfipes12<br>n05ucc4u</td>
     <td width=90>7</td>
     <td width=90>509-593s</td>
   </tr>
@@ -1059,7 +1059,7 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 43 - Multiplication Table">Size</a></td>
-    <td>Farzher<br>abfipes12</td>
+    <td>Farzher</td>
     <td>9</td>
     <td>682-792s</td>
   </tr>
@@ -1412,7 +1412,7 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 58 - Good Neighbors">Size</a></td>
-    <td>commonnickname<br>abfipes12</td>
+    <td>commonnickname</td>
     <td>5</td>
     <td>227-251s</td>
   </tr>
@@ -1688,5 +1688,7 @@ With Gliches
     <td>29s</td>
   </tr>
 </table>
+
+---
 
 ToDo - Some statistic about solutions, authorship rules, authors and contributor list, visual tweaks.
