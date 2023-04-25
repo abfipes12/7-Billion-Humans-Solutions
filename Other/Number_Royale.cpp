@@ -1,4 +1,4 @@
-// by @abfipes12, code for finding best number combination for Year 22 +50%
+// by @abfipes12, code to find the best combination of numbers for the year 22 +50%
 
 #include <iostream>
 #include <random>
@@ -22,7 +22,7 @@ int main()
 	// Store solution with most succesful runs
     Solution best_sol {0,0,0};
     
-    constexpr int runs_num { 100'000 }; // oryginal was tested on 1'000'000
+    constexpr int runs_num { 100'000 }; // original was tested on 1'000'000
     // 100'000 runs under 1 minute
 
 	for (int first = 50 ; first < 100; ++first)

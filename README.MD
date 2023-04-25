@@ -1233,7 +1233,7 @@ With Gliches
     <td>✍🏻<a href="Glitchless/Size/Year 51 - Identify Yourselves">Size</a></td>
     <td>n05ucc4u</td>
     <td>6</td>
-    <td>43-44s</td>
+    <td>39s</td>
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 51 - Identify Yourselves">Speed</a></td>
