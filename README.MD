@@ -901,8 +901,8 @@ With Gliches
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 38 - Seek and Destroy 3">Speed</a></td>
-    <td>commonnickname</td>
-    <td>122</td>
+    <td>commonnickname<br>abfipes12</td>
+    <td>143</td>
     <td>10-11s</td>
   </tr>
   <tr>
@@ -920,8 +920,8 @@ With Gliches
   <tr>
     <td>⚡<a href="Glitchless/Speed/+50/Year 38 - Seek and Destroy 3">Speed +50%🍀</a></td>
     <td>commonnickname<br>abfipes12</td>
-    <td>84</td>
-    <td>7-9s</td>
+    <td>122</td>
+    <td>7-8s</td>
   </tr>
 </table>
 
