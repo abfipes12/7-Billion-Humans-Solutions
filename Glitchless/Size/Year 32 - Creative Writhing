@@ -1,8 +1,9 @@
 -- 7 Billion Humans (2235) --
 -- 32: Creative Writhing by @hingston and @abfipes12 --
+-- failed 0 out of 150 => 100% successful --
 
 a:
-step nw,sw,n,s,ne,se
+step nw,sw,s,ne,e
 if c == 0:
 	pickup c
 	write 99

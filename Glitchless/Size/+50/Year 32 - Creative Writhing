@@ -1,10 +1,10 @@
 -- 7 Billion Humans (2235) --
--- 32: Creative Writhing by @main-gi --
--- failed 49 out of 250 => 80% successful --
+-- 32: Creative Writhing by @main-gi and @abfipes12 --
+-- failed 19 out of 150 => 87% successful --
 -- This game really sucks for having puzzles like these :p --
 
 a:
-step nw,sw,n,s,ne,se
+step nw,w,s,ne,se
 pickup c
 write 99
 drop

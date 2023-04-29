@@ -748,9 +748,9 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 32 - Creative Writhing">Size</a></td>
-    <td>hingston<br>abfipes12</td>
+    <td>hingston</td>
     <td>6</td>
-    <td>280-318s</td>
+    <td>246-288s</td>
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 32 - Creative Writhing">Speed</a></td>
@@ -762,22 +762,16 @@ With Gliches
     <td>✍🏻<a href="Glitchless/Size/+50/Year 32 - Creative Writhing">Size +50%🍀</a></td>
     <td>main-gi</td>
     <td>5</td>
-    <td>945-995s</td>
+    <td>837-981s</td>
   </tr>
 </table>
 With Gliches
 <table>
   <tr>
     <td>✍🏻<a href="WithGliches/Size/Year 32 - Creative Writhing">Size</a></td>
-    <td>hingston</td>
-    <td width=90>6</td>
-    <td width=90>204-243s</td>
-  </tr>
-  <tr>
-    <td>✍🏻<a href="WithGliches/Size/+50/Year 32 - Creative Writhing">Size +50%🍀</a></td>
     <td>main-gi<br>abfipes12</td>
-    <td>5</td>
-    <td>456-587s</td>
+    <td width=90>5</td>
+    <td width=90>476-599s</td>
   </tr>
 </table>
 
@@ -1725,7 +1719,7 @@ With Gliches
   </tr>
   <tr>
       <td>hingston</td>
-      <td>16</td>
+      <td>15</td>
   </tr>
   <tr>
       <td>main-gi</td>
