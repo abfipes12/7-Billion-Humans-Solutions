@@ -67,13 +67,13 @@ e.g.
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 04 - Long Distance Delivery">Size</a></td>
-    <td>abfipes12</td>
+    <td>martinez8859</td>
     <td>3</td>
     <td>29s</td>
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 04 - Long Distance Delivery">Speed</a></td>
-    <td>n05ucc4u</td>
+    <td>hingston</td>
     <td>4</td>
     <td>6s</td>
   </tr>
@@ -108,13 +108,13 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 06 - Little Exterminator 1">Size</a></td>
-    <td>dmr</td>
+    <td>martinez8859<br>dmr</td>
     <td>8</td>
     <td>13s</td>
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 06 - Little Exterminator 1">Speed</a></td>
-    <td>n05ucc4u</td>
+    <td>hingston</td>
     <td>9</td>
     <td>3s</td>
   </tr>
@@ -136,19 +136,19 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 07 - Collation Station">Size</a></td>
-    <td>n05ucc4u</td>
+    <td>martinez8859</td>
     <td>4</td>
     <td>19s</td>
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 07 - Collation Station">Speed</a></td>
-    <td>martinez8859</td>
-    <td>18</td>
+    <td>martinez8859<br>abfipes12</td>
+    <td>14</td>
     <td>4s</td>
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 07 - Collation Station">Swcs</a></td>
-    <td>n05ucc4u</td>
+    <td>hingston<br>abfipes12</td>
     <td>5</td>
     <td>10s</td>
   </tr>
@@ -163,13 +163,13 @@ With Gliches
   </tr>
   <tr>
     <td>⚡<a href="WithGliches/Speed/Year 07 - Collation Station">Speed</a></td>
-    <td>martinez8859</td>
+    <td>n05ucc4u</td>
     <td>12</td>
     <td>3s</td>
   </tr>
   <tr>
     <td>⚡✍🏻<a href="WithGliches/SpeedChallengeSize/Year 07 - Collation Station">Swcs</a></td>
-    <td>abfipes12<br>n05ucc4u</td>
+    <td>n05ucc4u</td>
     <td>5</td>
     <td>9s</td>
   </tr>
@@ -182,14 +182,14 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 09 - Dynamic Angles">Size</a></td>
-    <td>n05ucc4u</td>
+    <td>hingston</td>
     <td>5</td>
     <td>5s</td>
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 09 - Dynamic Angles">Speed</a></td>
-    <td>n05ucc4u</td>
-    <td>16</td>
+    <td>martinez8859</td>
+    <td>15</td>
     <td>3s</td>
   </tr>
 </table>
@@ -208,12 +208,12 @@ With Gliches
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 10 - Emergency Escapades">Speed</a></td>
     <td>martinez8859</td>
-    <td>34</td>
+    <td>33</td>
     <td>12s</td>
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 10 - Emergency Escapades">Swcs</a></td>
-    <td>martinez8859</td>
+    <td>martinez8859<br>abfipes12</td>
     <td>9</td>
     <td>55s</td>
   </tr>
@@ -222,7 +222,7 @@ With Gliches
 <table>
   <tr>
     <td>✍🏻<a href="WithGliches/Size/Year 10 - Emergency Escapades">Size</a></td>
-    <td>n05ucc4u<br>martinez8859</td>
+    <td>commonnickname<br>n05ucc4u</td>
     <td width=90>5</td>
     <td width=90>155-221s</td>
   </tr>
@@ -1710,11 +1710,11 @@ With Gliches
       <td>46</td>
   </tr>
   <tr>
-      <td>dmr</td>
-      <td>17</td>
+      <td>martinez8859</td>
+      <td>18</td>
   </tr>
   <tr>
-      <td>martinez8859</td>
+      <td>dmr</td>
       <td>17</td>
   </tr>
   <tr>

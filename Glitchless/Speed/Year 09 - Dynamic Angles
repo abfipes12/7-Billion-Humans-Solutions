@@ -1,27 +1,25 @@
 -- 7 Billion Humans (2059) --
--- 9: Dynamic Angles by @n05ucc4u --
+-- 9: Dynamic Angles by @martinez8859, @n05ucc4u and @abfipes12 --
 
 pickup s
 step s
 step s
 if e == nothing:
+	step s
 	jump a
 endif
 if e == nothing:
+	a:
+	step s
 	jump b
 endif
 if e == nothing:
+	b:
+	step s
 	jump c
 endif
 if e == nothing:
-	jump d
-	a:
-	step s
-	b:
-	step s
 	c:
-	step s
-	d:
 	step s
 endif
 drop
