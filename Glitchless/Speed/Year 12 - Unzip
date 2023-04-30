@@ -1,16 +1,15 @@
 -- 7 Billion Humans (2235) --
--- 12: Unzip by @commonnickname --
+-- 12: Unzip by @martinez8859 --
 
 pickup c
 a:
-if sw == worker or
- se == worker or
- nw == wall:
+if w == wall or
+ sw == worker or
+ se == worker:
 	step n
 	drop
 endif
-if w == worker and
- e == wall or
+if e == wall or
  nw == worker or
  ne == worker:
 	step s

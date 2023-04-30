@@ -1,5 +1,5 @@
--- 7 Billion Humans (2059) --
--- 11: Injection Sites 1 by @martinez8859 --
+-- 7 Billion Humans (2235) --
+-- 11: Injection Sites 1 by @martinez8859, @n05ucc4u and @abfipes12 --
 
 pickup s
 step s
@@ -9,17 +9,16 @@ step s
 step s
 if n == nothing or
  s == nothing:
+	a:
 	if n == nothing:
 		step n
-		step n
-	endif
-else:
-	step s
-	step s
-	if s == datacube:
-		step s
+	else:
 		step s
 	endif
+	drop
 endif
 step s
-drop
+step s
+step s
+step s
+jump a

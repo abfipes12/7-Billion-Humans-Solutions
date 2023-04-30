@@ -235,14 +235,14 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 11 - Injection Sites 1">Size</a></td>
-    <td>n05ucc4u</td>
+    <td>hingston</td>
     <td>5</td>
     <td>10s</td>
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 11 - Injection Sites 1">Speed</a></td>
     <td>martinez8859</td>
-    <td>18</td>
+    <td>17</td>
     <td>5s</td>
   </tr>
 </table>
@@ -260,7 +260,7 @@ With Gliches
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 12 - Unzip">Speed</a></td>
-    <td>commonnickname</td>
+    <td>martinez8859</td>
     <td>8</td>
     <td>4s</td>
   </tr>
@@ -268,10 +268,16 @@ With Gliches
 With Gliches
 <table>
   <tr>
+    <td>✍🏻<a href="WithGliches/Size/Year 12 - Unzip">Size</a></td>
+    <td>abfipes12</td>
+    <td width=90>6</td>
+    <td width=90>170-207s</td>
+  </tr>
+  <tr>
     <td>⚡<a href="WithGliches/Speed/Year 12 - Unzip">Speed</a></td>
-    <td>n05ucc4u</td>
-    <td width=90>19</td>
-    <td width=90>3s</td>
+    <td>commonnickname<br>n05ucc4u</td>
+    <td>19</td>
+    <td>3s</td>
   </tr>
 </table>
 

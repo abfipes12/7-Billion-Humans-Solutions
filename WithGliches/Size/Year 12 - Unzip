@@ -1,0 +1,21 @@
+-- 7 Billion Humans (2235) --
+-- 12: Unzip by @abfipes12 --
+-- failed 0 out of 150 => 100% successful --
+
+a:
+step n,s
+if sw != datacube and
+ nw != datacube and
+ sw != wall or
+ w == wall and
+ nw != wall:
+	if ne == datacube or
+	 se == datacube or
+	 e == wall and
+	 w != datacube or
+	 w == wall:
+		pickup n,s
+		drop
+	endif
+endif
+jump a
