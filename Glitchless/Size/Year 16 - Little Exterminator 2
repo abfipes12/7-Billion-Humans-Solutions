@@ -1,5 +1,6 @@
 -- 7 Billion Humans (2059) --
--- 16: Little Exterminator 2 by @commonnickname and @n05ucc4u --
+-- 16: Little Exterminator 2 by AlexMBrennan [https://steamcommunity.com/profiles/76561198016277251], --
+-- @n05ucc4u and @abfipes12 --
 
 a:
 step s
@@ -7,7 +8,7 @@ if w == worker or
  sw == wall or
  s == hole:
 	step ne
-	pickup sw
 	giveto se
+	pickup sw
 endif
 jump a

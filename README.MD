@@ -338,7 +338,7 @@ With Gliches
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 15 - Shred Lines">Swcs</a></td>
-    <td>n05ucc4u</td>
+    <td>martinez8859<br>n05ucc4u</td>
     <td>9</td>
     <td>20s</td>
   </tr>
@@ -348,7 +348,7 @@ With Gliches
   <tr>
     <td>⚡<a href="WithGliches/Speed/Year 15 - Shred Lines">Speed</a></td>
     <td>n05ucc4u</td>
-    <td width=90>46</td>
+    <td width=90>42</td>
     <td width=90>11s</td>
   </tr>
 </table>
@@ -360,19 +360,19 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 16 - Little Exterminator 2">Size</a></td>
-    <td>commonnickname<br>n05ucc4u</td>
+    <td>AlexMBrennan<br>n05ucc4u</td>
     <td>6</td>
-    <td>27s</td>
+    <td>26s</td>
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 16 - Little Exterminator 2">Speed</a></td>
-    <td>n05ucc4u</td>
+    <td>AlexMBrennan<br>n05ucc4u</td>
     <td>16</td>
     <td>7s</td>
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 16 - Little Exterminator 2">Swcs</a></td>
-    <td>n05ucc4u<br>abfipes12</td>
+    <td>hingston<br>abfipes12</td>
     <td>8</td>
     <td>11s</td>
   </tr>
@@ -381,7 +381,7 @@ With Gliches
 <table>
   <tr>
     <td>⚡<a href="WithGliches/Speed/Year 16 - Little Exterminator 2">Speed</a></td>
-    <td>n05ucc4u</td>
+    <td>n05ucc4u<br>AlexMBrennan</td>
     <td width=90>14</td>
     <td width=90>7s</td>
   </tr>
