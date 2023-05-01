@@ -542,6 +542,15 @@ With Gliches
     <td>2s</td>
   </tr>
 </table>
+With Gliches
+<table>
+  <tr>
+    <td>✍🏻<a href="WithGliches/Size/+50/Year 22 - Number Royale">Size +50%🍀</a></td>
+    <td>abfipes12</td>
+    <td width=90>4</td>
+    <td width=90>58-60s</td>
+  </tr>
+</table>
 
 ### 🟩 Year 23 - Sorting Hall 🟩
 <table>
@@ -861,6 +870,12 @@ With Gliches
     <td>215</td>
     <td>46-47s</td>
   </tr>
+  <tr>
+    <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 36 - Seek and Destroy 2">Swcs</a></td>
+    <td>dmr</td>
+    <td>9</td>
+    <td>106s</td>
+  </tr>
 </table>
 
 ### 🟦 Year 37 - Dangerous Spreadsheeting 🟦
@@ -907,9 +922,9 @@ With Gliches
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 38 - Seek and Destroy 3">Swcs</a></td>
-    <td>DeepAQ</td>
-    <td>16</td>
-    <td>29-32s</td>
+    <td>dmr</td>
+    <td>20</td>
+    <td>24s</td>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/+50/Year 38 - Seek and Destroy 3">Size +50%🍀</a></td>

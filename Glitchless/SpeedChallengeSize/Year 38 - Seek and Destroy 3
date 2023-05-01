@@ -1,29 +1,35 @@
 -- 7 Billion Humans (2235) --
--- 38: Seek and Destroy 3 by DeepAQ [?] --
--- failed 1 out of 150 => 99.3 successful --
+-- 38: Seek and Destroy 3 by dmr [https://steamcommunity.com/profiles/76561197960413748] --
 
-mem2 = nearest hole
-mem3 = nearest shredder
+mem3 = set s
 a:
 step n
-if n == wall:
-	pickup mem1
-	b:
-	mem4 = nearest worker
-	if mem4 == nothing:
-		giveto mem3
+mem1 = set n
+if mem3 == shredder or
+ mem1 != nothing and
+ mem1 != wall:
+	if mem1 < mem2 or
+	 mem2 != datacube:
+		mem2 = set mem1
 	endif
-	if myitem > mem4 or
-	 myitem == nothing:
-		step mem2
-	endif
-	if myitem == mem4:
-		step w,sw,s,e,se
-	endif
-	jump b
+	jump a
 endif
-if c < mem1 or
- mem1 != datacube:
-	mem1 = set c
+if mem2 == datacube:
+	pickup mem2
 endif
-jump a
+step mem3
+if mem2 == datacube:
+	drop
+endif
+b:
+mem1 = set se
+if mem1 == hole:
+	pickup mem2
+	giveto mem3
+endif
+if mem1 < mem2 or
+ mem2 != datacube:
+	mem2 = set mem1
+endif
+step e
+jump b
