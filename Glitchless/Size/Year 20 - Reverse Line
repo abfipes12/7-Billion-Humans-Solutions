@@ -9,8 +9,7 @@ if sw != hole:
 endif
 step s
 b:
-if e == nothing or
- e != hole and
+if e != hole and
  e != datacube:
 	step e
 	jump b
