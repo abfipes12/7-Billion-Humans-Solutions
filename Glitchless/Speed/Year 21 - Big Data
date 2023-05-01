@@ -1,5 +1,5 @@
 -- 7 Billion Humans (2235) --
--- 21: Big Data by @commonnickname --
+-- 21: Big Data by @commonnickname and @abfipes12 --
 
 step s
 takefrom s
@@ -8,7 +8,6 @@ if myitem == datacube:
 		step ne
 		drop
 		step s
-		takefrom sw
 		jump a
 	endif
 else:
@@ -18,8 +17,8 @@ else:
 		if myitem < 50:
 			step e
 			drop
-			takefrom sw
 			a:
+			takefrom sw
 			jump b
 		endif
 	else:
@@ -30,8 +29,6 @@ else:
 				step nw
 				drop
 				step s
-				takefrom se
-				b:
 				jump c
 			endif
 		else:
@@ -40,8 +37,9 @@ else:
 			if myitem < 50:
 				step w
 				drop
-				takefrom se
 				c:
+				takefrom se
+				b:
 				d:
 				if myitem < 50:
 					step w

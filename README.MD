@@ -475,12 +475,12 @@ With Gliches
     <td>✍🏻<a href="Glitchless/Size/Year 21 - Big Data">Size</a></td>
     <td>martinez8859</td>
     <td>6</td>
-    <td>34-39s</td>
+    <td>31-40s</td>
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 21 - Big Data">Speed</a></td>
     <td>commonnickname</td>
-    <td>43</td>
+    <td>41</td>
     <td>16-22s</td>
   </tr>
   <tr>
@@ -492,7 +492,7 @@ With Gliches
   <tr>
     <td>⚡<a href="Glitchless/Speed/+50/Year 21 - Big Data">Speed +50%🍀</a></td>
     <td>yifeixuer<br>commonnickname</td>
-    <td>57</td>
+    <td>53</td>
     <td>14-17s</td>
   </tr>
 </table>
@@ -503,12 +503,6 @@ With Gliches
     <td>commonnickname</td>
     <td width=90>5</td>
     <td width=90>31-40s</td>
-  </tr>
-  <tr>
-    <td>⚡✍🏻<a href="WithGliches/SpeedChallengeSize/Year 21 - Big Data">Swcs</a></td>
-    <td>commonnickname</td>
-    <td>8</td>
-    <td>20-27s</td>
   </tr>
 </table>
 
@@ -1731,12 +1725,12 @@ With Gliches
       <td>46</td>
   </tr>
   <tr>
-      <td>martinez8859</td>
-      <td>18</td>
+      <td>dmr</td>
+      <td>19</td>
   </tr>
   <tr>
-      <td>dmr</td>
-      <td>17</td>
+      <td>martinez8859</td>
+      <td>18</td>
   </tr>
   <tr>
       <td>hingston</td>
