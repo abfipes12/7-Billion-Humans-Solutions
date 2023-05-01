@@ -6,8 +6,7 @@ a:
 step n,s
 if ne == datacube or
  se == datacube or
- ne == wall or
- se == wall and
+ e == wall and
  nw != datacube and
  sw != datacube and
  nw != wall and

@@ -271,7 +271,7 @@ With Gliches
     <td>✍🏻<a href="WithGliches/Size/Year 12 - Unzip">Size</a></td>
     <td>abfipes12</td>
     <td width=90>5</td>
-    <td width=90>201-275s</td>
+    <td width=90>118-157s</td>
   </tr>
   <tr>
     <td>⚡<a href="WithGliches/Speed/Year 12 - Unzip">Speed</a></td>
