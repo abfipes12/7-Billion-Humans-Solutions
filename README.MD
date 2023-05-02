@@ -525,14 +525,14 @@ With Gliches
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 22 - Number Royale">Swcs</a></td>
-    <td>martinez8859</td>
+    <td>hingston</td>
     <td>6</td>
     <td>7-8s</td>
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/+50/Year 22 - Number Royale">Speed +50%🍀</a></td>
-    <td>eiTTio</td>
-    <td>7</td>
+    <td>eiTTio<br>abfipes12</td>
+    <td>10</td>
     <td>2s</td>
   </tr>
 </table>
@@ -542,7 +542,7 @@ With Gliches
     <td>✍🏻<a href="WithGliches/Size/+50/Year 22 - Number Royale">Size +50%🍀</a></td>
     <td>abfipes12</td>
     <td width=90>4</td>
-    <td width=90>58-60s</td>
+    <td width=90>243-321s</td>
   </tr>
 </table>
 
@@ -572,7 +572,7 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 24 - Budget Brigade 1">Size</a></td>
-    <td>n05ucc4u</td>
+    <td>hingston</td>
     <td>6</td>
     <td>97s</td>
   </tr>
@@ -612,15 +612,15 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 25 - My First Shredding Memory">Size</a></td>
-    <td>n05ucc4u<br>commonnickname</td>
+    <td>hingston</td>
     <td>5</td>
     <td>139s</td>
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 25 - My First Shredding Memory">Speed</a></td>
-    <td>hingston</td>
-    <td>9</td>
-    <td>130s</td>
+    <td>n05ucc4u<br>commonnickname</td>
+    <td>32</td>
+    <td>129s</td>
   </tr>
 </table>
 

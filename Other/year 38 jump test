@@ -1,0 +1,124 @@
+-- 7 Billion Humans (2235) --
+-- 38: Seek and Destroy 3 --
+
+step n
+mem1 = set n
+a:
+if mem1 < 50:
+	jump b
+	b:
+	jump c
+	c:
+	jump d
+	d:
+	jump e
+	e:
+	jump f
+	f:
+	jump g
+	g:
+	jump h
+	h:
+	jump i
+	i:
+	jump j
+	j:
+	jump k
+	k:
+	jump l
+	l:
+	jump m
+	m:
+	jump n
+	n:
+	jump o
+	o:
+	jump p
+	p:
+	jump q
+	q:
+	jump r
+	r:
+	jump s
+	s:
+	jump t
+	t:
+	jump u
+	u:
+	jump v
+	v:
+	jump w
+	w:
+	jump x
+	x:
+	jump y
+	y:
+	jump z
+	z:
+	jump aa
+	aa:
+	jump ab
+	ab:
+	jump ac
+	ac:
+	jump ad
+	ad:
+	jump ae
+	ae:
+	jump af
+	af:
+	jump ag
+	ag:
+	jump ah
+	ah:
+	jump ai
+	ai:
+	jump aj
+	aj:
+	jump ak
+	ak:
+	jump al
+	al:
+	jump am
+	am:
+	jump an
+	an:
+	jump ao
+	ao:
+	jump ap
+	ap:
+	jump aq
+	aq:
+	jump ar
+	ar:
+	jump as
+	as:
+	jump at
+	at:
+	jump au
+	au:
+	jump av
+	av:
+	jump aw
+	aw:
+	jump ax
+	ax:
+	jump ay
+	ay:
+	jump az
+	az:
+	jump ba
+	ba:
+	jump bb
+	bb:
+	jump bc
+	bc:
+	jump bd
+	bd:
+	step n
+else:
+	step n
+endif
+jump a
+
+

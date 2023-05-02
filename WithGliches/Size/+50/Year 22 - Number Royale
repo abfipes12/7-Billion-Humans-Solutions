@@ -1,16 +1,17 @@
 -- 7 Billion Humans (2235) --
 -- 22: Number Royale by @abfipes12 --
+-- failed 86 out of 150 => 57.3% successful --
 
 pickup s
 a:
-if nw > myitem or
- n > myitem or
- ne > myitem or
- w > myitem or
- e > myitem or
- sw > myitem or
- myitem < 87 or
+if myitem < 93 and
+ se != wall or
+ w >= myitem or
+ e >= myitem or
+ n >= myitem or
+ nw >= myitem or
+ myitem < 84 or
  s != hole:
-	step nw,sw,ne,e,se
+	step w,n,s,ne,e
 endif
 jump a

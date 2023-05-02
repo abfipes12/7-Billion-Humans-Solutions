@@ -1,5 +1,5 @@
 -- 7 Billion Humans (2059) --
--- 23: Sorting Hall by @eiTTio --
+-- 23: Sorting Hall by @eiTTio and @abfipes12 --
 
 pickup s
 if myitem < 50:
@@ -7,14 +7,12 @@ if myitem < 50:
 	b:
 	if myitem < w:
 		step w
-		jump b
+		jump a
 	endif
-	c:
-	d:
-	if myitem > e:
-		step e
-		jump d
-	endif
-	jump a
 endif
-jump c
+c:
+if myitem > e:
+	step e
+	jump c
+endif
+jump b

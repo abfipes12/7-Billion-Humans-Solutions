@@ -1,17 +1,39 @@
--- 7 Billion Humans (2059) --
--- 25: My First Shredding Memory by @hingston --
+-- 7 Billion Humans (2235) --
+-- 25: My First Shredding Memory by @n05ucc4u, @commonnickname and @abfipes12 --
 
 mem1 = nearest shredder
-a:
-mem2 = nearest datacube
-if mem2 == datacube:
-	pickup mem2
-	if myitem == datacube:
+mem3 = nearest worker
+pickup sw
+if myitem != datacube:
+	mem4 = nearest worker
+	if mem3 == mem4:
+		mem2 = nearest datacube
+		pickup mem2
 		giveto mem1
 	endif
-	jump a
-endif
-if w == nothing and
- s == shredder:
+else:
 	giveto mem1
+endif
+a:
+mem2 = nearest datacube
+pickup mem2
+giveto mem1
+mem2 = nearest datacube
+pickup mem2
+giveto mem1
+mem2 = nearest datacube
+pickup mem2
+giveto mem1
+mem2 = nearest datacube
+pickup mem2
+giveto mem1
+mem2 = nearest datacube
+pickup mem2
+giveto mem1
+mem2 = nearest datacube
+pickup mem2
+giveto mem1
+if mem3 != wall:
+	mem3 = nearest wall
+	jump a
 endif

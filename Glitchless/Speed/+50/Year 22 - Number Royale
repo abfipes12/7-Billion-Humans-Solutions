@@ -10,7 +10,14 @@ if s < 85 or
 endif
 pickup s
 if myitem < 94:
-	pickup c
+	if myitem == myitem:
+		if myitem == myitem:
+			if myitem == myitem:
+				if w == e:
+				endif
+			endif
+		endif
+	endif
 	a:
 	b:
 	step s
