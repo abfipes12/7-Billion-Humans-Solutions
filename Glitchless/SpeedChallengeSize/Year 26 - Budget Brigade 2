@@ -1,22 +1,23 @@
 -- 7 Billion Humans (2235) --
--- 26: Budget Brigade 2 by @landfillbaby --
+-- 26: Budget Brigade 2 by @abfipes12 --
 
-a:
-if s == printer or
- s >= 0 and
- myitem != datacube:
+if s == worker or
+ s == printer:
+	a:
 	takefrom s
+	jump a
+endif
+b:
+if w >= 50 and
+ myitem != datacube:
+	takefrom w
+endif
+if e < 50 and
+ myitem != datacube:
+	takefrom e
 endif
 if s == shredder and
  myitem == datacube:
 	giveto s
 endif
-if myitem < 50 and
- w == worker:
-	giveto w
-endif
-if myitem >= 50 and
- e == worker:
-	giveto e
-endif
-jump a
+jump b

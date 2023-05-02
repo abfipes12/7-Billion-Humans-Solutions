@@ -1,5 +1,6 @@
 -- 7 Billion Humans (2235) --
 -- 26: Budget Brigade 2 by psam [https://www.twitch.tv/psam] --
+-- and @n05ucc4u --
 
 if s == printer:
 	takefrom s

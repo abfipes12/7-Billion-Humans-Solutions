@@ -1,11 +1,10 @@
 -- 7 Billion Humans (2235) --
--- 30: Fill the Floor by @martinez8859 and @abfipes12 --
+-- 30: Fill the Floor by @martinez8859 and @NotABlueWhale --
 
+mem1 = nearest printer
 a:
-if mem1 == nothing or
- c != datacube:
+if c == nothing:
 	drop
-	mem1 = nearest printer
 	takefrom mem1
 endif
 step nw,w,sw,s,ne,e,se

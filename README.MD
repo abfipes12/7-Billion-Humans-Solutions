@@ -637,18 +637,17 @@ With Gliches
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 26 - Budget Brigade 2">Speed</a></td>
-    <td>psam</td>
+    <td>psam<br>n05ucc4u</td>
     <td>56</td>
     <td>60s</td>
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 26 - Budget Brigade 2">Swcs</a></td>
-    <td>landfillbaby</td>
-    <td>9</td>
-    <td>127-129s</td>
+    <td>abfipes12</td>
+    <td>10</td>
+    <td>118-120s</td>
   </tr>
 </table>
-
 
 ### 🟦 Year 28 - Neural Pathways 🟦
 <table>
@@ -691,7 +690,7 @@ With Gliches
     <td>✍🏻<a href="Glitchless/Size/Year 30 - Fill the Floor">Size</a></td>
     <td>martinez8859</td>
     <td>5</td>
-    <td>598-656s</td>
+    <td>598-671s</td>
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 30 - Fill the Floor">Speed</a></td>
@@ -701,7 +700,7 @@ With Gliches
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 30 - Fill the Floor">Swcs</a></td>
-    <td>martinez8859<br>abfipes12</td>
+    <td>martinez8859<br>NotABlueWhale</td>
     <td>6</td>
     <td>216-247s</td>
   </tr>
