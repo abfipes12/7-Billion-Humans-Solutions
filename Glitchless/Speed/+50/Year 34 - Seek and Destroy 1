@@ -1,6 +1,6 @@
 -- 7 Billion Humans (2214M) --
 -- 34: Seek and Destroy 1 by @commonnickname and @abfipes12 --
--- 59.52% successful --
+-- 71.4% successful --
 
 mem1 = nearest wall
 step n

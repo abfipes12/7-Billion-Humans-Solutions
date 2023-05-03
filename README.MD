@@ -867,7 +867,7 @@ With Gliches
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 36 - Seek and Destroy 2">Swcs</a></td>
     <td>dmr</td>
     <td>9</td>
-    <td>106s</td>
+    <td>105s</td>
   </tr>
 </table>
 
