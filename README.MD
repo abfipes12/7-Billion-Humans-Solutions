@@ -762,7 +762,7 @@ With Gliches
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 32 - Creative Writhing">Speed</a></td>
-    <td>n05ucc4u<br>commonnickname</td>
+    <td>commonnickname</td>
     <td>128</td>
     <td>30s</td>
   </tr>
@@ -770,7 +770,7 @@ With Gliches
     <td>✍🏻<a href="Glitchless/Size/+50/Year 32 - Creative Writhing">Size +50%🍀</a></td>
     <td>main-gi</td>
     <td>5</td>
-    <td>837-981s</td>
+    <td>837-1021s</td>
   </tr>
 </table>
 With Gliches
@@ -827,8 +827,8 @@ With Gliches
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/+50/Year 34 - Seek and Destroy 1">Speed +50%🍀</a></td>
-    <td>commonnickname</td>
-    <td>104</td>
+    <td>commonnickname<br>abfipes12</td>
+    <td>53</td>
     <td>7s</td>
   </tr>
 </table>
