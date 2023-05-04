@@ -909,15 +909,15 @@ With Gliches
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 38 - Seek and Destroy 3">Speed</a></td>
-    <td>commonnickname<br>abfipes12</td>
-    <td>143</td>
-    <td>10-11s</td>
+    <td>abfipes12<br>commonnickname</td>
+    <td>142</td>
+    <td>9-10s</td>
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 38 - Seek and Destroy 3">Swcs</a></td>
-    <td>dmr</td>
-    <td>20</td>
-    <td>24s</td>
+    <td>abfipes12<br>dmr</td>
+    <td>22</td>
+    <td>21-22s</td>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/+50/Year 38 - Seek and Destroy 3">Size +50%🍀</a></td>
@@ -929,7 +929,7 @@ With Gliches
     <td>⚡<a href="Glitchless/Speed/+50/Year 38 - Seek and Destroy 3">Speed +50%🍀</a></td>
     <td>commonnickname<br>abfipes12</td>
     <td>122</td>
-    <td>7-8s</td>
+    <td>6-7s</td>
   </tr>
 </table>
 
@@ -969,7 +969,7 @@ With Gliches
     <td>✍🏻<a href="WithGliches/Size/Year 39 - Printing Etiquette 1">Size</a></td>
     <td>abfipes12<br>n05ucc4u</td>
     <td width=90>6</td>
-    <td width=90>492-580s</td>
+    <td width=90>460-580s</td>
   </tr>
 </table>
 

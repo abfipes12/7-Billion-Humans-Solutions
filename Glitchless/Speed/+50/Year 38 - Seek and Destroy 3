@@ -1,33 +1,37 @@
 -- 7 Billion Humans (2235) --
 -- 38: Seek and Destroy 3 by @commonnickname and @abfipes12 --
--- failed 33 out of 100 => 67% successful --
+-- failed 58 out of 125 => 53.6% successful --
 
 mem1 = nearest datacube
-mem3 = nearest wall
 mem2 = nearest worker
+mem3 = nearest wall
 step n
 mem4 = nearest wall
 if mem1 == 0:
 	pickup n
-	mem1 = nearest shredder
-	giveto mem1
-	end
+	jump a
 endif
 step n
 if mem3 != mem4:
 	mem3 = nearest wall
 	if mem3 != mem4:
+		step w
+		step n
+		step n
+		step n
+		step n
+		step n
 		step e
+		step w
+		pickup c
+		step e
+		step s
+		step s
+		step s
+		step s
+		step s
 		end
 	endif
-endif
-step n
-mem4 = nearest datacube
-if mem4 <= mem1:
-	if mem4 == 0:
-		jump a
-	endif
-	mem1 = nearest datacube
 endif
 step n
 mem4 = nearest datacube
@@ -43,73 +47,146 @@ mem4 = nearest datacube
 if mem4 <= mem1:
 	if mem4 == 0:
 		b:
-		pickup c
-		mem1 = nearest shredder
-		giveto mem1
+		jump c
+	endif
+	mem1 = nearest datacube
+endif
+if mem1 > 32:
+	step n
+	mem4 = nearest datacube
+	if mem4 <= 0:
+		c:
+		pickup mem4
+		jump d
 	endif
 	mem1 = nearest datacube
 endif
 if n <= mem1:
 	pickup n
-	mem4 = nearest worker
-	if mem2 < myitem or
-	 mem3 < myitem or
-	 mem4 < myitem:
-		step ne
-		step ne,e
-		mem1 = nearest hole
-		step mem1
+	if myitem == 0:
+		d:
+		jump e
 	endif
+	if myitem > 32:
+		jump f
+	endif
+	mem3 = nearest worker
 else:
-	pickup mem1
-	mem1 = nearest hole
-	mem4 = nearest worker
-	if mem2 < myitem or
-	 mem4 < myitem:
-		step ne
-		step ne,e
-		step mem1
+	if mem1 > 32:
+		f:
+		jump g
 	endif
-	step sw
+	step mem1
 	mem3 = nearest worker
-	if mem2 < myitem or
-	 mem3 < myitem or
-	 mem4 < myitem:
-		step ne
-		step ne,e
-		step mem1
-	endif
-	step w
-	mem3 = nearest worker
-	if mem2 < myitem or
-	 mem3 < myitem or
-	 mem4 < myitem:
-		step ne,e
-		step ne,e
-		step mem1
+	if mem1 >= mem2 or
+	 mem1 >= mem3:
+		pickup c
+		g:
+		jump h
+	else:
+		pickup c
 	endif
 endif
-mem1 = nearest hole
-mem2 = nearest shredder
-step mem2
-mem3 = nearest worker
-if mem3 < myitem:
-	step mem1
+mem4 = nearest worker
+if mem2 < myitem or
+ mem3 < myitem or
+ mem4 < myitem:
+	h:
+	jump i
 endif
-step se
+step w
+mem1 = nearest worker
+if mem2 < myitem or
+ mem4 < myitem or
+ mem3 < myitem or
+ mem1 < myitem:
+	i:
+	jump j
+endif
+step sw
 mem3 = nearest worker
-if mem3 < myitem:
-	step mem1
+if mem2 < myitem or
+ mem4 < myitem or
+ mem1 < myitem or
+ mem3 < myitem:
+	j:
+	jump k
+endif
+step w
+mem4 = nearest worker
+if mem2 < myitem or
+ mem4 < myitem or
+ mem3 < myitem or
+ mem1 < myitem:
+	k:
+	l:
+	step ne
+	m:
+	jump l
+endif
+mem1 = nearest shredder
+step mem1
+mem3 = nearest worker
+if mem3 < myitem or
+ mem2 < myitem or
+ mem4 < myitem:
+	n:
+	jump m
+endif
+if mem3 >= 0:
+else:
+	e:
+	jump o
 endif
 step e
 mem3 = nearest worker
 if mem3 < myitem:
-	step mem1
+	p:
+	jump n
 endif
-step nw
+if mem3 >= 0:
+else:
+	o:
+	jump q
+endif
+step s
 mem3 = nearest worker
 if mem3 < myitem:
-	step mem1
+	r:
+	jump p
+endif
+if mem3 >= 0:
+else:
+	q:
+	jump s
+endif
+step ne
+mem3 = nearest worker
+if mem3 < myitem:
+	t:
+	jump r
+endif
+if mem3 >= 0:
+else:
+	s:
+	jump u
 endif
 step w
+mem3 = nearest worker
+if mem3 < myitem:
+	v:
+	jump t
+endif
+if mem3 >= 0:
+else:
+	u:
+	jump w
+endif
+step w
+mem3 = nearest worker
+if mem3 < myitem:
+	jump v
+endif
+w:
+mem2 = nearest shredder
 giveto mem2

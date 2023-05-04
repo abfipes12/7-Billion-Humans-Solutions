@@ -1,5 +1,5 @@
 -- 7 Billion Humans (2235) --
--- 38: Seek and Destroy 3 by @commonnickname and @abfipes12 --
+-- 38: Seek and Destroy 3 by @abfipes12 and @commonnickname --
 -- failed 0 out of 425 => 100% successful --
 
 mem1 = nearest datacube
@@ -96,12 +96,12 @@ if n <= mem1:
 		g:
 		jump h
 	endif
-	if myitem > 35:
+	if myitem > 32:
 		jump i
 	endif
 	mem3 = nearest worker
 else:
-	if mem1 > 35:
+	if mem1 > 32:
 		i:
 		jump j
 	endif
@@ -149,7 +149,8 @@ if mem2 < myitem or
  mem1 < myitem:
 	n:
 	o:
-	step n
+	step ne
+	p:
 	jump o
 endif
 mem1 = nearest shredder
@@ -158,64 +159,63 @@ mem3 = nearest worker
 if mem3 < myitem or
  mem2 < myitem or
  mem4 < myitem:
+	q:
 	jump p
 endif
 if mem3 >= 0:
 else:
 	h:
-	jump q
+	jump r
 endif
 step e
 mem3 = nearest worker
 if mem3 < myitem:
-	p:
-	jump r
+	s:
+	jump q
 endif
 if mem3 >= 0:
 else:
-	q:
-	jump s
+	r:
+	jump t
 endif
 step s
 mem3 = nearest worker
 if mem3 < myitem:
-	r:
-	jump t
+	u:
+	jump s
 endif
 if mem3 >= 0:
 else:
-	s:
-	jump u
+	t:
+	jump v
 endif
 step ne
 mem3 = nearest worker
 if mem3 < myitem:
-	t:
-	jump v
+	w:
+	jump u
 endif
 if mem3 >= 0:
 else:
-	u:
-	jump w
-endif
-step w
-mem3 = nearest worker
-if mem3 < myitem:
 	v:
 	jump x
 endif
+step w
+mem3 = nearest worker
+if mem3 < myitem:
+	y:
+	jump w
+endif
 if mem3 >= 0:
 else:
-	w:
-	jump y
+	x:
+	jump z
 endif
 step w
 mem3 = nearest worker
 if mem3 < myitem:
-	x:
-	mem1 = nearest hole
-	step mem1
+	jump y
 endif
-y:
+z:
 mem2 = nearest shredder
 giveto mem2
