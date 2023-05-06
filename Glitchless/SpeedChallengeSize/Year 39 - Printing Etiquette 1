@@ -1,16 +1,17 @@
 -- 7 Billion Humans (2235) --
--- 39: Printing Etiquette 1 by @landfillbaby --
+-- 39: Printing Etiquette 1 by @landfillbaby and @abfipes12 --
 
 mem1 = nearest printer
-a:
-if mem2 < 5 and
- myitem == nothing:
-	takefrom mem1
-endif
+jump a
+b:
 step nw,w,sw,n,ne,e,se
 if c == nothing and
- myitem != nothing:
+ myitem == datacube:
 	drop
 	mem2 = calc mem2 + 1
+	if mem2 < 5:
+		a:
+		takefrom mem1
+	endif
 endif
-jump a
+jump b

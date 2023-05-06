@@ -953,12 +953,12 @@ With Gliches
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 39 - Printing Etiquette 1">Swcs</a></td>
     <td>landfillbaby</td>
-    <td>8</td>
-    <td>~~48s</td>
+    <td>9</td>
+    <td>46-50s</td>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/+50/Year 39 - Printing Etiquette 1">Size +50%🍀</a></td>
-    <td>abfipes12<br>n05ucc4u</td>
+    <td>n05ucc4u<br>abfipes12</td>
     <td>6</td>
     <td>932-1023s</td>
   </tr>
@@ -993,12 +993,12 @@ With Gliches
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 40 - Printing Etiquette 2">Swcs</a></td>
     <td>landfillbaby</td>
-    <td>9</td>
-    <td>~~53s</td>
+    <td>10</td>
+    <td>51-55s</td>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/+50/Year 40 - Printing Etiquette 2">Size +50%🍀</a></td>
-    <td>abfipes12<br>n05ucc4u</td>
+    <td>n05ucc4u<br>abfipes12</td>
     <td>7</td>
     <td>951-960s</td>
   </tr>
