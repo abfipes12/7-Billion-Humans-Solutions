@@ -1,9 +1,8 @@
 -- 7 Billion Humans (2059) --
--- 41: Image Decrypter by @commonnickname --
+-- 41: Image Decrypter by @commonnickname and @abfipes12 --
 
 mem4 = nearest datacube
 step w
-mem2 = nearest datacube
 step w
 mem3 = nearest datacube
 pickup e
@@ -14,69 +13,61 @@ if myitem == 9:
 	endif
 	jump b
 endif
-if myitem == 12:
-	step sw
-	jump c
-endif
 if myitem == 11:
 	if mem3 == 6:
 		step nw
-		jump d
+	else:
+		step s
 	endif
-	step s
-	jump e
-endif
-if myitem == 10:
-	jump f
+	jump c
 endif
 if myitem == 7:
-	jump g
+	c:
+	jump d
 endif
-if myitem == 6:
-	if mem4 == 11:
+if myitem == 6 or
+ myitem == 12:
+	if mem4 == 11 or
+	 myitem == 12:
 		step sw
-		jump h
+		b:
+		jump e
 	endif
-	jump i
+	jump f
 endif
 if myitem == 5:
-	jump j
+	jump g
 endif
 if myitem == 4:
 	if mem3 == 4:
 		step nw
-		jump k
+		f:
+		jump h
 	endif
-	jump l
+	jump i
 endif
 if myitem == 3:
-	jump m
+	jump j
 endif
 if myitem == 1:
-	jump n
+	jump k
 endif
 a:
-f:
-step w
-c:
-h:
-b:
-step w
 step w
 e:
-g:
+step w
+step w
 d:
 step w
+h:
+step w
+g:
+step w
 i:
-k:
 step w
 j:
 step w
-l:
 step w
-m:
-step w
-step w
-n:
+k:
 drop
 mem1 = calc 0 / 0

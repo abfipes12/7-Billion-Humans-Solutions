@@ -1027,7 +1027,7 @@ With Gliches
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 41 - Image Decrypter">Speed</a></td>
     <td>commonnickname</td>
-    <td>51</td>
+    <td>45</td>
     <td>6s</td>
   </tr> 
 </table>
