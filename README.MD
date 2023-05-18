@@ -1239,7 +1239,7 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 51 - Identify Yourselves">Size</a></td>
-    <td>n05ucc4u</td>
+    <td>main-gi</td>
     <td>6</td>
     <td>39s</td>
   </tr>
@@ -1278,7 +1278,7 @@ With Gliches
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 52 - The Mode Code">Swcs</a></td>
     <td>Erik<br>abfipes12</td>
     <td>24</td>
-    <td>~~134s</td>
+    <td>133-135s</td>
   </tr>
 </table>
 
@@ -1303,7 +1303,7 @@ With Gliches
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 53 - 100 Cubes on the Floor">Swcs</a></td>
     <td>TabAtkins</td>
     <td>14</td>
-    <td>73s</td>
+    <td>67s</td>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/+50/Year 53 - 100 Cubes on the Floor">Size +50%🍀</a></td>
