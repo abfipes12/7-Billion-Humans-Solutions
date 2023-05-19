@@ -1414,7 +1414,7 @@ With Gliches
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 57 - Neighborly Sweeper">Swcs</a></td>
     <td>Pukeface</td>
-    <td>15</td>
+    <td>14</td>
     <td>96s</td>
   </tr>
 </table>
@@ -1513,9 +1513,9 @@ With Gliches
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 61 - Lazy Pathways">Swcs</a></td>
-    <td>soerface</td>
+    <td>soerface<br>abfipes12</td>
     <td>11</td>
-    <td>~~230s</td>
+    <td>176-191s</td>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/+50/Year 61 - Lazy Pathways">Size +50%🍀</a></td>
@@ -1546,7 +1546,7 @@ With Gliches
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 62 - The Sorting Floor">Swcs</a></td>
     <td>Kelin</td>
     <td>30</td>
-    <td>~~145s</td>
+    <td>131-161s</td>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/+50/Year 62 - The Sorting Floor">Size +50%🍀</a></td>
