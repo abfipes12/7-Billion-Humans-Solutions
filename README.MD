@@ -108,9 +108,9 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 06 - Little Exterminator 1">Size</a></td>
-    <td>martinez8859<br>dmr</td>
+    <td>martinez8859<br>dmr<br>H-J-Granger</td>
     <td>8</td>
-    <td>13s</td>
+    <td>7s</td>
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 06 - Little Exterminator 1">Speed</a></td>
@@ -148,9 +148,9 @@ With Gliches
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 07 - Collation Station">Swcs</a></td>
-    <td>hingston<br>abfipes12</td>
+    <td>VaneaNomater</td>
     <td>5</td>
-    <td>10s</td>
+    <td>9s</td>
   </tr>
 </table>
 With Gliches
@@ -166,12 +166,6 @@ With Gliches
     <td>n05ucc4u</td>
     <td>12</td>
     <td>3s</td>
-  </tr>
-  <tr>
-    <td>⚡✍🏻<a href="WithGliches/SpeedChallengeSize/Year 07 - Collation Station">Swcs</a></td>
-    <td>n05ucc4u</td>
-    <td>5</td>
-    <td>9s</td>
   </tr>
 </table>
 
@@ -242,7 +236,7 @@ With Gliches
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 11 - Injection Sites 1">Speed</a></td>
     <td>martinez8859</td>
-    <td>17</td>
+    <td>16</td>
     <td>5s</td>
   </tr>
 </table>
@@ -927,7 +921,7 @@ With Gliches
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/+50/Year 38 - Seek and Destroy 3">Speed +50%🍀</a></td>
-    <td>commonnickname<br>abfipes12</td>
+    <td>abfipes12<br>commonnickname</td>
     <td>122</td>
     <td>6-7s</td>
   </tr>
@@ -1678,7 +1672,7 @@ With Gliches
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 67 - Decimal Doubler">Speed</a></td>
-    <td>commonnickname<br>main-gi</td>
+    <td>commonnickname</td>
     <td>196</td>
     <td>47s</td>
   </tr>
@@ -1697,9 +1691,9 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 68 - Goodbye Humans">Size</a></td>
-    <td>aqueous68<br>main-gi</td>
+    <td>aqueous68</td>
     <td>6</td>
-    <td>75-76s</td>
+    <td>74-75s</td>
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 68 - Goodbye Humans">Speed</a></td>

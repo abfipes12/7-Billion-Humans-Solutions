@@ -14,5 +14,3 @@ if nw == shredder or
 	giveto nw,ne
 endif
 jump a
-
-

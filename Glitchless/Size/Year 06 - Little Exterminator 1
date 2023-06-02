@@ -1,15 +1,14 @@
 -- 7 Billion Humans (2235) --
--- 6: Little Exterminator 1 by @martinez8859 --
--- and dmr [https://steamcommunity.com/profiles/76561197960413748] --
+-- 6: Little Exterminator 1 by @martinez8859, --
+-- dmr [https://steamcommunity.com/profiles/76561197960413748] --
+-- and @H-J-Granger --
 
+step w
 a:
-if sw != hole:
-	step sw
-else:
-	step e
-endif
-if se != hole:
-	step se
-	pickup c
-endif
+step se
+step sw
+step sw
+step se
+step e
+pickup c
 jump a
