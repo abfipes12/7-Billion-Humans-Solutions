@@ -1622,7 +1622,7 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 65 - Defrag Ordered">Size</a></td>
-    <td>n05ucc4u</td>
+    <td>dmr</td>
     <td>14</td>
     <td>369s</td>
   </tr>
@@ -1631,6 +1631,12 @@ With Gliches
     <td>commonnickname</td>
     <td>127</td>
     <td>13s</td>
+  </tr>
+  <tr>
+    <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 65 - Defrag Ordered">Swcs</a></td>
+    <td>dmr</td>
+    <td>15</td>
+    <td>270s</td>
   </tr>
 </table>
 

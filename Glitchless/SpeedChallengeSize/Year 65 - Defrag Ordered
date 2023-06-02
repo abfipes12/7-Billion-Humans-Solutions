@@ -1,4 +1,4 @@
--- 7 Billion Humans (2214M) --
+-- 7 Billion Humans (2235) --
 -- 65: Defrag Ordered by dmr [https://steamcommunity.com/profiles/76561197960413748] --
 
 mem1 = foreachdir nw,w,n,s,ne,e,se:
@@ -13,7 +13,10 @@ if w != datacube and
 	step mem2
 	mem2 = set myitem
 endif
-drop
+if myitem == datacube and
+ c != datacube:
+	drop
+endif
 if e == hole:
 	step sw
 	mem1 = foreachdir nw,w,n,ne,e,se:
