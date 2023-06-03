@@ -2,7 +2,7 @@
 
 Community solutions for the game [7 Billion Humans](https://store.steampowered.com/app/792100/7_Billion_Humans/).
 
-Based on https://github.com/hingston/7-billion-humans-solutions
+Based on [hingston's](https://github.com/hingston/7-billion-humans-solutions) and [soerface's](https://github.com/soerface/7billionhumans) repositories
 
 ## Success Rate
 
@@ -455,7 +455,7 @@ With Gliches
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 20 - Reverse Line">Speed</a></td>
     <td>ansvonwa</td>
-    <td>44</td>
+    <td>41</td>
     <td>4s</td>
   </tr>
 </table>
@@ -1317,6 +1317,12 @@ With Gliches
     <td>dmr</td>
     <td>9</td>
     <td>163-198s</td>
+  </tr>
+  <tr>
+    <td>⚡<a href="Glitchless/Speed/Year 54 - Terrain Leveler">Speed</a></td>
+    <td>landfillbaby</td>
+    <td>92</td>
+    <td>66s</td>
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 54 - Terrain Leveler">Swcs</a></td>

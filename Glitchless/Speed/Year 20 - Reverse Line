@@ -1,61 +1,59 @@
 -- 7 Billion Humans (2235) --
--- 20: Reverse Line by @ansvonwa --
+-- 20: Reverse Line by @ansvonwa and @landfillbaby --
 
-if se == hole or
- sw == hole:
+if w == nothing or
+ e == nothing:
+	pickup s
 	if se == hole:
-		step s
-		step sw
-		pickup ne
+		step w
 		step w
 		step w
 		a:
 		step w
 		step w
-		b:
 		step w
-		step nw
-		drop
+		step sw
+		jump b
 	endif
-	pickup s
 	step e
 	step e
 	step e
 	c:
 	step e
 	step e
-	d:
 	step e
 	step se
-	drop
+	jump d
 endif
 step s
-if ne == worker or
- nw == worker:
-	if s == worker:
-		pickup c
-		step sw
+pickup c
+if w == nothing or
+ e == nothing:
+	if ne == nothing:
+		step nw
 		jump a
 	endif
-	pickup c
 	step ne
 	jump c
 endif
-pickup c
-if ne == worker or
- n == worker:
-	step n
+if n == worker:
+	if nw == worker:
+		step w
+		step sw
+		jump e
+	endif
 	step e
-	jump d
+	step se
+	jump f
 endif
-if s == worker:
-	step s
-	step w
-	jump b
-endif
-if w != worker:
-	step e
+step s
+if w == worker:
+	e:
+	step nw
 else:
-	step w
+	f:
+	step ne
 endif
+b:
+d:
 drop
