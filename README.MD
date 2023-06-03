@@ -1723,39 +1723,39 @@ With Gliches
   </tr>
   <tr>
       <td>n05ucc4u</td>
-      <td>49</td>
+      <td>48</td>
   </tr>
   <tr>
       <td>commonnickname</td>
-      <td>46</td>
-  </tr>
-  <tr>
-      <td>dmr</td>
-      <td>19</td>
-  </tr>
-  <tr>
-      <td>martinez8859</td>
-      <td>18</td>
+      <td>45</td>
   </tr>
   <tr>
       <td>hingston</td>
-      <td>15</td>
+      <td>22</td>
+  </tr>
+  <tr>
+      <td>dmr</td>
+      <td>21</td>
+  </tr>
+  <tr>
+      <td>martinez8859</td>
+      <td>20</td>
   </tr>
   <tr>
       <td>main-gi</td>
-      <td>9</td>
+      <td>8</td>
   </tr>
   <tr>
       <td>landfillbaby</td>
       <td>7</td>
   </tr>
   <tr>
-      <td>eiTTio</td>
-      <td>3</td>
+      <td>AlexMBrennan</td>
+      <td>5</td>
   </tr>
   <tr>
-      <td>AlexMBrennan</td>
-      <td>2</td>
+      <td>eiTTio</td>
+      <td>3</td>
   </tr>
   <tr>
       <td>aqueous68</td>
@@ -1763,10 +1763,6 @@ With Gliches
   </tr>
   <tr>
       <td>davidgauch</td>
-      <td>2</td>
-  </tr>
-  <tr>
-      <td>DeepAQ</td>
       <td>2</td>
   </tr>
   <tr>
@@ -1802,6 +1798,10 @@ With Gliches
       <td>1</td>
   </tr>
   <tr>
+      <td>DeepAQ</td>
+      <td>1</td>
+  </tr>
+  <tr>
       <td>elPablocro</td>
       <td>1</td>
   </tr>
@@ -1822,6 +1822,10 @@ With Gliches
       <td>1</td>
   </tr>
   <tr>
+      <td>H-J-Granger</td>
+      <td>1</td>
+  </tr>
+  <tr>
       <td>JoeKing</td>
       <td>1</td>
   </tr>
@@ -1835,6 +1839,10 @@ With Gliches
   </tr>
   <tr>
       <td>nezhi</td>
+      <td>1</td>
+  </tr>
+  <tr>
+      <td>NotABlueWhale</td>
       <td>1</td>
   </tr>
   <tr>
@@ -1867,6 +1875,10 @@ With Gliches
   </tr>
   <tr>
       <td>thrfirs</td>
+      <td>1</td>
+  </tr>
+  <tr>
+      <td>VaneaNomater</td>
       <td>1</td>
   </tr>
 </table>
