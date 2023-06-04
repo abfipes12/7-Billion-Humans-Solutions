@@ -1,8 +1,10 @@
 # 7 Billion Humans Solutions
 
-Community solutions for the game [7 Billion Humans](https://store.steampowered.com/app/792100/7_Billion_Humans/).
+Community solutions for the game [7 Billion Humans](https://store.steampowered.com/app/792100/7_Billion_Humans/)
 
 Based on [hingston's](https://github.com/hingston/7-billion-humans-solutions) and [soerface's](https://github.com/soerface/7billionhumans) repositories
+
+Please feel free to send a pull requests or post on the [Steam thread](https://steamcommunity.com/app/792100/discussions/0/3821908983022769558/) if you find any improvements
 
 ## Success Rate
 
@@ -1784,10 +1786,6 @@ With Gliches
       <td>2</td>
   </tr>
   <tr>
-      <td>Nomana</td>
-      <td>1</td>
-  </tr>
-  <tr>
       <td>$uppenbaer</td>
       <td>1</td>
   </tr>
@@ -1805,6 +1803,10 @@ With Gliches
   </tr>
   <tr>
       <td>DeepAQ</td>
+      <td>1</td>
+  </tr>
+  <tr>
+      <td>Dipscrip</td>
       <td>1</td>
   </tr>
   <tr>
@@ -1845,6 +1847,10 @@ With Gliches
   </tr>
   <tr>
       <td>nezhi</td>
+      <td>1</td>
+  </tr>
+  <tr>
+      <td>Nomana</td>
       <td>1</td>
   </tr>
   <tr>
@@ -1891,4 +1897,4 @@ With Gliches
 
 ---
 
-ToDo - Some statistic about solutions, authorship rules, visual tweaks.
+ToDo - Some statistic about solutions, authorship rules, visual tweaks, page.
