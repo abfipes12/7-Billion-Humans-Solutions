@@ -292,6 +292,12 @@ With Gliches
     <td>20</td>
     <td>5s</td>
   </tr>
+  <tr>
+    <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 13 - Injection Sites 2">Swcs</a></td>
+    <td>Dipscrip</td>
+    <td>8</td>
+    <td>14s</td>
+  </tr>
 </table>
 
 ### 🟩 Year 14 - Intro to Shredding 🟩
