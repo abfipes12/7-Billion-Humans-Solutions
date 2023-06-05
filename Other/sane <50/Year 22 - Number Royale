@@ -1,0 +1,12 @@
+-- 7 Billion Humans (2235) --
+-- 22: Number Royale by nezhi [https://steamcommunity.com/profiles/76561198013091047] and @abfipes12 --
+-- successful => 43.12% --
+
+if s < 89 or
+ sw > s or
+ se > s:
+	a:
+	step s
+	jump a
+endif
+pickup s

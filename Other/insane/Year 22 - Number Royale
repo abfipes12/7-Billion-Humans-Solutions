@@ -1,9 +1,0 @@
--- 7 Billion Humans (2235) --
--- 22: Number Royale by nezhi [https://steamcommunity.com/profiles/76561198013091047] --
-
-pickup s
-if myitem < 93:
-	a:
-	step s
-	jump a
-endif

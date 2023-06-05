@@ -1725,6 +1725,14 @@ With Gliches
 
 ---
 
+## Authorship
+
+* The first creator to beat the previous solution in its category is listed first on the author label.
+* The creator of a solution that is equal in its category but better in another category by at least 40% ranks further on the author label.
+* Creators of other enhancements are listed in the solution file.
+
+## Author List
+
 <table>
   <tr>
     <th>Autor</th> <th>Solutions</th>
@@ -1897,4 +1905,4 @@ With Gliches
 
 ---
 
-ToDo - Some statistic about solutions, authorship rules, visual tweaks, page.
+ToDo - Some statistic about solutions, visual tweaks, page.
