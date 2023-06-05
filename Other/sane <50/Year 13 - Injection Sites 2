@@ -1,13 +1,14 @@
 -- 7 Billion Humans (2235) --
 -- 13: Injection Sites 2 by @H-J-Granger --
+-- failed 104 out of 175 => 40.57% successful --
+-- Size: 6; Speed: ~505s --
 
 pickup s
 step se
 a:
 step w,sw,n,s,e,se
 if c == nothing and
- w == datacube and
- e == datacube:
+ w == datacube:
 	drop
 endif
 jump a
