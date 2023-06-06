@@ -1,1 +1,39 @@
-<h1>hello world</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Read GitHub File</title>
+</head>
+<body>
+    <button onclick="readGitHubFile('https://raw.githubusercontent.com/abfipes12/7-Billion-Humans-Solutions/main/README.MD')">Read GitHub File</button>
+    <h4>currently unusable but in progress</h4>
+    <div id="content"></div>
+
+    <script>
+        function readGitHubFile(fileUrl) {
+            fetch(fileUrl)
+                .then(response => response.text())
+                .then(text => {
+                    parse_page(text);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        }
+
+        function parse_page(raw_page_text)
+        {
+            let solutions_md = raw_page_text.split('---',2)[1];
+
+            let years_arr = solutions_md.split('###').slice(1);
+            
+            const re = /<tr>(.*?)<\/tr>/gs;
+
+            let year_solutions = years_arr[21].split(re);
+            year_solutions = year_solutions.filter(solution => solution.includes("href"));
+
+            document.getElementById('content').innerText = year_solutions[2];
+        }
+        
+    </script>
+</body>
+</html>
