@@ -1,39 +1,91 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Read GitHub File</title>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Other/styles.css">
+    <title>Title</title>
+    <script src="Other/script.js" defer></script>
 </head>
+
 <body>
-    <button onclick="readGitHubFile('https://raw.githubusercontent.com/abfipes12/7-Billion-Humans-Solutions/main/README.MD')">Read GitHub File</button>
-    <h4>currently unusable but in progress</h4>
-    <div id="content"></div>
+    <header>
+        <h1>Best solutions for the game "7 Billion Humans"</h1>
+        <h2>
+            Community solutions for the game 7 Billion Humans
 
-    <script>
-        function readGitHubFile(fileUrl) {
-            fetch(fileUrl)
-                .then(response => response.text())
-                .then(text => {
-                    parse_page(text);
-                })
-                .catch(error => {
-                    console.error('Error:', error);
-                });
-        }
+            Based on hingston's and soerface's repositories
 
-        function parse_page(raw_page_text)
-        {
-            let solutions_md = raw_page_text.split('---',2)[1];
+            Please feel free to send a pull requests or post on the Steam thread if you find any improvements
+        </h2>
+    </header>
+    <button onclick="readGitHubFile()">but</button>
+    <main>
+        <div class="options">
+            <div>
+                <input type="checkbox" name="glitched" id="glitched" checked>
+                <label for="glitched">
+                    With Gliches
+                </label>
+            </div>
 
-            let years_arr = solutions_md.split('###').slice(1);
-            
-            const re = /<tr>(.*?)<\/tr>/gs;
-
-            let year_solutions = years_arr[21].split(re);
-            year_solutions = year_solutions.filter(solution => solution.includes("href"));
-
-            document.getElementById('content').innerText = year_solutions[2];
-        }
+            <div>                
+                <input type="radio" name="s_rate" id="s_rate99">
+                <label for="s_rate99"> <!-- for is not nessesry-->
+                    +99%
+                </label>
+                            
+                <input type="radio" name="s_rate" id="s_rate50" checked>
+                <label for="s_rate50">
+                    +50%
+                </label>   
+                
+                <input type="radio" name="s_rate" id="s_rate35">
+                <label for="s_rate35">
+                    +35%
+                </label>
+            </div>
+        </div>
         
-    </script>
+        
+
+        <div id="table_container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Name</th>
+                        <th>Size</th>
+                        <th>Speed</th>
+                        <th>Size + Speed?</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td class="test">13</td>
+                    <td>Injection Sites 2</td>
+                    <td>1 / 2</td>
+                    <td>1 / 2</td>
+                    <td>no</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Speed by higston and nc0scau</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>yes</td>
+                </tr>
+                <tr>
+                    <td>40</td>
+                    <td>Printing Etiquette 2</td>
+                    <td>30 / 42</td>
+                    <td>11 / 22</td>
+                    <td>yes</td>
+                </tr>
+            </table>
+        </div>
+    </main>
 </body>
+
 </html>

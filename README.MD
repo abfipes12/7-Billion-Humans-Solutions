@@ -39,7 +39,7 @@ e.g.
 ### 🟩 Year 02 - Welcome, New Employees 🟩
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [3]</th> <th>Time [2s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [3]</th> <th>Time [2s]</th>
   </tr>
   <tr>
     <td>🥇<a href="Glitchless/Canonical/Year 02 - Welcome, New Employees">Both</a></td>
@@ -52,7 +52,7 @@ e.g.
 ### 🟩 Year 03 - Transport Squad 🟩
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [5]</th> <th>Time [2s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [5]</th> <th>Time [2s]</th>
   </tr>
   <tr>
     <td>🥇<a href="Glitchless/Canonical/Year 03 - Transport Squad">Both</a></td>
@@ -65,7 +65,7 @@ e.g.
 ### 🟩 Year 04 - Long Distance Delivery 🟩
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [4]</th> <th>Time [7s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [4]</th> <th>Time [7s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 04 - Long Distance Delivery">Size</a></td>
@@ -93,7 +93,7 @@ With Gliches
 ### 🟩 Year 05 - An Important Decision 🟩
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [5]</th> <th>Time [3s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [5]</th> <th>Time [3s]</th>
   </tr>
   <tr>
     <td>🥇<a href="Glitchless/Canonical/Year 05 - An Important Decision">Both</a></td>
@@ -106,7 +106,7 @@ With Gliches
 ### 🟩 Year 06 - Little Exterminator 1 🟩
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [9]</th> <th>Time [4s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [9]</th> <th>Time [4s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 06 - Little Exterminator 1">Size</a></td>
@@ -134,7 +134,7 @@ With Gliches
 ### 🟩 Year 07 - Collation Station 🟩
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [5]</th> <th>Time [6s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [5]</th> <th>Time [6s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 07 - Collation Station">Size</a></td>
@@ -174,7 +174,7 @@ With Gliches
 ### 🟩 Year 09 - Dynamic Angles 🟩
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [5]</th> <th>Time [6s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [5]</th> <th>Time [6s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 09 - Dynamic Angles">Size</a></td>
@@ -193,7 +193,7 @@ With Gliches
 ### 🟩 Year 10 - Emergency Escapades 🟩
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [9]</th> <th>Time [25s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [9]</th> <th>Time [25s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 10 - Emergency Escapades">Size</a></td>
@@ -227,7 +227,7 @@ With Gliches
 ### 🟩 Year 11 - Injection Sites 1 🟩
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [5]</th> <th>Time [7s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [5]</th> <th>Time [7s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 11 - Injection Sites 1">Size</a></td>
@@ -246,7 +246,7 @@ With Gliches
 ### 🟩 Year 12 - Unzip 🟩
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [8]</th> <th>Time [7s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [8]</th> <th>Time [7s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 12 - Unzip">Size</a></td>
@@ -280,7 +280,7 @@ With Gliches
 ### 🟩 Year 13 - Injection Sites 2 🟩
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [10]</th> <th>Time [55s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [10]</th> <th>Time [55s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 13 - Injection Sites 2">Size</a></td>
@@ -305,7 +305,7 @@ With Gliches
 ### 🟩 Year 14 - Intro to Shredding 🟩
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [4]</th> <th>Time [3s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [4]</th> <th>Time [3s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 14 - Intro to Shredding">Size</a></td>
@@ -324,7 +324,7 @@ With Gliches
 ### 🟩 Year 15 - Shred Lines 🟩
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [9]</th> <th>Time [23s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [9]</th> <th>Time [23s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 15 - Shred Lines">Size</a></td>
@@ -358,7 +358,7 @@ With Gliches
 ### 🟩 Year 16 - Little Exterminator 2 🟩
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [8]</th> <th>Time [9s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [8]</th> <th>Time [9s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 16 - Little Exterminator 2">Size</a></td>
@@ -392,7 +392,7 @@ With Gliches
 ### 🟩 Year 17 - Content Creators 🟩
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [1]</th> <th>Time [3s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [1]</th> <th>Time [3s]</th>
   </tr>
   <tr>
     <td>🥇<a href="Glitchless/Canonical/Year 17 - Content Creators">Both</a></td>
@@ -405,7 +405,7 @@ With Gliches
 ### 🟩 Year 18 - Uniquely Disposed 🟩
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [7]</th> <th>Time [12s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [7]</th> <th>Time [12s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 18 - Uniquely Disposed">Size</a></td>
@@ -430,7 +430,7 @@ With Gliches
 ### 🟩 Year 19 - Content Creators Bug Fix 🟩
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [4]</th> <th>Time [27s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [4]</th> <th>Time [27s]</th>
   </tr>
   <tr>
     <td>🥇<a href="Glitchless/Canonical/Year 19 - Content Creators Bug Fix">Both</a></td>
@@ -452,7 +452,7 @@ With Gliches
 ### 🟩 Year 20 - Reverse Line 🟩
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [9]</th> <th>Time [11s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [9]</th> <th>Time [11s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 20 - Reverse Line">Size</a></td>
@@ -471,7 +471,7 @@ With Gliches
 ### 🟩 Year 21 - Big Data 🟩
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [8]</th> <th>Time [32s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [8]</th> <th>Time [32s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 21 - Big Data">Size</a></td>
@@ -511,7 +511,7 @@ With Gliches
 ### 🟩 Year 22 - Number Royale 🟩
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [6]</th> <th>Time [11s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [6]</th> <th>Time [11s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 22 - Number Royale">Size</a></td>
@@ -551,7 +551,7 @@ With Gliches
 ### 🟩 Year 23 - Sorting Hall 🟩
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [6]</th> <th>Time [26s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [6]</th> <th>Time [26s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 23 - Sorting Hall">Size</a></td>
@@ -570,7 +570,7 @@ With Gliches
 ### 🟩 Year 24 - Budget Brigade 1 🟩
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [7]</th> <th>Time [50s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [7]</th> <th>Time [50s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 24 - Budget Brigade 1">Size</a></td>
@@ -610,7 +610,7 @@ With Gliches
 ### 🟦 Year 25 - My First Shredding Memory 🟦
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [5]</th> <th>Time [132s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [5]</th> <th>Time [132s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 25 - My First Shredding Memory">Size</a></td>
@@ -629,7 +629,7 @@ With Gliches
 ### 🟩 Year 26 - Budget Brigade 2 🟩
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [10]</th> <th>Time [70s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [10]</th> <th>Time [70s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 26 - Budget Brigade 2">Size</a></td>
@@ -654,7 +654,7 @@ With Gliches
 ### 🟦 Year 28 - Neural Pathways 🟦
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [4]</th> <th>Time [51s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [4]</th> <th>Time [51s]</th>
   </tr>
   <tr>
     <td>🥇<a href="Glitchless/Canonical/Year 28 - Neural Pathways">Both</a></td>
@@ -667,7 +667,7 @@ With Gliches
 ### 🟦 Year 29 - Biometric Access 🟦
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [5]</th> <th>Time [61s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [5]</th> <th>Time [61s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 29 - Biometric Access">Size</a></td>
@@ -686,7 +686,7 @@ With Gliches
 ### 🟦 Year 30 - Fill the Floor 🟦
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [6]</th> <th>Time [170s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [6]</th> <th>Time [170s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 30 - Fill the Floor">Size</a></td>
@@ -720,7 +720,7 @@ With Gliches
 ### 🟦 Year 31 - Checkerboard Organization 🟦
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [7]</th> <th>Time [100s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [7]</th> <th>Time [100s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 31 - Checkerboard Organization">Size</a></td>
@@ -754,7 +754,7 @@ With Gliches
 ### 🟦 Year 32 - Creative Writhing 🟦
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [6]</th> <th>Time [39s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [6]</th> <th>Time [39s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 32 - Creative Writhing">Size</a></td>
@@ -788,7 +788,7 @@ With Gliches
 ### 🟦 Year 33 - Data Backup Day 🟦
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [8]</th> <th>Time [3s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [8]</th> <th>Time [3s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 33 - Data Backup Day">Size</a></td>
@@ -807,7 +807,7 @@ With Gliches
 ### 🟦 Year 34 - Seek and Destroy 1 🟦
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [9]</th> <th>Time [21s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [9]</th> <th>Time [21s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 34 - Seek and Destroy 1">Size</a></td>
@@ -838,7 +838,7 @@ With Gliches
 ### 🟦 Year 35 - Intro to Calc for Art Majors 🟦
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [4]</th> <th>Time [4s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [4]</th> <th>Time [4s]</th>
   </tr>
   <tr>
     <td>🥇<a href="Glitchless/Canonical/Year 35 - Intro to Calc for Art Majors">Both</a></td>
@@ -851,7 +851,7 @@ With Gliches
 ### 🟦 Year 36 - Seek and Destroy 2 🟦
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [10]</th> <th>Time [145s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [10]</th> <th>Time [145s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 36 - Seek and Destroy 2">Size</a></td>
@@ -876,7 +876,7 @@ With Gliches
 ### 🟦 Year 37 - Dangerous Spreadsheeting 🟦
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [13]</th> <th>Time [32s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [13]</th> <th>Time [32s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 37 - Dangerous Spreadsheeting">Size</a></td>
@@ -901,7 +901,7 @@ With Gliches
 ### 🟦 Year 38 - Seek and Destroy 3 🟦
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [22]</th> <th>Time [33s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [22]</th> <th>Time [33s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 38 - Seek and Destroy 3">Size</a></td>
@@ -938,7 +938,7 @@ With Gliches
 ### 🟦 Year 39 - Printing Etiquette 1 🟦
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [9]</th> <th>Time [55s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [9]</th> <th>Time [55s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 39 - Printing Etiquette 1">Size</a></td>
@@ -978,7 +978,7 @@ With Gliches
 ### 🟦 Year 40 - Printing Etiquette 2 🟦
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [10]</th> <th>Time [55s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [10]</th> <th>Time [55s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 40 - Printing Etiquette 2">Size</a></td>
@@ -1018,7 +1018,7 @@ With Gliches
 ### 🟦 Year 41 - Image Decrypter 🟦
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [8]</th> <th>Time [15s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [8]</th> <th>Time [15s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 41 - Image Decrypter">Size</a></td>
@@ -1037,7 +1037,7 @@ With Gliches
 ### 🟦 Year 42 - Important Email Organization 🟦
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [18]</th> <th>Time [200s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [18]</th> <th>Time [200s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 42 - Important Email Organization">Size</a></td>
@@ -1071,7 +1071,7 @@ With Gliches
 ### 🟦 Year 43 - Multiplication Table 🟦
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [11]</th> <th>Time [53s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [11]</th> <th>Time [53s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 43 - Multiplication Table">Size</a></td>
@@ -1102,7 +1102,7 @@ With Gliches
 ### 🟦 Year 44 - Unique Fashion Party 🟦
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [11]</th> <th>Time [75s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [11]</th> <th>Time [75s]</th>
   </tr>
   <tr>
     <td>🥇<a href="Glitchless/Canonical/Year 44 - Unique Fashion Party">Both</a></td>
@@ -1130,7 +1130,7 @@ With Gliches
 ### 🟨 Year 46 - Compulsory Office Romance 🟨
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [7]</th> <th>Time [15s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [7]</th> <th>Time [15s]</th>
   </tr>
   <tr>
     <td>🥇<a href="Glitchless/Canonical/Year 46 - Compulsory Office Romance">Both</a></td>
@@ -1152,7 +1152,7 @@ With Gliches
 ### 🟨 Year 47 - Automated Pleasantries 🟨
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [3]</th> <th>Time [8s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [3]</th> <th>Time [8s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 47 - Automated Pleasantries">Size</a></td>
@@ -1171,7 +1171,7 @@ With Gliches
 ### 🟨 Year 48 - Community Training Day 🟨
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [6]</th> <th>Time [8s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [6]</th> <th>Time [8s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 48 - Community Training Day">Size</a></td>
@@ -1190,7 +1190,7 @@ With Gliches
 ### 🟨 Year 49 - Double Sided Destruction 🟨
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [7]</th> <th>Time [17s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [7]</th> <th>Time [17s]</th>
   </tr>
   <tr>
     <td>🥇<a href="Glitchless/Canonical/Year 49 - Double Sided Destruction">Both</a></td>
@@ -1203,7 +1203,7 @@ With Gliches
 ### 🟨 Year 50 - Cubical Communication 🟨
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [12]</th> <th>Time [60s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [12]</th> <th>Time [60s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 50 - Cubical Communication">Size</a></td>
@@ -1237,7 +1237,7 @@ With Gliches
 ### 🟨 Year 51 - Identify Yourselves 🟨
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [7]</th> <th>Time [27s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [7]</th> <th>Time [27s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 51 - Identify Yourselves">Size</a></td>
@@ -1262,7 +1262,7 @@ With Gliches
 ### 🟨 Year 52 - The Mode Code 🟨
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [24]</th> <th>Time [158s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [24]</th> <th>Time [158s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 52 - The Mode Code">Size</a></td>
@@ -1287,7 +1287,7 @@ With Gliches
 ### 🟨 Year 53 - 100 Cubes on the Floor 🟨
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [16]</th> <th>Time [80s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [16]</th> <th>Time [80s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 53 - 100 Cubes on the Floor">Size</a></td>
@@ -1318,7 +1318,7 @@ With Gliches
 ### 🟨 Year 54 - Terrain Leveler 🟨
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [26]</th> <th>Time [90s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [26]</th> <th>Time [90s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 54 - Terrain Leveler">Size</a></td>
@@ -1352,7 +1352,7 @@ With Gliches
 ### 🟥 Year 55 - Data Flowers 🟥
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [8]</th> <th>Time [25s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [8]</th> <th>Time [25s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 55 - Data Flowers">Size</a></td>
@@ -1380,7 +1380,7 @@ With Gliches
 ### 🟥 Year 56 - Local Maximums 🟥
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [8]</th> <th>Time [13s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [8]</th> <th>Time [13s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 56 - Local Maximums">Size</a></td>
@@ -1405,7 +1405,7 @@ With Gliches
 ### 🟥 Year 57 - Neighborly Sweeper 🟥
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [16]</th> <th>Time [100s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [16]</th> <th>Time [100s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 57 - Neighborly Sweeper">Size</a></td>
@@ -1430,7 +1430,7 @@ With Gliches
 ### 🟥 Year 58 - Good Neighbors 🟥
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [10]</th> <th>Time [175s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [10]</th> <th>Time [175s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 58 - Good Neighbors">Size</a></td>
@@ -1455,7 +1455,7 @@ With Gliches
 ### 🟥 Year 59 - Glory Hole 🟥
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [7]</th> <th>Time [15s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [7]</th> <th>Time [15s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 59 - Glory Hole">Size</a></td>
@@ -1480,7 +1480,7 @@ With Gliches
 ### 🟥 Year 60 - Understaffed Sorting 🟥
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [12]</th> <th>Time [200s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [12]</th> <th>Time [200s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 60 - Understaffed Sorting">Size</a></td>
@@ -1505,7 +1505,7 @@ With Gliches
 ### 🟥 Year 61 - Lazy Pathways 🟥
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [11]</th> <th>Time [250s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [11]</th> <th>Time [250s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 61 - Lazy Pathways">Size</a></td>
@@ -1536,7 +1536,7 @@ With Gliches
 ### 🟥 Year 62 - The Sorting Floor 🟥
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [48]</th> <th>Time [174s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [48]</th> <th>Time [174s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 62 - The Sorting Floor">Size</a></td>
@@ -1567,7 +1567,7 @@ With Gliches
 ### 🟥 Year 63 - Defrag Disordered 🟥
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [28]</th> <th>Time [95s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [28]</th> <th>Time [95s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 63 - Defrag Disordered">Size</a></td>
@@ -1601,7 +1601,7 @@ With Gliches
 ### 🟥 Year 64 - Binary Counter 🟥
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [17]</th> <th>Time [54s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [17]</th> <th>Time [54s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 64 - Binary Counter">Size</a></td>
@@ -1626,7 +1626,7 @@ With Gliches
 ### 🟥 Year 65 - Defrag Ordered 🟥
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [25]</th> <th>Time [500s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [25]</th> <th>Time [500s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 65 - Defrag Ordered">Size</a></td>
@@ -1651,7 +1651,7 @@ With Gliches
 ### 🟥 Year 66 - Decimal Counter 🟥
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [23]</th> <th>Time [120s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [23]</th> <th>Time [120s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 66 - Decimal Counter">Size</a></td>
@@ -1676,7 +1676,7 @@ With Gliches
 ### 🟥 Year 67 - Decimal Doubler 🟥
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [25]</th> <th>Time [250s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [25]</th> <th>Time [250s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 67 - Decimal Doubler">Size</a></td>
@@ -1701,7 +1701,7 @@ With Gliches
 ### 🟥 Year 68 - Goodbye Humans 🟥
 <table>
   <tr>
-    <th></th> <th>Autor(s)</th> <th>Size [9]</th> <th>Time [50s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [9]</th> <th>Time [50s]</th>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 68 - Goodbye Humans">Size</a></td>
@@ -1735,7 +1735,7 @@ With Gliches
 
 <table>
   <tr>
-    <th>Autor</th> <th>Solutions</th>
+    <th>Author</th> <th>Solutions</th>
   </tr>
   <tr>
       <td>n05ucc4u</td>
