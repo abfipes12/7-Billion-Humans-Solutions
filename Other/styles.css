@@ -1,10 +1,11 @@
 body {
-    max-width: 750px;
+    width: 85%;
+    max-width: 950px;
     margin-right: auto;
     margin-left: auto;
 
     font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 
     color: rgb(209, 205, 199);
     background-color: rgb(24, 26, 27);
@@ -13,6 +14,7 @@ body {
 h1 {
     font-size: 3rem;
     font-weight: 400;
+    text-align: center;
 }
 
 h2 {
@@ -22,22 +24,19 @@ h2 {
 table {
     border-collapse: collapse;
     width: 100%;
-    font-family: Arial, sans-serif;
+}
+
+tr:hover {
+    background-color: rgb(0, 0, 0);
 }
 
 th,
 td {
     border-top: 1px solid #555555;
     padding: 8px;
-    text-align: center;
 }
 
-td:nth-child(-n + 1) {
-    text-align: left;
-}
-
-
-.options{
+.options {
     display: flex;
     justify-content: space-between;
     width: 90%;
@@ -47,14 +46,14 @@ td:nth-child(-n + 1) {
     border-radius: 30px;
 }
 
-.options > div {
+.options>div {
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
     gap: 10px;
 }
 
-.options label{
+.options label {
     background-color: black;
     color: white;
     border: 1px solid;
@@ -64,34 +63,12 @@ td:nth-child(-n + 1) {
     cursor: pointer;
 }
 
-.options input{
+.options input {
     display: none;
 }
 
-.options input:checked + label{
+.options input:checked+label {
     font-weight: bolder;
     background-color: white;
     color: black;
 }
-
-/* th,
-td {
-    border: 1px solid #ddd;
-    padding: 8px;
-}
-
-th {
-    background-color: #f2f2f2;
-    text-align: left;
-}
-
-tr:nth-child(-n + 1) {
-    background-color: #f9f9f9;
-}
-
-tr:hover {
-    background-color: #eaf6ff;
-} */
-
-
-
