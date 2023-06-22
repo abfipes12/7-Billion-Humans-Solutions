@@ -22,8 +22,7 @@ function main(raw_readme) {
     let bests_db = generate_bests(sol_db, cond);
 
     let main_table = document.getElementById("main-table");
-    for (let id in bests_db)
-    {
+    for (let id in bests_db) {
         let tr = new Tr_Data();
 
         tr.id = id;
@@ -79,6 +78,7 @@ function year_parser(raw_year) {
 
     const year_re = /(?<=Year ).*(?= -)/;
     year_data.id = raw_year.match(year_re)[0];
+    year_data.id = parseInt(year_data.id);
 
     const name_re = /(?<=- )[\w|\s|,]+(?= )/;
     year_data.name = raw_year.match(name_re)[0];
@@ -272,7 +272,10 @@ function create_tr(tr_data) {
     speed.appendChild(speed_txt);
 
     const speed_size = document.createElement("td");
-    const speed_size_txt = document.createTextNode(tr_data.sps[0]);
+    let text_to_append;
+    if (tr_data.sps[0]) { text_to_append = "✔️" }
+    else { text_to_append = "❌" }
+    const speed_size_txt = document.createTextNode(text_to_append);
     speed_size.appendChild(speed_size_txt);
 
     tr.appendChild(year);

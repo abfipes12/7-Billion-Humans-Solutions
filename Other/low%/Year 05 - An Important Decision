@@ -1,0 +1,13 @@
+-- 7 Billion Humans (2235) --
+-- 5: An Important Decision by @H-J-Granger and @abfipes12 --
+-- failed 88 out of 100 => 12% successful --
+-- size: 4 ; speed: 21-22s ; WithGliches --
+
+a:
+if n == hole and
+ w == hole or
+ ne == nothing:
+	step e
+endif
+step w,e
+jump a

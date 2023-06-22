@@ -1,0 +1,13 @@
+-- 7 Billion Humans (2235) --
+-- 6: Little Exterminator 1 by @H-J-Granger --
+-- successful => 25% --
+-- size: 7 ; speed: 6s ; WithGliches --
+
+a:
+step w,e
+step se
+step sw
+pickup s,se
+step sw
+step se
+jump a

@@ -502,9 +502,9 @@ With Gliches
 <table>
   <tr>
     <td>✍🏻<a href="WithGliches/Size/Year 21 - Big Data">Size</a></td>
-    <td>commonnickname</td>
+    <td>commonnickname<br>H-J-Granger</td>
     <td width=90>5</td>
-    <td width=90>31-40s</td>
+    <td width=90>21-26s</td>
   </tr>
 </table>
 
