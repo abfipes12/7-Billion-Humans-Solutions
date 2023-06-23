@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2235) --
 -- 38: Seek and Destroy 3 by @main-gi and Faptech [https://steamcommunity.com/id/faptech] --
--- Solution by main_gi, base code/idea stolen from https://steamcommunity.com/app/792100/discussions/0/1733210552680057970/ --
 -- failed 24 out of 100 => 76% successful --
+-- Solution by main_gi, base code/idea stolen from https://steamcommunity.com/app/792100/discussions/0/1733210552680057970/ --
 
 a:
 if s != wall or

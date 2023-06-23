@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2235) --
 -- 32: Creative Writhing by @main-gi and @abfipes12 --
 -- failed 19 out of 150 => 87% successful --
--- This game really sucks for having puzzles like these :p --
+-- main-gi: This game really sucks for having puzzles like these :p --
 
 a:
 step nw,w,s,ne,se

@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2235) --
 -- 30: Fill the Floor by @abfipes12 and @martinez8859 --
 -- failed 10 out of 25 => 60% successful --
--- I don't know why but my rng is broken, I always get the same results even after restarting the game --
+-- abfipes12: I don't know why but my rng is broken, I always get the same results even after restarting the game --
 
 a:
 step nw,w,sw,s,ne,e,se

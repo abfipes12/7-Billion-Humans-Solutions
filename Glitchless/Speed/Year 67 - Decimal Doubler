@@ -1,6 +1,6 @@
 -- 7 Billion Humans (2235) --
--- Code from commonnickname; I've been tasked to compress the size. Original: 224, Now: 196; Diff: 28 --
 -- 67: Decimal Doubler by @commonnickname and @main-gi --
+-- main-gi: Code from commonnickname; I've been tasked to compress the size. Original: 224, Now: 196; Diff: 28 --
 
 step s
 if c != datacube:
