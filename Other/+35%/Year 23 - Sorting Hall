@@ -1,6 +1,8 @@
 -- 7 Billion Humans (2235) --
 -- 23: Sorting Hall by @n05ucc4u --
+-- failed ? out of ? => ?% successful --
 -- n05ucc4u got 14s with it so its 14-15s --
+-- size: 23 ; speed: 14-15s --
 
 pickup s
 if myitem > 49:

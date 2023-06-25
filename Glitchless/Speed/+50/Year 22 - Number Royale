@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2235) --
 -- 22: Number Royale by @eiTTio and @abfipes12 --
+-- calculated expected => 55.3% ; failed 41 out of 100 => 59% successful --
 -- abfipes12: see Other/Number_Royale.cpp --
--- 55.3% successful --
 
 if s < 85 or
  sw > s or

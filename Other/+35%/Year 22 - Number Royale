@@ -2,6 +2,7 @@
 -- 22: Number Royale by nezhi [https://steamcommunity.com/profiles/76561198013091047] --
 -- and @abfipes12 --
 -- successful => 43.12% --
+-- Size: 4 ; speed: 1s --
 
 if s < 89 or
  sw > s or

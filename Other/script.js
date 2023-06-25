@@ -34,7 +34,9 @@ function main(raw_readme) {
         tr.best_speed = bests_db[id].speed;
         tr.sps = bests_db[id].sps;
 
-        main_table.appendChild(create_tr(tr));
+        let tr_ele = create_tr(tr);
+        tr_ele.onclick = () => {on_year_click(tr_ele, sol_db[id])};
+        main_table.appendChild(tr_ele);
     }
 }
 
@@ -46,10 +48,10 @@ function to_raw_years(raw_readme) {
 
 function build_db(raw_readme) {
     let db = {
-        "01": { "coffee": true, name: "You're Hired!", id: "01" },
-        "08": { "coffee": true, name: "Intro to Moral Officers", id: "08" },
-        "27": { "coffee": true, name: "Fitness Program", id: "27" },
-        "45": { "coffee": true, name: "Morning Petroleum", id: "45" },
+        1: { "coffee": true, name: "You're Hired!", id: 1 },
+        8: { "coffee": true, name: "Intro to Moral Officers", id: 9 },
+        7: { "coffee": true, name: "Fitness Program", id: 27 },
+        45: { "coffee": true, name: "Morning Petroleum", id: 45 },
     };
 
     let raw_years = to_raw_years(raw_readme);
@@ -96,7 +98,7 @@ function year_parser(raw_year) {
 
 
     for (let sol_row of raw_rows) {
-        year_data.solutions.push(parse_sol_rows(sol_row));
+        year_data.solutions.push(parse_sol_rows(sol_row, year_data.ch_size, year_data.ch_speed));
     }
 
     return year_data;
@@ -110,13 +112,14 @@ function Sol_data() {
     this.speed = [];
     this.glitches;
     this.s_rate;
+    this.sps;
 
     this.link;
 }
 
 //najbardziej efektywna programista
 
-function parse_sol_rows(sol_row) {
+function parse_sol_rows(sol_row, ch_size, ch_speed) {
     let sol_data = new Sol_data();
 
     sol_row = sol_row.trim();
@@ -143,6 +146,8 @@ function parse_sol_rows(sol_row) {
     else {
         sol_data.s_rate = 99;
     }
+
+    sol_data.sps = (sol_data.size <= ch_size && Math.min(...sol_data.speed) <= ch_speed);
 
     const link_beg = 'https://raw.githubusercontent.com/abfipes12/7-Billion-Humans-Solutions/main/';
     const link_re = /(?<=href=\").+(?=\")/;
@@ -224,10 +229,9 @@ function is_sps(year, sol_conditions) {
         if (!is_sol_passes(sol, sol_conditions))
             continue;
 
-        if (sol.size > year.ch_size)
+        if (sol.sps)
             continue;
-        if (Math.min(...sol.speed) > year.ch_speed)
-            continue;
+        
         if (sol.glitches) {
             sps = [true, true];
         }
@@ -284,5 +288,61 @@ function create_tr(tr_data) {
     tr.appendChild(speed);
     tr.appendChild(speed_size);
 
+    return tr;
+}
+
+function on_year_click(year_tr, year_data)
+{
+    // console.log(create_onclick_solutions(year_data));
+
+
+    year_tr.parentNode.insertBefore(create_onclick_solutions(year_data)[0], year_tr.nextSibling);
+}
+
+function create_onclick_solutions(year_data)
+{
+    let to_return = [];
+
+    for (let sol of year_data.solutions)
+    {
+        to_return.push(create_sol_tr(sol));
+    }
+
+    return to_return;
+}
+
+function create_sol_tr(sol)
+{
+    const tr = document.createElement("tr");
+
+    const authors = document.createElement("td");
+    let some_text = sol.category + ' by ';
+    for (let author of sol.authors){
+        some_text += author + ' ';
+    }
+    const year_txt = document.createTextNode(some_text);
+    authors.appendChild(year_txt);
+    authors.colSpan = "2";
+    
+    const size = document.createElement("td");
+    const size_txt = document.createTextNode(sol.size);
+    size.appendChild(size_txt);
+    
+    const speed = document.createElement("td");
+    const speed_txt = document.createTextNode(sol.speed);
+    speed.appendChild(speed_txt);
+    
+    const speed_size = document.createElement("td");
+    let text_to_append;
+    if (sol.sps) { text_to_append = "✔️" }
+    else { text_to_append = "❌" }
+    const speed_size_txt = document.createTextNode(text_to_append);
+    speed_size.appendChild(speed_size_txt);
+
+    tr.appendChild(authors);
+    tr.appendChild(size);
+    tr.appendChild(speed);
+    tr.appendChild(speed_size);
+    
     return tr;
 }

@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2235) --
 -- 21: Big Data by yifeixuer [https://steamcommunity.com/profiles/76561198831890282], --
 -- @commonnickname and @abfipes12 --
--- 68.31% successful --
+-- calculated expected => 68.31% ; failed 29 out of 100 => 71% successful --
 
 step s
 takefrom s
