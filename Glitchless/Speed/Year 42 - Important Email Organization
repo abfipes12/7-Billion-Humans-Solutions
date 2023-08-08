@@ -1,5 +1,6 @@
 -- 7 Billion Humans (2235) --
 -- 42: Important Email Organization by @abfipes12 --
+-- failed 0 out of 400 => 100% successful --
 
 mem2 = nearest datacube
 pickup mem2
@@ -111,6 +112,7 @@ mem1 = nearest shredder
 giveto mem1
 e:
 mem1 = nearest datacube
+step n
 mem2 = nearest datacube
 if mem1 == mem2:
 	step n
@@ -124,11 +126,7 @@ if mem1 == mem2:
 			if mem1 == mem2:
 				step n
 				mem2 = nearest datacube
-				if mem1 == mem2:
-					step n
-					mem2 = nearest datacube
-					jump f
-				endif
+				jump f
 			endif
 		endif
 	endif
@@ -180,33 +178,26 @@ if mem1 == mem2:
 		endif
 		mem2 = nearest datacube
 		if mem1 == mem2:
-			step n
-			end
+			jump h
 		endif
 	endif
 endif
 g:
-h:
-step mem2
+mem1 = set mem2
 i:
-mem1 = nearest datacube
-if mem1 == mem2:
-	mem1 = nearest worker
-	if mem1 == mem2:
-		step n
-		jump j
-	endif
-	pickup mem2
-else:
-	j:
-	mem2 = nearest datacube
-	if mem2 > 9:
-		jump h
-	endif
-	step mem2
-	if s != shredder:
-		jump i
-	endif
-	jump e
+pickup mem1
+if myitem == datacube:
+	jump a
 endif
-jump a
+mem2 = nearest datacube
+h:
+mem1 = set mem2
+if mem1 > 9:
+	j:
+	jump i
+endif
+step mem1
+if s != shredder:
+	jump j
+endif
+jump e

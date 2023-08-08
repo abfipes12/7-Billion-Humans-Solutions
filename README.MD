@@ -1048,8 +1048,8 @@ With Gliches
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 42 - Important Email Organization">Speed</a></td>
     <td>abfipes12</td>
-    <td>153</td>
-    <td>72-75s</td>
+    <td>145</td>
+    <td>72-74s</td>
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 42 - Important Email Organization">Swcs</a></td>
