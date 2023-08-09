@@ -1,254 +1,394 @@
 -- 7 Billion Humans (2199) --
 -- 52: The Mode Code by @commonnickname --
 
-pickup s
-mem1 = nearest wall
 step n
+mem1 = nearest wall
+step w
 mem2 = nearest wall
-if mem1 == mem2:
-	step n
-	mem2 = nearest wall
-	if mem1 == mem2:
-		step s
-		if nw == worker:
-			write 2
+if mem1 != mem2:
+	step w
+	mem1 = nearest wall
+	if mem1 != mem2:
+		step w
+		mem2 = nearest wall
+		if mem1 != mem2:
 			step w
-			step w
-			step nw
+			mem1 = nearest wall
+			if mem1 != mem2:
+				step w
+				mem2 = nearest wall
+				if mem1 != mem2:
+					step w
+					mem2 = set 0
+				else:
+					mem2 = set 1
+				endif
+			else:
+				mem2 = set 2
+			endif
 		else:
-			write 3
-			step ne
-			jump a
+			mem2 = set 3
 		endif
 	else:
-		if se == worker:
-			write 1
-			step w
-			step w
+		mem2 = set 4
+	endif
+else:
+	mem2 = set 5
+endif
+step n
+a:
+mem1 = nearest datacube
+step e
+if mem1 != mem2:
+	mem1 = nearest datacube
+	step e
+	if mem1 != mem2:
+		mem1 = nearest datacube
+		step e
+		if mem1 != mem2:
+			b:
+			mem1 = nearest datacube
+			if mem1 != mem2:
+				jump c
+			else:
+				mem1 = nearest hole
+			endif
 		else:
-			write 4
-			a:
-			step ne
-			step ne
-			step ne
-			jump b
+			jump d
+		endif
+	else:
+		jump e
+	endif
+else:
+	mem1 = nearest datacube
+	step e
+	if mem1 != mem2:
+		e:
+		mem1 = nearest datacube
+		step e
+		f:
+		if mem1 != mem2:
+			d:
+			g:
+			mem1 = nearest datacube
+			if mem1 != mem2:
+				mem1 = nearest hole
+			else:
+				mem1 = nearest wall
+			endif
+		else:
+			jump h
+		endif
+	else:
+		mem1 = nearest datacube
+		step e
+		i:
+		if mem1 != mem2:
+			h:
+			mem1 = nearest datacube
+			if mem1 != mem2:
+				mem1 = nearest wall
+			else:
+				mem1 = nearest worker
+			endif
+		else:
+			mem1 = nearest datacube
+			if mem1 != mem2:
+				mem1 = nearest worker
+			endif
+		endif
+	endif
+endif
+if mem3 <= 4 or
+ mem1 == worker and
+ mem3 <= 5 or
+ mem1 == wall and
+ mem3 <= 6 or
+ mem1 == hole and
+ mem3 <= 7:
+	if mem3 <= 0 or
+	 mem1 == worker and
+	 mem3 <= 1 or
+	 mem1 == wall and
+	 mem3 <= 2 or
+	 mem1 == hole and
+	 mem3 <= 3:
+		if mem1 == wall and
+		 mem3 <= 0 or
+		 mem1 == hole and
+		 mem3 <= 1:
+			if mem1 == hole and
+			 mem3 <= 0:
+				mem3 = set 1
+			else:
+				mem3 = set 2
+			endif
+		else:
+			if mem1 == worker and
+			 mem3 <= 0 or
+			 mem1 == wall and
+			 mem3 <= 1 or
+			 mem1 == hole and
+			 mem3 <= 2:
+				mem3 = set 3
+			else:
+				mem3 = set 4
+			endif
+		endif
+	else:
+		if mem3 <= 2 or
+		 mem1 == worker and
+		 mem3 <= 3 or
+		 mem1 == wall and
+		 mem3 <= 4 or
+		 mem1 == hole and
+		 mem3 <= 5:
+			if mem3 <= 1 or
+			 mem1 == worker and
+			 mem3 <= 2 or
+			 mem1 == wall and
+			 mem3 <= 3 or
+			 mem1 == hole and
+			 mem3 <= 4:
+				mem3 = set 5
+			else:
+				mem3 = set 6
+			endif
+		else:
+			if mem3 <= 3 or
+			 mem1 == worker and
+			 mem3 <= 4 or
+			 mem1 == wall and
+			 mem3 <= 5 or
+			 mem1 == hole and
+			 mem3 <= 6:
+				mem3 = set 7
+			else:
+				mem3 = set 8
+			endif
 		endif
 	endif
 else:
-	step n
-	if e == worker:
-		step w
-	else:
-		write 5
-		step ne
-		step ne
-		step n
-		b:
-		step n
-		step n
-		step n
-		step nw
-	endif
-endif
-mem2 = set 0
-c:
-mem1 = nearest datacube
-if mem1 == myitem:
-	if mem2 < 16:
-		if mem2 < 8:
-			if mem2 < 4:
-				if mem2 < 2:
-					if mem2 < 1:
-						mem2 = set 1
-					else:
-						mem2 = set 2
-					endif
-				else:
-					if mem2 < 3:
-						mem2 = set 3
-					else:
-						mem2 = set 4
-					endif
-				endif
+	if mem3 <= 8 or
+	 mem1 == worker and
+	 mem3 <= 9 or
+	 mem1 == wall and
+	 mem3 <= 10 or
+	 mem1 == hole and
+	 mem3 <= 11:
+		if mem3 <= 6 or
+		 mem1 == worker and
+		 mem3 <= 7 or
+		 mem1 == wall and
+		 mem3 <= 8 or
+		 mem1 == hole and
+		 mem3 <= 9:
+			if mem3 <= 5 or
+			 mem1 == worker and
+			 mem3 <= 6 or
+			 mem1 == wall and
+			 mem3 <= 7 or
+			 mem1 == hole and
+			 mem3 <= 8:
+				mem3 = set 9
 			else:
-				if mem2 < 6:
-					if mem2 < 5:
-						mem2 = set 5
-					else:
-						mem2 = set 6
-					endif
-				else:
-					if mem2 < 7:
-						mem2 = set 7
-					else:
-						mem2 = set 8
-					endif
-				endif
+				mem3 = set 10
 			endif
 		else:
-			if mem2 < 12:
-				if mem2 < 10:
-					if mem2 < 9:
-						mem2 = set 9
-					else:
-						mem2 = set 10
-					endif
-				else:
-					if mem2 < 11:
-						mem2 = set 11
-					else:
-						mem2 = set 12
-					endif
-				endif
+			if mem3 <= 7 or
+			 mem1 == worker and
+			 mem3 <= 8 or
+			 mem1 == wall and
+			 mem3 <= 9 or
+			 mem1 == hole and
+			 mem3 <= 10:
+				mem3 = set 11
 			else:
-				if mem2 < 14:
-					if mem2 < 13:
-						mem2 = set 13
-					else:
-						mem2 = set 14
-					endif
-				else:
-					if mem2 < 15:
-						mem2 = set 15
-					else:
-						mem2 = set 16
-					endif
-				endif
+				mem3 = set 12
 			endif
 		endif
 	else:
-		mem2 = calc mem2 + 1
-	endif
-endif
-if mem3 < 15:
-	if mem3 == 7:
-		if myitem < 3:
-			step n
-		else:
-			step s
-		endif
-	else:
-		if myitem < 3:
-			if mem3 < 7:
-				step e
-			else:
-				step w
-			endif
-		else:
-			if mem3 < 7:
-				step w
-			else:
-				step e
-			endif
-		endif
-	endif
-	if mem3 < 8:
-		if mem3 < 4:
-			if mem3 < 2:
-				if mem3 < 1:
-					mem3 = set 1
-				else:
-					mem3 = set 2
-				endif
-			else:
-				if mem3 < 3:
-					mem3 = set 3
-				else:
-					mem3 = set 4
-				endif
-			endif
-		else:
-			if mem3 < 6:
-				if mem3 < 5:
-					mem3 = set 5
-				else:
-					mem3 = set 6
-				endif
-			else:
-				if mem3 < 7:
-					mem3 = set 7
-				else:
-					mem3 = set 8
-				endif
-			endif
-		endif
-	else:
-		if mem3 < 12:
-			if mem3 < 10:
-				if mem3 < 9:
-					mem3 = set 9
-				else:
-					mem3 = set 10
-				endif
-			else:
-				if mem3 < 11:
-					mem3 = set 11
-				else:
-					mem3 = set 12
-				endif
-			endif
-		else:
-			if mem3 < 14:
-				if mem3 < 13:
+		if mem3 <= 12 or
+		 mem1 == worker and
+		 mem3 <= 13 or
+		 mem1 == wall and
+		 mem3 <= 14 or
+		 mem1 == hole and
+		 mem3 <= 15:
+			if mem3 <= 10 or
+			 mem1 == worker and
+			 mem3 <= 11 or
+			 mem1 == wall and
+			 mem3 <= 12 or
+			 mem1 == hole and
+			 mem3 <= 13:
+				if mem3 <= 9 or
+				 mem1 == worker and
+				 mem3 <= 10 or
+				 mem1 == wall and
+				 mem3 <= 11 or
+				 mem1 == hole and
+				 mem3 <= 12:
 					mem3 = set 13
 				else:
 					mem3 = set 14
 				endif
 			else:
-				mem3 = set 15
+				if mem3 <= 11 or
+				 mem1 == worker and
+				 mem3 <= 12 or
+				 mem1 == wall and
+				 mem3 <= 13 or
+				 mem1 == hole and
+				 mem3 <= 14:
+					mem3 = set 15
+				else:
+					mem3 = set 16
+				endif
+			endif
+		else:
+			if mem3 <= 13 or
+			 mem1 == worker and
+			 mem3 <= 14 or
+			 mem1 == wall and
+			 mem3 <= 15 or
+			 mem1 == hole and
+			 mem3 <= 16:
+				mem3 = set 17
+			else:
+				if mem3 <= 14 or
+				 mem1 == worker and
+				 mem3 <= 15 or
+				 mem1 == wall and
+				 mem3 <= 16 or
+				 mem1 == hole and
+				 mem3 <= 17:
+					mem3 = set 18
+				else:
+					if mem3 <= 15 or
+					 mem1 == worker and
+					 mem3 <= 16 or
+					 mem1 == wall and
+					 mem3 <= 17 or
+					 mem1 == hole and
+					 mem3 <= 18:
+						mem3 = set 19
+					else:
+						if mem3 <= 16 or
+						 mem1 == worker and
+						 mem3 <= 17 or
+						 mem1 == wall and
+						 mem3 <= 18 or
+						 mem1 == hole and
+						 mem3 <= 19:
+							mem3 = set 20
+						else:
+							if mem1 == hole or
+							 mem1 == wall:
+								if mem1 == hole:
+									mem1 = set 1
+								else:
+									mem1 = set 2
+								endif
+							else:
+								if mem1 == worker:
+									mem1 = set 3
+								else:
+									mem1 = set 4
+								endif
+							endif
+							mem3 = calc mem3 + mem1
+						endif
+					endif
+				endif
 			endif
 		endif
 	endif
-else:
-	mem3 = set 0
-	if mem4 < 2:
-		if mem4 < 1:
-			mem4 = set 1
-		else:
-			mem4 = set 2
-		endif
+endif
+c:
+if mem4 == 0 or
+ mem4 == datacube or
+ mem4 == hole:
+	if mem4 == 0 or
+	 mem4 == datacube:
+		step e
+		mem4 = nearest wall
 	else:
-		if mem4 < 3:
-			mem4 = set 3
-		else:
-			jump d
-		endif
-	endif
-	if myitem < 3:
 		step n
-	else:
-		step s
+		mem4 = nearest datacube
 	endif
-endif
-jump c
-d:
-if myitem < 3:
-	step sw
-	step s
-	step s
-	step s
-	step s
-	step s
-	if myitem != 2:
-		step s
-		if myitem != 1:
-			step s
-		endif
-	endif
-	step se
-	step se
-	step se
-	step se
+	jump a
 else:
-	step sw
-	if myitem != 5:
-		step sw
-		if myitem != 4:
-			step sw
+	if mem4 == wall or
+	 mem4 == worker:
+		if mem4 == wall:
+			step n
+			mem4 = nearest worker
+		else:
+			mem1 = nearest hole
+			step w
+			mem4 = nearest hole
+			if mem1 == mem4:
+				mem4 = set nothing
+			endif
+		endif
+		mem1 = nearest datacube
+		step w
+		if mem1 != mem2:
+			mem1 = nearest datacube
+			step w
+			if mem1 != mem2:
+				mem1 = nearest datacube
+				step w
+				if mem1 != mem2:
+					jump b
+				else:
+					jump g
+				endif
+			else:
+				jump j
+			endif
+		else:
+			mem1 = nearest datacube
+			step w
+			if mem1 != mem2:
+				j:
+				mem1 = nearest datacube
+				step w
+				jump f
+			else:
+				mem1 = nearest datacube
+				step w
+				jump i
+			endif
 		endif
 	endif
-	step s
-	step s
 endif
-write mem2
+step sw
+step s
+step s
+step s
+step s
+step s
+step s
+step s
+step se
+step se
+if mem2 >= 1:
+	step e
+	if mem2 >= 2:
+		step e
+		if mem2 >= 3:
+			step e
+			if mem2 >= 4:
+				step e
+				if mem2 >= 5:
+					step e
+				endif
+			endif
+		endif
+	endif
+endif
+pickup c
+write mem3
 drop

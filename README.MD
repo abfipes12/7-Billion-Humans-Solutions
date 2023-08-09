@@ -1273,8 +1273,8 @@ With Gliches
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 52 - The Mode Code">Speed</a></td>
     <td>commonnickname</td>
-    <td>196</td>
-    <td>43-44s</td>
+    <td>213</td>
+    <td>33s</td>
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 52 - The Mode Code">Swcs</a></td>
