@@ -1,0 +1,11 @@
+-- 7 Billion Humans (2235) --
+-- 44: Unique Fashion Party by @abfipes12 --
+-- failed 40 out of 50 => 10% successful, 2/49 == 4% expected --
+-- expected success rate of 3i solution would be (7!)/(7^7) == 720/117649 == 0.61%
+
+pickup s
+if w != wall:
+	a:
+	step s,e,se
+	jump a
+endif

@@ -1,0 +1,16 @@
+-- 7 Billion Humans (2235) --
+-- 44: Unique Fashion Party by @abfipes12 --
+
+if w == wall:
+	pickup s
+	end
+endif
+if nw >= 0 and
+ n != datacube:
+	pickup s
+endif
+if nw >= 0 and
+ n != datacube:
+	pickup s
+endif
+mem1 = calc 0 / 0

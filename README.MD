@@ -1105,10 +1105,16 @@ With Gliches
     <th></th> <th>Author(s)</th> <th>Size [11]</th> <th>Time [75s]</th>
   </tr>
   <tr>
-    <td>🥇<a href="Glitchless/Canonical/Year 44 - Unique Fashion Party">Both</a></td>
+    <td>🥇<a href="Glitchless/Size/Year 44 - Unique Fashion Party">Size</a></td>
     <td>dmr</td>
     <td>5</td>
     <td>10s</td>
+  </tr>
+  <tr>
+    <td>🥇<a href="Glitchless/Speed/Year 44 - Unique Fashion Party">Speed</a></td>
+    <td>abfipes12</td>
+    <td>8</td>
+    <td>2s</td>
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/+50/Year 44 - Unique Fashion Party">Speed +50%🍀</a></td>
