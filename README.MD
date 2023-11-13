@@ -1764,12 +1764,12 @@ With Gliches
       <td>20</td>
   </tr>
   <tr>
-      <td>main-gi</td>
+      <td>landfillbaby</td>
       <td>8</td>
   </tr>
   <tr>
-      <td>landfillbaby</td>
-      <td>7</td>
+      <td>main-gi</td>
+      <td>8</td>
   </tr>
   <tr>
       <td>AlexMBrennan</td>
@@ -1813,10 +1813,6 @@ With Gliches
   </tr>
   <tr>
       <td>837951602</td>
-      <td>1</td>
-  </tr>
-  <tr>
-      <td>ansvonwa</td>
       <td>1</td>
   </tr>
   <tr>
