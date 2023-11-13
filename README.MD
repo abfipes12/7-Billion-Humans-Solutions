@@ -463,7 +463,7 @@ With Gliches
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 20 - Reverse Line">Speed</a></td>
     <td>landfillbaby</td>
-    <td>39</td>
+    <td>38</td>
     <td>4s</td>
   </tr>
 </table>
