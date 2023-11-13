@@ -1,5 +1,5 @@
 -- 7 Billion Humans (2235) --
--- 20: Reverse Line by @ansvonwa and @landfillbaby --
+-- 20: Reverse Line by @landfillbaby --
 
 if w == nothing or
  e == nothing:
@@ -10,50 +10,46 @@ if w == nothing or
 		step w
 		a:
 		step w
-		step w
-		step w
 		step sw
-		jump b
-	endif
-	step e
-	step e
-	step e
-	c:
-	step e
-	step e
-	step e
-	step se
-	jump d
-endif
-step s
-pickup c
-if w == nothing or
- e == nothing:
-	if ne == nothing:
+		b:
 		step nw
-		jump a
-	endif
-	step ne
-	jump c
-endif
-if n == worker:
-	if nw == worker:
-		step w
 		step sw
-		jump e
+	else:
+		step e
+		step e
+		step e
+		c:
+		step e
+		step se
+		d:
+		step ne
+		step se
 	endif
-	step e
-	step se
-	jump f
-endif
-step s
-if w == worker:
-	e:
-	step nw
 else:
-	f:
-	step ne
+	step s
+	pickup c
+	if w == nothing or
+	 e == nothing:
+		if ne == nothing:
+			step nw
+			jump a
+		endif
+		step ne
+		jump c
+	endif
+	if n == worker:
+		if nw == worker:
+			step w
+			jump b
+		endif
+		step e
+		jump d
+	endif
+	step s
+	if w == worker:
+		step nw
+	else:
+		step ne
+	endif
 endif
-b:
-d:
 drop

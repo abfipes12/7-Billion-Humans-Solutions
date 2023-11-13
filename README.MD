@@ -462,8 +462,8 @@ With Gliches
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 20 - Reverse Line">Speed</a></td>
-    <td>ansvonwa</td>
-    <td>41</td>
+    <td>landfillbaby</td>
+    <td>39</td>
     <td>4s</td>
   </tr>
 </table>
@@ -1764,12 +1764,12 @@ With Gliches
       <td>20</td>
   </tr>
   <tr>
-      <td>main-gi</td>
+      <td>landfillbaby</td>
       <td>8</td>
   </tr>
   <tr>
-      <td>landfillbaby</td>
-      <td>7</td>
+      <td>main-gi</td>
+      <td>8</td>
   </tr>
   <tr>
       <td>AlexMBrennan</td>
@@ -1813,10 +1813,6 @@ With Gliches
   </tr>
   <tr>
       <td>837951602</td>
-      <td>1</td>
-  </tr>
-  <tr>
-      <td>ansvonwa</td>
       <td>1</td>
   </tr>
   <tr>
