@@ -1311,7 +1311,7 @@ With Gliches
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 53 - 100 Cubes on the Floor">Swcs</a></td>
     <td>TabAtkins</td>
     <td>14</td>
-    <td>67s</td>
+    <td>73s</td>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/+50/Year 53 - 100 Cubes on the Floor">Size +50%🍀</a></td>
