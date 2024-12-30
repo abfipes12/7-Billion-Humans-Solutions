@@ -348,6 +348,12 @@ With Gliches
 With Gliches
 <table>
   <tr>
+    <td>✍🏻<a href="WithGliches/Size/+50/Year 15 - Shred Lines">Size +50%🍀</a></td>
+    <td>abfipes12</td>
+    <td>6</td>
+    <td>~950s</td>
+  </tr>
+  <tr>
     <td>⚡<a href="WithGliches/Speed/Year 15 - Shred Lines">Speed</a></td>
     <td>n05ucc4u</td>
     <td width=80>42</td>

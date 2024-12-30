@@ -1,6 +1,6 @@
 -- 7 Billion Humans (2235) --
 -- 15: Shred Lines by @abfipes12 --
--- failed 22 out of 25 => ???% successful --
+-- failed 9 out of 25 => ???% successful --
 
 a:
 step nw,w,sw,s,ne,e,se
@@ -10,7 +10,10 @@ if n >= 0 and
  s == worker and
  nw != wall and
  se != wall:
-	pickup nw
+	if nw == datacube or
+	 s == shredder:
+		pickup nw
+	endif
 	giveto s
 endif
 jump a
