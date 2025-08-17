@@ -1,0 +1,42 @@
+-- 7 Billion Humans (2235) --
+-- 54: Terrain Leveler by @commonnickname --
+-- failed 56 out of 120 => % 53.3 successful -- 
+
+step s
+step s
+step n
+step n
+step n
+pickup n
+write 3
+drop
+step n
+pickup n
+write 3
+drop
+step n
+pickup n
+write 3
+drop
+step n
+pickup n
+write 3
+drop
+step n
+pickup n
+write 3
+drop
+step n
+pickup n
+write 3
+drop
+step n
+pickup n
+write 3
+write 2
+a:
+drop
+pickup s
+write 2
+step s
+jump a

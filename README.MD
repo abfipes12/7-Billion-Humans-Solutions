@@ -1340,15 +1340,21 @@ With Gliches
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 54 - Terrain Leveler">Speed</a></td>
-    <td>landfillbaby</td>
-    <td>92</td>
-    <td>66s</td>
+    <td>commonnickname</td>
+    <td>91</td>
+    <td>46s</td>
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 54 - Terrain Leveler">Swcs</a></td>
     <td>thrfirs</td>
     <td>26</td>
     <td>87s</td>
+  </tr>
+  <tr>
+    <td>⚡<a href="Glitchless/Speed/+50/Year 54 - Terrain Leveler">Speed +50%🍀</a></td>
+    <td>commonnickname</td>
+    <td>37</td>
+    <td>22-27s</td>
   </tr>
 </table>
 With Gliches
@@ -1649,8 +1655,8 @@ With Gliches
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 65 - Defrag Ordered">Speed</a></td>
     <td>commonnickname</td>
-    <td>127</td>
-    <td>13s</td>
+    <td>121</td>
+    <td>12s</td>
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 65 - Defrag Ordered">Swcs</a></td>
@@ -1755,7 +1761,7 @@ With Gliches
   </tr>
   <tr>
       <td>commonnickname</td>
-      <td>45</td>
+      <td>47</td>
   </tr>
   <tr>
       <td>hingston</td>
@@ -1771,7 +1777,7 @@ With Gliches
   </tr>
   <tr>
       <td>landfillbaby</td>
-      <td>8</td>
+      <td>7</td>
   </tr>
   <tr>
       <td>main-gi</td>

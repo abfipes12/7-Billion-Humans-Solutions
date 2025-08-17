@@ -1,16 +1,15 @@
--- 7 Billion Humans (2214M) --
+-- 7 Billion Humans (2235) --
 -- 65: Defrag Ordered by @commonnickname --
 
 jump a
 mem1 = foreachdir w:
 	mem2 = foreachdir e:
 		a:
+		step n
 		if mem1 == nothing:
+			pickup n
+			step ne
 			if mem2 == nothing:
-				comment 0
-				step n
-				pickup n
-				step ne
 				step ne
 				step ne
 				step n
@@ -24,67 +23,90 @@ mem1 = foreachdir w:
 				step e
 				step e
 				drop
-				step sw
-				step sw
 				step s
-				pickup se
-				step nw
-				drop
-				step sw
-				pickup w
-				step e
-				step e
-				step e
-				step ne
-				step ne
-			else:
-				comment 1
-				step n
-				pickup n
-				step n
-				step ne
-				step ne
-				step n
-				drop
-				step ne
-				pickup ne
-				step nw
-				step w
-				drop
-				step sw
-				pickup s
-				drop
-				step w
-				pickup s
-				drop
-				pickup w
-				step e
-				step e
-				step ne
-				drop
 				step s
-				step se
 				step s
 				step s
 				pickup sw
 				step n
 				step n
+				drop
+				pickup s
+				step w
+				step w
+				step w
+				step w
+				step w
+			else:
+				step n
+				step ne
+				step n
+				drop
+				step ne
+				pickup ne
+				step nw
+				step w
+				drop
+				step sw
+				pickup s
+				drop
+				step w
+				pickup s
+				drop
+				pickup w
+				step e
+				step e
+				step ne
+				drop
+				step w
+				step w
+				step w
+				step sw
+				pickup sw
 			endif
 		else:
+			step n
+			step n
+			step n
 			if mem2 != nothing:
-				comment 2
+				pickup ne
 				step n
-				step n
-				step n
-				step n
-				step n
-				pickup e
+				comment 0
+				mem1 = set myitem
 				step n
 				drop
 				step e
 				pickup se
 				drop
+				pickup e
+				step w
+				step w
+				step w
+				step w
+				step w
+				drop
+				step se
+				step s
+				pickup se
+				step ne
+				drop
+				pickup sw
+				step ne
 				step e
+				step e
+				step e
+				step e
+			else:
+				step n
+				step n
+				pickup w
+				step ne
+				comment 1
+				mem3 = foreachdir nw,w,sw,n,ne,e,se:
+				endfor
+				step e
+				drop
+				step sw
 				pickup se
 				drop
 				step se
@@ -94,43 +116,14 @@ mem1 = foreachdir w:
 				step n
 				step n
 				drop
-				pickup sw
-				step w
-				step w
-				step w
-				step w
-				step w
-				step w
-			else:
-				comment 3
-				step n
-				step n
-				step n
-				step n
-				step n
-				step n
-				pickup w
-				step ne
-				step e
-				drop
-				step w
-				pickup s
-				step w
-				step w
 				step w
 				step sw
+				pickup s
 				step w
-				step w
+				step nw
 				drop
 				pickup s
-				step e
-				drop
-				step s
-				step s
-				pickup se
-				step ne
-				drop
-				pickup se
+				step w
 				step w
 				step w
 			endif
@@ -141,16 +134,17 @@ drop
 
 
 DEFINE COMMENT 0
-eJzjYGBgaIhlSGNIYkhgKGfQaqhgUGkoYqgC4nUMRQxbGEbBKBgFwxoAAIHxB/0;
+eJztkM1KAkAUhb91WBAUFURRq36IIiIlRDSsRUS0KjMzEZE0F0JiYGUXimolLUJEJHqPCNroAwjVpqJH
+6Yz0Bm098DEz9965d+bkkXoI42FHVM3DkwvRy4ZYp4916yfIAAGGCdoomzZGxMaJ2gRZJilrvdG5otwD
+I9QYEoM0dKfR6TXDiojZNElxr32NOeW8f3kvaRbEPClmhdMyPpbw2SLLNqWTU0ixEBu2Slzcaf+o9cnC
+Yk37LR5dmUWo2y7X7FEQOYuSsH3CFsNvh+qXUL8Ufk0MW5Ykx6rJcmcZKmSocySc0hRVl+dAOJ0QsAJx
+RbOc6s4ZOS5VfUWCW/lyI4/c/BJF5cqc668X+quLPbNtL+JVvjY1uyUvW5rfUq+mZjflnVNbPrVJi2rn
+3ps8+9D7v8WP3upi75T4VPcvzeiqq3/qF971ZMU;
 
 DEFINE COMMENT 1
-eJwTZmBgaIhj8GBIYHBpSGWwY8hisGnIZ7BhKGJwaChm8ADiCCA7oyGPoaYhm6GHIZ1hWkMiwzIgXteQ
-xrCNIR+IKxk2MFQxrGMYBaNgFAw5AACQlhTq;
-
-DEFINE COMMENT 2
-eJwTZACCFAanhjQGO4YsBpuGMiCuALIrGZyA2I+hnCGCoZghqSGToaChhKGMoYKhBijeAMRTgGoXNGQw
-rGMYBaNgFAxZAACf2BD5;
-
-DEFINE COMMENT 3
-eJzjZWBgaEhmsGiIY/BjiGRIYAhhKGsIZahqyGOoYihgqGAAgQoGj4YyhiSGYqB4PsMShlEwCkbBsAEA
-H2wMDw;
+eJztkb9KQnEcxT8PYEHUFGFBtfUHwyAKIszCIcIgUETIyqxBQsP+IGpfoqLBwQeIkIgGCadeQhtqiCDX
+kpaGHqFzLz1Cowc+8DsXzj3nd28asG4C1kVCnJmHCh5qOOohZH0EbUB4dR4ibMOkGKUkLhmhomd3DHKP
+l5r1U7de6k7UJpSZJCpyjHHDOLdMcW+zYk4ZRz4O8LPPDGk342PZ/GKaIHPC0aL8IqviwAKU5a9Zomph
+saZ3OoqpO6qOCGfiRH6FuPIbzLOlHUlWbJek7ZEXZdvhwe3bxmyTkkV0H8dnWSDLqlYl7JCMHYljcnYq
+LtizK2Ii5HYWOKeoPUUeXd9QZ1M9TdZF3BqkRN6eKNizeFHHq7relHTU0p3etbKlrhZVt/9DfZ/a3/77
+Pm35HzLu+Uv/5Vt01NE/6xfXdmv3;
