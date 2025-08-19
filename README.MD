@@ -1260,8 +1260,8 @@ With Gliches
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 51 - Identify Yourselves">Speed</a></td>
     <td>commonnickname</td>
-    <td>42</td>
-    <td>3s</td>
+    <td>33</td>
+    <td>2s</td>
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 51 - Identify Yourselves">Swcs</a></td>

@@ -1,58 +1,54 @@
--- 7 Billion Humans (2145) --
+-- 7 Billion Humans (2235) --
 -- 51: Identify Yourselves by @commonnickname --
 
-if w == nothing or
- e == nothing:
-	if w == nothing:
-		step se
-		step s
-		pickup nw
-		write 1
-		step nw
-	else:
-		step sw
-		step s
-		pickup ne
-		write 10
-		step ne
-	endif
-else:
+mem1 = set w
+if mem1 == nothing:
 	pickup s
-	if s == worker or
-	 sw == worker or
-	 se == worker:
-		step s
-		if s == worker:
-			if e == worker:
-				write 2
-			else:
-				write 9
-			endif
-		else:
-			if sw == worker:
-				write 3
-			else:
-				write 8
-			endif
-		endif
-	else:
-		if sw == worker or
-		 se == worker:
-			step s
-			if e == nothing:
-				write 4
-			else:
-				write 7
-			endif
-		else:
-			if e == worker:
-				step s
-				write 5
-			else:
-				step s
-				write 6
-			endif
-		endif
-	endif
+	write 1
 endif
+if mem1 >= 0 and
+ myitem == nothing:
+	pickup s
+	write 2
+endif
+if mem1 >= 0 and
+ myitem == nothing:
+	pickup s
+	write 3
+endif
+if mem1 >= 0 and
+ myitem == nothing:
+	pickup s
+	write 4
+endif
+if mem1 >= 0 and
+ myitem == nothing:
+	pickup s
+	write 5
+endif
+if mem1 >= 0 and
+ myitem == nothing:
+	pickup s
+	write 6
+endif
+if mem1 >= 0 and
+ myitem == nothing:
+	pickup s
+	write 7
+endif
+if mem1 >= 0 and
+ myitem == nothing:
+	pickup s
+	write 8
+endif
+if mem1 >= 0 and
+ myitem == nothing:
+	pickup s
+	write 9
+endif
+if myitem == nothing:
+	pickup s
+	write 10
+endif
+step s
 drop
