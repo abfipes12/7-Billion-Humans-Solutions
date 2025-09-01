@@ -1,163 +1,229 @@
--- 7 Billion Humans (2214M) --
+-- 7 Billion Humans (2235) --
 -- 60: Understaffed Sorting by @commonnickname --
 
-jump a
-mem1 = foreachdir e:
-	a:
-	if mem1 == worker:
-		step w
-	else:
-		step e
-	endif
-	jump b
-endfor
+step w,e
+a:
+b:
 c:
 d:
 e:
-step nw
-step nw
-f:
-jump g
-mem1 = foreachdir w:
-	g:
-	if mem1 != wall:
-		step w
-		step w
-		jump f
-	endif
-endfor
-step s
-step e
-step se
-b:
-h:
-i:
-j:
-k:
-l:
-m:
-n:
-jump o
-mem1 = foreachdir e:
-	mem4 = foreachdir se:
-		mem3 = foreachdir s:
-			mem2 = foreachdir sw:
-				o:
-				if mem1 == worker or
-				 mem1 == datacube:
-					jump n
+jump f
+mem1 = foreachdir sw:
+	mem2 = foreachdir s:
+		mem3 = foreachdir se:
+			mem4 = foreachdir e:
+				f:
+				if mem3 == wall:
+					step nw
+					if mem2 == nothing:
+						step nw
+					else:
+						step w
+					endif
+					step w
+					step w
+					step w
+					step w
+					step w
+					step w
+					step w
+					step w
+					step w
+					step w
+					step w
+					step w
+					step w
+					step w
+					step w
+					step sw
+					jump d
 				endif
-				jump p
+				if mem1 == datacube and
+				 mem2 != nothing and
+				 mem2 != worker and
+				 mem3 >= 0 and
+				 mem4 != worker:
+					jump g
+				else:
+					jump e
+				endif
+				g:
+				if mem1 <= mem2 and
+				 mem2 <= mem3:
+					comment 9
+					step e
+					jump c
+				endif
+				jump h
 			endfor
 		endfor
 	endfor
 endfor
-p:
-if mem2 != datacube and
- mem2 != wall or
- mem3 != datacube:
-	jump c
-endif
-if mem4 == wall:
-	if mem2 > mem3:
-		pickup sw
-		drop
-		step sw
-		pickup e
-		drop
-		step e
-		pickup n
-		drop
-		step nw
-	endif
-	jump d
-endif
-if mem4 != datacube and
- mem4 != wall:
-	jump e
-endif
-if mem2 <= mem3 and
- mem3 <= mem4:
-	step e
-	step e
-	jump m
-endif
-if mem2 <= mem4 and
- mem4 < mem3:
+h:
+if mem1 < mem2 and
+ mem3 < mem2:
+	comment 2
 	pickup s
 	drop
+	if myitem == datacube:
+		drop
+	endif
 	step s
 	pickup e
+	if myitem == nothing:
+		pickup e
+	endif
 	drop
-	pickup n
 	step e
-	drop
-	step ne
-	jump l
+	jump i
 endif
-if mem3 < mem2 and
- mem2 <= mem4:
+if mem2 < mem1 and
+ mem2 < mem3 and
+ mem1 <= mem3:
+	comment 3
 	pickup sw
 	drop
+	if myitem == datacube:
+		drop
+	endif
 	step sw
 	pickup e
+	if myitem == nothing:
+		pickup e
+	endif
 	drop
 	step e
 	pickup n
 	drop
 	step ne
+	step e
+	jump b
+endif
+if mem3 < mem1 and
+ mem3 <= mem2 and
+ mem2 <= mem1:
+	comment 4
+	pickup sw
+	drop
+	if myitem == datacube:
+		drop
+	endif
+	pickup se
+	if myitem == nothing:
+		pickup se
+	endif
+	step sw
+	drop
+	step e
+	step e
+	jump j
+endif
+if mem2 < mem3 and
+ mem3 < mem1:
+	comment 5
+	pickup sw
+	drop
+	if myitem == datacube:
+		drop
+	endif
+	step sw
+	pickup e
+	if myitem == nothing:
+		pickup e
+	endif
+	drop
+	step e
+	pickup e
+	if myitem == nothing:
+		pickup e
+	endif
+	drop
 	step e
 	jump k
 endif
-if mem4 < mem3 and
- mem3 <= mem2:
-	jump q
-endif
-if mem4 <= mem3 and
- mem3 < mem2:
-	q:
-	pickup sw
-	drop
-	pickup se
-	step sw
-	drop
-	step e
-	step e
-	pickup nw
-	drop
-	step ne
-	jump j
-endif
-if mem3 < mem4 and
- mem4 < mem2:
-	pickup sw
-	drop
-	step sw
-	pickup e
-	drop
-	step e
-	pickup e
-	drop
-	step e
-	pickup nw
-	drop
-	step ne
-	jump i
-endif
-if mem4 < mem2 and
- mem2 < mem3:
+if mem1 < mem2 and
+ mem3 < mem1:
+	comment 6
 	pickup s
 	drop
+	pickup sw
 	step s
-	pickup w
 	drop
+	l:
 	pickup e
+	if myitem == nothing:
+		jump l
+	endif
 	step w
 	drop
 	step e
 	step e
-	pickup nw
-	drop
-	step ne
-	jump h
+	jump m
 endif
+mem1 = foreachdir nw:
+	mem2 = foreachdir e:
+		i:
+		j:
+		k:
+		m:
+		if mem2 >= mem1 or
+		 mem2 == wall:
+			pickup nw
+		else:
+			n:
+			jump o
+			mem2 = foreachdir e:
+				o:
+				if mem2 != datacube:
+					jump n
+				endif
+			endfor
+			pickup e
+			drop
+			pickup nw
+			step e
+		endif
+		drop
+		step ne
+		jump a
+	endfor
+endfor
+
+
+DEFINE COMMENT 2
+eJztjkFLAmEYhJ9fIiISnqRDRwkRiT3USqWgrWchRVss0mrLSaFDhw4SER08eNhDv9LZ/RniwPDNO7wz
+3xtgXFPmirJaHOuCU7OhkCYtAvshbUL1ONMNDfqcmBUiZ3oU6fg1dEtJQ+uR97P5yfOMIz1SZUZNcwI9
+c65Xc2H9Tp2Vu1ZUrIv2CkrMF3dm+TaJLln6hi/f8mOd2vv3n1tFrM1P37NUF6mD8szAeuDckAfGxNwx
+Vcyb+WG9ZsK3xvxqxJ93Nr4549ZeqnvSvGNBLDE3N27NvQMO2GfsAGcHSfw;
+
+DEFINE COMMENT 3
+eJztjs0KAWEUhp8rkSRLF2AlSwtJQ9Z+8v83LMc4iCZZWMgVWFlZSJMkl+Ydt8FbT6dzvt6nL4viEDOH
+hChSphqdaBKnTooaaZGxGjndCrQoWVeMyOPqPiFtPXVbJKKaLdQzkpqV7+5wkPOo+f5622zlCGhwkv9i
+De7qPuV8WV9zSCh3KO+VKWdm6rrsbUygt8AGbK0j2nJE8eTzWDEXPr4Znq3EWtuGnThpv+g/N/O5sZB3
+KTaEMjz4558fzwcHbkRf;
+
+DEFINE COMMENT 4
+eJztj81KQmEQhp/rkJAW4SJchCuJVhLRHZgSpNCi7Hg8RaBEiyHUToZ6hOgyIkRcSLg4ixbhSlxGuPI6
+fPu6iRYOPMzP9828MyfIiiTEoRU5/k3tiqRVxCUpkaFKjpreb8lZnSwN9kRa+bZdk7BA1Ei63lB9bdVb
+7FiTNC2yig+sw5F1RV8zBuyLDAN2iUjRVe8zW/zt4mmPQNxbgZ78q6v7XJiPJ//i8jYVzfZo0pBOaI9E
+0ojo0aHPg7iTnq99zt1eeWIx1byRnYkSYyszpcyMU34osJRfUmLl/gcMdduIGz7Et9MMGUs3Fp+K5zyx
+kM5CqnPd8iVii5ioNtRNb3p/Z2Mb++e2BiUHXf8;
+
+DEFINE COMMENT 5
+eJztjssKAWEYhp/LkWQxMYwkSeRUpCzkkIVDDgsphoW+xSwcJlnIBbhSrztwAfPUs/v+939cRIasZUiR
+J2EF4laRNRwaFGSdKmvK+JbnhseDNE8ZmsvFPAKKBHoTWp0XLd7WkV3d/BhpdaiLAW25tyFmYy7MeNpK
+brV54Gy+9k8sZc+ONPEp2U5NW5Js1LOQc/VNSTDB0YajPZc+ud83diXGXa13dYR8iIiI+IsveIcyLQ;
+
+DEFINE COMMENT 6
+eJztjr0OwVAAhb9nEelQHUQMBo9gMCGGDmIQaQgaQQ3HjAqJQZC+qtN3MPZLvtxz/869DcyQmka0bF9D
+puWSZkSaE5IQaEnAijoHm3me0dSerjY+nxDbCWsW7Eh1IOXIFtmTc9l1I1TuvgsdzvTswDnW1ea++7Qv
+xvp4r3BvQdtjxNfvvf23h707V1RU/J0fhxYp7Q;
+
+DEFINE COMMENT 9
+eJztkM1Km1EQhp9LEJGQhZTiokiQUsTLCKUUKcbaqIkJIqU0NrEtoh2KWG1iKop/UMSlSOlViLgK0kUW
+XbjoQkoo4iX0yZfbcODhzDffvGfeM58wphjgJSlyPIocmZjiccxIgRFKDFNmMEqk/e6Lafq6kqiSinfy
+lkEq9tR4wgf5yCgrjMYqQ6zygGXS1lOJZouBqPNQRmjYu2XfN8ZiV80hGY7sP9DLHv3W+6Nproaex6f6
+G5c5vS6Q543Za/0t6K8gk+bPKZL1XzbR1HhGVSq80Gc+KhT0XI6aLDGvz/lYYSaWGY/3ZK33dNvmTetN
+e3qzN5zbiAm25cQdncYrfsasFDlz7rHs66epk3VmWdPDmrr15N1LfJav7uwsua9ByKF7+C6n5j+Svjy/
+3P1VTNL2NdfOuLV2597v3H8nyvyR376xxTRXyV2LXMhtkn/hkjrn7uxcJxf6b3m22eRvbPAvumedG+s3
+sUOH+7gP4z/+8IJ9;
