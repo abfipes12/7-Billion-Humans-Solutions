@@ -1,250 +1,263 @@
 -- 7 Billion Humans (2235) --
--- 67: Decimal Doubler by @commonnickname and @main-gi --
--- main-gi: Code from commonnickname; I've been tasked to compress the size. Original: 224, Now: 196; Diff: 28 --
+-- 67: Decimal Doubler by @commonnickname --
 
-step s
-if c != datacube:
+mem1 = set w
+if mem1 == datacube:
+	step sw
+	pickup n
+	drop
+	step sw
+	pickup ne
+	step n
+	mem2 = set c
+	mem2 = set c
+	mem2 = set c
+	drop
+	step n
+	pickup se
 	step s
-	step e
+	drop
+	step nw
+	step w
+	step w
+	step sw
+	pickup c
+	write 1
 	a:
-	mem1 = set myitem
-	mem1 = set myitem
-	step w
-	step e
-	tell everyone hi
-	tell everyone hi
-	step w
-	step e
-	tell everyone hi
-	mem1 = set myitem
 	mem1 = set e
-	jump a
-endif
-pickup c
-step s
-if myitem == 1:
+	if mem1 != 6:
+		jump a
+	endif
 	b:
-	drop
-	pickup c
-	write 2
-	drop
-	pickup c
-	write 4
-	drop
-	pickup c
-	write 8
-	drop
-	pickup c
-	write 6
-	jump b
+	if mem1 != 3:
+		jump b
+	endif
+else:
+	if mem1 == nothing:
+		pickup s
+		step s
+		step s
+		write 1
+		c:
+		mem1 = set e
+		if mem1 != 5:
+			jump c
+		endif
+		d:
+		if mem1 != 0:
+			jump d
+		endif
+	else:
+		mem2 = set myitem
+		if mem1 >= 0:
+			pickup s
+			step s
+			step s
+			mem2 = set myitem
+			drop
+			step e
+			step e
+			step e
+			pickup e
+			mem2 = calc [blank] + 0
+			mem1 = set myitem
+			drop
+			pickup n
+			jump e
+		else:
+			if mem1 >= 0:
+				pickup s
+				step se
+				step se
+				write 3
+				mem2 = set e
+				step e
+				mem2 = set myitem
+				mem2 = set myitem
+				drop
+				step nw
+				step e
+				pickup s
+				step w
+				mem1 = set myitem
+				drop
+				step e
+				pickup se
+				step w
+				step sw
+				write 1
+				f:
+				if mem1 != 0:
+					jump f
+				endif
+			else:
+				if mem1 >= 0:
+					pickup s
+					step se
+					step e
+					write 8
+					drop
+					pickup se
+					write 6
+					step e
+					step s
+					mem2 = set myitem
+					mem2 = set myitem
+					drop
+					step sw
+					pickup n
+					write 2
+					step n
+					mem1 = set myitem
+					drop
+					pickup w
+					jump g
+				else:
+					if mem1 >= 0:
+						pickup s
+						step se
+						step s
+						write 4
+						step e
+						drop
+						step e
+						pickup w
+						write 2
+						step w
+						drop
+						step e
+						pickup w
+						write 8
+						step w
+						drop
+						pickup w
+						mem1 = set 0
+						jump h
+					else:
+						if mem1 >= 0:
+							pickup s
+							step se
+							write 2
+							step s
+							drop
+							step n
+							pickup w
+							step s
+							mem2 = set myitem
+							drop
+							step n
+							pickup s
+							write 4
+							step s
+							drop
+							step n
+							pickup s
+							step w
+							step w
+							mem1 = set e
+							step w
+							step sw
+							write 1
+							i:
+							if mem1 != 6:
+								jump i
+							endif
+						else:
+							step se
+							step s
+							step s
+							step se
+							mem3 = set nw
+							step nw
+							step se
+							step nw
+							step se
+							step nw
+							step se
+							step nw
+							step e
+							step w
+							step se
+							step nw
+							step se
+							tell everyone hi
+							step nw
+							step se
+							tell everyone hi
+							step w
+							j:
+							step mem3
+							step e
+							tell everyone hi
+							tell everyone hi
+							jump j
+						endif
+					endif
+				endif
+			endif
+		endif
+	endif
 endif
-comment 1
-mem1 = set c
-mem2 = set e
-mem1 = calc [blank] + [blank]
-mem1 = calc [blank] + [blank]
-mem1 = calc [blank] + [blank]
-if mem2 == 8:
-	jump c
-endif
-mem1 = calc [blank] + [blank]
-mem1 = calc [blank] + [blank]
-mem1 = calc [blank] + [blank]
-if mem2 == 6:
-	jump d
-endif
-mem1 = calc [blank] + [blank]
-mem1 = calc [blank] + [blank]
-mem1 = calc [blank] + [blank]
-if mem2 == 5:
-	jump e
-endif
-mem1 = calc [blank] + [blank]
-mem1 = calc [blank] + [blank]
-mem1 = calc [blank] + [blank]
-mem1 = calc [blank] + [blank]
-if mem2 == 8:
-	jump f
-endif
-mem1 = calc [blank] + [blank]
-mem1 = calc [blank] + [blank]
-mem1 = calc [blank] + [blank]
-if mem2 == 6:
-	jump g
-endif
-mem1 = calc [blank] + [blank]
-mem1 = calc [blank] + [blank]
-mem1 = calc [blank] + [blank]
-jump h
-comment 0
-c:
-i:
-write 1
-drop
-pickup c
-write 3
-drop
-pickup c
-write 6
-drop
-pickup c
-write 2
-drop
-pickup c
-write 5
-drop
-pickup c
-write 1
-j:
-drop
-pickup c
-write 2
-drop
-pickup c
-write 4
-drop
-pickup c
-write 9
-drop
-pickup c
-write 9
-drop
-pickup c
-write 8
-drop
-pickup c
-write 6
-drop
-pickup c
-write 3
 k:
 drop
 pickup c
-write 7
-drop
-pickup c
-write 4
-drop
-pickup c
-write 8
-drop
-pickup c
-write 7
-jump l
-comment 2
-d:
-g:
-write 1
-drop
-pickup c
-write 2
-l:
-drop
-pickup c
-write 5
-drop
-pickup c
-if mem2 == 1:
-	mem1 = calc [blank] + [blank]
+if mem1 < 5 or
+ myitem == 0 or
+ myitem == 5 or
+ myitem == 1 or
+ myitem == 6 or
+ myitem == 2 or
+ myitem == 7:
+	if mem1 < 5 and
+	 myitem != 4 and
+	 myitem != 9:
+		if myitem == 0 or
+		 myitem == 5 or
+		 myitem == 1 or
+		 myitem == 6:
+			if myitem == 0 or
+			 myitem == 5:
+				write 0
+			else:
+				e:
+				write 2
+			endif
+		else:
+			if myitem == 2 or
+			 myitem == 7:
+				write 4
+			else:
+				h:
+				write 6
+			endif
+		endif
+	else:
+		if mem1 < 5 or
+		 myitem == 0 or
+		 myitem == 5:
+			if mem1 < 5:
+				write 8
+			else:
+				write 1
+			endif
+		else:
+			if myitem == 1 or
+			 myitem == 6:
+				write 3
+			else:
+				g:
+				write 5
+			endif
+		endif
+	endif
+else:
+	mem2 = set myitem
+	mem2 = set myitem
+	if myitem == 3 or
+	 myitem == 8:
+		write 7
+	else:
+		write 9
+	endif
 endif
-mem1 = calc [blank] + [blank]
-mem1 = calc [blank] + [blank]
-write 1
-drop
-pickup c
-write 3
-drop
-pickup c
-write 7
-drop
-pickup c
-write 5
-drop
-pickup c
-mem1 = calc [blank] + [blank]
-write 1
-drop
-pickup c
-write 2
-drop
-pickup c
-write 5
-drop
-pickup c
-jump i
-comment 3
-h:
-e:
-write 1
-drop
-pickup c
-write 2
-drop
-pickup c
-write 4
-drop
-pickup c
-write 8
-drop
-pickup c
-write 6
-drop
-pickup c
-write 2
-drop
-pickup c
-write 5
-drop
-pickup c
-write 1
-drop
-pickup c
-write 2
-drop
-pickup c
-write 4
-drop
-pickup c
-write 8
 jump k
-comment 4
-f:
-write 1
-drop
-pickup c
-write 3
-drop
-pickup c
-write 6
-drop
-pickup c
-write 3
-drop
-pickup c
-write 6
-jump j
-
-
-DEFINE COMMENT 0
-eJztjTEKwlAQBecuuYZtGhUJIYidCjaKhWhQsHoIgqQQkZAiVQqrED2jLx7C6s8ysPsWdiNMzNBVakRj
-P33EmqmW7JlzsQUL71c0zl/sbE6tnCcnZGc6kunAmK3dMOlP6Eqim+c7Ax62dF85q8h+PzpnHanenG1L
-IBD4O18crSIQ;
-
-DEFINE COMMENT 1
-eJztxi0KwnAcgOHnGktmb2EWMUxRMBgFbyATxw+/woKISQwiY2UHMFo8mTuG4f/AC2+GyJyjZ69vY25g
-ZhxDLyN1TNSW7rFWRSjioHBUdl/Zudl6dDVRapw8XV20Vt4WPqbxlUuS5G/9APshG9g;
-
-DEFINE COMMENT 2
-eJztjr8KggAQh79Xai5oaWhyDJGKCOkPJEVQQ9ONIQ1B1CAEESEGUmFhDhHm0HN1vkKzH3xwB3f3uxIg
-VQwp46oHKpzI6WFLlwltVjTx1YgWsfaJ2CQMicXhwlR3ZrjqXGubMRYOpvQx8zOyZMAGg61m7GiIR4e9
-mnOlIzcseVLnRY2PmulsxkhSFpKwljseIb4EBJz1t1DzIo7y5kGqf3x1s6Cg4G9+PKM3rw;
-
-DEFINE COMMENT 3
-eJztjr0KwmAMRc8D+RJOLk4OIi5WKaWKVAVxcggoTraDiLOoiFTwt/0G8eG8fQfH3nAgNwlJKoDVqFuV
-vcgovE9kPWZ0WVqHg7iZR6b61/p8bKh8xNkmrMWKiDEDQkWgmaDYwQJfHY+YhiU02ahb7D7S4iL/FC/a
-IuTO1FLmpJh8Ym+25OzM6adctx+6d8XZCUepUqX+qh9g0TXI;
-
-DEFINE COMMENT 4
-eJztjTsKwmAQBudEHkKwsxBrC/kLSUBFo0RitYgvEEMKzxA1ARFJkxTWHssvnsEyAwP73haiQ5c2e/mu
-U/MZ4uHMscERy1Txwzwqm1Gx4mURGREXQta2JJSBLRhbIOd4NtGWL2u2TG2n+kH5kYGd6NmZPgmjXz/X
-r0z9m+6kxHYlsbvMdf8pa0rNlpop9LfgQ0NDw1/4AqHFNQI;

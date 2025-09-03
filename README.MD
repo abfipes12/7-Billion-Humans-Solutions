@@ -1705,8 +1705,8 @@ With Gliches
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 67 - Decimal Doubler">Speed</a></td>
     <td>commonnickname</td>
-    <td>196</td>
-    <td>47s</td>
+    <td>210</td>
+    <td>41s</td>
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 67 - Decimal Doubler">Swcs</a></td>
