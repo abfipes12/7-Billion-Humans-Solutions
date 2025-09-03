@@ -7,12 +7,15 @@ b:
 c:
 d:
 e:
-jump f
+f:
+g:
+h:
+jump i
 mem1 = foreachdir sw:
 	mem2 = foreachdir s:
 		mem3 = foreachdir se:
 			mem4 = foreachdir e:
-				f:
+				i:
 				if mem3 == wall:
 					step nw
 					if mem2 == nothing:
@@ -43,24 +46,41 @@ mem1 = foreachdir sw:
 				 mem2 != worker and
 				 mem3 >= 0 and
 				 mem4 != worker:
-					jump g
+					jump j
 				else:
-					jump e
+					if mem2 != worker or
+					 mem4 != datacube:
+						jump e
+					endif
+					k:
+					jump l
+					mem1 = foreachdir e:
+						mem2 = foreachdir se:
+							l:
+							if mem1 != worker and
+							 mem2 != worker:
+								jump k
+							else:
+								jump h
+							endif
+						endfor
+					endfor
 				endif
-				g:
+				j:
 				if mem1 <= mem2 and
 				 mem2 <= mem3:
 					comment 9
 					step e
 					jump c
 				endif
-				jump h
+				jump m
 			endfor
 		endfor
 	endfor
 endfor
-h:
+m:
 if mem1 < mem2 and
+ mem1 <= mem3 and
  mem3 < mem2:
 	comment 2
 	pickup s
@@ -71,11 +91,19 @@ if mem1 < mem2 and
 	step s
 	pickup e
 	if myitem == nothing:
+		n:
+		jump o
+		mem1 = foreachdir e:
+			o:
+			if mem1 != datacube:
+				jump n
+			endif
+		endfor
 		pickup e
 	endif
 	drop
 	step e
-	jump i
+	jump p
 endif
 if mem2 < mem1 and
  mem2 < mem3 and
@@ -110,18 +138,29 @@ if mem3 < mem1 and
 	endif
 	pickup se
 	if myitem == nothing:
+		q:
+		jump r
+		mem1 = foreachdir se:
+			r:
+			if mem1 != datacube:
+				jump q
+			endif
+		endfor
 		pickup se
 	endif
 	step sw
 	drop
 	step e
 	step e
-	jump j
+	jump s
 endif
 if mem2 < mem3 and
  mem3 < mem1:
 	comment 5
 	pickup sw
+	if myitem == nothing:
+		jump f
+	endif
 	drop
 	if myitem == datacube:
 		drop
@@ -135,57 +174,84 @@ if mem2 < mem3 and
 	step e
 	pickup e
 	if myitem == nothing:
+		t:
+		jump u
+		mem1 = foreachdir e:
+			u:
+			if mem1 != datacube:
+				jump t
+			endif
+		endfor
 		pickup e
 	endif
 	drop
 	step e
-	jump k
+	jump v
 endif
 if mem1 < mem2 and
+ mem3 < mem1 and
  mem3 < mem1:
 	comment 6
 	pickup s
 	drop
+	if myitem == datacube:
+		drop
+	endif
 	pickup sw
+	if myitem == nothing:
+		pickup c
+		step s
+		drop
+		step ne
+		jump g
+	endif
 	step s
 	drop
-	l:
 	pickup e
 	if myitem == nothing:
-		jump l
+		pickup e
 	endif
 	step w
 	drop
 	step e
 	step e
-	jump m
+	jump w
 endif
+x:
+jump y
 mem1 = foreachdir nw:
 	mem2 = foreachdir e:
-		i:
-		j:
-		k:
-		m:
-		if mem2 >= mem1 or
+		y:
+		p:
+		s:
+		v:
+		w:
+		if mem1 >= 0 and
+		 mem2 >= 0 or
 		 mem2 == wall:
-			pickup nw
-		else:
-			n:
-			jump o
-			mem2 = foreachdir e:
-				o:
-				if mem2 != datacube:
-					jump n
-				endif
-			endfor
-			pickup e
+			if mem2 >= mem1 or
+			 mem2 == wall:
+				pickup nw
+			else:
+				z:
+				jump aa
+				mem2 = foreachdir e:
+					aa:
+					if mem2 != datacube:
+						jump z
+					endif
+				endfor
+				pickup e
+				drop
+				pickup nw
+				step e
+			endif
 			drop
-			pickup nw
-			step e
+			step ne
+			jump a
+		else:
+			jump x
 		endif
-		drop
-		step ne
-		jump a
 	endfor
 endfor
 

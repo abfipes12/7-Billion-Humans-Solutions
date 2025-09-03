@@ -1509,8 +1509,8 @@ With Gliches
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 60 - Understaffed Sorting">Speed</a></td>
     <td>commonnickname</td>
-    <td>125</td>
-    <td>57-66s</td>
+    <td>159</td>
+    <td>54-62s</td>
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 60 - Understaffed Sorting">Swcs</a></td>
