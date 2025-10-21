@@ -1570,9 +1570,9 @@ With Gliches
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 62 - The Sorting Floor">Swcs</a></td>
-    <td>Kelin</td>
-    <td>30</td>
-    <td>131-161s</td>
+    <td>blue-raspberry-consulting</td>
+    <td>46</td>
+    <td>66-77s</td>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/+50/Year 62 - The Sorting Floor">Size +50%🍀</a></td>
@@ -1828,6 +1828,10 @@ With Gliches
       <td>1</td>
   </tr>
   <tr>
+      <td>blue-raspberry-consulting</td>
+      <td>1</td>
+  </tr>
+  <tr>
       <td>DeepAQ</td>
       <td>1</td>
   </tr>
@@ -1857,10 +1861,6 @@ With Gliches
   </tr>
   <tr>
       <td>JoeKing</td>
-      <td>1</td>
-  </tr>
-  <tr>
-      <td>Kelin</td>
       <td>1</td>
   </tr>
   <tr>

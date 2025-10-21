@@ -1,42 +1,74 @@
--- 7 Billion Humans (2235) --
--- 62: The Sorting Floor by Kelin [https://steamcommunity.com/profiles/76561198892048800] --
+-- 7 Billion Humans (2234) --
+-- 62: The Sorting Floor by @blue-raspberry-consulting and @abfipes12 --
 
-mem1 = foreachdir nw,n,ne,e,se:
+mem1 = foreachdir nw,w,n,ne,e:
 	step n
 endfor
-a:
-b:
-if s == nothing:
-	step n
-	step n
-else:
-	step s
-endif
-if w == hole or
- e == hole:
-	listenfor hi
-	drop
+if w != hole and
+ e != hole:
+	a:
+	b:
+	jump c
+	mem1 = foreachdir w:
+		mem2 = foreachdir ne:
+			mem3 = foreachdir e:
+				c:
+				mem4 = nearest datacube
+				if mem1 != worker:
+					jump b
+				endif
+				if mem1 > mem4:
+					pickup c
+					giveto w
+					pickup w
+					drop
+				endif
+				if mem4 > mem3:
+					pickup c
+					giveto e
+					pickup e
+					drop
+				endif
+				if mem2 > mem1:
+					pickup w
+					giveto e
+					pickup ne
+					giveto w
+				endif
+				if mem2 == hole:
+					step s
+					step s
+				else:
+					step n
+				endif
+			endfor
+		endfor
+	endfor
 	jump a
 endif
-if w > c:
-	pickup c
-	giveto w
-	pickup w
-	drop
-endif
-if e < c:
-	pickup c
-	giveto e
-	pickup e
-	drop
-endif
-if sw < e:
-	pickup sw
-	giveto e
-	pickup e
-	step sw
-	drop
-	step ne
-endif
-tell everyone hi
-jump b
+d:
+jump e
+mem1 = foreachdir w:
+	mem2 = foreachdir n:
+		mem3 = foreachdir e:
+			e:
+			if mem2 == nothing:
+				step n
+			endif
+			if myitem == datacube:
+				drop
+			endif
+			if mem3 != worker and
+			 mem1 != worker and
+			 myitem != datacube:
+				if mem2 == hole:
+					step s
+					step s
+				else:
+					step n
+				endif
+			endif
+		endfor
+	endfor
+endfor
+jump d
