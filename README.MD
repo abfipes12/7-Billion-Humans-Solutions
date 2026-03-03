@@ -923,7 +923,7 @@ With Gliches
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 38 - Seek and Destroy 3">Swcs</a></td>
-    <td>tiriana</td>
+    <td>donpedro3000</td>
     <td>22</td>
     <td>17s</td>
   </tr>
@@ -1912,7 +1912,7 @@ With Gliches
       <td>1</td>
   </tr>
   <tr>
-      <td>tiriana</td>
+      <td>donpedro3000</td>
       <td>1</td>
   </tr>
   <tr>
