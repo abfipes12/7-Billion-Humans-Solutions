@@ -923,9 +923,9 @@ With Gliches
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 38 - Seek and Destroy 3">Swcs</a></td>
-    <td>abfipes12<br>dmr</td>
+    <td>tiriana</td>
     <td>22</td>
-    <td>21-22s</td>
+    <td>17s</td>
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/+50/Year 38 - Seek and Destroy 3">Size +50%🍀</a></td>
@@ -1769,7 +1769,7 @@ With Gliches
   </tr>
   <tr>
       <td>dmr</td>
-      <td>21</td>
+      <td>20</td>
   </tr>
   <tr>
       <td>martinez8859</td>
@@ -1909,6 +1909,10 @@ With Gliches
   </tr>
   <tr>
       <td>thrfirs</td>
+      <td>1</td>
+  </tr>
+  <tr>
+      <td>tiriana</td>
       <td>1</td>
   </tr>
   <tr>
