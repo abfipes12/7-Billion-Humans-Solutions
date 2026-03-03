@@ -1,21 +1,26 @@
--- 7 Billion Humans (2144) --
+-- 7 Billion Humans (2235) --
 -- 38: Seek and Destroy 3 --
--- donpedro3000 on steam [https://steamcommunity.com/id/donpedro3000/] --
+-- by donpedro3000 on steam [https://steamcommunity.com/id/donpedro3000/] --
 
+step n
+step n
 a:
-mem2 = set n
-if mem2 == datacube or
- mem1 != datacube and
- mem2 != wall:
-	step n
-	if mem2 < mem1 or
-	 mem1 != datacube:
-		mem1 = set mem2
-	endif
+mem2 = nearest datacube
+if mem2 < mem1 or
+ mem1 != datacube:
+	mem1 = set mem2
+endif
+step n
+mem3 = nearest datacube
+if mem2 != mem3:
+	b:
 	jump a
 endif
+if n == datacube:
+	jump b
+endif
 pickup mem1
-b:
+c:
 mem2 = nearest worker
 if myitem == 0 or
  mem2 == nothing:
@@ -30,10 +35,6 @@ if myitem > mem2 and
 	step mem1
 endif
 if mem2 == myitem:
-	step sw,s
-	if s == wall or
-	 s == shredder:
-		step e
-	endif
+	step sw,s,e
 endif
-jump b
+jump c
