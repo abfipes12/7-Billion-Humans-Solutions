@@ -8,7 +8,14 @@ if myitem == datacube:
 		step ne
 		drop
 		step s
-		jump a
+		takefrom sw
+		if myitem < 50:
+			step se
+			drop
+			step n
+			takefrom sw
+			jump a
+		endif
 	endif
 else:
 	step sw
@@ -17,8 +24,8 @@ else:
 		if myitem < 50:
 			step e
 			drop
-			a:
 			takefrom sw
+			a:
 			jump b
 		endif
 	else:
@@ -29,6 +36,8 @@ else:
 				step nw
 				drop
 				step s
+				takefrom se
+				b:
 				jump c
 			endif
 		else:
@@ -37,9 +46,8 @@ else:
 			if myitem < 50:
 				step w
 				drop
-				c:
 				takefrom se
-				b:
+				c:
 				d:
 				if myitem < 50:
 					step w

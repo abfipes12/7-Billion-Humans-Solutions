@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2235) --
--- 21: Big Data by yifeixuer [https://steamcommunity.com/profiles/76561198831890282], --
--- @commonnickname and @abfipes12 --
--- calculated expected => 68.31% ; failed 29 out of 100 => 71% successful --
+-- 21: Big Data by @commonnickname, @abfipes12 and yifeixuer [https://steamcommunity.com/profiles/76561198831890282] --
+-- 50.86% successful --
+-- time 13-16s --
 
 step s
 takefrom s
@@ -10,7 +10,14 @@ if myitem == datacube:
 		step ne
 		drop
 		step s
-		jump a
+		takefrom sw
+		if myitem < 50:
+			step se
+			drop
+			step n
+			takefrom sw
+			jump a
+		endif
 	endif
 else:
 	step sw
@@ -19,8 +26,8 @@ else:
 		if myitem < 50:
 			step e
 			drop
-			a:
 			takefrom sw
+			a:
 			jump b
 		endif
 	else:
@@ -31,6 +38,8 @@ else:
 				step nw
 				drop
 				step s
+				takefrom se
+				b:
 				jump c
 			endif
 		else:
@@ -39,9 +48,8 @@ else:
 			if myitem < 50:
 				step w
 				drop
-				c:
 				takefrom se
-				b:
+				c:
 				if myitem >= 50:
 					jump d
 				endif
@@ -57,19 +65,12 @@ else:
 				giveto s
 				step e
 				takefrom s
-				if myitem >= 50:
-					e:
-					jump f
-				endif
-				step w
-				giveto s
-				step e
-				takefrom s
 			endif
 		endif
 	endif
 endif
-f:
-g:
+e:
 step n
-jump g
+step n
+step n
+step n
