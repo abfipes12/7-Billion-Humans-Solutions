@@ -1,7 +1,6 @@
 -- 7 Billion Humans (2235) --
--- 21: Big Data by @commonnickname, @abfipes12 and yifeixuer [https://steamcommunity.com/profiles/76561198831890282] --
--- 50.86% successful (if values of cubes are evenly distributed) --
--- time 13-16s --
+-- 21: Big Data --
+-- 60i and good times and success rate but not balanced yet to break records
 
 step s
 takefrom s
@@ -27,7 +26,6 @@ else:
 			step e
 			drop
 			takefrom sw
-			a:
 			jump b
 		endif
 	else:
@@ -49,27 +47,34 @@ else:
 				step w
 				drop
 				takefrom se
+				a:
+				jump d
 				c:
 				if myitem >= 50:
-					jump d
-				endif
-				step w
-				giveto s
-				step e
-				takefrom s
-				if myitem >= 50:
-					d:
 					jump e
 				endif
 				step w
 				giveto s
 				step e
 				takefrom s
+				d:
+				if myitem >= 50:
+					e:
+					jump f
+				endif
+				step w
+				giveto s
+				step e
+				takefrom s
+				if myitem < 50:
+					drop
+					takefrom s
+				endif
 			endif
 		endif
 	endif
 endif
-e:
+f:
 step n
 step n
 step n
