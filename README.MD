@@ -994,9 +994,9 @@ With Gliches
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 40 - Printing Etiquette 2">Speed</a></td>
-    <td>commonnickname</td>
-    <td>177</td>
-    <td>37s</td>
+    <td>commonnickname<br>senegrom</td>
+    <td>148</td>
+    <td>36s</td>
   </tr>
   <tr>
     <td>⚡✍🏻<a href="Glitchless/SpeedChallengeSize/Year 40 - Printing Etiquette 2">Swcs</a></td>
@@ -1888,6 +1888,10 @@ With Gliches
       <td>1</td>
   </tr>
   <tr>
+      <td>senegrom</td>
+      <td>1</td>
+  </tr>
+  <tr>
       <td>soerface</td>
       <td>1</td>
   </tr>
@@ -1923,4 +1927,22 @@ With Gliches
 
 ---
 
-ToDo - Some statistic about solutions, visual tweaks, page.
+ToDo:<br>
+Convert .txt to .7bh<br>
+better define authorship rules<br>
+keeping track of solutions creation dates could help<br>
+sub-second speeds (find its possible location with Cheat Engine)<br>
+Increase the number of tests performed by game for a level from 25 to 1000 and export times and success rates. <br>
+Improve the page.<br>
+Improve Year 21 speed 50+<br>
+Solution parser and checker.<br>
+Separate "main" categories (speed and size) from imaginary ones (⚡✍🏻Swcs) and maybe rename it to something like "speed with good size" <br>
+I wonder why I haven't added "size with good speed" (yet)<br>
+Document game mechanics / wiki → that could help improve solutions.<br>
+Year folders instead of this strange hierarchy of folders probably would be better<br>
+Condendse and move some elements of the big table of solutions<br>
+For non-time-consistent solutions, clarify which speed solutions are faster (maybe the lowest median would be good)<br>
+implement some mechanism that would build the big solution table from solutions info<br>
+<br>
+<br>
+Help appreciated.
