@@ -499,9 +499,9 @@ With Gliches
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/+50/Year 21 - Big Data">Speed +50%🍀</a></td>
-    <td>commonnickname<br>abfipes<br>yifeixuer</td>
+    <td>abfipes<br>commonnickname<br>yifeixuer</td>
     <td>56</td>
-    <td>13-16s</td>
+    <td>12-15s</td>
   </tr>
 </table>
 With Gliches
