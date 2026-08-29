@@ -80,9 +80,9 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 06 - Little Exterminator 1">Size</a></td>
-    <td>martinez8859<br>dmr<br>H-J-Granger</td>
+    <td>landfillbaby<br>martinez8859<br>dmr<br>H-J-Granger</td>
     <td>8</td>
-    <td>7s</td>
+    <td>5s</td>
   </tr>
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 06 - Little Exterminator 1">Speed</a></td>
@@ -148,7 +148,7 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 09 - Dynamic Angles">Size</a></td>
-    <td>hingston</td>
+    <td>n05ucc4u</td>
     <td>5</td>
     <td>5s</td>
   </tr>
@@ -1693,7 +1693,7 @@ With Gliches
   </tr>
   <tr>
     <td>✍🏻<a href="Glitchless/Size/Year 68 - Goodbye Humans">Size</a></td>
-    <td>aqueous68</td>
+    <td>aqueous68<br>main-gi</td>
     <td>6</td>
     <td>74-75s</td>
   </tr>

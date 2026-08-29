@@ -43,9 +43,18 @@ def format_solution_dict(sol, repo: Path) -> dict:
     del sol_dict['year']
     del sol_dict['name']
     
+    # Strip optional time bounds if complex timing isn't used
     if not sol_dict.get('complex_timing'):
         sol_dict.pop('min_time', None)
         sol_dict.pop('max_time', None)
+        
+    # Drop omitted optional attributes so they aren't written as null/empty
+    if sol_dict.get('success') is None:
+        sol_dict.pop('success')
+    if not sol_dict.get('contributors'):
+        sol_dict.pop('contributors')
+    # if not sol_dict.get('notes'):
+    #     sol_dict.pop('notes')
         
     return sol_dict
 
@@ -59,7 +68,6 @@ def export_json(solutions: list, repo: Path, out_path: Path):
         
         export_data[year_key].append(format_solution_dict(sol, repo))
         
-    # Sort the dictionary keys (years) numerically
     sorted_export_data = {
         key: export_data[key] 
         for key in sorted(export_data.keys(), key=int)

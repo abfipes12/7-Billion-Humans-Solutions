@@ -60,7 +60,7 @@ Any non-time-stable solution taking over 500 seconds to execute must include suc
 
 - **Contributors:** Listed in the solutions header for minor optimizations
 
-- **Unattributed Solutions:** Solutions without listed authors are baseline entries carried over unchanged from Hingston's and Soerface's original repositories (same in both). Created by the repository owners, these serve primarily as tutorial-level baseline solutions.
+- **Unattributed Solutions:** Solutions without listed authors are baseline entries carried over unchanged from [Hingston's](https://github.com/hingston/7-billion-humans-solutions) and [Soerface's](https://github.com/soerface/7billionhumans) original repositories (same in both). Created by the repository owners, these serve primarily as tutorial-level baseline solutions.
 
 ## Special Notations
 **Paste Only**: "📋" marks solutions that cannot be built inside the in-game editor and must be pasted directly into the game. (that can't be done with iOS build of this game)
