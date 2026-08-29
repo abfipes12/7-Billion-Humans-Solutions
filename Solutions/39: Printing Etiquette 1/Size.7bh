@@ -2,7 +2,7 @@
 -- 39: Printing Etiquette 1 --
 -- author: main-gi
 -- author: abfipes
--- time: 57-62
+-- times: 57 62
 
 mem1 = nearest printer
 a:

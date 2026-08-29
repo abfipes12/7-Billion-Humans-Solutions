@@ -2,7 +2,7 @@
 -- 30: Fill the Floor --
 -- author: martinez8859
 -- author: NotABlueWhale
--- time: 216-247
+-- times: 216 247
 
 mem1 = nearest printer
 a:

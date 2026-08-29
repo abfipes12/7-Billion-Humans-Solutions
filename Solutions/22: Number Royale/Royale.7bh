@@ -3,7 +3,7 @@
 -- author: hingston
 -- contributor: abfipes
 -- notes: abfipes12: "myitem < 63" gives 99.015% success rate instead of 100% (and so undo this too)--
--- time: 7-8
+-- times: 7 8
 
 pickup s
 a:

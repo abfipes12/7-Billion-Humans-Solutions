@@ -2,7 +2,7 @@
 -- 23: Sorting Hall --
 -- author: eiTTio
 -- contributor: abfipes
--- time: 15-17
+-- times: 15 17
 
 pickup s
 if myitem < 50:

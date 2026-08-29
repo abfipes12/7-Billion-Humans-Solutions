@@ -3,7 +3,7 @@
 -- author: abfipes
 -- author: commonnickname
 -- success: 53.6
--- time: 6-7
+-- times: 6 7
 -- notes: failed 58 out of 125 => 53.6% successful --
 
 mem1 = nearest datacube

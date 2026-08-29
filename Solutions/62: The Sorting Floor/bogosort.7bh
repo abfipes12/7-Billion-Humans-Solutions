@@ -2,7 +2,7 @@
 -- 62: The Sorting Floor --
 -- author: dmr
 -- success: 94
--- time: 751-806
+-- times: 751 806
 -- notes: failed 6 out of 100 => 94% successful --
 
 a:

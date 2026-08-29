@@ -2,7 +2,7 @@
 -- 43: Multiplication Table --
 -- author: dmr
 -- success: 96
--- time: 850-931
+-- times: 850 931
 -- notes: failed 6 out of 150 => 96% successful --
 
 a:

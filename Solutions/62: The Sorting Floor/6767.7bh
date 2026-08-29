@@ -2,7 +2,7 @@
 -- 62: The Sorting Floor --
 -- author: blue-raspberry-consulting
 -- contributor: abfipes
--- time: 66-77
+-- times: 66 77
 
 mem1 = foreachdir nw,w,n,ne,e:
 	step n

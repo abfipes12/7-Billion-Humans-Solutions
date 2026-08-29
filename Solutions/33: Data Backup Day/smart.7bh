@@ -2,7 +2,7 @@
 -- 33: Data Backup Day --
 -- author: $uppenbaer
 -- author: main-gi
--- time: 15-16
+-- times: 15 16
 
 a:
 mem2 = nearest datacube

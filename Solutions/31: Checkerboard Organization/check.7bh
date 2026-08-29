@@ -2,7 +2,7 @@
 -- 31: Checkerboard Organization --
 -- author: abfipes
 -- author: n05ucc4u
--- time: 877-911
+-- times: 877 911
 
 a:
 if nw == hole or

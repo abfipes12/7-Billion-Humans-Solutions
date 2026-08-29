@@ -1,47 +1,66 @@
-# Submitting a solution
-1. place or replace an existing solution in an appropriate folder
-2. if needed update solution metadata eg. "-- time: 15"
-3. run the build
-```bash
-python tools/build.py
-```
-it will update the readme tables and will take care of the rest of maitnance or tell where the possible problem lies
+# Contributing Guidelines
 
-# Size
-Size is the number of commands the game counts, (not the the number of lines)
+## Submitting a Solution
+1. Place (or replace) your solution file in the corresponding level directory.
+2. Update metadata in the solution header if applicable (e.g., `-- time: 15`).
+3. Run the build script to validate and update files:
+    ```bash
+    python tools/build.py
+    ```
+The build script will handle table formatting and highlight any syntax or validation errors.
 
-# Time
-game keeps track of time in a subsecond manner
-then sums every time of successful atempts in a 25 attempts chunk
-then divides this by number of successful atempts in a 25 attempts chunk
-then round this to the nearest integer
+## Metrics & Definitions
 
-we store times that would appear as if the game was not rounding them around.
-we optain this times either using gdb or (for time stable solutions)  we can appending some near instant instruction to the solution and check when the second barrier breakes
+### Size
+Size refers strictly to the total command count as evaluated by the game engine, **not** the raw line count of the file. 
 
-for solution which execution time varries, time is considered as arithmetical average of averages before rounding for successful chunks (chunks with <13 successful attempts are disregarded)
+### Time
+The game engine tracks execution time sub-secondly using the following logic:
 
-they get "~average | min-max" time annotation eg. ~25.83s | 20.01s-31.98s
+1. Sums the total execution time of successful attempts within a 25-attempt batch.
 
-# Success rate
-requrements for "99%" category
-best time and best time within chalange size categories shall never fail (for some levels we cannot guarante success, for such levels we require that solution will not fail any of 1000 attempts)
+2. Divides the sum by the count of successful attempts in that batch.
 
-for best size and best size within challange time solution can fail due to slow execution so >=99 succes rate (over 1000 attempts) is required
+3. Rounds the final average to the nearest integer.
 
-solutions that can take over 500s needs to provide success rates
+We store precise, unrounded times obtained via ```gdb``` or by appending quick instructions to test exact threshold boundaries (applicable only to time-stable solutions).
 
-requirement for "50%" category is success rate >= 50%
+### Variable Runtimes
+For solutions with fluctuating execution times:
+- arithmetic mean of batch averages before rounding is solution's time.
+- Batches with fewer than 13 successful attempts are ignored.
 
-requirements for best size within challange time
-because game would pass some slower than exactly needed time needed for a time challange (due to rounding eg. 6.49s would round to 6s and pass 6s time challange) this category allows solution up to halve a second slower on average
+variable times will be annotated using the format ```~average | min-max``` (e.g., ```~25.83s | 20.01s-31.98s```).
 
-# Authors and contributors
-the first present on the solution's authors list is the record breaker in categorie's significant parameter eg. solution's instuction count breaker in size category, 
-then other author will be assigned as they  managed to improve the current authors' solution by at least 33% in categorie's other than most significant parameter eg. time in the size category
-other contributors are listed as contributros in soluton's file
+## Category Requirements & Success Rates
 
-Some levels have no-author tag, such solutions can be seen in hingston's and soerface's repositories as created by the respective repository owners, if you are reading this you probably can derive them in less than a minute each.
+### 99% Category
+Best Time & Best Time within Size Challenge<br>
+- On deterministic levels, zero failures are strictly required (100% success rate).<br>
+- On non-deterministic levels, solutions are still expected to pass effectively 100% of the time due to their rapid execution (they won't fali due to slow execution).
 
-# Paste only
-📋 marks solutions that cannot be constructed with game's editor and has to be pasted in.
+Best Size & Best Size within Speed Challenge
+
+- Size-optimized solutions may run slowly and can trigger level's timeout limit. Because of these, a ≥99% success rate across 1,000 attempts is required for such solutions.
+
+### 50% Category
+Requires a ≥50% success rate.
+
+### Challenge Time Tolerance
+Because of in-game rounding (e.g., 6.49s rounding to 6s) would pass the solution as within 6s time.<br>
+the _Best Size within Challenge Time_ category accepts solutions averaging up to **0.5s over** the nominal challenge limit.
+
+### Long-Running Solutions
+Any non-time-stable solution taking over 500 seconds to execute must include success rate explicit.
+
+## Author Attribution Rules
+- **Primary Author:** The first listed author holds the record for the category's primary metric (e.g., lowest command count in a Size category).
+
+- **Co-Authors:** Added when a contributor improves a secondary metric (e.g., time within a Size category) by **at least 33%** over the existing record.
+
+- **Contributors:** Listed in the solutions header for minor optimizations
+
+- **Unattributed Solutions:** Solutions without listed authors are baseline entries carried over unchanged from Hingston's and Soerface's original repositories (same in both). Created by the repository owners, these serve primarily as tutorial-level baseline solutions.
+
+## Special Notations
+**Paste Only**: "📋" marks solutions that cannot be built inside the in-game editor and must be pasted directly into the game. (that can't be done with iOS build of this game)

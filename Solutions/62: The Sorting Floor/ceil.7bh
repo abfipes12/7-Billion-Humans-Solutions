@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2214M) --
 -- 62: The Sorting Floor --
 -- author: commonnickname
--- time: 10-11
+-- times: 10 11
 
 jump a
 mem1 = foreachdir n:

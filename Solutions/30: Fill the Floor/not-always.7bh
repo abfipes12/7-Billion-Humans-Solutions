@@ -2,7 +2,7 @@
 -- 30: Fill the Floor --
 -- author: martinez8859
 -- success: 99.5
--- time: 598-671
+-- times: 598 671
 -- notes: failed 1 out of 150 => 99.5% successful --
 
 mem1 = nearest printer

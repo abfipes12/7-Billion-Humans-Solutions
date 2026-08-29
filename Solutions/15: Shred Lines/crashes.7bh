@@ -2,7 +2,7 @@
 -- 15: Shred Lines --
 -- author: abfipes
 -- success: 64
--- time: 950-950
+-- times: 950 950
 -- notes: failed 9 out of 25
 -- notes: this level crashes (not the same as failing) for me, i will need to investigate
 

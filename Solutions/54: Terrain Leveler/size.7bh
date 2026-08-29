@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2214M) --
 -- 54: Terrain Leveler --
 -- author: dmr
--- time: 163-198
+-- times: 163 198
 
 a:
 if sw == mem2 or

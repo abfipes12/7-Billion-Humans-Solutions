@@ -2,7 +2,7 @@
 -- 52: The Mode Code --
 -- author: Erik
 -- author: abfipes
--- time: 133-135
+-- times: 133 135
 
 mem4 = nearest datacube
 a:

@@ -2,7 +2,7 @@
 -- 40: Printing Etiquette 2 --
 -- author: main-gi
 -- author: abfipes
--- time: 73-79
+-- times: 73 79
 -- notes: main-gi: Independently found, but was not first --
 
 mem1 = nearest printer

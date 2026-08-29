@@ -488,7 +488,7 @@ With Gliches
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 21 - Big Data">Speed</a></td>
     <td>commonnickname</td>
-    <td>48</td>
+    <td>90</td>
     <td>16-22s</td>
   </tr>
   <tr>
@@ -500,7 +500,7 @@ With Gliches
   <tr>
     <td>⚡<a href="Glitchless/Speed/+50/Year 21 - Big Data">Speed +50%🍀</a></td>
     <td>abfipes<br>commonnickname<br>yifeixuer</td>
-    <td>56</td>
+    <td>91</td>
     <td>12-15s</td>
   </tr>
 </table>
@@ -568,7 +568,7 @@ With Gliches
   <tr>
     <td>⚡<a href="Glitchless/Speed/Year 23 - Sorting Hall">Speed</a></td>
     <td>eiTTio</td>
-    <td>10</td>
+    <td>9</td>
     <td>15-17s</td>
   </tr>
 </table>

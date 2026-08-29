@@ -2,7 +2,7 @@
 -- 57: Neighborly Sweeper --
 -- author: dmr
 -- contributor: abfipes
--- time: 514-663s
+-- times: 514 663
 
 a:
 step nw,sw,s,ne,e

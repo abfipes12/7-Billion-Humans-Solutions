@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2214M) --
 -- 52: The Mode Code --
 -- author: dmr
--- time: 280-282
+-- times: 280 282
 
 mem1 = nearest datacube
 a:

@@ -2,7 +2,7 @@
 -- 22: Number Royale --
 -- author: martinez8859
 -- contributor: abfipes
--- time: 8-10
+-- times: 8 10
 -- notes: abfipes12: "myitem < 63" gives 99.015% success rate instead of 100% (and that is cheating, will need to undo that in the future) --
 
 pickup s

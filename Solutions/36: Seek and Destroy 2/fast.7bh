@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2214M) --
 -- 36: Seek and Destroy 2 --
 -- author: commonnickname
--- time: 46-47
+-- times: 46 47
 
 mem1 = nearest wall
 step n

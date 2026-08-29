@@ -2,7 +2,7 @@
 -- 61: Lazy Pathways --
 -- author: soerface
 -- author: abfipes
--- time: 176-191
+-- times: 176 191
 
 a:
 step nw,w,sw,ne,se

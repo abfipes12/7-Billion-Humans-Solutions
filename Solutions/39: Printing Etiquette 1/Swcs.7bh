@@ -2,7 +2,7 @@
 -- 39: Printing Etiquette 1 --
 -- author: landfillbaby
 -- contributor: abfipes
--- time: 46-50
+-- times: 46 50
 
 mem1 = nearest printer
 jump a

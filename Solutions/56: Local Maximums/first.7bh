@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2214M) --
 -- 56: Local Maximums --
 -- author: 6e.61.64.6e.65.72.42
--- time: 23-24
+-- times: 23 24
 
 mem1 = nearest shredder
 step w

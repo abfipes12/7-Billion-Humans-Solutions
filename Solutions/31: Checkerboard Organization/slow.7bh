@@ -2,7 +2,7 @@
 -- 31: Checkerboard Organization --
 -- author: n05ucc4u 
 -- author: abfipes
--- time: 294-314
+-- times: 294 314
 
 a:
 if nw == printer or

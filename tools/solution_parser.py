@@ -6,154 +6,230 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Optional
 
-# Regex patterns
-GAME_HEADER_RE = re.compile(r'^\s*--\s*7 Billion Humans(?:\s*\((?P<version>[^)]*)\))?\s*--\s*$', re.I)
-LEVEL_HEADER_RE = re.compile(r'^\s*--\s*(?P<year>\d{1,3})\s*:\s*(?P<name>.+?)\s*--\s*$')
-LEVEL_DIR_RE = re.compile(r'^(?P<year>\d{1,3})\s*:\s*(?P<name>.+?)\s*$')
-TAG_RE = re.compile(r'^\s*--\s*(?P<tag>[A-Za-z0-9_-]+)\s*:\s*(?P<value>.*?)\s*$', re.I)
-NO_AUTHOR_RE = re.compile(r'^\s*--\s*no-author\s*:\s*$', re.I)
+from instruction_parser import count_sbh_instructions
 
-KNOWN_TAGS = {'author', 'contributor', 'no-author', 'success', 'time', 'notes'}
-SINGLE_TAGS = {'no-author', 'success', 'time'}
+# Regex patterns
+GAME_HEADER_RE = re.compile(
+    r'^\s*--\s*7 Billion Humans(?:\s*\((?P<version>[^)]*)\))?\s*--\s*$', re.I
+)
+LEVEL_HEADER_RE = re.compile(
+    r'^\s*--\s*(?P<year>\d{1,3})\s*:\s*(?P<name>.+?)\s*--\s*$'
+)
+LEVEL_DIR_RE = re.compile(r'^(?P<year>\d{1,3})\s*:\s*(?P<name>.+?)\s*$')
+TAG_RE = re.compile(
+    r'^\s*--\s*(?P<tag>[A-Za-z0-9_-]+)\s*:\s*(?P<value>.*?)\s*$', re.I
+)
+NO_AUTHOR_RE = re.compile(r'^\s*--\s*no-author\s*:?\s*$', re.I)
+
+KNOWN_TAGS = {'author', 'contributor', 'no-author', 'success', 'time', 'times', 'notes'}
+SINGLE_TAGS = {'no-author', 'success', 'time', 'times'}
+
 
 @dataclass
 class ParsedSolution:
     path: Path
     year: int
     name: str
+    time: float = 0
     authors: list[str] = field(default_factory=list)
     contributors: list[str] = field(default_factory=list)
     no_author: bool = False
     success: Optional[float] = None
-    time: Optional[str] = None
+    min_time: Optional[float] = None
+    max_time: Optional[float] = None
+    complex_timing: bool = False
+    is_paste_only: bool = False
+    size: int = 0
+
 
 def parse_solution(path: Path) -> ParsedSolution:
+    """Orchestrates high-level parsing and validation of a solution file."""
     lines = path.read_text(encoding='utf-8').splitlines()
-    
-    # Find the first non-empty line
-    i = 0
-    while i < len(lines) and not lines[i].strip():
-        i += 1
-        
-    if i >= len(lines):
+    non_empty_indices = [i for i, line in enumerate(lines) if line.strip()]
+
+    if not non_empty_indices:
         raise ValueError('Solution file is empty')
 
-    # Parse Game Header
-    gm = GAME_HEADER_RE.fullmatch(lines[i])
-    if not gm:
-        raise ValueError("First non-empty line must look like '-- 7 Billion Humans (version) --'")
-    i += 1
+    game_header_idx = non_empty_indices[0]
+    _parse_game_header(lines[game_header_idx])
 
-    # Find the next non-empty line for Level Header
-    while i < len(lines) and not lines[i].strip():
-        i += 1
-        
-    if i >= len(lines):
+    if len(non_empty_indices) < 2:
         raise ValueError('Missing level header')
 
-    # Parse Level Header
-    lm = LEVEL_HEADER_RE.fullmatch(lines[i])
-    if not lm:
+    level_header_idx = non_empty_indices[1]
+    year, level_name = _parse_level_header(lines[level_header_idx])
+
+    _validate_directory_alignment(path.parent, year, level_name)
+
+    solution = ParsedSolution(
+        path=path,
+        year=year,
+        name=level_name,
+        is_paste_only=False,
+    )
+    _parse_metadata_tags(lines[level_header_idx + 1:], solution)
+    _validate_metadata_constraints(solution)
+
+    solution.size = count_sbh_instructions(lines)
+
+    return solution
+
+
+def _parse_game_header(line: str) -> Optional[str]:
+    game_match = GAME_HEADER_RE.fullmatch(line)
+    if not game_match:
+        raise ValueError(
+            "First non-empty line must look like '-- 7 Billion Humans (version) --'"
+        )
+    return game_match.group('version')
+
+
+def _parse_level_header(line: str) -> tuple[int, str]:
+    level_match = LEVEL_HEADER_RE.fullmatch(line)
+    if not level_match:
         raise ValueError("Expected level header like '-- 24: Budget Brigade 1 --'")
-    
-    year = int(lm.group('year'))
-    name = lm.group('name').strip()
-    
-    # Validate against parent directory name
-    folder_name = path.parent.name
+    return int(level_match.group('year')), level_match.group('name').strip()
+
+
+def _validate_directory_alignment(folder_path: Path, year: int, level_name: str) -> None:
+    folder_name = folder_path.name
     dir_match = LEVEL_DIR_RE.fullmatch(folder_name)
     if not dir_match:
-        raise ValueError(f"Parent directory '{folder_name}' does not match format 'XX: Level Name'")
-    
+        raise ValueError(
+            f"Parent directory '{folder_name}' does not match format 'XX: Level Name'"
+        )
+
     folder_year = int(dir_match.group('year'))
     folder_level_name = dir_match.group('name').strip()
 
     if folder_year != year:
         raise ValueError(f"Year mismatch: file says {year}, folder says {folder_year}")
-    if folder_level_name.casefold() != name.casefold():
-        raise ValueError(f"Level name mismatch: file says '{name}', folder says '{folder_level_name}'")
+    if folder_level_name.casefold() != level_name.casefold():
+        raise ValueError(
+            f"Level name mismatch: file says '{level_name}', folder says '{folder_level_name}'"
+        )
 
-    # Initialize solution
-    s = ParsedSolution(path=path, year=year, name=name)
-    
-    # Parse Metadata Tags
-    seen_single = set()
+
+def _parse_metadata_tags(remaining_lines: list[str], solution: ParsedSolution) -> None:
+    seen_single_tags = set()
     body_started = False
-    
-    for idx, line in enumerate(lines[i + 1:], start=i + 2):
-        if not line.strip():
+
+    for line in remaining_lines:
+        stripped = line.strip()
+        if not stripped:
             continue
-            
-        # If we hit standard code (doesn't start with '--'), stop parsing tags
-        if not line.strip().startswith('--'):
+
+        if not stripped.startswith('--'):
             body_started = True
-            
+
         if body_started:
             if TAG_RE.fullmatch(line) or NO_AUTHOR_RE.fullmatch(line):
-                raise ValueError(f'Metadata tag appears after program body started (line {idx})')
+                raise ValueError('Metadata tag appears after program body started')
             continue
 
-        # Check for no-author tag
-        nm = NO_AUTHOR_RE.fullmatch(line)
-        if nm:
-            if s.no_author:
-                raise ValueError('Duplicate no-author tag')
-            s.no_author = True
+        if _try_parse_no_author(line, solution, seen_single_tags):
             continue
 
-        # Check for standard tags
-        tm = TAG_RE.fullmatch(line)
-        if tm:
-            raw_tag = tm.group('tag')
-            tag = raw_tag.lower()
-            value = tm.group('value').strip()
-            
-            if tag not in KNOWN_TAGS:
-                raise ValueError(f'Unknown metadata tag: {raw_tag}')
-                
-            if tag in SINGLE_TAGS and tag in seen_single:
-                raise ValueError(f'Duplicate tag: {tag}')
-                
-            if not value and tag != 'no-author':
-                raise ValueError(f'Tag {tag} must not be empty')
+        _parse_standard_tag(line, solution, seen_single_tags)
 
-            if tag in SINGLE_TAGS:
-                seen_single.add(tag)
 
-            if tag == 'author':
-                s.authors.append(value)
-            elif tag == 'contributor':
-                s.contributors.append(value)
-            elif tag == 'success':
-                try:
-                    s.success = float(value.replace('%', ''))
-                except ValueError:
-                    raise ValueError(f'Success must be a number, got {value}')
-            elif tag == 'time':
-                s.time = value
-            # Note: We recognize 'notes' in KNOWN_TAGS so it doesn't throw an error, 
-            # but we no longer save it to the ParsedSolution dataclass.
-            continue
+def _try_parse_no_author(
+    line: str, solution: ParsedSolution, seen_single_tags: set[str]
+) -> bool:
+    no_author_match = NO_AUTHOR_RE.fullmatch(line)
+    if not no_author_match:
+        return False
 
-    # Final validation checks
-    if s.no_author and s.authors:
-        raise ValueError('no-author cannot be used together with author tags')
-    if not s.authors and not s.no_author:
-        raise ValueError('Solution must contain at least one author or no-author tag')
-    if s.time is None:
-        raise ValueError('Solution must contain exactly one time tag')
+    if solution.no_author or 'no-author' in seen_single_tags:
+        raise ValueError('Duplicate no-author tag')
+
+    solution.no_author = True
+    seen_single_tags.add('no-author')
+    return True
+
+
+def _parse_standard_tag(
+    line: str, solution: ParsedSolution, seen_single_tags: set[str]
+) -> None:
+    tag_match = TAG_RE.fullmatch(line)
+    if not tag_match:
+        return
+
+    raw_tag = tag_match.group('tag')
+    tag = raw_tag.lower()
+    value = tag_match.group('value').strip()
+
+    if tag not in KNOWN_TAGS:
+        raise ValueError(f'Unknown metadata tag: {raw_tag}')
+
+    if tag in SINGLE_TAGS and tag in seen_single_tags:
+        raise ValueError(f'Duplicate tag: {tag}')
+
+    if not value and tag != 'no-author':
+        raise ValueError(f'Tag {tag} must not be empty')
+
+    if tag in {'time', 'times'} and ('time' in seen_single_tags or 'times' in seen_single_tags):
+        raise ValueError('Cannot specify both time and times tags')
+
+    if tag in SINGLE_TAGS:
+        seen_single_tags.add(tag)
+
+    if tag == 'author':
+        solution.authors.append(value)
+    elif tag == 'contributor':
+        solution.contributors.append(value)
+    elif tag == 'success':
+        try:
+            solution.success = float(value.replace('%', ''))
+        except ValueError:
+            raise ValueError(f'Success must be a number, got {value}')
+    elif tag == 'time':
+        try:
+            parsed_time = float(value)
+        except ValueError:
+            raise ValueError(f'Time must be a number, got {value}')
+        solution.time = parsed_time
+        solution.min_time = parsed_time
+        solution.max_time = parsed_time
+        solution.complex_timing = False
+    elif tag == 'times':
+        raw_times = value.split()
+        if not raw_times:
+            raise ValueError('times tag cannot be empty')
+        try:
+            float_times = [float(t) for t in raw_times]
+        except ValueError:
+            raise ValueError(f'times values must all be numbers, got: {value}')
         
-    return s
+        solution.min_time = min(float_times)
+        solution.max_time = max(float_times)
+        solution.time = sum(float_times) / len(float_times)  # Store average in time field
+        solution.complex_timing = True
+
+
+def _validate_metadata_constraints(solution: ParsedSolution) -> None:
+    if solution.no_author and solution.authors:
+        raise ValueError('no-author cannot be used together with author tags')
+    if not solution.authors and not solution.no_author:
+        raise ValueError('Solution must contain at least one author or no-author tag')
+    if solution.time is None:
+        raise ValueError('Solution must contain exactly one time or times tag')
+
 
 def main():
-    ap = argparse.ArgumentParser(description='Validate a single 7 Billion Humans solution file.')
-    ap.add_argument('file', type=Path, help='Path to the .7bh file to validate')
-    # Keeping --check for command line compatibility if build.py passes it 
-    ap.add_argument('--check', action='store_true', help='Check the file metadata (default behavior)')
-    args = ap.parse_args()
-    
+    parser = argparse.ArgumentParser(
+        description='Validate a single 7 Billion Humans solution file.'
+    )
+    parser.add_argument('file', type=Path, help='Path to the .7bh file to validate')
+    parser.add_argument(
+        '--check',
+        action='store_true',
+        help='Check the file metadata (default behavior)',
+    )
+    args = parser.parse_args()
+
     target_file = args.file.resolve()
-    
+
     if not target_file.is_file():
         print(f"ERROR: File not found: {target_file}", file=sys.stderr)
         return 2
@@ -166,6 +242,7 @@ def main():
         print(f"Validation FAILED for {target_file.name}:", file=sys.stderr)
         print(f"  ✗ {e}", file=sys.stderr)
         return 1
+
 
 if __name__ == '__main__':
     sys.exit(main())

@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2059) --
 -- 26: Budget Brigade 2 --
 -- author: n05ucc4u
--- time: 199-203
+-- times: 199 203
 
 a:
 if myitem == nothing or

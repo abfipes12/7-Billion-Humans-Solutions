@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2235) --
 -- 26: Budget Brigade 2 --
 -- author: abfipes
--- time: 118-120
+-- times: 118 120
 
 if s == worker or
  s == printer:
