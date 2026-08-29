@@ -1928,8 +1928,7 @@ With Gliches
 ---
 
 ToDo:<br>
-Convert .txt to .7bh<br>
-better define authorship rules<br>
+
 keeping track of solutions creation dates could help<br>
 sub-second speeds (find its possible location with Cheat Engine)<br>
 Increase the number of tests performed by game for a level from 25 to 1000 and export times and success rates. <br>
@@ -1941,8 +1940,6 @@ I wonder why I haven't added "size with good speed" (yet)<br>
 Document game mechanics / wiki → that could help improve solutions.<br>
 Year folders instead of this strange hierarchy of folders probably would be better<br>
 Condendse and move some elements of the big table of solutions<br>
-For non-time-consistent solutions, clarify which speed solutions are faster (maybe the lowest median would be good)<br>
+For non-time-consistent solutions, 
 implement some mechanism that would build the big solution table from solutions info<br>
 <br>
-<br>
-Help appreciated.
