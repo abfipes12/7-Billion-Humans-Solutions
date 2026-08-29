@@ -1,0 +1,10 @@
+-- 7 Billion Humans (2235) --
+-- 48: Community Training Day --
+-- author: n05ucc4u
+-- time: 4
+
+takefrom n
+mem1 = nearest printer
+takefrom mem1
+mem1 = nearest shredder
+giveto mem1

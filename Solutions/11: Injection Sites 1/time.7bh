@@ -1,0 +1,27 @@
+-- 7 Billion Humans (2235) --
+-- 11: Injection Sites 1 --
+-- author: martinez8859
+-- contributor: n05ucc4u
+-- contributor: abfipes
+-- contributor: H-J-Granger
+-- time: 5
+
+pickup s
+step s
+step s
+step s
+step s
+step s
+if n != nothing and
+ s != nothing:
+	step s
+	step s
+	step s
+	step s
+endif
+if n == nothing:
+	step n
+else:
+	step s
+endif
+drop

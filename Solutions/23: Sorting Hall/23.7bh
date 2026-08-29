@@ -1,0 +1,14 @@
+-- 7 Billion Humans (2056) --
+-- 23: Sorting Hall --
+-- author: hingston
+-- time: 23-25
+
+pickup s
+a:
+if e < myitem:
+	step e
+endif
+if w > myitem:
+	step w
+endif
+jump a

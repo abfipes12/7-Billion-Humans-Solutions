@@ -1,0 +1,12 @@
+-- 7 Billion Humans (2145) --
+-- 9: Dynamic Angles -- 
+-- author: n05ucc4u
+-- time: 5
+
+pickup s
+a:
+step s
+if nw == nothing:
+	jump a
+endif
+drop

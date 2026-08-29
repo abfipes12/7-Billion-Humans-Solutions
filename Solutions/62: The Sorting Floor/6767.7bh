@@ -1,0 +1,77 @@
+-- 7 Billion Humans (2234) --
+-- 62: The Sorting Floor --
+-- author: blue-raspberry-consulting
+-- contributor: abfipes
+-- time: 66-77
+
+mem1 = foreachdir nw,w,n,ne,e:
+	step n
+endfor
+if w != hole and
+ e != hole:
+	a:
+	b:
+	jump c
+	mem1 = foreachdir w:
+		mem2 = foreachdir ne:
+			mem3 = foreachdir e:
+				c:
+				mem4 = nearest datacube
+				if mem1 != worker:
+					jump b
+				endif
+				if mem1 > mem4:
+					pickup c
+					giveto w
+					pickup w
+					drop
+				endif
+				if mem4 > mem3:
+					pickup c
+					giveto e
+					pickup e
+					drop
+				endif
+				if mem2 > mem1:
+					pickup w
+					giveto e
+					pickup ne
+					giveto w
+				endif
+				if mem2 == hole:
+					step s
+					step s
+				else:
+					step n
+				endif
+			endfor
+		endfor
+	endfor
+	jump a
+endif
+d:
+jump e
+mem1 = foreachdir w:
+	mem2 = foreachdir n:
+		mem3 = foreachdir e:
+			e:
+			if mem2 == nothing:
+				step n
+			endif
+			if myitem == datacube:
+				drop
+			endif
+			if mem3 != worker and
+			 mem1 != worker and
+			 myitem != datacube:
+				if mem2 == hole:
+					step s
+					step s
+				else:
+					step n
+				endif
+			endif
+		endfor
+	endfor
+endfor
+jump d

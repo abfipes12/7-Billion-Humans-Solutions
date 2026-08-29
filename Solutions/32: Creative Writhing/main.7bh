@@ -1,0 +1,15 @@
+-- 7 Billion Humans (2235) --
+-- 32: Creative Writhing --
+-- author: main-gi
+-- contributor: abfipes
+-- success: 87
+-- time: 837-1021
+-- notes: failed 19 out of 150
+-- notes: main-gi: This game really sucks for having puzzles like these :p --
+
+a:
+step nw,w,s,ne,se
+pickup c
+write 99
+drop
+jump a

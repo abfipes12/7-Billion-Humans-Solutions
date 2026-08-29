@@ -1,0 +1,18 @@
+-- 7 Billion Humans (2235) --
+-- 39: Printing Etiquette 1 --
+-- author: n05ucc4u
+-- author: abfipes
+-- success: 90
+-- time: 932-1023
+-- notes: failed 20 out of 200 => 90% successful --
+
+a:
+drop
+if n == printer and
+ mem2 < 5 and
+ myitem != datacube:
+	takefrom n
+	mem2 = calc mem2 + 1
+endif
+step w,sw,n,s,e,se
+jump a

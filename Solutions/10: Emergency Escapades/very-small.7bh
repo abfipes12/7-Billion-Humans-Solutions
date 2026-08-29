@@ -1,0 +1,20 @@
+-- 7 Billion Humans (2059) --
+-- 10: Emergency Escapades --
+-- author: commonnickname 
+-- author: n05ucc4u
+-- success: 100
+-- time: 155-221
+-- notes: failed 0 out of 150
+
+a:
+if w == hole or
+ c != 1 and
+ n != hole and
+ e != wall and
+ s != hole and
+ se != 3:
+	step n,s
+else:
+	step w
+endif
+jump a

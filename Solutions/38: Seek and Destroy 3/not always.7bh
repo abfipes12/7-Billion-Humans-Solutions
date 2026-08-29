@@ -1,0 +1,24 @@
+-- 7 Billion Humans (2235) --
+-- 38: Seek and Destroy 3 --
+-- author: abfipes
+-- contributor: main-gi
+-- contributor: Faptech
+-- success: 99.6
+-- time: 399-491
+-- notes: failed 1 out of 250 => 99.6% successful --
+
+a:
+step nw,w,sw,n,s,ne,e,se
+mem2 = nearest datacube
+if mem2 < mem1 or
+ mem1 != datacube:
+	mem1 = nearest datacube
+endif
+mem3 = nearest worker
+if mem3 == worker and
+ mem1 != 0:
+	jump a
+endif
+pickup mem1
+mem3 = nearest shredder
+giveto mem3

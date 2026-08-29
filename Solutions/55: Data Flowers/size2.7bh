@@ -1,0 +1,14 @@
+-- 7 Billion Humans (2235) --
+-- 55: Data Flowers --
+-- author: n05ucc4u
+-- time: 159
+
+a:
+step n
+pickup c,s
+mem1 = foreachdir nw,sw,n,ne,se:
+	mem1 = calc myitem + mem1
+	write mem1
+endfor
+drop
+jump a

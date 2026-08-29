@@ -1,0 +1,13 @@
+-- 7 Billion Humans (2056) --
+-- 5: An Important Decision --
+-- no-author:
+-- time: 2
+
+if w == datacube:
+	a:
+	step w
+	jump a
+endif
+b:
+step e
+jump b

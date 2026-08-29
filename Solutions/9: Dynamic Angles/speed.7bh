@@ -1,0 +1,29 @@
+-- 7 Billion Humans (2059) --
+-- 9: Dynamic Angles --
+-- author: martinez8859
+-- contributor: n05ucc4u
+-- contributor: abfipes
+-- time: 3
+
+pickup s
+step s
+step s
+if e == nothing:
+	step s
+	jump a
+endif
+if e == nothing:
+	a:
+	step s
+	jump b
+endif
+if e == nothing:
+	b:
+	step s
+	jump c
+endif
+if e == nothing:
+	c:
+	step s
+endif
+drop

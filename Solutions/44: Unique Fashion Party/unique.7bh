@@ -1,0 +1,19 @@
+-- 7 Billion Humans (2235) --
+-- 44: Unique Fashion Party --
+-- author: dmr
+-- time: 10
+
+a:
+if se != worker or
+ ne != worker and
+ w != wall and
+ myitem != datacube:
+	mem1 = calc 0 / 0
+endif
+if ne != worker and
+ n != datacube and
+ w != datacube or
+ w == wall:
+	pickup s
+endif
+jump a

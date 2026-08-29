@@ -1,0 +1,225 @@
+-- 7 Billion Humans (2235) --
+-- 38: Seek and Destroy 3 --
+-- author: abfipes
+-- author: commonnickname
+-- success: 100
+-- time: 9-10
+-- notes: failed 0 out of 425
+
+mem1 = nearest datacube
+mem2 = nearest worker
+mem3 = nearest wall
+step n
+mem4 = nearest wall
+if mem1 == 0:
+	pickup n
+	jump a
+endif
+step n
+if mem3 != mem4:
+	mem3 = nearest wall
+	if mem3 != mem4:
+		step w
+		step n
+		step n
+		step n
+		step n
+		step n
+		step e
+		step w
+		pickup c
+		pickup c
+		pickup c
+		step e
+		step s
+		step s
+		step s
+		step s
+		step s
+		end
+	endif
+endif
+step n
+mem4 = nearest datacube
+if mem4 <= mem1:
+	if mem4 == 0:
+		a:
+		jump b
+	endif
+	mem1 = nearest datacube
+endif
+step n
+mem4 = nearest datacube
+if mem4 <= mem1:
+	if mem4 == 0:
+		b:
+		jump c
+	endif
+	mem1 = nearest datacube
+endif
+step n
+mem4 = nearest datacube
+if mem4 <= mem1:
+	if mem4 == 0:
+		c:
+		jump d
+	endif
+	mem1 = nearest datacube
+endif
+step n
+mem4 = nearest datacube
+if mem4 <= mem1:
+	if mem4 == 0:
+		d:
+		jump e
+	endif
+	mem1 = nearest datacube
+endif
+step n
+mem4 = nearest datacube
+if mem4 <= mem1:
+	if mem4 == 0:
+		e:
+		jump f
+	endif
+	mem1 = nearest datacube
+endif
+step n
+mem4 = nearest datacube
+if mem4 <= mem1:
+	if mem4 == 0:
+		f:
+		pickup mem4
+		jump g
+	endif
+	mem1 = nearest datacube
+endif
+if n <= mem1:
+	pickup n
+	if myitem == 0:
+		g:
+		jump h
+	endif
+	if myitem > 32:
+		jump i
+	endif
+	mem3 = nearest worker
+else:
+	if mem1 > 32:
+		i:
+		jump j
+	endif
+	step mem1
+	mem3 = nearest worker
+	if mem1 >= mem2 or
+	 mem1 >= mem3:
+		pickup c
+		j:
+		jump k
+	else:
+		pickup c
+	endif
+endif
+mem4 = nearest worker
+if mem2 < myitem or
+ mem3 < myitem or
+ mem4 < myitem:
+	k:
+	jump l
+endif
+step w
+mem1 = nearest worker
+if mem2 < myitem or
+ mem4 < myitem or
+ mem3 < myitem or
+ mem1 < myitem:
+	l:
+	jump m
+endif
+step sw
+mem3 = nearest worker
+if mem2 < myitem or
+ mem4 < myitem or
+ mem1 < myitem or
+ mem3 < myitem:
+	m:
+	jump n
+endif
+step w
+mem4 = nearest worker
+if mem2 < myitem or
+ mem4 < myitem or
+ mem3 < myitem or
+ mem1 < myitem:
+	n:
+	o:
+	step ne
+	p:
+	jump o
+endif
+mem1 = nearest shredder
+step mem1
+mem3 = nearest worker
+if mem3 < myitem or
+ mem2 < myitem or
+ mem4 < myitem:
+	q:
+	jump p
+endif
+if mem3 >= 0:
+else:
+	h:
+	jump r
+endif
+step e
+mem3 = nearest worker
+if mem3 < myitem:
+	s:
+	jump q
+endif
+if mem3 >= 0:
+else:
+	r:
+	jump t
+endif
+step s
+mem3 = nearest worker
+if mem3 < myitem:
+	u:
+	jump s
+endif
+if mem3 >= 0:
+else:
+	t:
+	jump v
+endif
+step ne
+mem3 = nearest worker
+if mem3 < myitem:
+	w:
+	jump u
+endif
+if mem3 >= 0:
+else:
+	v:
+	jump x
+endif
+step w
+mem3 = nearest worker
+if mem3 < myitem:
+	y:
+	jump w
+endif
+if mem3 >= 0:
+else:
+	x:
+	jump z
+endif
+step w
+mem3 = nearest worker
+if mem3 < myitem:
+	jump y
+endif
+z:
+mem2 = nearest shredder
+giveto mem2

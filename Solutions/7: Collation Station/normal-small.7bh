@@ -1,0 +1,10 @@
+-- 7 Billion Humans (2235) --
+-- 7: Collation Station --
+-- author: martinez8859 
+-- time: 19
+
+a:
+step s
+pickup n
+drop
+jump a

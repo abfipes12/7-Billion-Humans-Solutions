@@ -1,7 +1,0 @@
--- 7 Billion Humans (2145) --
--- 47: Automated Pleasantries by @hingston --
-
-if w == worker:
-	listenfor morning
-endif
-tell e morning
