@@ -3,7 +3,7 @@
 -- author: abfipes
 -- success: 57
 -- times: 243 321
--- notes: failed 86 out of 150 => 57.3% successful --
+-- notes: failed 86 out of 150 => 57.3% successful, no, it is not; TODO fix --
 
 pickup s
 a:

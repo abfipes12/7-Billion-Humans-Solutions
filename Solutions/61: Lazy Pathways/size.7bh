@@ -3,9 +3,8 @@
 -- author: Thineboot
 -- contributor: dmr
 -- contributor: commonnickname
--- success: 99.5
+-- success: 199/200
 -- times: 573 645
--- notes: failed 1 out of 200 => 99.5% successful --
 
 a:
 step nw,w,sw,ne,se

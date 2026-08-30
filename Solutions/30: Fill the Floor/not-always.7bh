@@ -1,9 +1,8 @@
 -- 7 Billion Humans (2145) --
 -- 30: Fill the Floor --
 -- author: martinez8859
--- success: 99.5
+-- success: 149/150
 -- times: 598 671
--- notes: failed 1 out of 150 => 99.5% successful --
 
 mem1 = nearest printer
 a:

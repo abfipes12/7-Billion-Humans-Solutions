@@ -1,9 +1,8 @@
 -- 7 Billion Humans (2214M) --
 -- 44: Unique Fashion Party --
 -- author: commonnickname
--- success: 83.3
+-- success: 125/150
 -- time: 1
--- notes: failed 25 out of 150 => 83.3% successful --
 
 mem1 = set w
 mem2 = nearest worker

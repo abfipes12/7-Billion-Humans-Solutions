@@ -2,9 +2,8 @@
 -- 32: Creative Writhing --
 -- author: hingston
 -- contributor: abfipes
--- success: 100
+-- success: 150/150
 -- times: 246 288
--- notes: failed 0 out of 150
 
 a:
 step nw,sw,s,ne,e

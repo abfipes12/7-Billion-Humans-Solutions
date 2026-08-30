@@ -1,9 +1,8 @@
 -- 7 Billion Humans (2214M) --
 -- 62: The Sorting Floor --
 -- author: dmr
--- success: 99.5
+-- success: 199/200
 -- times: 457 577
--- notes: failed 1 out of 200 => 99.5% successful --
 
 a:
 if ne != hole and

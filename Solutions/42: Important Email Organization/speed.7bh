@@ -2,7 +2,7 @@
 -- 42: Important Email Organization --
 -- author: abfipes
 -- times: 72 74
--- notes: failed 0 out of 400 => 100% successful --
+-- success: 400/400
 
 mem2 = nearest datacube
 pickup mem2

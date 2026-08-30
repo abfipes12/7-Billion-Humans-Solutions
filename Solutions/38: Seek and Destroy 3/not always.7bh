@@ -3,9 +3,8 @@
 -- author: abfipes
 -- contributor: main-gi
 -- contributor: Faptech
--- success: 99.6
+-- success: 249/250
 -- times: 399 491
--- notes: failed 1 out of 250 => 99.6% successful --
 
 a:
 step nw,w,sw,n,s,ne,e,se

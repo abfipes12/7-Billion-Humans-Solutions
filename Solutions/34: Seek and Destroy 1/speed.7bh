@@ -2,9 +2,9 @@
 -- 34: Seek and Destroy 1 --
 -- author: commonnickname
 -- author: abfipes
--- success: 79
+-- success: 79/100
 -- time: 7
--- notes: calculated expected => 71.4% ; failed 21 out of 100 => 79% successful --
+-- notes: calculated expected => 71.4% ;
 
 mem1 = nearest wall
 step n

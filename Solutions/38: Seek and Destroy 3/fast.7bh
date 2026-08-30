@@ -2,9 +2,8 @@
 -- 38: Seek and Destroy 3 --
 -- author: abfipes
 -- author: commonnickname
--- success: 100
+-- success: 425/425
 -- times: 9 10
--- notes: failed 0 out of 425
 
 mem1 = nearest datacube
 mem2 = nearest worker

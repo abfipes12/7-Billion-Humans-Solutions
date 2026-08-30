@@ -2,7 +2,7 @@
 -- 60: Understaffed Sorting --
 -- author: wuenry
 -- times: 149 165
--- notes: failed 0 out of 200 => 100% successful --
+-- success: 200/200
 
 a:
 if sw > s and

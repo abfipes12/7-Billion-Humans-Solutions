@@ -2,9 +2,9 @@
 -- 22: Number Royale --
 -- author: eiTTio 
 -- author: abfipes
--- success: 59
+-- success: 59/100
 -- time: 2
--- notes: calculated expected => 55.3% ; failed 41 out of 100 => 59% successful --
+-- notes: calculated expected => 55.3%
 -- notes: abfipes: see Other/Number_Royale.cpp (todo, calculate this and do not cpp)
 
 if s < 85 or

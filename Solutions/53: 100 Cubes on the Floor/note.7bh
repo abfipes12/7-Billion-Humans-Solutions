@@ -5,7 +5,7 @@
 -- success: 50
 -- times: 1163 1233
 -- notes: failed 54 out of 100 => 46% successful -- 
--- notes: well will need to change that sometime
+-- notes: TODO fix; well will need to change that sometime
 
 a:
 step nw,w,sw,n,s,ne,e,se

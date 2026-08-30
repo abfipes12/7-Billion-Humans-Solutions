@@ -2,9 +2,8 @@
 -- 10: Emergency Escapades --
 -- author: commonnickname 
 -- author: n05ucc4u
--- success: 100
+-- success: 150/150
 -- times: 155 221
--- notes: failed 0 out of 150
 
 a:
 if w == hole or

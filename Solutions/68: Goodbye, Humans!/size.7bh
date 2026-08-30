@@ -2,9 +2,8 @@
 -- 68: Goodbye, Humans! --
 -- author: aqueous68
 -- author: main-gi
--- success: 99.2
+-- success: 248/250
 -- times: 74 75
--- notes: failed 2 out of 250 => successful 99.2% --
 
 a:
 if s != hole and

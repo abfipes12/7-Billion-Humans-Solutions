@@ -6,31 +6,36 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
 
 ---
 
+### 🟩 Year 2 - Welcome, New Employees 🟩
 <table>
   <tr>
-    <th>🟩 Year 2 - Welcome, New Employees 🟩</th> <th>Author(s)</th> <th>Size [3]</th> <th>Time [2s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [3]</th> <th>Time [2s]</th>
   </tr>
   <tr>
     <td>🥇<a href="Solutions/2: Welcome, New Employees/the solution.7bh">Both</a></td>
-    <td></td>
+    <td>hingston</td>
     <td>3</td>
     <td>1s</td>
   </tr>
 </table>
+
+### 🟩 Year 3 - Transport Squad 🟩
 <table>
   <tr>
-    <th>🟩 Year 3 - Transport Squad 🟩</th> <th>Author(s)</th> <th>Size [5]</th> <th>Time [2s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [5]</th> <th>Time [2s]</th>
   </tr>
   <tr>
     <td>🥇<a href="Solutions/3: Transport Squad/transport.7bh">Both</a></td>
-    <td></td>
+    <td>hingston</td>
     <td>5</td>
     <td>2s</td>
   </tr>
 </table>
+
+### 🟩 Year 4 - Long Distance Delivery 🟩
 <table>
   <tr>
-    <th>🟩 Year 4 - Long Distance Delivery 🟩</th> <th>Author(s)</th> <th>Size [4]</th> <th>Time [7s]</th>
+    <th></th> <th>Author(s)</th> <th>Size [4]</th> <th>Time [7s]</th>
   </tr>
   <tr>
     <td>🥇<a href="Solutions/4: Long Distance Delivery/paste-only.7bh">Both 📋</a></td>
@@ -40,7 +45,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
     <td>✍🏻<a href="Solutions/4: Long Distance Delivery/slow.7bh">Size</a></td>
-    <td></td>
+    <td>hingston</td>
     <td>3</td>
     <td>29s</td>
   </tr>
@@ -59,7 +64,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
     <td>🥇<a href="Solutions/5: An Important Decision/5.7bh">Both</a></td>
-    <td></td>
+    <td>hingston</td>
     <td>5</td>
     <td>2s</td>
   </tr>
@@ -84,7 +89,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
     <td>⚡<a href="Solutions/6: Little Exterminator 1/normal.7bh">Time</a></td>
-    <td></td>
+    <td>hingston</td>
     <td>9</td>
     <td>3s</td>
   </tr>
@@ -346,7 +351,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
     <td>🥇<a href="Solutions/17: Content Creators/how-to-even-beat-it.7bh">Both</a></td>
-    <td></td>
+    <td>hingston</td>
     <td>1</td>
     <td>2s</td>
   </tr>
@@ -1652,16 +1657,16 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
       <td>39</td>
   </tr>
   <tr>
+      <td>hingston</td>
+      <td>21</td>
+  </tr>
+  <tr>
       <td>dmr</td>
       <td>20</td>
   </tr>
   <tr>
       <td>martinez8859</td>
       <td>20</td>
-  </tr>
-  <tr>
-      <td>hingston</td>
-      <td>15</td>
   </tr>
   <tr>
       <td>main-gi</td>

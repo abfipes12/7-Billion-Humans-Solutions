@@ -2,9 +2,8 @@
 -- 32: Creative Writhing --
 -- author: main-gi
 -- author: abfipes
--- success: 99.2
+-- success: 248/250
 -- times: 476 599
--- notes: failed 2 out of 250
 
 a:
 pickup c,s,e,se
