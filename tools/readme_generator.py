@@ -4,7 +4,7 @@ from pathlib import Path
 def main():
     template_path = Path("readme_template.md")
     tables_path = Path("build/readme_tables.md")
-    readme_path = Path("README.md")
+    readme_path = Path("README.MD")
     
     if not template_path.is_file():
         print(f"ERROR: Template file '{template_path}' not found.", file=sys.stderr)
@@ -26,7 +26,7 @@ def main():
     final_content = template_content.replace(placeholder, tables_content)
     
     readme_path.write_text(final_content, encoding='utf-8')
-    print("README.md successfully generated from template and tables.")
+    print("README.MD successfully generated from template and tables.")
 
 if __name__ == '__main__':
     main()

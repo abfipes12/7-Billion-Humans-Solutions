@@ -5,7 +5,6 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from instruction_parser import count_sbh_instructions
 
-# Matches both "Year 30 - Fill the Floor" and "57: Neighborly Sweeper"
 LEVEL_DIR_PATTERN = re.compile(r"^(?:Year\s+)?(\d+)(?:\s+-\s+|\:\s+)(.+)$", re.IGNORECASE)
 
 @dataclass
