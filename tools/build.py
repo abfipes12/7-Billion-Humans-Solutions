@@ -2,13 +2,14 @@
 import argparse
 import json
 import sys
+import subprocess
 from dataclasses import asdict
 from pathlib import Path
 
 from solution_parser import parse_solution
 
 def parse_args() -> argparse.Namespace:
-    ap = argparse.ArgumentParser(description='Build and validate 7 Billion Humans solutions.')
+    ap = argparse.ArgumentParser(description='Build and validate 7 Billion Humans solutions pipeline.')
     ap.add_argument('--repo', default='.', type=Path, help='Path to the repository root')
     ap.add_argument('--solutions', default='Solutions', help='Directory name for solutions')
     ap.add_argument('--validate', action='store_true', help='Run validation on all solutions')
@@ -43,29 +44,23 @@ def format_solution_dict(sol, repo: Path) -> dict:
     del sol_dict['year']
     del sol_dict['name']
     
-    # Strip optional time bounds if complex timing isn't used
     if not sol_dict.get('complex_timing'):
         sol_dict.pop('min_time', None)
         sol_dict.pop('max_time', None)
         
-    # Drop omitted optional attributes so they aren't written as null/empty
     if sol_dict.get('success') is None:
         sol_dict.pop('success')
     if not sol_dict.get('contributors'):
         sol_dict.pop('contributors')
-    # if not sol_dict.get('notes'):
-    #     sol_dict.pop('notes')
         
     return sol_dict
 
 def export_json(solutions: list, repo: Path, out_path: Path):
     export_data = {}
-    
     for sol in solutions:
         year_key = str(sol.year)
         if year_key not in export_data:
             export_data[year_key] = []
-        
         export_data[year_key].append(format_solution_dict(sol, repo))
         
     sorted_export_data = {
@@ -76,7 +71,6 @@ def export_json(solutions: list, repo: Path, out_path: Path):
     out_path.parent.mkdir(parents=True, exist_ok=True)
     with open(out_path, 'w', encoding='utf-8') as f:
         json.dump(sorted_export_data, f, indent=2)
-        
     print(f"Exported data for {len(solutions)} solutions to {out_path}")
 
 def main() -> int:
@@ -91,13 +85,38 @@ def main() -> int:
     solutions, errors = collect_solutions(solutions_dir)
 
     if args.validate:
-        return run_validation(solutions, errors, repo)
+        validation_status = run_validation(solutions, errors, repo)
+        if validation_status != 0:
+            return validation_status
 
     if errors:
-        print(f"WARNING: Skipping export due to {len(errors)} validation errors. Run with --validate for details.", file=sys.stderr)
+        print(f"WARNING: Skipping pipeline due to {len(errors)} validation errors.", file=sys.stderr)
         return 1
 
     export_json(solutions, repo, args.out)
+
+    print("Running tools/categorize_solutions.py...")
+    try:
+        subprocess.run([sys.executable, "tools/categorize_solutions.py"], check=True, cwd=repo)
+    except subprocess.CalledProcessError:
+        print("ERROR: Solution categorization failed.", file=sys.stderr)
+        return 1
+
+    print("Running tools/generate_tables.py...")
+    try:
+        subprocess.run([sys.executable, "tools/generate_tables.py"], check=True, cwd=repo)
+    except subprocess.CalledProcessError:
+        print("ERROR: Table generation failed.", file=sys.stderr)
+        return 1
+
+    print("Running tools/readme_generator.py...")
+    try:
+        subprocess.run([sys.executable, "tools/readme_generator.py"], check=True, cwd=repo)
+    except subprocess.CalledProcessError:
+        print("ERROR: README generation failed.", file=sys.stderr)
+        return 1
+
+    print("Build pipeline completed successfully.")
     return 0
 
 if __name__ == '__main__':

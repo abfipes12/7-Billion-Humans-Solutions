@@ -4,6 +4,19 @@ Community solutions for the game [7 Billion Humans](https://store.steampowered.c
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, how solutions are ranked and how credit is given.
 
+## Categories
+ 
+- ✍🏻Size - Shortest (in-game lines)
+ 
+- ⚡Time - Lowest average completion time
+
+- ✍🏻⚡Swtc – Shortest within time challenge
+ 
+- ⚡✍🏻Twsc - Lowest average completion time within size challenge
+
+## Paste Only
+"📋" marks solutions that cannot be built inside the in-game editor and must be pasted directly into the game. (that can't be done with iOS build of this game)
+
 ---
 
 <!-- GENERATED TABLES -->
@@ -12,10 +25,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
 
 ToDo:
 
-keeping track of solutions creation dates<br>
+keep track of solution creation dates<br>
 fix authors and contributors<br>
 sub-second speeds (with Cheat Engine or gdb)<br>
 Increase the number of tests performed by game for a level from 25 to 1000 and export times and success rates. <br>
 Improve the page.<br>
 Document game mechanics / wiki → that could help improve solutions.<br>
-update the feel-and-look of solutions table(s)<br>
