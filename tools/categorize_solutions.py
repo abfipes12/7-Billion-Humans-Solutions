@@ -10,14 +10,14 @@ class SolutionState:
         self.time = data['time']
         self.paste = data.get('is_paste_only', False)
         
-        # Categorize success tier based on >=99% and >=50% thresholds
-        success = data.get('success', 100.0)
-        if success >= 99.0:
+        # Store exact success rate and categorize tier
+        self.success = data.get('success', 100.0)
+        if self.success >= 99.0:
             self.tier = 1
-        elif success >= 50.0:
+        elif self.success >= 50.0:
             self.tier = 2
         else:
-            raise ValueError(f"Error: Solution {self.path} has success rate {success}% which is < 50%.")
+            raise ValueError(f"Error: Solution {self.path} has success rate {self.success}% which is < 50%.")
 
 def is_strictly_better_overall(O, S):
     """Checks if O is strictly better than S in at least one of the 4 dimensions."""
@@ -26,9 +26,8 @@ def is_strictly_better_overall(O, S):
 def dominates_in_size(O, S):
     """Returns True if O eliminates S from the Size category."""
     if not (O.paste <= S.paste and O.tier <= S.tier):
-        return False  # O must have equal or better modifiers to eliminate S
+        return False  
     
-    # O beats or ties S in the Size category comparison (primary: size, tie-breaker: time)
     beats_in_metric = (O.size < S.size) or (O.size == S.size and O.time <= S.time)
     
     return beats_in_metric and is_strictly_better_overall(O, S)
@@ -38,7 +37,6 @@ def dominates_in_time(O, S):
     if not (O.paste <= S.paste and O.tier <= S.tier):
         return False
         
-    # O beats or ties S in the Time category comparison (primary: time, tie-breaker: size)
     beats_in_metric = (O.time < S.time) or (O.time == S.time and O.size <= S.size)
     
     return beats_in_metric and is_strictly_better_overall(O, S)
@@ -48,7 +46,7 @@ def dominates_in_twsc(O, S, size_chal):
     if not (O.paste <= S.paste and O.tier <= S.tier):
         return False
     if O.size > size_chal:
-        return False  # O must meet the challenge to compete
+        return False  
         
     beats_in_metric = (O.time < S.time) or (O.time == S.time and O.size <= S.size)
     
@@ -59,7 +57,7 @@ def dominates_in_swtc(O, S, speed_chal):
     if not (O.paste <= S.paste and O.tier <= S.tier):
         return False
     if O.time > speed_chal + 0.5:
-        return False  # O must meet the speed challenge (+0.5s tolerance)
+        return False  
         
     beats_in_metric = (O.size < S.size) or (O.size == S.size and O.time <= S.time)
     
@@ -72,11 +70,9 @@ def categorize_year(year_str: str, sols_data: list, level_info: dict):
     states = [SolutionState(sol) for sol in sols_data]
     
     for S in states:
-        # 1. Evaluate Main Categories
         is_size = not any(dominates_in_size(O, S) for O in states if O is not S)
         is_time = not any(dominates_in_time(O, S) for O in states if O is not S)
         
-        # 2. Evaluate Side Categories
         is_twsc = (S.size <= size_chal) and not any(dominates_in_twsc(O, S, size_chal) for O in states if O is not S)
         is_swtc = (S.time <= speed_chal + 0.5) and not any(dominates_in_swtc(O, S, speed_chal) for O in states if O is not S)
         
@@ -89,7 +85,6 @@ def categorize_year(year_str: str, sols_data: list, level_info: dict):
         elif is_time:
             tags.append("Time")
             
-        # Side categories only apply if the solution fails to win a main category
         if not tags:
             if is_swtc and is_twsc:
                 tags.append("within Both Challenges")
@@ -101,12 +96,17 @@ def categorize_year(year_str: str, sols_data: list, level_info: dict):
         if not tags:
             raise ValueError(f"Error: Weak solution found at '{S.path}'. It is strictly dominated and wins no categories.")
             
-        # Construct the final category string
         cat_str = tags[0]
+        
+        # Check for non-100% success in speed categories, ONLY if in the 99% tier (tier 1)
+        speed_categories = {"Time", "Both", "Time within Size Challenge", "within Both Challenges"}
+        if S.tier == 1 and S.success < 100.0 and cat_str in speed_categories:
+            print(f"Warning: Solution '{S.path}' won a speed category ('{cat_str}') but has a success rate of {S.success}% instead of 100%.", file=sys.stderr)
+
         if S.paste:
-            cat_str += " 📋"
+            cat_str += " \U0001F4CB"
         if S.tier == 2:
-            cat_str += " 50%🍀"
+            cat_str += " 50%\U0001F340"
             
         S.data['category'] = cat_str
 
