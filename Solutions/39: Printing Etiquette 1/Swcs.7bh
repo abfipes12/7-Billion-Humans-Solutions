@@ -1,0 +1,20 @@
+-- 7 Billion Humans (2235) --
+-- 39: Printing Etiquette 1 --
+-- author: landfillbaby
+-- contributor: abfipes
+-- times: 46 50
+
+mem1 = nearest printer
+jump a
+b:
+step nw,w,sw,n,ne,e,se
+if c == nothing and
+ myitem == datacube:
+	drop
+	mem2 = calc mem2 + 1
+	if mem2 < 5:
+		a:
+		takefrom mem1
+	endif
+endif
+jump b

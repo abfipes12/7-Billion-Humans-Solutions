@@ -1,0 +1,9 @@
+-- 7 Billion Humans (2059) --
+-- 19: Content Creators Bug Fix --
+-- author: n05ucc4u
+-- time: 26
+
+a:
+takefrom sw,s
+giveto se
+jump a

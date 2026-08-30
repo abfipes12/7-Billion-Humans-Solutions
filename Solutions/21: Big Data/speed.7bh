@@ -1,0 +1,153 @@
+-- 7 Billion Humans (2235) --
+-- 21: Big Data --
+-- author: commonnickname
+-- contributor: abfipes
+-- times: 16 22
+
+step s
+takefrom s
+if myitem == datacube:
+	comment 0
+	if myitem >= 50:
+		jump a
+	endif
+	step n
+	step n
+	step n
+	step e
+	drop
+	step s
+	step s
+	step s
+	takefrom sw
+	if myitem >= 50:
+		a:
+		jump b
+	endif
+	step w
+	drop
+	takefrom se
+	if myitem >= 50:
+		b:
+		jump c
+	endif
+	step w
+	giveto s
+	step e
+	takefrom s
+	if myitem >= 50:
+		c:
+		jump d
+	endif
+	jump e
+endif
+step se
+takefrom sw
+if myitem == datacube:
+	comment 1
+	if myitem >= 50:
+		d:
+		jump f
+	endif
+	step n
+	step n
+	step e
+	drop
+	step s
+	step s
+	takefrom sw
+	if myitem >= 50:
+		f:
+		jump g
+	endif
+	step nw
+	drop
+	step s
+	takefrom se
+	e:
+	jump h
+endif
+step s
+if sw == printer:
+	comment 2
+	takefrom sw
+	if myitem >= 50:
+		g:
+		jump i
+	endif
+	step n
+	step e
+	drop
+	step s
+	takefrom sw
+	if myitem >= 50:
+		i:
+		jump j
+	endif
+	step n
+	step se
+	drop
+	takefrom sw
+	h:
+	jump k
+endif
+comment 3
+step s
+takefrom sw
+if myitem >= 50:
+	j:
+	jump l
+endif
+step se
+drop
+step n
+takefrom sw
+comment 4
+if myitem >= 50:
+	l:
+	jump m
+endif
+step w
+giveto s
+step e
+takefrom s
+k:
+n:
+if myitem >= 50:
+	m:
+	jump o
+endif
+step w
+giveto s
+step e
+takefrom s
+jump n
+o:
+step n
+step n
+step n
+step n
+step n
+
+
+DEFINE COMMENT 0
+eJzjYgCCFAa3hiwGq4ZyBimGRgYIaAdjroYWBpuGBoZ/DKNgFIyCYQkAbnQHwQ;
+
+DEFINE COMMENT 1
+eJwTZgCCQgY7hhYGNYZOIO5h0GvoZbAC4gAgP6uhgWFCQwnDjoZihn0N+QynGvIYLjTkMFwB4hsNHQwP
+GKYyPGLYBMSbGZ4wjIJRMAqGHAAAjn4Y3w;
+
+DEFINE COMMENT 2
+eJyTYGBgaMhk0GsoYJBpqGHgamgG4lYGnoYOBjGGLgaNhk4GG4Z2Bj+GFoaIhnqGpIYKhjyGCoaihkog
+rmIoAKovAMqXNHQx1ABxW0M7w4yGFoYlQDVHGnIYrjGMglEwCgY1AABefBx1;
+
+DEFINE COMMENT 3
+eJzjY2BgaChkkGkoYNBoyGSIY0hjaGHIYGhjyGJoashnqGuoYqhiaGZoYmhlaGtoZZgBpNcA6S8Mo2AU
+jIJhAQAnEg/3;
+
+DEFINE COMMENT 4
+eJztjz9LwmEUhZ8PYBjiECEl0dDUFE0NIiHkpJDiYBARlRLmEoQ03C3/9UN+U5hEFEKTHyAjpM0ltHJx
+8qN03j5GeOCB+77ce+65e4AFCYsIC8RF0QKUCFBX7RGkZStiFc+i3Ikn1T0xJcoMN59mTezYPr54tIx6
+sjxYnrad0qZAh3PhlCHJIQlOiFtJ+5xSLHNAiDNCVlCWC1HW+5LFP/8bOqJCjRwNYjS175Z189igxRb3
+HNkzPl1l77LLi9K7uVeW6LNtb2R51y3ur0+YoeY/2eRbvRN5TjjmRzd/ccVYjLi2IVU+5D4Qc831j/UL
+h99G8g;

@@ -1,0 +1,21 @@
+-- 7 Billion Humans (2059) --
+-- 23: Sorting Hall --
+-- author: eiTTio
+-- contributor: abfipes
+-- times: 15 17
+
+pickup s
+if myitem < 50:
+	a:
+	b:
+	if myitem < w:
+		step w
+		jump a
+	endif
+endif
+c:
+if myitem > e:
+	step e
+	jump c
+endif
+jump b

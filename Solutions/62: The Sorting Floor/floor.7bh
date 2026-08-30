@@ -1,0 +1,35 @@
+-- 7 Billion Humans (2214M) --
+-- 62: The Sorting Floor --
+-- author: dmr
+-- success: 199/200
+-- times: 457 577
+
+a:
+if ne != hole and
+ ne != datacube or
+ w > c and
+ w == datacube and
+ myitem != datacube:
+	pickup w
+endif
+if n == hole:
+	mem1 = foreachdir nw,n,ne:
+		step s
+	endfor
+endif
+if n < ne or
+ e == worker and
+ myitem != datacube and
+ w != hole or
+ e == hole:
+	step w
+endif
+step n,ne
+if e > sw or
+ c != datacube and
+ e == datacube and
+ myitem != datacube:
+	pickup e
+endif
+drop
+jump a

@@ -1,0 +1,22 @@
+-- 7 Billion Humans (2235) --
+-- 15: Shred Lines --
+-- author: abfipes
+-- success: 16/25
+-- times: 950 950
+-- notes: this level crashes (not the same as failing) for me, i will need to investigate
+
+a:
+step nw,w,sw,s,ne,e,se
+if n >= 0 and
+ s == shredder or
+ nw == datacube or
+ s == worker and
+ nw != wall and
+ se != wall:
+	if nw == datacube or
+	 s == shredder:
+		pickup nw
+	endif
+	giveto s
+endif
+jump a

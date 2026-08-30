@@ -1,0 +1,12 @@
+-- 7 Billion Humans (2145) --
+-- 30: Fill the Floor --
+-- author: martinez8859
+-- success: 149/150
+-- times: 598 671
+
+mem1 = nearest printer
+a:
+takefrom mem1
+step nw,w,sw,s,ne,e,se
+drop
+jump a

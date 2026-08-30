@@ -1,0 +1,9 @@
+-- 7 Billion Humans (2056) --
+-- 14: Intro to Shredding --
+-- author: hingston
+-- time: 4
+
+step s
+pickup c
+step s
+giveto s

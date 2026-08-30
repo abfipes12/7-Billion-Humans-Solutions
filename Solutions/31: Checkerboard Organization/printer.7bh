@@ -1,0 +1,14 @@
+-- 7 Billion Humans (2235) --
+-- 31: Checkerboard Organization --
+-- author: Spiff
+-- times: 83 99
+
+mem1 = nearest printer
+a:
+if c == nothing:
+	drop
+	takefrom mem1
+	step w,e
+endif
+step nw,sw,ne,se
+jump a

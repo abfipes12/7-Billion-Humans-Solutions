@@ -1,0 +1,13 @@
+-- 7 Billion Humans (2235) --
+-- 21: Big Data --
+-- author: martinez8859
+-- times: 31 40
+
+step s
+a:
+takefrom s
+if myitem < 50:
+	giveto sw
+	step e
+endif
+jump a

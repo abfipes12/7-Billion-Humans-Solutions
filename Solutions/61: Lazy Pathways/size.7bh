@@ -1,0 +1,26 @@
+-- 7 Billion Humans (2214M) --
+-- 61: Lazy Pathways --
+-- author: Thineboot
+-- contributor: dmr
+-- contributor: commonnickname
+-- success: 199/200
+-- times: 573 645
+
+a:
+step nw,w,sw,ne,se
+mem1 = foreachdir nw,w,sw,n,s,ne,e,se:
+	if w < c and
+	 c != 3 or
+	 se <= c or
+	 nw >= c or
+	 c > 5 and
+	 c > mem1 and
+	 c > 2 and
+	 mem1 != worker:
+		mem1 = calc mem1 + 1
+		pickup c
+		write mem1
+		drop
+	endif
+endfor
+jump a

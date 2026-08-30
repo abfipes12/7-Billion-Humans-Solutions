@@ -1,0 +1,13 @@
+-- 7 Billion Humans (2145) --
+-- 50: Cubical Communication --
+-- author: yifeixuer
+-- time: 49
+
+a:
+step w
+mem1 = calc mem1 + 1
+if mem1 >= s:
+	takefrom se
+	giveto se
+endif
+jump a

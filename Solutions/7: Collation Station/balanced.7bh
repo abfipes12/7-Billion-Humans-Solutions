@@ -1,0 +1,13 @@
+-- 7 Billion Humans (2235) --
+-- 7: Collation Station --
+-- author: VaneaNomater
+-- time: 9
+
+a:
+if s == datacube or
+ s == hole:
+	drop
+	pickup s
+endif
+step s
+jump a

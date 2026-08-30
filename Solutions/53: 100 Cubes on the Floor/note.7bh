@@ -1,0 +1,21 @@
+-- 7 Billion Humans (2235) --
+-- 53: 100 Cubes on the Floor --
+-- author: nezhi
+-- author: SDP_Ragequit
+-- success: 50
+-- times: 1163 1233
+-- notes: failed 54 out of 100 => 46% successful -- 
+-- notes: TODO fix; well will need to change that sometime
+
+a:
+step nw,w,sw,n,s,ne,e,se
+if n == wall and
+ e == nothing or
+ mem1 > 0 and
+ c == 0:
+	mem1 = calc mem1 + 1
+	pickup c
+	write mem1
+	drop
+endif
+jump a

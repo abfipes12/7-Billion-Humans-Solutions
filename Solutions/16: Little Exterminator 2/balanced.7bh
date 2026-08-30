@@ -1,0 +1,18 @@
+-- 7 Billion Humans (2235) --
+-- 16: Little Exterminator 2 --
+-- author: hingston
+-- author: abfipes
+-- time: 11
+
+a:
+step s
+if sw != wall:
+	jump a
+endif
+pickup c
+b:
+step e
+if se != shredder:
+	jump b
+endif
+giveto se

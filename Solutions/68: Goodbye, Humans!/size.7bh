@@ -1,0 +1,23 @@
+-- 7 Billion Humans (2235) --
+-- 68: Goodbye, Humans! --
+-- author: aqueous68
+-- author: main-gi
+-- success: 248/250
+-- times: 74 75
+
+a:
+if s != hole and
+ sw != hole and
+ w != hole or
+ e == wall:
+	step w,sw,s
+endif
+step se
+if nw != worker and
+ n != worker and
+ ne != worker and
+ e == wall and
+ s == hole:
+	tell everyone goodbye
+endif
+jump a

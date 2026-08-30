@@ -1,0 +1,21 @@
+-- 7 Billion Humans (2235) --
+-- 34: Seek and Destroy 1 --
+-- author: n05ucc4u
+-- author: abfipes
+-- success: 248/250
+-- times: 516 701
+
+a:
+step n,s
+if c < mem1 or
+ mem1 != datacube and
+ mem1 == something:
+	mem1 = nearest datacube
+endif
+if myitem == datacube and
+ s == shredder or
+ n == wall:
+	pickup mem1
+	giveto s
+endif
+jump a

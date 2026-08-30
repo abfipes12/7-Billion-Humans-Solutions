@@ -1,0 +1,14 @@
+-- 7 Billion Humans (2145) --
+-- 11: Injection Sites 1 --
+-- author: hingston 
+-- contributor: n05ucc4u
+-- time: 10
+
+pickup s
+a:
+step s
+if w == nothing or
+ c == datacube:
+	jump a
+endif
+drop

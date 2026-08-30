@@ -1,0 +1,14 @@
+-- 7 Billion Humans (2214M) --
+-- 21: Big Data --
+-- author: commonnickname
+-- author: H-J-Granger
+-- times: 21 26
+
+a:
+step s
+takefrom s,se
+if myitem < 50 or
+ myitem == nothing:
+	giveto sw
+	jump a
+endif

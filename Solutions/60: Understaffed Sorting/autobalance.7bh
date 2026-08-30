@@ -1,0 +1,22 @@
+-- 7 Billion Humans (2235) --
+-- 60: Understaffed Sorting --
+-- author: wuenry
+-- times: 149 165
+-- success: 200/200
+
+a:
+if sw > s and
+ s == datacube and
+ w != worker:
+	pickup sw
+	drop
+	pickup s
+	step sw
+	drop
+	pickup ne
+	step e
+	drop
+	step n
+endif
+step w,e
+jump a

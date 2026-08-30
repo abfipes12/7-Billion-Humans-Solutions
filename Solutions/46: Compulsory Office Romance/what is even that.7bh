@@ -1,0 +1,9 @@
+-- 7 Billion Humans (2145) --
+-- 46: Compulsory Office Romance --
+-- author: n05ucc4u
+-- author: commonnickname
+-- time: 0
+
+a:
+tell [blank] mem1
+jump a

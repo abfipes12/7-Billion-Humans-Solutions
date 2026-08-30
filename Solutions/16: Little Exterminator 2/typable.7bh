@@ -1,0 +1,17 @@
+-- 7 Billion Humans (2059) --
+-- 16: Little Exterminator 2 --
+-- author: AlexMBrennan
+-- author: n05ucc4u 
+-- contributor: abfipes
+-- time: 26
+
+a:
+step s
+if w == worker or
+ sw == wall or
+ s == hole:
+	step ne
+	giveto se
+	pickup sw
+endif
+jump a

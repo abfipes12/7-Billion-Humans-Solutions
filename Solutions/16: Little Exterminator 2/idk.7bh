@@ -1,0 +1,20 @@
+-- 7 Billion Humans (2059) --
+-- 16: Little Exterminator 2 --
+-- author: n05ucc4u
+-- author: AlexMBrennan
+-- time: 7
+
+step s
+step s
+step s
+step s
+step sw
+step e
+pickup w,se
+step e
+step e
+step e
+giveto sw,s,ne
+step e
+step se
+giveto se

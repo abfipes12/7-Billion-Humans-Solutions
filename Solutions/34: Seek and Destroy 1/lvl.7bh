@@ -1,0 +1,45 @@
+-- 7 Billion Humans (2145) --
+-- 34: Seek and Destroy 1 --
+-- author: landfillbaby
+-- time: 8
+
+mem1 = nearest datacube
+mem4 = nearest shredder
+step mem1
+step n
+mem2 = nearest datacube
+if mem1 > mem2:
+	mem1 = nearest datacube
+endif
+step n
+mem2 = nearest datacube
+if mem1 > mem2:
+	mem1 = nearest datacube
+endif
+step n
+mem2 = nearest datacube
+if mem1 > mem2:
+	mem1 = nearest datacube
+endif
+step n
+mem2 = nearest datacube
+if mem1 > mem2:
+	mem1 = nearest datacube
+endif
+step n
+mem2 = nearest datacube
+if mem1 > mem2:
+	mem1 = nearest datacube
+endif
+step n
+mem2 = nearest datacube
+if mem1 > mem2:
+	mem1 = nearest datacube
+endif
+step n
+mem2 = nearest datacube
+if mem1 > mem2:
+	mem1 = nearest datacube
+endif
+pickup mem1
+giveto mem4

@@ -1,0 +1,13 @@
+-- 7 Billion Humans (2235) --
+-- 32: Creative Writhing --
+-- author: main-gi
+-- author: abfipes
+-- success: 248/250
+-- times: 476 599
+
+a:
+pickup c,s,e,se
+write 99
+drop
+step nw,sw,s,ne,e
+jump a

@@ -1,0 +1,387 @@
+
+{
+  "2": {
+    "year": 2,
+    "name": "Welcome, New Employees",
+    "size_challenge": 3,
+    "speed_challenge": 2
+  },
+  "3": {
+    "year": 3,
+    "name": "Transport Squad",
+    "size_challenge": 5,
+    "speed_challenge": 2
+  },
+  "4": {
+    "year": 4,
+    "name": "Long Distance Delivery",
+    "size_challenge": 4,
+    "speed_challenge": 7
+  },
+  "5": {
+    "year": 5,
+    "name": "An Important Decision",
+    "size_challenge": 5,
+    "speed_challenge": 3
+  },
+  "6": {
+    "year": 6,
+    "name": "Little Exterminator 1",
+    "size_challenge": 9,
+    "speed_challenge": 4
+  },
+  "7": {
+    "year": 7,
+    "name": "Collation Station",
+    "size_challenge": 5,
+    "speed_challenge": 6
+  },
+  "9": {
+    "year": 9,
+    "name": "Dynamic Angles",
+    "size_challenge": 5,
+    "speed_challenge": 6
+  },
+  "10": {
+    "year": 10,
+    "name": "Emergency Escapades",
+    "size_challenge": 9,
+    "speed_challenge": 25
+  },
+  "11": {
+    "year": 11,
+    "name": "Injection Sites 1",
+    "size_challenge": 5,
+    "speed_challenge": 7
+  },
+  "12": {
+    "year": 12,
+    "name": "Unzip",
+    "size_challenge": 8,
+    "speed_challenge": 7
+  },
+  "13": {
+    "year": 13,
+    "name": "Injection Sites 2",
+    "size_challenge": 10,
+    "speed_challenge": 55
+  },
+  "14": {
+    "year": 14,
+    "name": "Intro to Shredding",
+    "size_challenge": 4,
+    "speed_challenge": 3
+  },
+  "15": {
+    "year": 15,
+    "name": "Shred Lines",
+    "size_challenge": 9,
+    "speed_challenge": 23
+  },
+  "16": {
+    "year": 16,
+    "name": "Little Exterminator 2",
+    "size_challenge": 8,
+    "speed_challenge": 9
+  },
+  "17": {
+    "year": 17,
+    "name": "Content Creators",
+    "size_challenge": 1,
+    "speed_challenge": 3
+  },
+  "18": {
+    "year": 18,
+    "name": "Uniquely Disposed",
+    "size_challenge": 7,
+    "speed_challenge": 12
+  },
+  "19": {
+    "year": 19,
+    "name": "Content Creators Bug Fix",
+    "size_challenge": 4,
+    "speed_challenge": 27
+  },
+  "20": {
+    "year": 20,
+    "name": "Reverse Line",
+    "size_challenge": 9,
+    "speed_challenge": 11
+  },
+  "21": {
+    "year": 21,
+    "name": "Big Data",
+    "size_challenge": 8,
+    "speed_challenge": 32
+  },
+  "22": {
+    "year": 22,
+    "name": "Number Royale",
+    "size_challenge": 6,
+    "speed_challenge": 11
+  },
+  "23": {
+    "year": 23,
+    "name": "Sorting Hall",
+    "size_challenge": 6,
+    "speed_challenge": 26
+  },
+  "24": {
+    "year": 24,
+    "name": "Budget Brigade 1",
+    "size_challenge": 7,
+    "speed_challenge": 50
+  },
+  "25": {
+    "year": 25,
+    "name": "My First Shredding Memory",
+    "size_challenge": 5,
+    "speed_challenge": 132
+  },
+  "26": {
+    "year": 26,
+    "name": "Budget Brigade 2",
+    "size_challenge": 10,
+    "speed_challenge": 70
+  },
+  "28": {
+    "year": 28,
+    "name": "Neural Pathways",
+    "size_challenge": 4,
+    "speed_challenge": 51
+  },
+  "29": {
+    "year": 29,
+    "name": "Biometric Access",
+    "size_challenge": 5,
+    "speed_challenge": 61
+  },
+  "30": {
+    "year": 30,
+    "name": "Fill the Floor",
+    "size_challenge": 6,
+    "speed_challenge": 170
+  },
+  "31": {
+    "year": 31,
+    "name": "Checkerboard Organization",
+    "size_challenge": 7,
+    "speed_challenge": 100
+  },
+  "32": {
+    "year": 32,
+    "name": "Creative Writhing",
+    "size_challenge": 6,
+    "speed_challenge": 39
+  },
+  "33": {
+    "year": 33,
+    "name": "Data Backup Day",
+    "size_challenge": 8,
+    "speed_challenge": 3
+  },
+  "34": {
+    "year": 34,
+    "name": "Seek and Destroy 1",
+    "size_challenge": 9,
+    "speed_challenge": 21
+  },
+  "35": {
+    "year": 35,
+    "name": "Intro to Calc for Art Majors",
+    "size_challenge": 4,
+    "speed_challenge": 4
+  },
+  "36": {
+    "year": 36,
+    "name": "Seek and Destroy 2",
+    "size_challenge": 10,
+    "speed_challenge": 145
+  },
+  "37": {
+    "year": 37,
+    "name": "Dangerous Spreadsheeting",
+    "size_challenge": 13,
+    "speed_challenge": 32
+  },
+  "38": {
+    "year": 38,
+    "name": "Seek and Destroy 3",
+    "size_challenge": 22,
+    "speed_challenge": 33
+  },
+  "39": {
+    "year": 39,
+    "name": "Printing Etiquette 1",
+    "size_challenge": 9,
+    "speed_challenge": 55
+  },
+  "40": {
+    "year": 40,
+    "name": "Printing Etiquette 2",
+    "size_challenge": 10,
+    "speed_challenge": 55
+  },
+  "41": {
+    "year": 41,
+    "name": "Image Decrypter",
+    "size_challenge": 8,
+    "speed_challenge": 15
+  },
+  "42": {
+    "year": 42,
+    "name": "Important Email Organization",
+    "size_challenge": 18,
+    "speed_challenge": 200
+  },
+  "43": {
+    "year": 43,
+    "name": "Multiplication Table",
+    "size_challenge": 11,
+    "speed_challenge": 53
+  },
+  "44": {
+    "year": 44,
+    "name": "Unique Fashion Party",
+    "size_challenge": 11,
+    "speed_challenge": 75
+  },
+  "46": {
+    "year": 46,
+    "name": "Compulsory Office Romance",
+    "size_challenge": 7,
+    "speed_challenge": 15
+  },
+  "47": {
+    "year": 47,
+    "name": "Automated Pleasantries",
+    "size_challenge": 3,
+    "speed_challenge": 8
+  },
+  "48": {
+    "year": 48,
+    "name": "Community Training Day",
+    "size_challenge": 6,
+    "speed_challenge": 8
+  },
+  "49": {
+    "year": 49,
+    "name": "Double Sided Destruction",
+    "size_challenge": 7,
+    "speed_challenge": 17
+  },
+  "50": {
+    "year": 50,
+    "name": "Cubical Communication",
+    "size_challenge": 12,
+    "speed_challenge": 60
+  },
+  "51": {
+    "year": 51,
+    "name": "Identify Yourselves",
+    "size_challenge": 7,
+    "speed_challenge": 27
+  },
+  "52": {
+    "year": 52,
+    "name": "The Mode Code",
+    "size_challenge": 24,
+    "speed_challenge": 158
+  },
+  "53": {
+    "year": 53,
+    "name": "100 Cubes on the Floor",
+    "size_challenge": 16,
+    "speed_challenge": 80
+  },
+  "54": {
+    "year": 54,
+    "name": "Terrain Leveler",
+    "size_challenge": 26,
+    "speed_challenge": 90
+  },
+  "55": {
+    "year": 55,
+    "name": "Data Flowers",
+    "size_challenge": 8,
+    "speed_challenge": 25
+  },
+  "56": {
+    "year": 56,
+    "name": "Local Maximums",
+    "size_challenge": 8,
+    "speed_challenge": 14
+  },
+  "57": {
+    "year": 57,
+    "name": "Neighborly Sweeper",
+    "size_challenge": 16,
+    "speed_challenge": 100
+  },
+  "58": {
+    "year": 58,
+    "name": "Good Neighbors",
+    "size_challenge": 10,
+    "speed_challenge": 175
+  },
+  "59": {
+    "year": 59,
+    "name": "Glory Hole",
+    "size_challenge": 7,
+    "speed_challenge": 15
+  },
+  "60": {
+    "year": 60,
+    "name": "Understaffed Sorting",
+    "size_challenge": 12,
+    "speed_challenge": 200
+  },
+  "61": {
+    "year": 61,
+    "name": "Lazy Pathways",
+    "size_challenge": 11,
+    "speed_challenge": 250
+  },
+  "62": {
+    "year": 62,
+    "name": "The Sorting Floor",
+    "size_challenge": 48,
+    "speed_challenge": 174
+  },
+  "63": {
+    "year": 63,
+    "name": "Defrag Disordered",
+    "size_challenge": 28,
+    "speed_challenge": 95
+  },
+  "64": {
+    "year": 64,
+    "name": "Binary Counter",
+    "size_challenge": 17,
+    "speed_challenge": 54
+  },
+  "65": {
+    "year": 65,
+    "name": "Defrag Ordered",
+    "size_challenge": 25,
+    "speed_challenge": 500
+  },
+  "66": {
+    "year": 66,
+    "name": "Decimal Counter",
+    "size_challenge": 23,
+    "speed_challenge": 120
+  },
+  "67": {
+    "year": 67,
+    "name": "Decimal Doubler",
+    "size_challenge": 25,
+    "speed_challenge": 250
+  },
+  "68": {
+    "year": 68,
+    "name": "Goodbye, Humans!",
+    "size_challenge": 9,
+    "speed_challenge": 50
+  }
+}
