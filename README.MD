@@ -6,10 +6,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
 
 ---
 
-### 🟩 Year 2 - Welcome, New Employees 🟩
 <table>
   <tr>
-    <th></th> <th>Author(s)</th> <th>Size [3]</th> <th>Time [2s]</th>
+    <th>🟩 Year 2 - Welcome, New Employees 🟩</th> <th>Author(s)</th> <th>Size [3]</th> <th>Time [2s]</th>
   </tr>
   <tr>
     <td>🥇<a href="Solutions/2: Welcome, New Employees/the solution.7bh">Both</a></td>
@@ -18,11 +17,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td>1s</td>
   </tr>
 </table>
-
-### 🟩 Year 3 - Transport Squad 🟩
 <table>
   <tr>
-    <th></th> <th>Author(s)</th> <th>Size [5]</th> <th>Time [2s]</th>
+    <th>🟩 Year 3 - Transport Squad 🟩</th> <th>Author(s)</th> <th>Size [5]</th> <th>Time [2s]</th>
   </tr>
   <tr>
     <td>🥇<a href="Solutions/3: Transport Squad/transport.7bh">Both</a></td>
@@ -31,11 +28,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td>2s</td>
   </tr>
 </table>
-
-### 🟩 Year 4 - Long Distance Delivery 🟩
 <table>
   <tr>
-    <th></th> <th>Author(s)</th> <th>Size [4]</th> <th>Time [7s]</th>
+    <th>🟩 Year 4 - Long Distance Delivery 🟩</th> <th>Author(s)</th> <th>Size [4]</th> <th>Time [7s]</th>
   </tr>
   <tr>
     <td>🥇<a href="Solutions/4: Long Distance Delivery/paste-only.7bh">Both 📋</a></td>
