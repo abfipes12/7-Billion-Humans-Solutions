@@ -4,6 +4,19 @@ Community solutions for the game [7 Billion Humans](https://store.steampowered.c
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, how solutions are ranked and how credit is given.
 
+## Categories
+ 
+- ✍🏻Size - Shortest (in-game lines)
+ 
+- ⚡Time - Lowest average completion time
+
+- ✍🏻⚡Swtc – Shortest within time challenge
+ 
+- ⚡✍🏻Twsc - Lowest average completion time within size challenge
+
+## Paste Only
+"📋" marks solutions that cannot be built inside the in-game editor and must be pasted directly into the game. (that can't be done with iOS build of this game)
+
 ---
 
 ### 🟩 Year 2 - Welcome, New Employees 🟩
