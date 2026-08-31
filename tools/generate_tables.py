@@ -160,8 +160,8 @@ def build_level_table(
         lines.append("  <tr>")
         lines.append(f'    <td width=190>{prefix}<a href="{sol["path"]}">{disp_name}</a></td>')
         lines.append(f"    <td width=167>{authors_str}</td>")
-        lines.append(f'    <td width=82>{sol["size"]}</td>')
-        lines.append(f"    <td width=112>{time_str}</td>")
+        lines.append(f'    <td width=92>{sol["size"]}</td>')
+        lines.append(f"    <td width=117>{time_str}</td>")
         lines.append("  </tr>")
 
     lines.append("</table>\n")
