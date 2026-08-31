@@ -158,10 +158,10 @@ def build_level_table(
                 author_counts[a] += 1
 
         lines.append("  <tr>")
-        lines.append(f'    <td width=162>{prefix}<a href="{sol["path"]}">{disp_name}</a></td>')
-        lines.append(f"    <td width=139>{authors_str}</td>")
-        lines.append(f'    <td width=54>{sol["size"]}</td>')
-        lines.append(f"    <td width=80>{time_str}</td>")
+        lines.append(f'    <td width=190>{prefix}<a href="{sol["path"]}">{disp_name}</a></td>')
+        lines.append(f"    <td width=167>{authors_str}</td>")
+        lines.append(f'    <td width=82>{sol["size"]}</td>')
+        lines.append(f"    <td width=112>{time_str}</td>")
         lines.append("  </tr>")
 
     lines.append("</table>\n")
