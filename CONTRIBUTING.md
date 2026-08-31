@@ -47,8 +47,7 @@ Best Size & Best Size within Speed Challenge
 Requires a ≥50% success rate.
 
 ### Challenge Time Tolerance
-Because of in-game rounding (e.g., 6.49s rounding to 6s) would pass the solution as within 6s time.<br>
-the _Best Size within Challenge Time_ category accepts solutions averaging up to **0.5s over** the nominal challenge limit.
+Because of in-game rounding (floor of the time), the _Best Size within Challenge Time_ category accepts solutions that the game would pass as within the challenge limit. e.g., a 6.79s time would pass the 6s challenge.
 
 ### Long-Running Solutions
 Any non-time-stable solution taking over 500 seconds to execute must include success rate explicit.

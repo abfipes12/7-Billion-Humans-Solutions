@@ -9,7 +9,6 @@ from typing import Any, Dict, List, Set, Tuple
 MIN_TIER1_SUCCESS = 99.0
 MIN_TIER2_SUCCESS = 50.0
 PERFECT_SUCCESS_RATE = 100.0
-SPEED_CHALLENGE_TIME_MARGIN = 0.5
 
 SPEED_CATEGORIES: Set[str] = {
     "Time",
@@ -110,7 +109,7 @@ def dominates_in_swtc(
     """Returns True if O eliminates S from 'Size within Challenge Time'."""
     if not (o.paste <= s.paste and o.tier <= s.tier):
         return False
-    if o.time > speed_chal + SPEED_CHALLENGE_TIME_MARGIN:
+    if int(o.time) > speed_chal:
         return False
     beats_in_metric = (o.size < s.size) or (o.size == s.size and o.time <= s.time)
     return beats_in_metric and is_strictly_better_overall(o, s)
@@ -150,7 +149,7 @@ def evaluate_solution_tags(
         dominates_in_twsc(o, s, size_chal) for o in states if o is not s
     )
     is_swtc = (
-        s.time <= speed_chal + SPEED_CHALLENGE_TIME_MARGIN
+        int(s.time) <= speed_chal
     ) and not any(
         dominates_in_swtc(o, s, speed_chal) for o in states if o is not s
     )
