@@ -1,0 +1,49 @@
+-- 7 Billion Humans (2235) --
+-- 26: Budget Brigade 2 --
+-- author: DFG.
+-- time: 67
+
+if s == printer:
+a:
+takefrom s
+giveto n
+jump a
+endif
+if s == shredder:
+b:
+if myitem >= 0:
+giveto s
+endif
+jump b
+endif
+if nw == hole and
+s == worker:
+c:
+if myitem >= 0:
+giveto n
+endif
+jump c
+endif
+if w == worker and
+e == worker:
+d:
+if myitem >= 50:
+giveto e
+endif
+if myitem >= 0 and
+myitem < 50:
+giveto w
+endif
+jump d
+endif
+if ne != hole:
+e:
+if myitem >= 50:
+giveto ne
+endif
+if myitem < 50 and
+myitem >= 0:
+giveto nw
+endif
+jump e
+endif

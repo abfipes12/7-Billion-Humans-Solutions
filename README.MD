@@ -600,6 +600,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>60s</td>
   </tr>
   <tr>
+    <td width=190>✍🏻⚡<a href="Solutions/26: Budget Brigade 2/fasty.7bh">Swtc</a></td>
+    <td width=167>DFG.</td>
+    <td width=92>24</td>
+    <td width=117>67s</td>
+  </tr>
+  <tr>
     <td width=190>⚡✍🏻<a href="Solutions/26: Budget Brigade 2/26.7bh">Twcs</a></td>
     <td width=167>abfipes</td>
     <td width=92>10</td>
@@ -1739,6 +1745,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>DeepAQ</td>
+      <td>1</td>
+  </tr>
+  <tr>
+      <td>DFG.</td>
       <td>1</td>
   </tr>
   <tr>
