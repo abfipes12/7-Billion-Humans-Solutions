@@ -838,22 +838,16 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <th></th> <th>Author(s)</th> <th>Size [13]</th> <th>Time [32s]</th>
   </tr>
   <tr>
-    <td width=190>✍🏻<a href="Solutions/37: Dangerous Spreadsheeting/37.7bh">Size</a></td>
+    <td width=190>✍🏻<a href="Solutions/37: Dangerous Spreadsheeting/size.7bh">Size</a></td>
     <td width=167>dmr</td>
     <td width=92>12</td>
-    <td width=117>30.992s</td>
+    <td width=117>26.032s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/37: Dangerous Spreadsheeting/speed.7bh">Time</a></td>
     <td width=167>motlin<br>commonnickname</td>
     <td width=92>245</td>
     <td width=117>~10.0861s</td>
-  </tr>
-  <tr>
-    <td width=190>⚡✍🏻<a href="Solutions/37: Dangerous Spreadsheeting/balance.7bh">Twcs</a></td>
-    <td width=167>dmr</td>
-    <td width=92>13</td>
-    <td width=117>28s</td>
   </tr>
 </table>
 
@@ -1682,16 +1676,16 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
       <td>38</td>
   </tr>
   <tr>
-      <td>dmr</td>
-      <td>20</td>
-  </tr>
-  <tr>
       <td>hingston</td>
       <td>20</td>
   </tr>
   <tr>
       <td>martinez8859</td>
       <td>20</td>
+  </tr>
+  <tr>
+      <td>dmr</td>
+      <td>19</td>
   </tr>
   <tr>
       <td>motlin</td>
