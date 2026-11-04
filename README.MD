@@ -1031,9 +1031,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/43: Multiplication Table/speed.7bh">Time</a></td>
-    <td width=167>commonnickname</td>
-    <td width=92>164</td>
-    <td width=117>21s</td>
+    <td width=167>motlin</td>
+    <td width=92>241</td>
+    <td width=117>20.832s</td>
   </tr>
   <tr>
     <td width=190>🥇🥇<a href="Solutions/43: Multiplication Table/balance.7bh">Both Challenges</a></td>
@@ -1669,7 +1669,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>commonnickname</td>
-      <td>47</td>
+      <td>46</td>
   </tr>
   <tr>
       <td>n05ucc4u</td>
@@ -1781,6 +1781,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>JoeKing</td>
+      <td>1</td>
+  </tr>
+  <tr>
+      <td>motlin</td>
       <td>1</td>
   </tr>
   <tr>
