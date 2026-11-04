@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2214M) --
 -- 65: Defrag Ordered --
 -- author: dmr
--- time: 369
+-- time: 369.12
 
 mem1 = foreachdir nw,w,n,s,ne,e,se:
 	step n

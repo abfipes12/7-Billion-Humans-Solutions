@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2214M) --
 -- 64: Binary Counter --
 -- author: dmr
--- time: 82
+-- time: 82.56
 
 a:
 if w == worker and

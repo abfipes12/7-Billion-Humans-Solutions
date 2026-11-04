@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2214M) --
 -- 58: Good Neighbors --
 -- author: commonnickname
--- time: 2
+-- time: 2.992
 
 mem1 = nearest datacube
 mem2 = nearest worker

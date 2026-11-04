@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2214M) --
 -- 44: Unique Fashion Party --
 -- author: commonnickname
--- time: 1
+-- time: 1.888
 
 mem1 = set sw,n
 if mem1 != worker and

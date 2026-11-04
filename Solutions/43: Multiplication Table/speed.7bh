@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2145) --
 -- 43: Multiplication Table --
 -- author: commonnickname
--- time: 21
+-- time: 21.408
 
 mem1 = nearest wall
 mem3 = nearest worker
