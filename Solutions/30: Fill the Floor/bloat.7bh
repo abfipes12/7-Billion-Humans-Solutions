@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2214M) --
 -- 30: Fill the Floor --
 -- author: commonnickname
--- time: 81
+-- time: 81.92
 
 mem1 = nearest wall
 mem4 = nearest printer

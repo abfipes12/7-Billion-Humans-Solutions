@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2059) --
 -- 39: Printing Etiquette 1 --
 -- author: commonnickname
--- time: 35
+-- time: 35.52
 
 mem1 = nearest printer
 takefrom mem1

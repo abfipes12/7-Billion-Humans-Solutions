@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2214M) --
 -- 67: Decimal Doubler --
 -- author: dmr
--- time: 311
+-- time: 311.632
 
 a:
 if se == worker or

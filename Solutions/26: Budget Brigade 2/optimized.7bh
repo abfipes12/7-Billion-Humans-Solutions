@@ -2,7 +2,7 @@
 -- 26: Budget Brigade 2 --
 -- author: psam
 -- author: n05ucc4u
--- time: 60
+-- time: 60.992
 
 if s == printer:
 	takefrom s

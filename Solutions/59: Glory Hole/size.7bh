@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2059) --
 -- 59: Glory Hole --
 -- author: eiTTio
--- time: 52
+-- time: 52.608
 
 a:
 mem2 = foreachdir nw,w,n,s,ne,se:

@@ -2,7 +2,7 @@
 -- 41: Image Decrypter --
 -- author: commonnickname
 -- contributor: abfipes
--- time: 6
+-- time: 6.96
 
 mem4 = nearest datacube
 step w

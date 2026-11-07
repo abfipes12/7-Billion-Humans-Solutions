@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2214M) --
 -- 66: Decimal Counter --
 -- author: dmr
--- time: 239
+-- time: 239.104
 
 a:
 if se == button and

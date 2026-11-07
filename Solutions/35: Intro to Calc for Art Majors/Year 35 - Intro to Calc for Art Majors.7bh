@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2145) --
 -- 35: Intro to Calc for Art Majors --
 -- author: hingston
--- time: 3
+-- time: 3.936
 
 pickup s
 mem1 = calc myitem + 1
