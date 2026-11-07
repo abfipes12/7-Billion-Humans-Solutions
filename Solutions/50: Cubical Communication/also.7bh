@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2087) --
 -- 50: Cubical Communication --
 -- author: landfillbaby
--- time: 38
+-- time: 38.112
 
 mem1 = nearest datacube
 a:

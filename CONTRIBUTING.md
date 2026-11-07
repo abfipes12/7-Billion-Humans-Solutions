@@ -21,13 +21,13 @@ The game engine tracks execution time sub-secondly using the following logic:
 
 2. Divides the sum by the count of successful attempts in that batch.
 
-3. Rounds the final average to the nearest integer.
+3. Truncates the final average to a whole number (e.g. 9.776s is shown as 9s).
 
 We store precise, unrounded times obtained via ```gdb``` or by appending quick instructions to test exact threshold boundaries (applicable only to time-stable solutions).
 
 ### Variable Runtimes
 For solutions with fluctuating execution times:
-- arithmetic mean of batch averages before rounding is solution's time.
+- arithmetic mean of batch averages before truncation is solution's time.
 - Batches with fewer than 13 successful attempts are ignored.
 
 variable times will be annotated using the format ```min-max``` (e.g., ```20.01-31.98s```).
@@ -47,7 +47,7 @@ Best Size & Best Size within Speed Challenge
 Requires a ≥50% success rate.
 
 ### Challenge Time Tolerance
-Because of in-game rounding (floor of the time), the _Best Size within Challenge Time_ category accepts solutions that the game would pass as within the challenge limit. e.g., a 6.79s time would pass the 6s challenge.
+Because of in-game truncation of the time, the _Best Size within Challenge Time_ category accepts solutions that the game would pass as within the challenge limit. e.g., a 6.79s time would pass the 6s challenge.
 
 ### Long-Running Solutions
 Any non-time-stable solution taking over 500 seconds to execute must include success rate explicit.

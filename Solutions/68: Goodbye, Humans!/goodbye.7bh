@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2235) --
 -- 68: Goodbye, Humans! --
 -- author: wuenry
--- time: 29
+-- time: 29.536
 
 a:
 if sw != hole and

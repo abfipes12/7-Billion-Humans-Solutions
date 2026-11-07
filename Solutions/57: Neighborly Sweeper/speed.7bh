@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2145) --
 -- 57: Neighborly Sweeper --
 -- author: commonnickname
--- time: 12
+-- time: 12.848
 
 jump a
 mem1 = foreachdir w:

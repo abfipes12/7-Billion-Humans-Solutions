@@ -2,7 +2,7 @@
 -- 57: Neighborly Sweeper --
 -- author: Pukeface
 -- contributor: abfipes
--- time: 96
+-- time: 96.592
 
 mem4 = set e
 a:

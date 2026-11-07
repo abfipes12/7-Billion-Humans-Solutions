@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2214M) --
 -- 54: Terrain Leveler --
 -- author: commonnickname
--- time: 42
+-- time: 42.896
 
 mem4 = set ne,se
 step n

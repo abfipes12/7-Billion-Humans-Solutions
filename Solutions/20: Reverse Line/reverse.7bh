@@ -3,7 +3,7 @@
 -- author: landfillbaby
 -- contributor: ansvonwa
 -- contributor: abfipes
--- time: 4
+-- time: 4.832
 
 if sw == hole or
  se == hole:

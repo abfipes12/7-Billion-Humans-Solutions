@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2145) --
 -- 31: Checkerboard Organization --
 -- author: n05ucc4u
--- time: 40
+-- time: 40.784
 
 mem1 = nearest wall
 mem2 = nearest hole

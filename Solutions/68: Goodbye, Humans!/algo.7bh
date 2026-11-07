@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2214M) --
 -- 68: Goodbye, Humans! --
 -- author: commonnickname
--- time: 16
+-- time: 16.96
 
 jump a
 mem1 = foreachdir sw:

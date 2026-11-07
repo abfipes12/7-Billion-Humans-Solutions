@@ -2,7 +2,7 @@
 -- 24: Budget Brigade 1 --
 -- author: n05ucc4u
 -- author: abfipes
--- time: 65
+-- time: 65.936
 
 a:
 if s == printer:
