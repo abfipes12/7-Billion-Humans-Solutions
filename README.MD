@@ -1671,10 +1671,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>225.808s</td>
   </tr>
   <tr>
-    <td width=190>⚡✍🏻<a href="Solutions/67: Decimal Doubler/balance.7bh">Twcs</a></td>
-    <td width=167>Tiza59</td>
+    <td width=190>⚡✍🏻<a href="Solutions/67: Decimal Doubler/twsc.7bh">Twcs</a></td>
+    <td width=167>motlin</td>
     <td width=92>25</td>
-    <td width=117>131.344s</td>
+    <td width=117>93.216s</td>
   </tr>
 </table>
 
@@ -1719,7 +1719,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>motlin</td>
-      <td>24</td>
+      <td>25</td>
   </tr>
   <tr>
       <td>hingston</td>
@@ -1867,10 +1867,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>thrfirs</td>
-      <td>1</td>
-  </tr>
-  <tr>
-      <td>Tiza59</td>
       <td>1</td>
   </tr>
   <tr>
