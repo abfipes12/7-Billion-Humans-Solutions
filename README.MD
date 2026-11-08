@@ -1641,7 +1641,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>40.624s</td>
   </tr>
   <tr>
-    <td width=190>🥇🥇<a href="Solutions/67: Decimal Doubler/balance.7bh">Both Challenges</a></td>
+    <td width=190>✍🏻⚡<a href="Solutions/67: Decimal Doubler/swtc.7bh">Swtc</a></td>
+    <td width=167>motlin</td>
+    <td width=92>15</td>
+    <td width=117>225.808s</td>
+  </tr>
+  <tr>
+    <td width=190>⚡✍🏻<a href="Solutions/67: Decimal Doubler/balance.7bh">Twcs</a></td>
     <td width=167>Tiza59</td>
     <td width=92>25</td>
     <td width=117>131.344s</td>
@@ -1701,7 +1707,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>motlin</td>
-      <td>14</td>
+      <td>15</td>
   </tr>
   <tr>
       <td>main-gi</td>
