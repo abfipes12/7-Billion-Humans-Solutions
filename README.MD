@@ -1640,10 +1640,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>24.832s</td>
   </tr>
   <tr>
-    <td width=190>🥇🥇<a href="Solutions/66: Decimal Counter/w.7bh">Both Challenges</a></td>
-    <td width=167>DeepAQ</td>
+    <td width=190>🥇🥇<a href="Solutions/66: Decimal Counter/twsc.7bh">Both Challenges</a></td>
+    <td width=167>motlin</td>
     <td width=92>23</td>
-    <td width=117>113.04s</td>
+    <td width=117>81.648s</td>
   </tr>
 </table>
 
@@ -1719,7 +1719,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>motlin</td>
-      <td>23</td>
+      <td>24</td>
   </tr>
   <tr>
       <td>hingston</td>
@@ -1787,10 +1787,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>davidgauch</td>
-      <td>1</td>
-  </tr>
-  <tr>
-      <td>DeepAQ</td>
       <td>1</td>
   </tr>
   <tr>
