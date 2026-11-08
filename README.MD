@@ -1566,6 +1566,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <th></th> <th>Author(s)</th> <th>Size [17]</th> <th>Time [54s]</th>
   </tr>
   <tr>
+    <td width=190>⚡✍🏻<a href="Solutions/64: Binary Counter/twsc.7bh">Twcs 📋</a></td>
+    <td width=167>motlin</td>
+    <td width=92>17</td>
+    <td width=117>15.312s</td>
+  </tr>
+  <tr>
     <td width=190>✍🏻<a href="Solutions/64: Binary Counter/smoke.7bh">Size</a></td>
     <td width=167>dmr</td>
     <td width=92>8</td>
@@ -1712,11 +1718,11 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
       <td>38</td>
   </tr>
   <tr>
-      <td>hingston</td>
-      <td>21</td>
+      <td>motlin</td>
+      <td>22</td>
   </tr>
   <tr>
-      <td>motlin</td>
+      <td>hingston</td>
       <td>21</td>
   </tr>
   <tr>
