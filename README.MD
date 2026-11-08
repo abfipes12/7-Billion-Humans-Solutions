@@ -1609,10 +1609,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>11.984s</td>
   </tr>
   <tr>
-    <td width=190>⚡✍🏻<a href="Solutions/65: Defrag Ordered/balance.7bh">Twcs</a></td>
-    <td width=167>dmr</td>
-    <td width=92>15</td>
-    <td width=117>270.928s</td>
+    <td width=190>⚡✍🏻<a href="Solutions/65: Defrag Ordered/twsc.7bh">Twcs</a></td>
+    <td width=167>motlin</td>
+    <td width=92>24</td>
+    <td width=117>150.832s</td>
   </tr>
 </table>
 
@@ -1719,19 +1719,19 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>motlin</td>
-      <td>22</td>
+      <td>23</td>
   </tr>
   <tr>
       <td>hingston</td>
       <td>21</td>
   </tr>
   <tr>
-      <td>dmr</td>
+      <td>martinez8859</td>
       <td>20</td>
   </tr>
   <tr>
-      <td>martinez8859</td>
-      <td>20</td>
+      <td>dmr</td>
+      <td>19</td>
   </tr>
   <tr>
       <td>main-gi</td>
