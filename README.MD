@@ -1696,10 +1696,16 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>16.96s</td>
   </tr>
   <tr>
-    <td width=190>🥇🥇<a href="Solutions/68: Goodbye, Humans!/swtc.7bh">Both Challenges</a></td>
+    <td width=190>✍🏻⚡<a href="Solutions/68: Goodbye, Humans!/swtc.7bh">Swtc</a></td>
     <td width=167>motlin<br>wuenry</td>
     <td width=92>7</td>
     <td width=117>38.752s</td>
+  </tr>
+  <tr>
+    <td width=190>⚡✍🏻<a href="Solutions/68: Goodbye, Humans!/twsc.7bh">Twcs</a></td>
+    <td width=167>motlin</td>
+    <td width=92>9</td>
+    <td width=117>20.928s</td>
   </tr>
 </table>
 
@@ -1719,7 +1725,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>motlin</td>
-      <td>25</td>
+      <td>26</td>
   </tr>
   <tr>
       <td>hingston</td>
