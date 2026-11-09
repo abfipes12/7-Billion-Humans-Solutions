@@ -1560,10 +1560,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>8.976s</td>
   </tr>
   <tr>
-    <td width=190>🥇🥇<a href="Solutions/64: Binary Counter/sw.7bh">Both Challenges</a></td>
-    <td width=167>davidgauch</td>
-    <td width=92>15</td>
-    <td width=117>48.448s</td>
+    <td width=190>🥇🥇<a href="Solutions/64: Binary Counter/swtc.7bh">Both Challenges</a></td>
+    <td width=167>motlin</td>
+    <td width=92>13</td>
+    <td width=117>46.048s</td>
   </tr>
 </table>
 
@@ -1695,7 +1695,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>motlin</td>
-      <td>12</td>
+      <td>13</td>
   </tr>
   <tr>
       <td>main-gi</td>
@@ -1715,10 +1715,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>aqueous68</td>
-      <td>2</td>
-  </tr>
-  <tr>
-      <td>davidgauch</td>
       <td>2</td>
   </tr>
   <tr>
@@ -1751,6 +1747,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>blue-raspberry-consulting</td>
+      <td>1</td>
+  </tr>
+  <tr>
+      <td>davidgauch</td>
       <td>1</td>
   </tr>
   <tr>
