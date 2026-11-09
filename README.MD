@@ -1595,7 +1595,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/66: Decimal Counter/size.7bh">Size</a></td>
     <td width=167>dmr</td>
     <td width=92>11</td>
-    <td width=117>239.104s</td>
+    <td width=117>228.896s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/66: Decimal Counter/time.7bh">Time</a></td>
