@@ -1630,9 +1630,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/67: Decimal Doubler/speed.7bh">Time</a></td>
-    <td width=167>commonnickname</td>
-    <td width=92>210</td>
-    <td width=117>41.632s</td>
+    <td width=167>motlin<br>commonnickname</td>
+    <td width=92>230</td>
+    <td width=117>40.624s</td>
   </tr>
   <tr>
     <td width=190>🥇🥇<a href="Solutions/67: Decimal Doubler/balance.7bh">Both Challenges</a></td>
@@ -1703,7 +1703,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>motlin</td>
-      <td>7</td>
+      <td>8</td>
   </tr>
   <tr>
       <td>AlexMBrennan</td>
