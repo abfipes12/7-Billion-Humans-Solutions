@@ -1598,6 +1598,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <th></th> <th>Author(s)</th> <th>Size [23]</th> <th>Time [120s]</th>
   </tr>
   <tr>
+    <td width=190>✍🏻⚡<a href="Solutions/66: Decimal Counter/swtc-paste.7bh">Swtc 📋</a></td>
+    <td width=167>motlin</td>
+    <td width=92>19</td>
+    <td width=117>116.016s</td>
+  </tr>
+  <tr>
     <td width=190>✍🏻<a href="Solutions/66: Decimal Counter/size.7bh">Size</a></td>
     <td width=167>dmr</td>
     <td width=92>11</td>
@@ -1695,7 +1701,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>motlin</td>
-      <td>13</td>
+      <td>14</td>
   </tr>
   <tr>
       <td>main-gi</td>
