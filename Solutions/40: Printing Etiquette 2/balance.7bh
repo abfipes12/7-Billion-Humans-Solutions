@@ -2,12 +2,13 @@
 -- 40: Printing Etiquette 2 --
 -- author: landfillbaby
 -- contributor: abfipes
--- times: 51 55
+-- contributor: motlin
+-- times: 51 54
 
 mem1 = nearest printer
 jump a
 b:
-step nw,w,sw,n,ne,e,se
+step nw,w,sw,ne,e,se
 if c == nothing and
  myitem == datacube:
 	mem2 = calc mem2 + 1

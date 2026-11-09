@@ -958,7 +958,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>🥇🥇<a href="Solutions/40: Printing Etiquette 2/balance.7bh">Both Challenges</a></td>
     <td width=167>landfillbaby</td>
     <td width=92>10</td>
-    <td width=117>51-55s</td>
+    <td width=117>51-54s</td>
   </tr>
 </table>
 
