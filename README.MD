@@ -1579,10 +1579,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>369.12s</td>
   </tr>
   <tr>
-    <td width=190>⚡<a href="Solutions/65: Defrag Ordered/fast.7bh">Time</a></td>
-    <td width=167>commonnickname</td>
-    <td width=92>121</td>
-    <td width=117>12.992s</td>
+    <td width=190>⚡<a href="Solutions/65: Defrag Ordered/speed.7bh">Time</a></td>
+    <td width=167>motlin<br>commonnickname</td>
+    <td width=92>135</td>
+    <td width=117>11.984s</td>
   </tr>
   <tr>
     <td width=190>⚡✍🏻<a href="Solutions/65: Defrag Ordered/balance.7bh">Twcs</a></td>
@@ -1703,7 +1703,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>motlin</td>
-      <td>6</td>
+      <td>7</td>
   </tr>
   <tr>
       <td>AlexMBrennan</td>
