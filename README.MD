@@ -701,9 +701,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/31: Checkerboard Organization/time.7bh">Time</a></td>
-    <td width=167>n05ucc4u</td>
-    <td width=92>181</td>
-    <td width=117>40.784s</td>
+    <td width=167>motlin</td>
+    <td width=92>247</td>
+    <td width=117>31.712s</td>
   </tr>
   <tr>
     <td width=190>🥇🥇<a href="Solutions/31: Checkerboard Organization/printer.7bh">Both Challenges</a></td>
@@ -1679,7 +1679,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>n05ucc4u</td>
-      <td>39</td>
+      <td>38</td>
   </tr>
   <tr>
       <td>dmr</td>
@@ -1707,7 +1707,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>motlin</td>
-      <td>4</td>
+      <td>5</td>
   </tr>
   <tr>
       <td>eiTTio</td>
