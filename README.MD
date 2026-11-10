@@ -594,6 +594,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>~114.5s</td>
   </tr>
   <tr>
+    <td width=190>🥇🥇<a href="Solutions/26: Budget Brigade 2/both.7bh">Both Challenges 📋</a></td>
+    <td width=167>motlin</td>
+    <td width=92>10</td>
+    <td width=117>~69.1716s</td>
+  </tr>
+  <tr>
     <td width=190>✍🏻<a href="Solutions/26: Budget Brigade 2/Budget.7bh">Size</a></td>
     <td width=167>n05ucc4u</td>
     <td width=92>7</td>
@@ -1707,7 +1713,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>motlin</td>
-      <td>16</td>
+      <td>17</td>
   </tr>
   <tr>
       <td>main-gi</td>

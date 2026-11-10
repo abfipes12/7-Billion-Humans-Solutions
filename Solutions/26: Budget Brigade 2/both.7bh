@@ -1,0 +1,21 @@
+-- 7 Billion Humans (2214M) --
+-- 26: Budget Brigade 2 --
+-- author: motlin
+-- times: 69.3 68.929 69.448 69.077 69.226 68.929 69.151 69.003 69.077 69.077 69.671
+
+if s == printer:
+	a:
+	takefrom s
+	giveto n
+	jump a
+endif
+b:
+if myitem != nothing:
+	if myitem >= 50:
+		giveto n,e
+	endif
+	if myitem != nothing:
+		giveto nw,w,n,s
+	endif
+endif
+jump b
