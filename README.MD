@@ -867,6 +867,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=92>245</td>
     <td width=117>~10.0861s</td>
   </tr>
+  <tr>
+    <td width=190>⚡✍🏻<a href="Solutions/37: Dangerous Spreadsheeting/twsc.7bh">Twcs</a></td>
+    <td width=167>motlin<br>dmr</td>
+    <td width=92>13</td>
+    <td width=117>24.576s</td>
+  </tr>
 </table>
 
 ### 🟦 Year 38 - Seek and Destroy 3 🟦
@@ -1710,16 +1716,16 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
       <td>21</td>
   </tr>
   <tr>
-      <td>martinez8859</td>
-      <td>20</td>
-  </tr>
-  <tr>
       <td>motlin</td>
-      <td>20</td>
+      <td>21</td>
   </tr>
   <tr>
       <td>dmr</td>
-      <td>19</td>
+      <td>20</td>
+  </tr>
+  <tr>
+      <td>martinez8859</td>
+      <td>20</td>
   </tr>
   <tr>
       <td>main-gi</td>
