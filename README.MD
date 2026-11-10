@@ -588,6 +588,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <th></th> <th>Author(s)</th> <th>Size [10]</th> <th>Time [70s]</th>
   </tr>
   <tr>
+    <td width=190>✍🏻<a href="Solutions/26: Budget Brigade 2/size.7bh">Size 📋</a></td>
+    <td width=167>motlin</td>
+    <td width=92>6</td>
+    <td width=117>111-118s</td>
+  </tr>
+  <tr>
     <td width=190>✍🏻<a href="Solutions/26: Budget Brigade 2/Budget.7bh">Size</a></td>
     <td width=167>n05ucc4u</td>
     <td width=92>7</td>
@@ -1704,6 +1710,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
       <td>3</td>
   </tr>
   <tr>
+      <td>motlin</td>
+      <td>3</td>
+  </tr>
+  <tr>
       <td>aqueous68</td>
       <td>2</td>
   </tr>
@@ -1713,10 +1723,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>H-J-Granger</td>
-      <td>2</td>
-  </tr>
-  <tr>
-      <td>motlin</td>
       <td>2</td>
   </tr>
   <tr>
