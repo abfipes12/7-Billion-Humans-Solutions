@@ -843,10 +843,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>~46.5s</td>
   </tr>
   <tr>
-    <td width=190>⚡✍🏻<a href="Solutions/36: Seek and Destroy 2/balance.7bh">Twcs</a></td>
-    <td width=167>dmr</td>
-    <td width=92>9</td>
-    <td width=117>105s</td>
+    <td width=190>⚡✍🏻<a href="Solutions/36: Seek and Destroy 2/twsc.7bh">Twcs</a></td>
+    <td width=167>motlin<br>dmr</td>
+    <td width=92>10</td>
+    <td width=117>~104.944s</td>
   </tr>
 </table>
 
@@ -1714,11 +1714,11 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
       <td>20</td>
   </tr>
   <tr>
-      <td>dmr</td>
-      <td>19</td>
+      <td>motlin</td>
+      <td>20</td>
   </tr>
   <tr>
-      <td>motlin</td>
+      <td>dmr</td>
       <td>19</td>
   </tr>
   <tr>
