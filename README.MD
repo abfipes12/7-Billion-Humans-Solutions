@@ -645,9 +645,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/29: Biometric Access/time.7bh">Time</a></td>
-    <td width=167>commonnickname</td>
-    <td width=92>185</td>
-    <td width=117>54.832s</td>
+    <td width=167>motlin</td>
+    <td width=92>228</td>
+    <td width=117>52.432s</td>
   </tr>
 </table>
 
@@ -1675,7 +1675,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>commonnickname</td>
-      <td>46</td>
+      <td>45</td>
   </tr>
   <tr>
       <td>n05ucc4u</td>
@@ -1706,11 +1706,11 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
       <td>5</td>
   </tr>
   <tr>
-      <td>eiTTio</td>
-      <td>3</td>
+      <td>motlin</td>
+      <td>4</td>
   </tr>
   <tr>
-      <td>motlin</td>
+      <td>eiTTio</td>
       <td>3</td>
   </tr>
   <tr>
