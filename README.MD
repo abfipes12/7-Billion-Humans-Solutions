@@ -742,6 +742,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=92>128</td>
     <td width=117>30.944s</td>
   </tr>
+  <tr>
+    <td width=190>✍🏻⚡<a href="Solutions/32: Creative Writhing/swtc.7bh">Swtc</a></td>
+    <td width=167>motlin</td>
+    <td width=92>7</td>
+    <td width=117>39.392s</td>
+  </tr>
 </table>
 
 ### 🟦 Year 33 - Data Backup Day 🟦
@@ -1689,7 +1695,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>motlin</td>
-      <td>11</td>
+      <td>12</td>
   </tr>
   <tr>
       <td>main-gi</td>
