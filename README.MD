@@ -712,10 +712,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>31.712s</td>
   </tr>
   <tr>
-    <td width=190>🥇🥇<a href="Solutions/31: Checkerboard Organization/printer.7bh">Both Challenges</a></td>
-    <td width=167>Spiff</td>
+    <td width=190>🥇🥇<a href="Solutions/31: Checkerboard Organization/both.7bh">Both Challenges</a></td>
+    <td width=167>motlin</td>
     <td width=92>7</td>
-    <td width=117>~91s</td>
+    <td width=117>~90.3001s</td>
   </tr>
 </table>
 
@@ -1713,7 +1713,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>motlin</td>
-      <td>17</td>
+      <td>18</td>
   </tr>
   <tr>
       <td>main-gi</td>
@@ -1841,10 +1841,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>soerface</td>
-      <td>1</td>
-  </tr>
-  <tr>
-      <td>Spiff</td>
       <td>1</td>
   </tr>
   <tr>
