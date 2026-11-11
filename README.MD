@@ -731,6 +731,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>~537.5s</td>
   </tr>
   <tr>
+    <td width=190>⚡✍🏻<a href="Solutions/32: Creative Writhing/twsc.7bh">Twcs 📋</a></td>
+    <td width=167>motlin<br>hingston</td>
+    <td width=92>6</td>
+    <td width=117>~171.946s</td>
+  </tr>
+  <tr>
     <td width=190>✍🏻<a href="Solutions/32: Creative Writhing/main.7bh">Size +50%🍀</a></td>
     <td width=167>main-gi</td>
     <td width=92>5</td>
@@ -1701,7 +1707,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>hingston</td>
-      <td>20</td>
+      <td>21</td>
   </tr>
   <tr>
       <td>martinez8859</td>
@@ -1713,7 +1719,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>motlin</td>
-      <td>18</td>
+      <td>19</td>
   </tr>
   <tr>
       <td>main-gi</td>
