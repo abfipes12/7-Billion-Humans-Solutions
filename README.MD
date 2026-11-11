@@ -844,10 +844,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>30.992s</td>
   </tr>
   <tr>
-    <td width=190>⚡<a href="Solutions/37: Dangerous Spreadsheeting/u.7bh">Time</a></td>
-    <td width=167>commonnickname</td>
-    <td width=92>246</td>
-    <td width=117>10-11s</td>
+    <td width=190>⚡<a href="Solutions/37: Dangerous Spreadsheeting/speed.7bh">Time</a></td>
+    <td width=167>motlin<br>commonnickname</td>
+    <td width=92>245</td>
+    <td width=117>10.175s</td>
   </tr>
   <tr>
     <td width=190>⚡✍🏻<a href="Solutions/37: Dangerous Spreadsheeting/balance.7bh">Twcs</a></td>
@@ -1702,11 +1702,11 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
       <td>8</td>
   </tr>
   <tr>
-      <td>AlexMBrennan</td>
-      <td>5</td>
+      <td>motlin</td>
+      <td>6</td>
   </tr>
   <tr>
-      <td>motlin</td>
+      <td>AlexMBrennan</td>
       <td>5</td>
   </tr>
   <tr>
