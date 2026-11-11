@@ -1,0 +1,13 @@
+-- 7 Billion Humans (2214M) --
+-- 24: Budget Brigade 1 --
+-- author: motlin
+-- time: 118.752
+
+a:
+if myitem == something or
+ s == printer:
+	takefrom s
+	giveto e
+	giveto s
+endif
+jump a
