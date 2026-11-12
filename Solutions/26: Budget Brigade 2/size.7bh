@@ -1,0 +1,18 @@
+-- 7 Billion Humans (2214M) --
+-- 26: Budget Brigade 2 --
+-- author: motlin
+-- times: 111 118
+
+a:
+if s == printer or
+ myitem >= 50:
+	giveto n,e
+	takefrom s
+endif
+if s == shredder or
+ myitem < 50 and
+ s != printer and
+ myitem == datacube:
+	giveto nw,w,n,s
+endif
+jump a

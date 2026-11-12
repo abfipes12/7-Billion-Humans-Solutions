@@ -544,10 +544,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>51.424s</td>
   </tr>
   <tr>
-    <td width=190>✍🏻<a href="Solutions/24: Budget Brigade 1/6i.7bh">Size</a></td>
-    <td width=167>hingston</td>
-    <td width=92>6</td>
-    <td width=117>97.968s</td>
+    <td width=190>✍🏻<a href="Solutions/24: Budget Brigade 1/size.7bh">Size</a></td>
+    <td width=167>motlin</td>
+    <td width=92>5</td>
+    <td width=117>118.752s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/24: Budget Brigade 1/fast.7bh">Time</a></td>
@@ -586,6 +586,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
 <table>
   <tr>
     <th></th> <th>Author(s)</th> <th>Size [10]</th> <th>Time [70s]</th>
+  </tr>
+  <tr>
+    <td width=190>✍🏻<a href="Solutions/26: Budget Brigade 2/size.7bh">Size 📋</a></td>
+    <td width=167>motlin</td>
+    <td width=92>6</td>
+    <td width=117>111-118s</td>
   </tr>
   <tr>
     <td width=190>✍🏻<a href="Solutions/26: Budget Brigade 2/Budget.7bh">Size</a></td>
@@ -1676,11 +1682,11 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
       <td>39</td>
   </tr>
   <tr>
-      <td>hingston</td>
-      <td>21</td>
+      <td>dmr</td>
+      <td>20</td>
   </tr>
   <tr>
-      <td>dmr</td>
+      <td>hingston</td>
       <td>20</td>
   </tr>
   <tr>
@@ -1701,6 +1707,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>eiTTio</td>
+      <td>3</td>
+  </tr>
+  <tr>
+      <td>motlin</td>
       <td>3</td>
   </tr>
   <tr>
@@ -1781,10 +1791,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>JoeKing</td>
-      <td>1</td>
-  </tr>
-  <tr>
-      <td>motlin</td>
       <td>1</td>
   </tr>
   <tr>
