@@ -1,19 +1,17 @@
 -- 7 Billion Humans (2235) --
 -- 43: Multiplication Table --
 -- author: Farzher
+-- author: motlin
 -- contributor: abfipes
--- times: 682 792
+-- success: 100/100
+-- times: 455 458 426 448
 
 a:
 step n,s
-if n == datacube and
- c == nothing and
- s == datacube and
- mem1 == 0:
-	mem1 = set n
+if mem1 == 0:
+	mem1 = nearest datacube
 endif
-if c == 0 and
- mem1 != 0:
+if c == 0 and mem1 != 0:
 	pickup c
 	mem2 = calc mem1 + n
 	write mem2

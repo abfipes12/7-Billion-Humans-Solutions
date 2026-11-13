@@ -938,9 +938,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
     <td width=190>✍🏻<a href="Solutions/40: Printing Etiquette 2/less random.7bh">Size 📋</a></td>
-    <td width=167>abfipes<br>n05ucc4u</td>
+    <td width=167>abfipes<br>n05ucc4u<br>motlin</td>
     <td width=92>7</td>
-    <td width=117>~551s</td>
+    <td width=117>~445s</td>
   </tr>
   <tr>
     <td width=190>✍🏻<a href="Solutions/40: Printing Etiquette 2/random.7bh">Size +50%🍀</a></td>
@@ -1031,9 +1031,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
     <td width=190>✍🏻<a href="Solutions/43: Multiplication Table/size.7bh">Size</a></td>
-    <td width=167>Farzher</td>
+    <td width=167>Farzher<br>motlin</td>
     <td width=92>9</td>
-    <td width=117>~737s</td>
+    <td width=117>~446.75s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/43: Multiplication Table/speed.7bh">Time</a></td>
@@ -1055,16 +1055,16 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <th></th> <th>Author(s)</th> <th>Size [11]</th> <th>Time [75s]</th>
   </tr>
   <tr>
-    <td width=190>⚡<a href="Solutions/44: Unique Fashion Party/no.7bh">Time 📋</a></td>
-    <td width=167>commonnickname</td>
-    <td width=92>17</td>
-    <td width=117>1.888s</td>
+    <td width=190>⚡<a href="Solutions/44: Unique Fashion Party/tokenmaxing.7bh">Time 📋</a></td>
+    <td width=167>motlin<br>commonnickname</td>
+    <td width=92>11</td>
+    <td width=117>1.856s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/44: Unique Fashion Party/yes.7bh">Time +50%🍀</a></td>
     <td width=167>commonnickname</td>
     <td width=92>17</td>
-    <td width=117>1s</td>
+    <td width=117>1.872s</td>
   </tr>
   <tr>
     <td width=190>✍🏻<a href="Solutions/44: Unique Fashion Party/unique.7bh">Size</a></td>
@@ -1694,15 +1694,15 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
       <td>20</td>
   </tr>
   <tr>
+      <td>motlin</td>
+      <td>11</td>
+  </tr>
+  <tr>
       <td>main-gi</td>
       <td>9</td>
   </tr>
   <tr>
       <td>landfillbaby</td>
-      <td>8</td>
-  </tr>
-  <tr>
-      <td>motlin</td>
       <td>8</td>
   </tr>
   <tr>

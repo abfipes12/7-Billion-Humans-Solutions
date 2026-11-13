@@ -2,12 +2,12 @@
 -- 40: Printing Etiquette 2 --
 -- author: abfipes
 -- author: n05ucc4u
+-- author: motlin
 -- success: 100
--- times: 509 593
--- notes: dont remember how many tries but didnt fail
+-- times: 488 404 454 434
 
 a:
-step w,sw,n,s,e,se
+step w,sw,s,ne,se
 drop
 if nw == printer or
  ne == printer or
