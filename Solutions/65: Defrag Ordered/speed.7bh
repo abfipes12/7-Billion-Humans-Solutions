@@ -1,0 +1,147 @@
+-- 7 Billion Humans (2214M) --
+-- 65: Defrag Ordered --
+-- author: motlin
+-- author: commonnickname
+-- time: 11.984
+
+jump a
+mem1 = foreachdir w:
+	mem2 = foreachdir e:
+		a:
+		if mem1 == nothing:
+			if mem2 == nothing:
+				step n
+				pickup n
+				step ne
+				mem4 = set 0
+				step ne
+				step ne
+				step n
+				drop
+				pickup nw
+				step ne
+				step ne
+				drop
+				pickup e
+				step w
+				mem3 = foreachdir nw,w,sw,n,ne,e,se:
+				endfor
+				step w
+				mem4 = set 0
+				drop
+				pickup s
+				step e
+				step e
+				step e
+				mem4 = set 0
+				drop
+				step s
+				step s
+				mem4 = set 0
+				step s
+				step s
+				pickup sw
+				step e
+			else:
+				step nw
+				step n
+				step n
+				step n
+				pickup n
+				step n
+				step n
+				drop
+				pickup w
+				step ne
+				step e
+				step e
+				drop
+				step w
+				step w
+				pickup e
+				drop
+				mem4 = set 0
+				step se
+				mem4 = set 0
+				pickup se
+				drop
+				pickup sw
+				step w
+				drop
+				step sw
+				pickup se
+				mem4 = set 0
+				step w
+				step w
+				mem4 = set 0
+			endif
+		else:
+			if mem2 != nothing:
+				step n
+				step n
+				step n
+				step n
+				step n
+				step ne
+				pickup se
+				drop
+				pickup e
+				step w
+				step w
+				step w
+				step w
+				mem4 = set 0
+				step w
+				drop
+				step e
+				pickup sw
+				drop
+				step se
+				step s
+				pickup s
+				step n
+				drop
+				pickup sw
+				step e
+				step e
+				step e
+				step e
+				step ne
+			else:
+				mem3 = foreachdir nw,w,sw,n,ne,e,se:
+				endfor
+				step n
+				pickup n
+				step n
+				step ne
+				step n
+				step n
+				drop
+				mem4 = set 0
+				pickup e
+				step n
+				drop
+				step sw
+				pickup se
+				step w
+				step w
+				step w
+				step w
+				drop
+				step se
+				step se
+				pickup s
+				step ne
+				mem3 = foreachdir nw,w,sw,n,ne,e,se:
+				endfor
+				step ne
+				drop
+				step sw
+				pickup se
+				step nw
+				mem4 = set 0
+			endif
+		endif
+	endfor
+endfor
+drop

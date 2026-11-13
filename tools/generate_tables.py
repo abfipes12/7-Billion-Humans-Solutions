@@ -82,9 +82,7 @@ def format_time(sol: Dict[str, Any]) -> str:
     """Formats single or complex timing values into markdown string representation."""
     t = format_val(sol["time"])
     if sol.get("complex_timing"):
-        mint = format_val(sol["min_time"])
-        maxt = format_val(sol["max_time"])
-        return f"{mint}-{maxt}s"
+        return f"~{t}s"
     return f"{t}s"
 
 

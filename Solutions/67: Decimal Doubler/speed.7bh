@@ -1,7 +1,8 @@
--- 7 Billion Humans (2235) --
+-- 7 Billion Humans (2214M) --
 -- 67: Decimal Doubler --
+-- author: motlin
 -- author: commonnickname
--- time: 41.632
+-- time: 40.624
 
 mem1 = set w
 if mem1 == datacube:
@@ -25,30 +26,24 @@ if mem1 == datacube:
 	step sw
 	pickup c
 	write 1
-	a:
 	mem1 = set e
+	a:
 	if mem1 != 6:
 		jump a
 	endif
-	b:
-	if mem1 != 3:
-		jump b
-	endif
+	mem2 = calc [blank] + 0
 else:
 	if mem1 == nothing:
 		pickup s
 		step s
 		step s
 		write 1
-		c:
 		mem1 = set e
+		c:
 		if mem1 != 5:
 			jump c
 		endif
-		d:
-		if mem1 != 0:
-			jump d
-		endif
+		mem2 = calc [blank] + 0
 	else:
 		mem2 = set myitem
 		if mem1 >= 0:
@@ -65,7 +60,8 @@ else:
 			mem1 = set myitem
 			drop
 			pickup n
-			jump e
+			write 2
+			jump L1
 		else:
 			if mem1 >= 0:
 				pickup s
@@ -113,7 +109,8 @@ else:
 					mem1 = set myitem
 					drop
 					pickup w
-					jump g
+					write 5
+					jump L2
 				else:
 					if mem1 >= 0:
 						pickup s
@@ -133,8 +130,20 @@ else:
 						step w
 						drop
 						pickup w
-						mem1 = set 0
-						jump h
+						U:
+						write 6
+						drop
+						pickup c
+						write 2
+						drop
+						pickup c
+						write 4
+						drop
+						pickup c
+						write 8
+						drop
+						pickup c
+						jump U
 					else:
 						if mem1 >= 0:
 							pickup s
@@ -184,14 +193,22 @@ else:
 							step se
 							tell everyone hi
 							step nw
-							step se
-							tell everyone hi
-							step w
+							step s
+							tell nobody hi
+							tell nobody hi
+							mem2 = set 0
+							mem2 = set 0
+							mem2 = set 0
 							j:
 							step mem3
 							step e
 							tell everyone hi
-							tell everyone hi
+							tell nobody hi
+							mem2 = set 0
+							mem2 = set 0
+							mem2 = set 0
+							mem2 = set 0
+							mem2 = set 0
 							jump j
 						endif
 					endif
@@ -200,66 +217,51 @@ else:
 		endif
 	endif
 endif
-k:
+L7:
+L10:
 drop
 pickup c
-if mem1 < 5 or
- myitem == 0 or
- myitem == 5 or
- myitem == 1 or
- myitem == 6 or
- myitem == 2 or
- myitem == 7:
-	if mem1 < 5 and
-	 myitem != 4 and
-	 myitem != 9:
-		if myitem == 0 or
-		 myitem == 5 or
-		 myitem == 1 or
-		 myitem == 6:
-			if myitem == 0 or
-			 myitem == 5:
-				write 0
-			else:
-				e:
-				write 2
-			endif
-		else:
-			if myitem == 2 or
-			 myitem == 7:
-				write 4
-			else:
-				h:
-				write 6
-			endif
-		endif
-	else:
-		if mem1 < 5 or
-		 myitem == 0 or
-		 myitem == 5:
-			if mem1 < 5:
-				write 8
-			else:
-				write 1
-			endif
-		else:
-			if myitem == 1 or
-			 myitem == 6:
-				write 3
-			else:
-				g:
-				write 5
-			endif
-		endif
-	endif
-else:
-	mem2 = set myitem
-	mem2 = set myitem
-	if myitem == 3 or
-	 myitem == 8:
-		write 7
-	else:
-		write 9
-	endif
+if mem1 >= 5:
+	write 3
+	jump L4
 endif
-jump k
+write 2
+L1:
+L8:
+drop
+pickup c
+if mem1 >= 5:
+	write 5
+	jump L5
+endif
+write 4
+L6:
+drop
+pickup c
+if mem1 >= 5:
+	write 9
+	jump L6
+endif
+write 8
+L4:
+drop
+pickup c
+if mem1 < 5:
+	write 6
+	jump L7
+else:
+	write 7
+	jump L8
+endif
+L2:
+L5:
+L9:
+drop
+pickup c
+if mem1 < 5:
+	write 0
+	jump L9
+else:
+	write 1
+	jump L10
+endif
