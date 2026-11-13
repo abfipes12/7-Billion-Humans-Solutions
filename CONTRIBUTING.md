@@ -30,7 +30,7 @@ For solutions with fluctuating execution times:
 - arithmetic mean of batch averages before truncation is solution's time.
 - Batches with fewer than 13 successful attempts are ignored.
 
-variable times will be annotated using the format ```min-max``` (e.g., ```20.01-31.98s```).
+variable times will be annotated using the format ```~arithmetic_average``` (e.g., ```~31.98s```).
 
 ## Category Requirements & Success Rates
 

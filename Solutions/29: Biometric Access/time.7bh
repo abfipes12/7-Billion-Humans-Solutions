@@ -9,158 +9,158 @@ step n
 mem3 = nearest wall
 mem2 = nearest datacube
 if mem4 != mem3:
-step sw
-mem4 = nearest shredder
-if mem4 == mem1:
-mem4 = nearest wall
-jump ch0
-else:
-if mem1 == mem1:
-endif
-if mem1 == mem1:
-endif
-step mem2
-pickup n
-giveto mem1
-step mem2
-step e
-pickup c
-giveto mem1
-step mem2
-step n
-step nw
-pickup e
-giveto mem1
-pickup mem2
-giveto mem1
-end
-endif
+	step sw
+	mem4 = nearest shredder
+	if mem4 == mem1:
+		mem4 = nearest wall
+		jump a
+	else:
+		if mem1 == mem1:
+		endif
+		if mem1 == mem1:
+		endif
+		step mem2
+		pickup n
+		giveto mem1
+		step mem2
+		step e
+		pickup c
+		giveto mem1
+		step mem2
+		step n
+		step nw
+		pickup e
+		giveto mem1
+		pickup mem2
+		giveto mem1
+		end
+	endif
 endif
 step n
 step n
 mem4 = nearest wall
 if mem3 != mem4:
-step w
-mem4 = nearest shredder
-if mem4 == mem1:
-mem4 = nearest wall
-step nw
-step w
-step w
-step w
-pickup nw
-giveto mem1
-step n
-step n
-step n
-step n
-step nw
-step w
-step nw
-step nw
-pickup nw
-giveto mem1
-step n
-step n
-step n
-step n
-step nw
-step w
-step nw
-step nw
-step nw
-pickup n
-giveto mem1
-jump ch4
-else:
-if n == wall:
-endif
-step w
-step nw
-step w
-step w
-step w
-pickup w
-giveto mem1
-step n
-step n
-step n
-step nw
-step nw
-step w
-step w
-step nw
-pickup nw
-giveto mem1
-jump ch5
-endif
+	step w
+	mem4 = nearest shredder
+	if mem4 == mem1:
+		mem4 = nearest wall
+		step nw
+		step w
+		step w
+		step w
+		pickup nw
+		giveto mem1
+		step n
+		step n
+		step n
+		step n
+		step nw
+		step w
+		step nw
+		step nw
+		pickup nw
+		giveto mem1
+		step n
+		step n
+		step n
+		step n
+		step nw
+		step w
+		step nw
+		step nw
+		step nw
+		pickup n
+		giveto mem1
+		jump b
+	else:
+		if n == wall:
+		endif
+		step w
+		step nw
+		step w
+		step w
+		step w
+		pickup w
+		giveto mem1
+		step n
+		step n
+		step n
+		step nw
+		step nw
+		step w
+		step w
+		step nw
+		pickup nw
+		giveto mem1
+		jump c
+	endif
 endif
 step ne
 mem4 = nearest shredder
 if mem4 != mem1:
-step n
-step n
-step nw
-step nw
-step nw
-step nw
-pickup nw
-giveto mem1
-jump ch3
+	step n
+	step n
+	step nw
+	step nw
+	step nw
+	step nw
+	pickup nw
+	giveto mem1
+	jump d
 endif
 step nw
 mem4 = nearest shredder
 if mem4 != mem1:
-step n
-step n
-step n
-step n
-step n
-step n
-pickup nw
-giveto mem1
-jump ch6
+	step n
+	step n
+	step n
+	step n
+	step n
+	step n
+	pickup nw
+	giveto mem1
+	jump e
 endif
 step w
 mem3 = nearest shredder
 step nw
 mem4 = nearest shredder
 if mem3 != mem4:
-step n
-step n
-step nw
-step nw
-step nw
-step nw
-pickup nw
-giveto mem1
-jump ch7
+	step n
+	step n
+	step nw
+	step nw
+	step nw
+	step nw
+	pickup nw
+	giveto mem1
+	jump f
 endif
 step w
 mem4 = nearest shredder
 if mem3 == mem4:
-step w
-step w
-step w
-jump ch1
+	step w
+	step w
+	step w
+	jump g
 endif
 step nw
 mem3 = nearest shredder
 if mem3 != mem4:
-step e
-step e
-step e
-jump ch8
+	step e
+	step e
+	step e
+	jump h
 endif
 step w
 mem4 = nearest shredder
 if mem3 == mem4:
-if n == wall:
-endif
-step w
-step w
-step w
-jump ch2
+	if n == wall:
+	endif
+	step w
+	step w
+	step w
+	jump i
 endif
 step nw
 step e
@@ -187,10 +187,10 @@ giveto mem1
 pickup mem2
 giveto mem1
 end
-ch4:
-ch5:
-ch6:
-ch8:
+b:
+c:
+e:
+h:
 step mem2
 step n
 pickup n
@@ -210,22 +210,22 @@ step n
 pickup n
 giveto mem1
 if mem4 != wall:
-step mem2
-step n
-step n
-step n
-step n
-pickup n
-giveto mem1
+	step mem2
+	step n
+	step n
+	step n
+	step n
+	pickup n
+	giveto mem1
 endif
 pickup mem2
 giveto mem1
 end
-ch0:
-ch1:
-ch2:
-ch3:
-ch7:
+a:
+g:
+i:
+d:
+f:
 step mem2
 pickup n
 giveto mem1
@@ -245,14 +245,13 @@ step n
 pickup n
 giveto mem1
 if mem4 != wall:
-step mem2
-step n
-step n
-step n
-step n
-pickup n
-giveto mem1
+	step mem2
+	step n
+	step n
+	step n
+	step n
+	pickup n
+	giveto mem1
 endif
 pickup mem2
 giveto mem1
-end

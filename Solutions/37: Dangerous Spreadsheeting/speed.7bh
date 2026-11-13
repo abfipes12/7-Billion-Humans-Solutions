@@ -2,7 +2,7 @@
 -- 37: Dangerous Spreadsheeting --
 -- author: motlin
 -- author: commonnickname
--- time: 10.175
+-- times: 10.184 10.301 10.322 10.042 9.872 10.345 9.797 10.172 10.056 9.948 9.908
 
 step e
 mem1 = set e

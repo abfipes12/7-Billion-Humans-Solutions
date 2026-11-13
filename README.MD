@@ -173,7 +173,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/10: Emergency Escapades/very-small.7bh">Size 📋</a></td>
     <td width=167>commonnickname<br>n05ucc4u</td>
     <td width=92>5</td>
-    <td width=117>155-221s</td>
+    <td width=117>~188s</td>
   </tr>
   <tr>
     <td width=190>✍🏻<a href="Solutions/10: Emergency Escapades/size.7bh">Size</a></td>
@@ -223,7 +223,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/12: Unzip/very-small.7bh">Size 📋</a></td>
     <td width=167>abfipes</td>
     <td width=92>5</td>
-    <td width=117>118-157s</td>
+    <td width=117>~137.5s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/12: Unzip/even-faster.7bh">Time 📋</a></td>
@@ -298,7 +298,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/15: Shred Lines/crashes.7bh">Size 📋</a></td>
     <td width=167>abfipes</td>
     <td width=92>6</td>
-    <td width=117>950-950s</td>
+    <td width=117>~950s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/15: Shred Lines/pasteonly.7bh">Time 📋</a></td>
@@ -442,31 +442,31 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/21: Big Data/pasta.7bh">Size 📋</a></td>
     <td width=167>commonnickname<br>H-J-Granger</td>
     <td width=92>5</td>
-    <td width=117>21-26s</td>
+    <td width=117>~23.5s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/21: Big Data/random.7bh">Time +50%🍀</a></td>
     <td width=167>abfipes<br>commonnickname<br>yifeixuer</td>
     <td width=92>91</td>
-    <td width=117>12-15s</td>
+    <td width=117>~13.5s</td>
   </tr>
   <tr>
     <td width=190>✍🏻<a href="Solutions/21: Big Data/size.7bh">Size</a></td>
     <td width=167>martinez8859</td>
     <td width=92>6</td>
-    <td width=117>31-40s</td>
+    <td width=117>~35.5s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/21: Big Data/speed.7bh">Time</a></td>
     <td width=167>commonnickname</td>
     <td width=92>90</td>
-    <td width=117>16-22s</td>
+    <td width=117>~19s</td>
   </tr>
   <tr>
     <td width=190>🥇🥇<a href="Solutions/21: Big Data/landfill.7bh">Both Challenges</a></td>
     <td width=167>landfillbaby</td>
     <td width=92>8</td>
-    <td width=117>18-24s</td>
+    <td width=117>~21s</td>
   </tr>
 </table>
 
@@ -479,7 +479,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/22: Number Royale/4i.7bh">Size 📋</a></td>
     <td width=167>abfipes</td>
     <td width=92>4</td>
-    <td width=117>243-321s</td>
+    <td width=117>~282s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/22: Number Royale/2s.7bh">Time +50%🍀</a></td>
@@ -491,19 +491,19 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/22: Number Royale/to-fix.7bh">Size</a></td>
     <td width=167>martinez8859</td>
     <td width=92>5</td>
-    <td width=117>8-10s</td>
+    <td width=117>~9s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/22: Number Royale/also-to-fix.7bh">Time</a></td>
     <td width=167>abfipes<br>martinez8859</td>
     <td width=92>20</td>
-    <td width=117>5-6s</td>
+    <td width=117>~5.5s</td>
   </tr>
   <tr>
     <td width=190>⚡✍🏻<a href="Solutions/22: Number Royale/Royale.7bh">Twcs</a></td>
     <td width=167>hingston</td>
     <td width=92>6</td>
-    <td width=117>7-8s</td>
+    <td width=117>~7.5s</td>
   </tr>
 </table>
 
@@ -516,13 +516,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/23: Sorting Hall/23.7bh">Size</a></td>
     <td width=167>hingston</td>
     <td width=92>6</td>
-    <td width=117>23-25s</td>
+    <td width=117>~24s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/23: Sorting Hall/sort.7bh">Time</a></td>
     <td width=167>eiTTio</td>
     <td width=92>9</td>
-    <td width=117>15-17s</td>
+    <td width=117>~16s</td>
   </tr>
 </table>
 
@@ -591,13 +591,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/26: Budget Brigade 2/size.7bh">Size 📋</a></td>
     <td width=167>motlin</td>
     <td width=92>6</td>
-    <td width=117>111-118s</td>
+    <td width=117>~114.5s</td>
   </tr>
   <tr>
     <td width=190>✍🏻<a href="Solutions/26: Budget Brigade 2/Budget.7bh">Size</a></td>
     <td width=167>n05ucc4u</td>
     <td width=92>7</td>
-    <td width=117>199-203s</td>
+    <td width=117>~201s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/26: Budget Brigade 2/optimized.7bh">Time</a></td>
@@ -615,7 +615,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>⚡✍🏻<a href="Solutions/26: Budget Brigade 2/26.7bh">Twcs</a></td>
     <td width=167>abfipes</td>
     <td width=92>10</td>
-    <td width=117>118-120s</td>
+    <td width=117>~119s</td>
   </tr>
 </table>
 
@@ -646,7 +646,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/29: Biometric Access/time.7bh">Time</a></td>
     <td width=167>motlin</td>
-    <td width=92>228</td>
+    <td width=92>227</td>
     <td width=117>52.432s</td>
   </tr>
 </table>
@@ -666,7 +666,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/30: Fill the Floor/not-always.7bh">Size</a></td>
     <td width=167>martinez8859</td>
     <td width=92>5</td>
-    <td width=117>598-671s</td>
+    <td width=117>~634.5s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/30: Fill the Floor/bloat.7bh">Time</a></td>
@@ -678,7 +678,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>⚡✍🏻<a href="Solutions/30: Fill the Floor/spider.7bh">Twcs</a></td>
     <td width=167>martinez8859<br>NotABlueWhale</td>
     <td width=92>6</td>
-    <td width=117>216-247s</td>
+    <td width=117>~231.5s</td>
   </tr>
 </table>
 
@@ -691,13 +691,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/31: Checkerboard Organization/slow.7bh">Size 📋</a></td>
     <td width=167>n05ucc4u<br>abfipes</td>
     <td width=92>6</td>
-    <td width=117>294-314s</td>
+    <td width=117>~304s</td>
   </tr>
   <tr>
     <td width=190>✍🏻<a href="Solutions/31: Checkerboard Organization/check.7bh">Size</a></td>
     <td width=167>abfipes<br>n05ucc4u</td>
     <td width=92>6</td>
-    <td width=117>877-911s</td>
+    <td width=117>~894s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/31: Checkerboard Organization/time.7bh">Time</a></td>
@@ -709,7 +709,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>🥇🥇<a href="Solutions/31: Checkerboard Organization/printer.7bh">Both Challenges</a></td>
     <td width=167>Spiff</td>
     <td width=92>7</td>
-    <td width=117>83-99s</td>
+    <td width=117>~91s</td>
   </tr>
 </table>
 
@@ -722,19 +722,19 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/32: Creative Writhing/pain.7bh">Size 📋</a></td>
     <td width=167>main-gi<br>abfipes</td>
     <td width=92>5</td>
-    <td width=117>476-599s</td>
+    <td width=117>~537.5s</td>
   </tr>
   <tr>
     <td width=190>✍🏻<a href="Solutions/32: Creative Writhing/main.7bh">Size +50%🍀</a></td>
     <td width=167>main-gi</td>
     <td width=92>5</td>
-    <td width=117>837-1021s</td>
+    <td width=117>~929s</td>
   </tr>
   <tr>
     <td width=190>✍🏻<a href="Solutions/32: Creative Writhing/creative.7bh">Size</a></td>
     <td width=167>hingston</td>
     <td width=92>6</td>
-    <td width=117>246-288s</td>
+    <td width=117>~267s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/32: Creative Writhing/7bh.7bh">Time</a></td>
@@ -753,7 +753,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/33: Data Backup Day/smart.7bh">Size</a></td>
     <td width=167>$uppenbaer<br>main-gi</td>
     <td width=92>7</td>
-    <td width=117>15-16s</td>
+    <td width=117>~15.5s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/33: Data Backup Day/number.7bh">Time</a></td>
@@ -778,7 +778,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/34: Seek and Destroy 1/what.7bh">Size</a></td>
     <td width=167>n05ucc4u<br>abfipes</td>
     <td width=92>7</td>
-    <td width=117>516-701s</td>
+    <td width=117>~608.5s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/34: Seek and Destroy 1/lvl.7bh">Time</a></td>
@@ -822,7 +822,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>⚡<a href="Solutions/36: Seek and Destroy 2/fast.7bh">Time</a></td>
     <td width=167>commonnickname</td>
     <td width=92>215</td>
-    <td width=117>46-47s</td>
+    <td width=117>~46.5s</td>
   </tr>
   <tr>
     <td width=190>⚡✍🏻<a href="Solutions/36: Seek and Destroy 2/balance.7bh">Twcs</a></td>
@@ -847,7 +847,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>⚡<a href="Solutions/37: Dangerous Spreadsheeting/speed.7bh">Time</a></td>
     <td width=167>motlin<br>commonnickname</td>
     <td width=92>245</td>
-    <td width=117>10.175s</td>
+    <td width=117>~10.0861s</td>
   </tr>
   <tr>
     <td width=190>⚡✍🏻<a href="Solutions/37: Dangerous Spreadsheeting/balance.7bh">Twcs</a></td>
@@ -866,25 +866,25 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/38: Seek and Destroy 3/notes.7bh">Size +50%🍀</a></td>
     <td width=167>main-gi<br>Faptech</td>
     <td width=92>8</td>
-    <td width=117>456-480s</td>
+    <td width=117>~468s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/38: Seek and Destroy 3/67.7bh">Time +50%🍀</a></td>
     <td width=167>abfipes<br>commonnickname</td>
     <td width=92>122</td>
-    <td width=117>6-7s</td>
+    <td width=117>~6.5s</td>
   </tr>
   <tr>
     <td width=190>✍🏻<a href="Solutions/38: Seek and Destroy 3/not always.7bh">Size</a></td>
     <td width=167>abfipes</td>
     <td width=92>10</td>
-    <td width=117>399-491s</td>
+    <td width=117>~445s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/38: Seek and Destroy 3/fast.7bh">Time</a></td>
     <td width=167>abfipes<br>commonnickname</td>
     <td width=92>142</td>
-    <td width=117>9-10s</td>
+    <td width=117>~9.5s</td>
   </tr>
   <tr>
     <td width=190>🥇🥇<a href="Solutions/38: Seek and Destroy 3/balanced.7bh">Both Challenges</a></td>
@@ -903,19 +903,19 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/39: Printing Etiquette 1/Size Paste Only.7bh">Size 📋</a></td>
     <td width=167>abfipes<br>n05ucc4u</td>
     <td width=92>6</td>
-    <td width=117>460-580s</td>
+    <td width=117>~520s</td>
   </tr>
   <tr>
     <td width=190>✍🏻<a href="Solutions/39: Printing Etiquette 1/Size +50%.7bh">Size +50%🍀</a></td>
     <td width=167>n05ucc4u<br>abfipes</td>
     <td width=92>6</td>
-    <td width=117>932-1023s</td>
+    <td width=117>~977.5s</td>
   </tr>
   <tr>
     <td width=190>✍🏻<a href="Solutions/39: Printing Etiquette 1/Size.7bh">Size</a></td>
     <td width=167>main-gi<br>abfipes</td>
     <td width=92>7</td>
-    <td width=117>57-62s</td>
+    <td width=117>~59.5s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/39: Printing Etiquette 1/Speed.7bh">Time</a></td>
@@ -927,7 +927,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>🥇🥇<a href="Solutions/39: Printing Etiquette 1/Swcs.7bh">Both Challenges</a></td>
     <td width=167>landfillbaby</td>
     <td width=92>9</td>
-    <td width=117>46-50s</td>
+    <td width=117>~48s</td>
   </tr>
 </table>
 
@@ -940,19 +940,19 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/40: Printing Etiquette 2/less random.7bh">Size 📋</a></td>
     <td width=167>abfipes<br>n05ucc4u</td>
     <td width=92>7</td>
-    <td width=117>509-593s</td>
+    <td width=117>~551s</td>
   </tr>
   <tr>
     <td width=190>✍🏻<a href="Solutions/40: Printing Etiquette 2/random.7bh">Size +50%🍀</a></td>
     <td width=167>n05ucc4u<br>abfipes</td>
     <td width=92>7</td>
-    <td width=117>951-960s</td>
+    <td width=117>~955.5s</td>
   </tr>
   <tr>
     <td width=190>✍🏻<a href="Solutions/40: Printing Etiquette 2/independent.7bh">Size</a></td>
     <td width=167>main-gi<br>abfipes</td>
     <td width=92>8</td>
-    <td width=117>73-79s</td>
+    <td width=117>~76s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/40: Printing Etiquette 2/fast.7bh">Time</a></td>
@@ -964,7 +964,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>🥇🥇<a href="Solutions/40: Printing Etiquette 2/balance.7bh">Both Challenges</a></td>
     <td width=167>landfillbaby</td>
     <td width=92>10</td>
-    <td width=117>51-54s</td>
+    <td width=117>~52.5s</td>
   </tr>
 </table>
 
@@ -996,25 +996,25 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/42: Important Email Organization/improvement.7bh">Size 📋</a></td>
     <td width=167>commonnickname</td>
     <td width=92>9</td>
-    <td width=117>937-982s</td>
+    <td width=117>~959.5s</td>
   </tr>
   <tr>
     <td width=190>✍🏻<a href="Solutions/42: Important Email Organization/size.7bh">Size</a></td>
     <td width=167>commonnickname</td>
     <td width=92>9</td>
-    <td width=117>958-1068s</td>
+    <td width=117>~1013s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/42: Important Email Organization/speed.7bh">Time</a></td>
     <td width=167>abfipes</td>
     <td width=92>145</td>
-    <td width=117>72-74s</td>
+    <td width=117>~73s</td>
   </tr>
   <tr>
     <td width=190>🥇🥇<a href="Solutions/42: Important Email Organization/balance.7bh">Both Challenges</a></td>
     <td width=167>landfillbaby</td>
     <td width=92>18</td>
-    <td width=117>170-173s</td>
+    <td width=117>~171.5s</td>
   </tr>
 </table>
 
@@ -1027,13 +1027,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/43: Multiplication Table/drm.7bh">Size +50%🍀</a></td>
     <td width=167>dmr</td>
     <td width=92>8</td>
-    <td width=117>850-931s</td>
+    <td width=117>~890.5s</td>
   </tr>
   <tr>
     <td width=190>✍🏻<a href="Solutions/43: Multiplication Table/size.7bh">Size</a></td>
     <td width=167>Farzher</td>
     <td width=92>9</td>
-    <td width=117>682-792s</td>
+    <td width=117>~737s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/43: Multiplication Table/speed.7bh">Time</a></td>
@@ -1215,7 +1215,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/52: The Mode Code/the.7bh">Size</a></td>
     <td width=167>dmr</td>
     <td width=92>15</td>
-    <td width=117>280-282s</td>
+    <td width=117>~281s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/52: The Mode Code/speed.7bh">Time</a></td>
@@ -1227,7 +1227,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>🥇🥇<a href="Solutions/52: The Mode Code/code.7bh">Both Challenges</a></td>
     <td width=167>Erik<br>abfipes</td>
     <td width=92>24</td>
-    <td width=117>133-135s</td>
+    <td width=117>~134s</td>
   </tr>
 </table>
 
@@ -1240,7 +1240,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/53: 100 Cubes on the Floor/note.7bh">Size +50%🍀</a></td>
     <td width=167>nezhi<br>SDP_Ragequit</td>
     <td width=92>7</td>
-    <td width=117>1163-1233s</td>
+    <td width=117>~1198s</td>
   </tr>
   <tr>
     <td width=190>✍🏻<a href="Solutions/53: 100 Cubes on the Floor/53.7bh">Size</a></td>
@@ -1277,13 +1277,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>⚡<a href="Solutions/54: Terrain Leveler/53.7bh">Time +50%🍀</a></td>
     <td width=167>commonnickname</td>
     <td width=92>37</td>
-    <td width=117>22-27s</td>
+    <td width=117>~24.5s</td>
   </tr>
   <tr>
     <td width=190>✍🏻<a href="Solutions/54: Terrain Leveler/size.7bh">Size</a></td>
     <td width=167>dmr</td>
     <td width=92>9</td>
-    <td width=117>163-198s</td>
+    <td width=117>~180.5s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/54: Terrain Leveler/speed.7bh">Time</a></td>
@@ -1333,7 +1333,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/56: Local Maximums/first.7bh">Size</a></td>
     <td width=167>6e.61.64.6e.65.72.42</td>
     <td width=92>7</td>
-    <td width=117>23-24s</td>
+    <td width=117>~23.5s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/56: Local Maximums/nickname.7bh">Time</a></td>
@@ -1358,7 +1358,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/57: Neighborly Sweeper/size.7bh">Size</a></td>
     <td width=167>dmr</td>
     <td width=92>9</td>
-    <td width=117>514-663s</td>
+    <td width=117>~588.5s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/57: Neighborly Sweeper/speed.7bh">Time</a></td>
@@ -1383,7 +1383,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/58: Good Neighbors/good.7bh">Size</a></td>
     <td width=167>commonnickname</td>
     <td width=92>5</td>
-    <td width=117>227-251s</td>
+    <td width=117>~239s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/58: Good Neighbors/sw.7bh">Time</a></td>
@@ -1395,7 +1395,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>🥇🥇<a href="Solutions/58: Good Neighbors/accept.7bh">Both Challenges</a></td>
     <td width=167>abfipes</td>
     <td width=92>10</td>
-    <td width=117>77-94s</td>
+    <td width=117>~85.5s</td>
   </tr>
 </table>
 
@@ -1433,19 +1433,19 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/60: Understaffed Sorting/size.7bh">Size</a></td>
     <td width=167>dmr</td>
     <td width=92>9</td>
-    <td width=117>654-741s</td>
+    <td width=117>~697.5s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/60: Understaffed Sorting/noop.7bh">Time</a></td>
     <td width=167>commonnickname</td>
     <td width=92>159</td>
-    <td width=117>54-62s</td>
+    <td width=117>~58s</td>
   </tr>
   <tr>
     <td width=190>🥇🥇<a href="Solutions/60: Understaffed Sorting/autobalance.7bh">Both Challenges</a></td>
     <td width=167>wuenry</td>
     <td width=92>12</td>
-    <td width=117>149-165s</td>
+    <td width=117>~157s</td>
   </tr>
 </table>
 
@@ -1458,13 +1458,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/61: Lazy Pathways/lazy.7bh">Size +50%🍀</a></td>
     <td width=167>dmr</td>
     <td width=92>7</td>
-    <td width=117>926-951s</td>
+    <td width=117>~938.5s</td>
   </tr>
   <tr>
     <td width=190>✍🏻<a href="Solutions/61: Lazy Pathways/size.7bh">Size</a></td>
     <td width=167>Thineboot</td>
     <td width=92>8</td>
-    <td width=117>573-645s</td>
+    <td width=117>~609s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/61: Lazy Pathways/speed.7bh">Time</a></td>
@@ -1476,7 +1476,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>🥇🥇<a href="Solutions/61: Lazy Pathways/2+2.7bh">Both Challenges</a></td>
     <td width=167>soerface<br>abfipes</td>
     <td width=92>11</td>
-    <td width=117>176-191s</td>
+    <td width=117>~183.5s</td>
   </tr>
 </table>
 
@@ -1489,25 +1489,25 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/62: The Sorting Floor/bogosort.7bh">Size +50%🍀</a></td>
     <td width=167>dmr</td>
     <td width=92>10</td>
-    <td width=117>751-806s</td>
+    <td width=117>~778.5s</td>
   </tr>
   <tr>
     <td width=190>✍🏻<a href="Solutions/62: The Sorting Floor/floor.7bh">Size</a></td>
     <td width=167>dmr</td>
     <td width=92>12</td>
-    <td width=117>457-577s</td>
+    <td width=117>~517s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/62: The Sorting Floor/ceil.7bh">Time</a></td>
     <td width=167>commonnickname</td>
     <td width=92>216</td>
-    <td width=117>10-11s</td>
+    <td width=117>~10.5s</td>
   </tr>
   <tr>
     <td width=190>🥇🥇<a href="Solutions/62: The Sorting Floor/6767.7bh">Both Challenges</a></td>
     <td width=167>blue-raspberry-consulting</td>
     <td width=92>46</td>
-    <td width=117>66-77s</td>
+    <td width=117>~71.5s</td>
   </tr>
 </table>
 
@@ -1581,7 +1581,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/65: Defrag Ordered/speed.7bh">Time</a></td>
     <td width=167>motlin<br>commonnickname</td>
-    <td width=92>135</td>
+    <td width=92>132</td>
     <td width=117>11.984s</td>
   </tr>
   <tr>
@@ -1651,7 +1651,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/68: Goodbye, Humans!/size.7bh">Size</a></td>
     <td width=167>aqueous68<br>main-gi</td>
     <td width=92>6</td>
-    <td width=117>74-75s</td>
+    <td width=117>~74.5s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/68: Goodbye, Humans!/algo.7bh">Time</a></td>

@@ -41,10 +41,7 @@ mem1 = foreachdir w:
 				step s
 				step s
 				pickup sw
-				step n
-				step n
-				mem4 = set 0
-				mem4 = set 0
+				step e
 			else:
 				step nw
 				step n
