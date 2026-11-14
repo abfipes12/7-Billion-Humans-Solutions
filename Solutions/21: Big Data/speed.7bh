@@ -2,6 +2,7 @@
 -- 21: Big Data --
 -- author: commonnickname
 -- contributor: abfipes
+-- contributor: motlin
 -- times: 16 22
 
 step s
@@ -13,8 +14,7 @@ if myitem == datacube:
 	endif
 	step n
 	step n
-	step n
-	step e
+	step ne
 	drop
 	step s
 	step s
@@ -31,10 +31,6 @@ if myitem == datacube:
 		b:
 		jump c
 	endif
-	step w
-	giveto s
-	step e
-	takefrom s
 	if myitem >= 50:
 		c:
 		jump d
@@ -84,8 +80,7 @@ if sw == printer:
 		i:
 		jump j
 	endif
-	step n
-	step se
+	step e
 	drop
 	takefrom sw
 	h:
@@ -124,9 +119,7 @@ takefrom s
 jump n
 o:
 step n
-step n
-step n
-step n
+step ne
 step n
 
 
