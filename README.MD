@@ -159,7 +159,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/9: Dynamic Angles/speed.7bh">Time</a></td>
     <td width=167>martinez8859</td>
-    <td width=92>15</td>
+    <td width=92>14</td>
     <td width=117>3.68s</td>
   </tr>
 </table>

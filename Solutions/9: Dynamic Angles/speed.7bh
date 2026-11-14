@@ -3,11 +3,15 @@
 -- author: martinez8859
 -- contributor: n05ucc4u
 -- contributor: abfipes
+-- contributor: motlin
 -- time: 3.68
 
 pickup s
 step s
 step s
+if e == nothing:
+	step s
+endif
 if e == nothing:
 	step s
 	jump a
@@ -19,11 +23,6 @@ if e == nothing:
 endif
 if e == nothing:
 	b:
-	step s
-	jump c
-endif
-if e == nothing:
-	c:
 	step s
 endif
 drop
