@@ -1056,7 +1056,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/43: Multiplication Table/speed.7bh">Time</a></td>
     <td width=167>motlin</td>
-    <td width=92>241</td>
+    <td width=92>227</td>
     <td width=117>20.832s</td>
   </tr>
   <tr>
