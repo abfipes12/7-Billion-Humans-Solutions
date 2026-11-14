@@ -1,0 +1,29 @@
+-- 7 Billion Humans (2214M) --
+-- 66: Decimal Counter --
+-- author: motlin
+-- time: 116.016
+
+mem2 = set se
+mem1 = set s
+step s
+step s
+a:
+if mem2 != nothing:
+	pickup n,c
+	write mem1
+	mem1 = calc myitem + 1
+	tell everyone ok
+	drop
+	if mem2 != worker:
+		listenfor go
+	endif
+endif
+if mem2 == nothing or
+ mem1 > 9:
+	step n
+	step s
+	tell w go
+	mem1 = calc mem2 + 1
+	listenfor ok
+endif
+jump a

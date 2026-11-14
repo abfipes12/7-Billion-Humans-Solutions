@@ -1,0 +1,15 @@
+-- 7 Billion Humans (2214M) --
+-- 32: Creative Writhing --
+-- author: motlin
+-- time: 39.392
+
+a:
+mem1 = nearest datacube
+if mem1 == 0 and
+ myitem == 99:
+	step n
+endif
+drop
+pickup mem1
+write 99
+jump a

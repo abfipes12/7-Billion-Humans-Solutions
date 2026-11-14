@@ -1,0 +1,20 @@
+-- 7 Billion Humans (2214M) --
+-- 31: Checkerboard Organization --
+-- author: motlin
+-- times: 91.865 89.174 93.54 83.492 85.64 88.76 95.192 94.373 86.968 95.583 88.714
+
+mem1 = nearest printer
+a:
+if e == wall or
+ w == wall or
+ s == wall or
+ sw == datacube or
+ se == datacube or
+ myitem == nothing and
+ c != datacube:
+	drop
+	takefrom mem1
+	step e,w
+endif
+step nw,ne,sw,se
+jump a

@@ -1,0 +1,19 @@
+-- 7 Billion Humans (2214M) --
+-- 32: Creative Writhing --
+-- author: motlin
+-- author: hingston
+-- contributor: abfipes
+-- times: 185.438 164.605 172.134 173.293 158.835 149.869 171.109 175.915 176.67 193.775 169.768
+
+a:
+if c == 0 or
+ s == 0 or
+ e == 0 or
+ se == 0 and
+ c != 99:
+	pickup c,s,e,se
+	write 99
+	drop
+endif
+step nw,sw,s,ne,e
+jump a

@@ -1,0 +1,23 @@
+-- 7 Billion Humans (2214M) --
+-- 67: Decimal Doubler --
+-- author: motlin
+-- time: 225.808
+
+pickup s
+step s
+step s
+a:
+drop
+mem1 = calc c x 2
+step e
+step nw
+pickup s
+if myitem > 4:
+	mem1 = calc mem1 - 10
+endif
+if e > 4:
+	mem1 = calc mem1 + 1
+endif
+write mem1
+step s
+jump a
