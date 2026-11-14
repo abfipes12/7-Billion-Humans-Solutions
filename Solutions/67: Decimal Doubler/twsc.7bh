@@ -1,0 +1,41 @@
+-- 7 Billion Humans (2214M) --
+-- 67: Decimal Doubler --
+-- author: motlin
+-- time: 93.216
+
+mem4 = set se
+if mem4 != nothing:
+	step s
+	pickup c
+	step s
+	a:
+	mem2 = set 0
+	if myitem == 1 or
+	 myitem == 6:
+		mem2 = set 2
+	endif
+	if myitem == 2 or
+	 myitem == 7:
+		mem2 = set 4
+	endif
+	if myitem == 3 or
+	 myitem == 8:
+		mem2 = set 6
+	endif
+	if myitem == 4 or
+	 myitem == 9:
+		mem2 = set 8
+	endif
+	drop
+	if mem4 >= 5:
+		mem2 = calc mem2 + 1
+	else:
+		step s
+		step s
+		step ne
+		step nw
+	endif
+	pickup c
+	write mem2
+	jump a
+endif

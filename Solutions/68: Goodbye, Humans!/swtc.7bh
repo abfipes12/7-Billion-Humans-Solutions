@@ -1,0 +1,21 @@
+-- 7 Billion Humans (2214M) --
+-- 68: Goodbye, Humans! --
+-- author: motlin
+-- author: wuenry
+-- time: 38.752
+
+a:
+if se != nothing and
+ sw != hole or
+ n == nothing:
+	if nw != worker and
+	 n != worker and
+	 ne != worker and
+	 s == hole:
+		tell everyone goodbye
+	endif
+	step sw
+endif
+step se
+step s
+jump a

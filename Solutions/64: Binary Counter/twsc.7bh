@@ -1,0 +1,30 @@
+-- 7 Billion Humans (2214M) --
+-- 64: Binary Counter --
+-- author: motlin
+-- time: 15.312
+
+mem1 = set e
+step s
+if c == datacube:
+	a:
+	if mem1 >= 0 or
+	 mem1 == nothing:
+		if myitem == nothing:
+			pickup s,c
+			step s
+		else:
+			drop
+			step n
+		endif
+		b:
+		if mem1 >= 0:
+			jump b
+		endif
+	endif
+	jump a
+endif
+c:
+step n
+step s
+step s
+jump c

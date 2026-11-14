@@ -1,0 +1,25 @@
+-- 7 Billion Humans (2214M) --
+-- 37: Dangerous Spreadsheeting --
+-- author: dmr
+-- contributor: motlin
+-- time: 26.032
+
+a:
+if w == nothing and
+ e == nothing or
+ e == datacube:
+	step e
+else:
+	step se
+	if c == 0 and
+	 e == wall or
+	 ne == hole:
+		step e
+		pickup c
+		write mem1
+		drop
+	endif
+	step ne
+endif
+mem1 = calc mem1 + c
+jump a

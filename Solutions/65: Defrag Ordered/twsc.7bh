@@ -1,0 +1,47 @@
+-- 7 Billion Humans (2214M) --
+-- 65: Defrag Ordered --
+-- author: motlin
+-- time: 150.832
+
+if w != nothing or
+ e == nothing:
+	step s
+endif
+mem3 = foreachdir nw,w,n,s,ne,e,se:
+	step n
+endfor
+pickup e
+mem2 = nearest datacube
+a:
+mem1 = set e
+b:
+if mem1 == datacube:
+	step mem2
+endif
+if mem1 == datacube and
+ mem4 == hole or
+ mem1 == hole:
+	step sw
+	mem3 = foreachdir nw,w,n,ne,e,se:
+		step w
+	endfor
+	if n == nothing and
+	 e == nothing and
+	 se == nothing or
+	 c == datacube:
+		mem1 = nearest datacube
+		jump b
+	endif
+endif
+if mem1 == datacube and
+ mem4 != hole or
+ mem1 == nothing:
+	step e
+endif
+if mem1 == datacube:
+	drop
+	mem2 = nearest datacube
+	mem4 = set e
+	pickup mem1
+endif
+jump a
