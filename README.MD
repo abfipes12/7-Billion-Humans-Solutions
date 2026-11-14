@@ -839,7 +839,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/36: Seek and Destroy 2/fast.7bh">Time</a></td>
     <td width=167>commonnickname</td>
-    <td width=92>215</td>
+    <td width=92>214</td>
     <td width=117>~46.5s</td>
   </tr>
   <tr>
