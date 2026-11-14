@@ -1580,7 +1580,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/64: Binary Counter/100.7bh">Time</a></td>
     <td width=167>commonnickname</td>
-    <td width=92>100</td>
+    <td width=92>99</td>
     <td width=117>8.976s</td>
   </tr>
   <tr>

@@ -1,6 +1,7 @@
 -- 7 Billion Humans (2214M) --
 -- 64: Binary Counter --
 -- author: commonnickname
+-- contributor: motlin
 -- time: 8.976
 
 mem4 = set se
@@ -88,7 +89,6 @@ else:
 				mem1 = set myitem
 				mem1 = set myitem
 				step ne
-				step w
 			else:
 				pickup e
 				step se
