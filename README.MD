@@ -864,7 +864,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/37: Dangerous Spreadsheeting/speed.7bh">Time</a></td>
     <td width=167>motlin<br>commonnickname</td>
-    <td width=92>245</td>
+    <td width=92>243</td>
     <td width=117>~10.0861s</td>
   </tr>
   <tr>
