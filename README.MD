@@ -1381,7 +1381,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/57: Neighborly Sweeper/speed.7bh">Time</a></td>
     <td width=167>commonnickname</td>
-    <td width=92>224</td>
+    <td width=92>223</td>
     <td width=117>12.848s</td>
   </tr>
   <tr>

@@ -1,6 +1,7 @@
 -- 7 Billion Humans (2145) --
 -- 57: Neighborly Sweeper --
 -- author: commonnickname
+-- contributor: motlin
 -- time: 12.848
 
 jump a
@@ -62,15 +63,13 @@ mem1 = foreachdir w:
 			else:
 				step e
 				pickup c
-				jump d
 				mem1 = foreachdir e:
-					d:
 					if mem1 == nothing:
 						write 1
 						drop
-						jump e
+						jump d
 						mem1 = foreachdir ne:
-							e:
+							d:
 							if mem1 == nothing:
 								step e
 								step e
@@ -131,9 +130,9 @@ mem1 = foreachdir w:
 		endfor
 	else:
 		step w
-		jump f
+		jump e
 		mem1 = foreachdir w:
-			f:
+			e:
 			if mem1 == nothing:
 				pickup nw
 				step nw
@@ -156,16 +155,16 @@ mem1 = foreachdir w:
 				write 4
 			else:
 				step w
-				jump g
+				jump f
 			endif
 		endfor
 	endif
 endfor
-jump h
+jump g
 mem1 = foreachdir w:
 	mem2 = foreachdir n:
 		mem3 = foreachdir nw:
-			g:
+			f:
 			if mem1 == nothing:
 				step w
 				step w
@@ -251,5 +250,5 @@ mem1 = foreachdir w:
 		endfor
 	endfor
 endfor
-h:
+g:
 drop
