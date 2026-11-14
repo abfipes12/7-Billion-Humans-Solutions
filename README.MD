@@ -1605,8 +1605,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/65: Defrag Ordered/speed.7bh">Time</a></td>
     <td width=167>motlin<br>commonnickname</td>
-    <td width=92>132</td>
-    <td width=117>11.984s</td>
+    <td width=92>119</td>
+    <td width=117>11.968s</td>
   </tr>
   <tr>
     <td width=190>⚡✍🏻<a href="Solutions/65: Defrag Ordered/twsc.7bh">Twcs</a></td>
