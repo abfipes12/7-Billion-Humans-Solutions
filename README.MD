@@ -1093,7 +1093,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/44: Unique Fashion Party/time.7bh">Time</a></td>
     <td width=167>abfipes</td>
-    <td width=92>8</td>
+    <td width=92>7</td>
     <td width=117>2.864s</td>
   </tr>
 </table>
