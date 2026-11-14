@@ -1,6 +1,7 @@
 -- 7 Billion Humans (2199) --
 -- 56: Local Maximums --
 -- author: commonnickname
+-- contributor: motlin
 -- time: 12
 
 step w
@@ -59,7 +60,6 @@ endfor
 mem1 = foreachdir nw:
 	g:
 	if mem1 > mem2:
-		mem2 = set mem1
 		mem3 = set 7
 	endif
 endfor

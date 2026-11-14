@@ -1356,7 +1356,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/56: Local Maximums/nickname.7bh">Time</a></td>
     <td width=167>commonnickname</td>
-    <td width=92>62</td>
+    <td width=92>61</td>
     <td width=117>12s</td>
   </tr>
   <tr>
