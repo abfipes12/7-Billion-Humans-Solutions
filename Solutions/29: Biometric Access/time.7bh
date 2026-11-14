@@ -15,10 +15,6 @@ if mem4 != mem3:
 		mem4 = nearest wall
 		jump a
 	else:
-		if mem1 == mem1:
-		endif
-		if mem1 == mem1:
-		endif
 		step mem2
 		pickup n
 		giveto mem1
@@ -33,7 +29,6 @@ if mem4 != mem3:
 		giveto mem1
 		pickup mem2
 		giveto mem1
-		end
 	endif
 endif
 step n
@@ -75,7 +70,6 @@ if mem3 != mem4:
 	else:
 		if n == wall:
 		endif
-		step w
 		step nw
 		step w
 		step w
@@ -138,34 +132,17 @@ if mem3 != mem4:
 endif
 step w
 mem4 = nearest shredder
-if mem3 == mem4:
-	step w
-	step w
-	step w
-	jump g
-endif
 step nw
 mem3 = nearest shredder
 if mem3 != mem4:
 	step e
-	step e
-	step e
-	jump h
+	jump g
 endif
 step w
 mem4 = nearest shredder
 if mem3 == mem4:
-	if n == wall:
-	endif
-	step w
-	step w
-	step w
-	jump i
+	jump h
 endif
-step nw
-step e
-step e
-step e
 step mem2
 step n
 step ne
@@ -186,11 +163,10 @@ pickup e
 giveto mem1
 pickup mem2
 giveto mem1
-end
 b:
 c:
 e:
-h:
+g:
 step mem2
 step n
 pickup n
@@ -220,10 +196,8 @@ if mem4 != wall:
 endif
 pickup mem2
 giveto mem1
-end
 a:
-g:
-i:
+h:
 d:
 f:
 step mem2
