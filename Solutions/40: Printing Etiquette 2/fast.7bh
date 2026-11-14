@@ -3,6 +3,7 @@
 -- author: commonnickname
 -- author: senegrom
 -- contributor: abfipes
+-- contributor: motlin
 -- time: 36.672
 
 mem1 = nearest printer
@@ -13,8 +14,7 @@ write 1
 if nw == nothing:
 	step nw
 	drop
-	step e
-	step e
+	step ne
 	step e
 	takefrom mem1
 	step e
@@ -33,16 +33,14 @@ if nw == nothing:
 	write 4
 	drop
 	takefrom mem1
-	step w
-	step w
+	step sw
 	step sw
 	jump a
 endif
 step n
 if c == nothing:
 	drop
-	step e
-	step e
+	step ne
 	takefrom mem1
 	step w
 	step w
@@ -55,16 +53,13 @@ if c == nothing:
 	step n
 	write 3
 	drop
-	step e
-	step se
 	takefrom mem1
 	step e
 	step e
 	write 4
 	drop
 	takefrom mem1
-	step w
-	step n
+	step nw
 	step n
 	a:
 	jump b
@@ -74,17 +69,13 @@ if c == nothing:
 	drop
 	step e
 	takefrom mem1
-	step w
-	step s
+	step sw
 	write 2
 	drop
 	step nw
 	pickup ne
-	step se
-	step s
+	step sw
 	drop
-	step n
-	step n
 	takefrom mem1
 	step w
 	step n
@@ -92,10 +83,8 @@ if c == nothing:
 	step n
 	write 3
 	drop
-	step e
 	takefrom mem1
-	step n
-	step e
+	step ne
 	step e
 	write 4
 	drop
@@ -109,13 +98,10 @@ step ne
 if c == nothing:
 	drop
 	takefrom mem1
-	step e
-	step s
+	step se
 	write 2
 	step sw
 	drop
-	step ne
-	step n
 	takefrom mem1
 	step e
 	step e
@@ -123,8 +109,7 @@ if c == nothing:
 	write 3
 	drop
 	takefrom mem1
-	step n
-	step w
+	step nw
 	write 4
 	drop
 	step e
@@ -136,24 +121,18 @@ endif
 step e
 drop
 takefrom mem1
-step n
-step w
-step sw
+step e
 step s
 write 2
 drop
 step ne
 takefrom mem1
 step w
-step s
 step sw
 write 3
 drop
-step n
-step n
 takefrom mem1
-step n
-step e
+step ne
 write 4
 drop
 step w
