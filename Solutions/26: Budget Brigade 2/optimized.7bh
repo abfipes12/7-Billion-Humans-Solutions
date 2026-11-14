@@ -2,6 +2,7 @@
 -- 26: Budget Brigade 2 --
 -- author: psam
 -- author: n05ucc4u
+-- contributor: motlin
 -- time: 60.992
 
 if s == printer:
@@ -80,14 +81,12 @@ if w == worker and
 		jump e
 	endif
 	if myitem > 49:
-		giveto e
 		f:
 		if myitem == something:
 			giveto e
 		endif
 		jump f
 	endif
-	giveto w
 	g:
 	if myitem == something:
 		giveto w

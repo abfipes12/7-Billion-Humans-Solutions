@@ -608,7 +608,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/26: Budget Brigade 2/optimized.7bh">Time</a></td>
     <td width=167>psam<br>n05ucc4u</td>
-    <td width=92>56</td>
+    <td width=92>54</td>
     <td width=117>60.992s</td>
   </tr>
   <tr>
