@@ -1698,8 +1698,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/68: Goodbye, Humans!/algo.7bh">Time</a></td>
     <td width=167>commonnickname</td>
-    <td width=92>172</td>
-    <td width=117>16.96s</td>
+    <td width=92>158</td>
+    <td width=117>16.928s</td>
   </tr>
   <tr>
     <td width=190>✍🏻⚡<a href="Solutions/68: Goodbye, Humans!/swtc.7bh">Swtc</a></td>

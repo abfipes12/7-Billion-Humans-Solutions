@@ -1,7 +1,8 @@
 -- 7 Billion Humans (2214M) --
 -- 68: Goodbye, Humans! --
 -- author: commonnickname
--- time: 16.96
+-- contributor: motlin
+-- time: 16.928
 
 jump a
 mem1 = foreachdir sw:
@@ -28,29 +29,27 @@ mem4 = set sw
 if mem1 == worker and
  mem2 == worker and
  mem3 == worker:
-	if mem4 == nothing:
-		jump d
-	else:
+	if mem4 != nothing:
 		mem1 = foreachdir nw,n:
 		endfor
 		mem1 = set myitem
-		jump e
+		jump d
 		mem1 = foreachdir s:
-			e:
+			d:
 			if mem1 == nothing:
 				step sw
-				jump f
+				jump e
 			else:
 				mem1 = set c
 			endif
 		endfor
 	endif
-	jump g
+	jump f
 	mem1 = foreachdir sw:
 		mem2 = foreachdir s:
 			mem3 = foreachdir se:
 				mem4 = foreachdir e:
-					g:
+					f:
 					if mem1 == nothing or
 					 mem2 == nothing or
 					 mem3 == nothing or
@@ -59,7 +58,7 @@ if mem1 == worker and
 							step n
 							step e
 							step se
-							jump h
+							jump g
 						else:
 							step s
 							step s
@@ -69,13 +68,13 @@ if mem1 == worker and
 							if mem1 == nothing:
 								step w
 							endif
-							jump i
+							jump h
 						endif
 					else:
 						mem1 = set sw
 						mem2 = set se
 						if ne == nothing:
-							jump j
+							jump i
 						endif
 						if s == nothing and
 						 ne != wall:
@@ -88,22 +87,22 @@ if mem1 == worker and
 							endif
 							step s
 							step s
-							jump k
+							jump j
 						endif
-						jump l
+						jump k
 					endif
 				endfor
 			endfor
 		endfor
 	endfor
 	mem1 = foreachdir nw:
-		l:
+		k:
 		if mem1 == worker:
 			step s
 			step s
-			jump m
+			jump l
 			mem1 = foreachdir n:
-				m:
+				l:
 				if mem1 == nothing:
 					step e
 					step e
@@ -112,35 +111,25 @@ if mem1 == worker and
 					step e
 					step s
 					step w
-					step s
 					step w
-					step s
-					jump n
+					jump m
 				endif
 				if mem4 == nothing:
-					jump o
+					jump n
 				endif
-				step s
-				step w
+				step sw
 				step n
-				step w
-				step n
-				jump p
+				step nw
+				jump o
 			endfor
 		endif
-		if mem1 == hole:
-			tell everyone hi
-			mem1 = set c
-			jump q
-		endif
+		step n
 	endfor
-	r:
-	jump s
+	p:
 	mem1 = foreachdir w:
-		s:
 		if mem1 != hole:
 			step w
-			jump r
+			jump p
 		endif
 	endfor
 	step s
@@ -149,50 +138,49 @@ if mem1 == worker and
 	step s
 	step e
 	step s
-	jump t
+	jump q
 endif
 if mem1 == worker and
  mem2 == worker and
  mem3 == wall and
  mem4 == worker:
-	jump u
+	jump r
 	mem1 = foreachdir s:
-		u:
+		r:
 		if mem1 == nothing:
-			jump v
+			jump s
 		endif
 	endfor
 	if sw == nothing:
 		step sw
-		v:
+		s:
 		step s
-		jump w
+		jump t
 	endif
 	if e == wall:
 		step sw
-		jump x
+		jump u
 	else:
 		step s
 		step s
-		jump y
 	endif
 endif
 if w == nothing:
 	step sw
-	jump z
+	jump v
 endif
 if e == wall:
-	jump aa
+	jump w
 endif
 if mem3 == nothing:
 	step w
 	step n
-	jump ab
+	jump x
 endif
 if w == worker and
  sw == wall and
  s == worker:
-	jump ac
+	jump y
 endif
 tell everyone hi
 tell everyone hi
@@ -200,21 +188,13 @@ if nw == hole or
  w == hole or
  sw == hole and
  n == worker:
-	if w == hole or
-	 nw == hole:
-		step n
-	endif
-	if w == hole:
-		step n
-	endif
-	jump ad
+	step n
+	jump z
 endif
 if mem2 == wall and
  mem3 == wall:
-	mem1 = foreachdir nw,w,sw,n,s,ne,e,se:
-		tell everyone hi
-	endfor
-	jump ae
+	step n
+	jump aa
 endif
 if se != hole:
 	mem1 = foreachdir nw,w,sw,n,s,ne,e,se:
@@ -222,60 +202,58 @@ if se != hole:
 	endfor
 	if n == hole:
 		step se
-	else:
-		step ne
+		jump ab
 	endif
-	jump af
+	step se
+	step s
+	step se
+	step se
+	tell everyone hi
+	mem4 = set 0
+	tell everyone goodbye
+	step se
+	step s
 endif
 comment 2
 step sw
 step sw
-step sw
-step s
-step s
-mem1 = foreachdir nw,n,ne,e:
-	tell w hi
-endfor
-mem1 = set c
-tell everyone goodbye
-step sw
-step s
+step w
+step w
+jump ac
 comment 1
-af:
-ad:
-q:
-p:
-step e
-ac:
 ab:
-t:
-step e
-o:
-j:
-step e
-jump ag
-comment 0
-ae:
-step w
-aa:
-y:
-step w
-x:
-k:
-h:
-step w
 z:
-w:
-i:
-c:
+o:
+step e
+y:
+x:
+q:
+step e
 n:
+i:
+step e
+jump ad
+comment 0
+aa:
 step w
-d:
-f:
-ag:
-ah:
+w:
+step w
+u:
+j:
+g:
+step w
+v:
+t:
+h:
+c:
+m:
+step w
+e:
+ad:
+ae:
+ac:
 step s
-jump ah
+jump ae
 
 
 DEFINE COMMENT 0
