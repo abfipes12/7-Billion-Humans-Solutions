@@ -1549,7 +1549,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/63: Defrag Disordered/fast.7bh">Time</a></td>
     <td width=167>n05ucc4u<br>commonnickname</td>
-    <td width=92>57</td>
+    <td width=92>56</td>
     <td width=117>5.968s</td>
   </tr>
   <tr>

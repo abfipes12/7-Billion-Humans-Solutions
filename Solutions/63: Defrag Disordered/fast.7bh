@@ -2,6 +2,7 @@
 -- 63: Defrag Disordered --
 -- author: n05ucc4u
 -- author: commonnickname
+-- contributor: motlin
 -- time: 5.968
 
 step n
@@ -51,7 +52,6 @@ mem1 = foreachdir nw:
 						step sw
 						pickup sw
 						step n
-						step n
 					else:
 						pickup ne
 						step ne
@@ -62,8 +62,8 @@ mem1 = foreachdir nw:
 						drop
 						step sw
 						pickup s
-						step n
 					endif
+					step n
 				endif
 			endif
 		endfor
