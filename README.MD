@@ -1456,7 +1456,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/60: Understaffed Sorting/noop.7bh">Time</a></td>
     <td width=167>commonnickname</td>
-    <td width=92>159</td>
+    <td width=92>145</td>
     <td width=117>~58s</td>
   </tr>
   <tr>
