@@ -1406,7 +1406,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/58: Good Neighbors/sw.7bh">Time</a></td>
     <td width=167>commonnickname</td>
-    <td width=92>103</td>
+    <td width=92>99</td>
     <td width=117>2.976s</td>
   </tr>
   <tr>
