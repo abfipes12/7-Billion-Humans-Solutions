@@ -597,7 +597,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>🥇🥇<a href="Solutions/26: Budget Brigade 2/both.7bh">Both Challenges 📋</a></td>
     <td width=167>motlin</td>
     <td width=92>10</td>
-    <td width=117>~69.1716s</td>
+    <td width=117>~69.172s</td>
   </tr>
   <tr>
     <td width=190>✍🏻<a href="Solutions/26: Budget Brigade 2/Budget.7bh">Size</a></td>
@@ -715,7 +715,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>🥇🥇<a href="Solutions/31: Checkerboard Organization/both.7bh">Both Challenges</a></td>
     <td width=167>motlin</td>
     <td width=92>7</td>
-    <td width=117>~90.3001s</td>
+    <td width=117>~90.3s</td>
   </tr>
 </table>
 
@@ -865,7 +865,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>⚡<a href="Solutions/37: Dangerous Spreadsheeting/speed.7bh">Time</a></td>
     <td width=167>motlin<br>commonnickname</td>
     <td width=92>243</td>
-    <td width=117>~10.0861s</td>
+    <td width=117>~10.086s</td>
   </tr>
   <tr>
     <td width=190>⚡✍🏻<a href="Solutions/37: Dangerous Spreadsheeting/twsc.7bh">Twcs</a></td>
@@ -1307,7 +1307,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>⚡<a href="Solutions/54: Terrain Leveler/speed.7bh">Time</a></td>
     <td width=167>commonnickname</td>
     <td width=92>87</td>
-    <td width=117>46s</td>
+    <td width=117>46.912s</td>
   </tr>
   <tr>
     <td width=190>🥇🥇<a href="Solutions/54: Terrain Leveler/swiss.7bh">Both Challenges</a></td>
@@ -1357,7 +1357,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>⚡<a href="Solutions/56: Local Maximums/nickname.7bh">Time</a></td>
     <td width=167>commonnickname</td>
     <td width=92>61</td>
-    <td width=117>12s</td>
+    <td width=117>~12.704s</td>
   </tr>
   <tr>
     <td width=190>🥇🥇<a href="Solutions/56: Local Maximums/provides.7bh">Both Challenges</a></td>

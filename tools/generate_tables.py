@@ -80,7 +80,7 @@ def format_val(v: float) -> str:
 
 def format_time(sol: Dict[str, Any]) -> str:
     """Formats single or complex timing values into markdown string representation."""
-    t = format_val(sol["time"])
+    t = f"{sol['time']:.3f}".rstrip("0").rstrip(".")
     if sol.get("complex_timing"):
         return f"~{t}s"
     return f"{t}s"
