@@ -614,7 +614,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>✍🏻⚡<a href="Solutions/26: Budget Brigade 2/fasty.7bh">Swtc</a></td>
     <td width=167>DFG.</td>
-    <td width=92>24</td>
+    <td width=92>23</td>
     <td width=117>67s</td>
   </tr>
   <tr>
