@@ -2,6 +2,7 @@
 -- 22: Number Royale --
 -- author: eiTTio 
 -- author: abfipes
+-- contributor: motlin
 -- success: 59/100
 -- time: 2
 -- notes: calculated expected => 55.3%
@@ -16,9 +17,7 @@ pickup s
 if myitem < 94:
 	if myitem == myitem:
 		if myitem == myitem:
-			if myitem == myitem:
-				if w == e:
-				endif
+			if w == e:
 			endif
 		endif
 	endif

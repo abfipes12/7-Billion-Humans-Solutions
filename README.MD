@@ -484,7 +484,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/22: Number Royale/2s.7bh">Time +50%🍀</a></td>
     <td width=167>eiTTio<br>abfipes</td>
-    <td width=92>10</td>
+    <td width=92>9</td>
     <td width=117>2s</td>
   </tr>
   <tr>
