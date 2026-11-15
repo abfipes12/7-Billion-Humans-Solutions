@@ -789,7 +789,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/34: Seek and Destroy 1/speed.7bh">Time +50%🍀</a></td>
     <td width=167>commonnickname<br>abfipes</td>
-    <td width=92>53</td>
+    <td width=92>51</td>
     <td width=117>7s</td>
   </tr>
   <tr>
