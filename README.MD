@@ -708,7 +708,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/31: Checkerboard Organization/time.7bh">Time</a></td>
     <td width=167>motlin</td>
-    <td width=92>189</td>
+    <td width=92>183</td>
     <td width=117>31.712s</td>
   </tr>
   <tr>

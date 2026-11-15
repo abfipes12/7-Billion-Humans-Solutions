@@ -38,7 +38,6 @@ if mem1 != mem2 and
 	takefrom mem4
 	step e
 	step ne
-	drop
 else:
 	if mem1 != mem2:
 		mem4 = nearest printer
@@ -69,7 +68,6 @@ else:
 		takefrom mem4
 		step nw
 		step n
-		drop
 	else:
 		if mem4 != mem3:
 			mem4 = nearest printer
@@ -102,7 +100,6 @@ else:
 			step se
 			takefrom mem4
 			step e
-			drop
 		else:
 			mem4 = nearest printer
 			if sw == printer:
@@ -133,7 +130,6 @@ else:
 				drop
 				takefrom mem4
 				step n
-				drop
 			else:
 				if s == wall:
 					takefrom mem4
@@ -154,8 +150,6 @@ else:
 					drop
 					takefrom mem4
 					step nw
-					step w
-					drop
 				else:
 					step ne
 					step ne
@@ -191,10 +185,10 @@ else:
 					step se
 					drop
 					takefrom mem4
-					step w
-					drop
 				endif
+				step w
 			endif
 		endif
 	endif
 endif
+drop
