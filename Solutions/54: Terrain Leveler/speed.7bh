@@ -81,11 +81,10 @@ else:
 		 e == nothing:
 			if w == nothing:
 				step w
-				mem1 = set n
 			else:
 				step e
-				mem1 = set n
 			endif
+			mem1 = set n
 		else:
 			step w
 			mem1 = set nw
