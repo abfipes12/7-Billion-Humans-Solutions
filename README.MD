@@ -1636,7 +1636,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/66: Decimal Counter/time.7bh">Time</a></td>
     <td width=167>commonnickname</td>
-    <td width=92>246</td>
+    <td width=92>232</td>
     <td width=117>24.704s</td>
   </tr>
   <tr>
