@@ -459,8 +459,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/21: Big Data/speed.7bh">Time</a></td>
     <td width=167>commonnickname</td>
-    <td width=92>82</td>
-    <td width=117>~19s</td>
+    <td width=92>90</td>
+    <td width=117>~19.363s</td>
   </tr>
   <tr>
     <td width=190>🥇🥇<a href="Solutions/21: Big Data/landfill.7bh">Both Challenges</a></td>
