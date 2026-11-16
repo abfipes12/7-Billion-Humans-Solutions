@@ -8,7 +8,8 @@ mem3 = nearest wall
 step s
 mem1 = nearest hole
 mem4 = nearest wall
-if mem1 != mem2 and mem4 == mem3:
+if mem1 != mem2 and
+ mem4 == mem3:
 	mem4 = nearest printer
 	takefrom mem4
 	step nw
@@ -18,32 +19,22 @@ if mem1 != mem2 and mem4 == mem3:
 	step se
 	step se
 	drop
-	step nw
-	step nw
-	step nw
 	takefrom mem4
 	step e
 	step e
 	step e
 	step se
 	drop
-	step nw
-	step w
-	step w
 	takefrom mem4
 	step e
 	step se
 	step se
 	drop
-	step nw
-	step nw
 	takefrom mem4
 	step e
 	step e
 	step e
 	drop
-	step w
-	step w
 	takefrom mem4
 	step e
 	step ne
@@ -51,41 +42,30 @@ if mem1 != mem2 and mem4 == mem3:
 else:
 	if mem1 != mem2:
 		mem4 = nearest printer
-		step n
-		step nw
-		takefrom mem4
-		step n
-		step w
-		step w
-		step w
-		step w
-		drop
-		step se
-		step se
-		step e
-		takefrom mem4
-		step sw
-		step w
-		step w
-		step w
-		drop
-		step e
-		step e
-		step e
-		takefrom mem4
-		step sw
-		step w
-		step sw
-		drop
 		step ne
-		step e
+		takefrom mem4
+		step n
+		step w
+		step w
+		step w
+		step w
+		drop
+		takefrom mem4
+		step sw
+		step w
+		step w
+		step w
+		drop
+		takefrom mem4
+		step sw
+		step w
+		step sw
+		drop
 		takefrom mem4
 		step nw
 		step nw
 		step w
 		drop
-		step e
-		step se
 		takefrom mem4
 		step nw
 		step n
@@ -93,11 +73,7 @@ else:
 	else:
 		if mem4 != mem3:
 			mem4 = nearest printer
-			step n
-			step n
-			step n
-			step nw
-			step w
+			step ne
 			takefrom mem4
 			step e
 			step se
@@ -107,31 +83,23 @@ else:
 			drop
 			step n
 			step n
-			step nw
-			step nw
 			takefrom mem4
 			step e
 			step e
 			step e
 			step ne
 			drop
-			step sw
-			step w
-			step w
 			takefrom mem4
 			step e
 			step ne
 			step ne
 			drop
-			step sw
-			step sw
 			takefrom mem4
 			step e
 			step n
 			step n
 			drop
-			step s
-			step s
+			step se
 			takefrom mem4
 			step e
 			drop
@@ -149,62 +117,41 @@ else:
 				step sw
 				step w
 				drop
-				step e
-				step ne
-				step ne
 				takefrom mem4
 				step sw
 				step sw
 				step s
 				drop
-				step n
-				step ne
 				takefrom mem4
 				step sw
 				step w
 				drop
-				step n
-				step ne
 				takefrom mem4
 				step nw
 				step sw
 				step w
 				drop
-				step e
-				step ne
 				takefrom mem4
 				step n
 				drop
 			else:
 				if s == wall:
-					step ne
-					step ne
-					step n
 					takefrom mem4
 					step sw
 					step sw
 					step sw
 					step s
 					drop
-					step n
-					step ne
-					step ne
 					takefrom mem4
 					step sw
 					step s
 					step s
 					step s
 					drop
-					step n
-					step n
-					step n
 					takefrom mem4
 					step sw
 					step s
 					drop
-					step n
-					step nw
-					step ne
 					takefrom mem4
 					step nw
 					step w
@@ -220,8 +167,7 @@ else:
 					step s
 					step s
 					drop
-					step n
-					step n
+					step ne
 					step n
 					step n
 					takefrom mem4
@@ -230,9 +176,7 @@ else:
 					step s
 					step s
 					drop
-					step n
-					step n
-					step nw
+					step ne
 					takefrom mem4
 					step e
 					step s
@@ -246,7 +190,6 @@ else:
 					step e
 					step se
 					drop
-					step nw
 					takefrom mem4
 					step w
 					drop

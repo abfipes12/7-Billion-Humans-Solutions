@@ -2,7 +2,7 @@
 -- 67: Decimal Doubler --
 -- author: motlin
 -- author: commonnickname
--- time: 40.624
+-- time: 40.608
 
 mem1 = set w
 if mem1 == datacube:
@@ -39,9 +39,9 @@ else:
 		step s
 		write 1
 		mem1 = set e
-		c:
+		b:
 		if mem1 != 5:
-			jump c
+			jump b
 		endif
 		mem2 = calc [blank] + 0
 	else:
@@ -50,7 +50,6 @@ else:
 			pickup s
 			step s
 			step s
-			mem2 = set myitem
 			drop
 			step e
 			step e
@@ -61,14 +60,13 @@ else:
 			drop
 			pickup n
 			write 2
-			jump L1
+			jump c
 		else:
 			if mem1 >= 0:
 				pickup s
 				step se
 				step se
 				write 3
-				mem2 = set e
 				step e
 				mem2 = set myitem
 				mem2 = set myitem
@@ -77,16 +75,15 @@ else:
 				step e
 				pickup s
 				step w
-				mem1 = set myitem
 				drop
 				step e
 				pickup se
 				step w
 				step sw
 				write 1
-				f:
+				d:
 				if mem1 != 0:
-					jump f
+					jump d
 				endif
 			else:
 				if mem1 >= 0:
@@ -110,7 +107,7 @@ else:
 					drop
 					pickup w
 					write 5
-					jump L2
+					jump e
 				else:
 					if mem1 >= 0:
 						pickup s
@@ -130,7 +127,7 @@ else:
 						step w
 						drop
 						pickup w
-						U:
+						f:
 						write 6
 						drop
 						pickup c
@@ -143,7 +140,7 @@ else:
 						write 8
 						drop
 						pickup c
-						jump U
+						jump f
 					else:
 						if mem1 >= 0:
 							pickup s
@@ -169,9 +166,9 @@ else:
 							step w
 							step sw
 							write 1
-							i:
+							g:
 							if mem1 != 6:
-								jump i
+								jump g
 							endif
 						else:
 							step se
@@ -198,8 +195,7 @@ else:
 							tell nobody hi
 							mem2 = set 0
 							mem2 = set 0
-							mem2 = set 0
-							j:
+							h:
 							step mem3
 							step e
 							tell everyone hi
@@ -209,7 +205,7 @@ else:
 							mem2 = set 0
 							mem2 = set 0
 							mem2 = set 0
-							jump j
+							jump h
 						endif
 					endif
 				endif
@@ -217,51 +213,51 @@ else:
 		endif
 	endif
 endif
-L7:
-L10:
+i:
+j:
 drop
 pickup c
 if mem1 >= 5:
 	write 3
-	jump L4
+	jump k
 endif
 write 2
-L1:
-L8:
+c:
+l:
 drop
 pickup c
 if mem1 >= 5:
 	write 5
-	jump L5
+	jump m
 endif
 write 4
-L6:
+n:
 drop
 pickup c
 if mem1 >= 5:
 	write 9
-	jump L6
+	jump n
 endif
 write 8
-L4:
+k:
 drop
 pickup c
 if mem1 < 5:
 	write 6
-	jump L7
+	jump i
 else:
 	write 7
-	jump L8
+	jump l
 endif
-L2:
-L5:
-L9:
+e:
+m:
+o:
 drop
 pickup c
 if mem1 < 5:
 	write 0
-	jump L9
+	jump o
 else:
 	write 1
-	jump L10
+	jump j
 endif

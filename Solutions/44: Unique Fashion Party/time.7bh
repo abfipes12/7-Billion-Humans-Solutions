@@ -1,11 +1,11 @@
 -- 7 Billion Humans (2235) --
 -- 44: Unique Fashion Party --
 -- author: abfipes
+-- contributor: motlin
 -- time: 2.864
 
 if w == wall:
 	pickup s
-	end
 endif
 if nw >= 0 and
  n != datacube:

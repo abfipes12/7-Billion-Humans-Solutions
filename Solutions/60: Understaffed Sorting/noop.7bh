@@ -2,6 +2,7 @@
 -- 60: Understaffed Sorting --
 -- author: commonnickname
 -- times: 54 62
+-- contributor: motlin
 
 step w,e
 a:
@@ -11,13 +12,12 @@ d:
 e:
 f:
 g:
-h:
-jump i
+jump h
 mem1 = foreachdir sw:
 	mem2 = foreachdir s:
 		mem3 = foreachdir se:
 			mem4 = foreachdir e:
-				i:
+				h:
 				if mem3 == wall:
 					step nw
 					if mem2 == nothing:
@@ -48,39 +48,37 @@ mem1 = foreachdir sw:
 				 mem2 != worker and
 				 mem3 >= 0 and
 				 mem4 != worker:
-					jump j
 				else:
 					if mem2 != worker or
 					 mem4 != datacube:
 						jump e
 					endif
-					k:
-					jump l
+					i:
+					jump j
 					mem1 = foreachdir e:
 						mem2 = foreachdir se:
-							l:
+							j:
 							if mem1 != worker and
 							 mem2 != worker:
-								jump k
+								jump i
 							else:
-								jump h
+								jump g
 							endif
 						endfor
 					endfor
 				endif
-				j:
 				if mem1 <= mem2 and
 				 mem2 <= mem3:
 					comment 9
 					step e
 					jump c
 				endif
-				jump m
+				jump k
 			endfor
 		endfor
 	endfor
 endfor
-m:
+k:
 if mem1 < mem2 and
  mem1 <= mem3 and
  mem3 < mem2:
@@ -93,19 +91,19 @@ if mem1 < mem2 and
 	step s
 	pickup e
 	if myitem == nothing:
-		n:
-		jump o
+		l:
+		jump m
 		mem1 = foreachdir e:
-			o:
+			m:
 			if mem1 != datacube:
-				jump n
+				jump l
 			endif
 		endfor
 		pickup e
 	endif
 	drop
 	step e
-	jump p
+	jump n
 endif
 if mem2 < mem1 and
  mem2 < mem3 and
@@ -113,11 +111,7 @@ if mem2 < mem1 and
 	comment 3
 	pickup sw
 	drop
-	if myitem == datacube:
-		drop
-	endif
 	step sw
-	pickup e
 	if myitem == nothing:
 		pickup e
 	endif
@@ -140,12 +134,10 @@ if mem3 < mem1 and
 	endif
 	pickup se
 	if myitem == nothing:
-		q:
-		jump r
+		o:
 		mem1 = foreachdir se:
-			r:
 			if mem1 != datacube:
-				jump q
+				jump o
 			endif
 		endfor
 		pickup se
@@ -154,41 +146,27 @@ if mem3 < mem1 and
 	drop
 	step e
 	step e
-	jump s
+	jump p
 endif
 if mem2 < mem3 and
  mem3 < mem1:
 	comment 5
 	pickup sw
-	if myitem == nothing:
-		jump f
-	endif
 	drop
 	if myitem == datacube:
 		drop
 	endif
 	step sw
 	pickup e
-	if myitem == nothing:
-		pickup e
-	endif
 	drop
 	step e
 	pickup e
 	if myitem == nothing:
-		t:
-		jump u
-		mem1 = foreachdir e:
-			u:
-			if mem1 != datacube:
-				jump t
-			endif
-		endfor
 		pickup e
 	endif
 	drop
 	step e
-	jump v
+	jump q
 endif
 if mem1 < mem2 and
  mem3 < mem1 and
@@ -205,7 +183,7 @@ if mem1 < mem2 and
 		step s
 		drop
 		step ne
-		jump g
+		jump f
 	endif
 	step s
 	drop
@@ -217,17 +195,15 @@ if mem1 < mem2 and
 	drop
 	step e
 	step e
-	jump w
 endif
-x:
-jump y
+r:
+jump s
 mem1 = foreachdir nw:
 	mem2 = foreachdir e:
-		y:
-		p:
 		s:
-		v:
-		w:
+		n:
+		p:
+		q:
 		if mem1 >= 0 and
 		 mem2 >= 0 or
 		 mem2 == wall:
@@ -235,12 +211,12 @@ mem1 = foreachdir nw:
 			 mem2 == wall:
 				pickup nw
 			else:
-				z:
-				jump aa
+				t:
+				jump u
 				mem2 = foreachdir e:
-					aa:
+					u:
 					if mem2 != datacube:
-						jump z
+						jump t
 					endif
 				endfor
 				pickup e
@@ -252,7 +228,7 @@ mem1 = foreachdir nw:
 			step ne
 			jump a
 		else:
-			jump x
+			jump r
 		endif
 	endfor
 endfor

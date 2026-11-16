@@ -1,6 +1,7 @@
 -- 7 Billion Humans (2214M) --
 -- 36: Seek and Destroy 2 --
 -- author: commonnickname
+-- contributor: motlin
 -- times: 46 47
 
 mem1 = nearest wall
@@ -89,7 +90,6 @@ if mem1 == mem2:
 					if mem4 < mem1:
 						pickup n
 						mem2 = set mem1
-						mem1 = set myitem
 						jump b
 					else:
 						mem2 = set mem4

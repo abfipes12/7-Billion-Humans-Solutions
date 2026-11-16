@@ -35,9 +35,7 @@ if mem1 != mem3:
 		mem2 = set 27
 		mem3 = set 18
 		mem4 = set 9
-		jump d1
 	else:
-		mem3 = set 0
 		mem3 = set 0
 		mem3 = set 0
 		mem3 = set 0
@@ -48,7 +46,6 @@ if mem1 != mem3:
 		mem3 = set 48
 		mem4 = set 40
 		drop
-		jump b1
 	endif
 else:
 	mem3 = nearest datacube
@@ -61,7 +58,6 @@ else:
 		mem3 = set 12
 		mem4 = set 10
 		drop
-		jump b2
 	else:
 		mem3 = nearest wall
 		if mem1 != mem3:
@@ -88,7 +84,6 @@ else:
 			mem2 = set 3
 			mem3 = set 2
 			mem4 = set 1
-			jump d2
 		else:
 			mem3 = nearest worker
 			if mem2 != mem3:
@@ -115,7 +110,6 @@ else:
 				mem2 = set 12
 				mem3 = set 8
 				mem4 = set 4
-				jump d3
 			else:
 				if mem2 == 0:
 					pickup c
@@ -141,7 +135,6 @@ else:
 					mem2 = set 18
 					mem3 = set 12
 					mem4 = set 6
-					jump d4
 				else:
 					if mem2 == 0:
 						pickup c
@@ -167,10 +160,7 @@ else:
 						mem2 = set 9
 						mem3 = set 6
 						mem4 = set 3
-						jump d5
 					else:
-						mem4 = set 0
-						mem4 = set 0
 						if mem2 == 0:
 							pickup c
 							write 63
@@ -179,7 +169,6 @@ else:
 							mem3 = set 42
 							mem4 = set 35
 							drop
-							jump b3
 						else:
 							pickup c
 							write 45
@@ -195,9 +184,6 @@ else:
 		endif
 	endif
 endif
-b1:
-b2:
-b3:
 pickup n
 step n
 write mem1
@@ -220,13 +206,11 @@ if mem4 < 30:
 		mem2 = set 6
 		mem3 = set 4
 		mem4 = set 2
-		jump d6
 	else:
 		mem1 = set 20
 		mem2 = set 15
 		mem3 = set 10
 		mem4 = set 5
-		jump d7
 	endif
 else:
 	if mem4 < 38:
@@ -234,7 +218,6 @@ else:
 		mem2 = set 21
 		mem3 = set 14
 		mem4 = set 7
-		jump d8
 	else:
 		mem1 = set 32
 		mem2 = set 24
@@ -242,14 +225,6 @@ else:
 		mem4 = set 8
 	endif
 endif
-d1:
-d2:
-d3:
-d4:
-d5:
-d6:
-d7:
-d8:
 pickup n
 step n
 write mem1

@@ -1,31 +1,30 @@
 -- 7 Billion Humans (2235) --
 -- 59: Glory Hole --
 -- author: commonnickname
+-- contributor: motlin
 -- time: 6.864
 
 mem1 = nearest datacube
-if mem1 == 2:
-	jump a
-else:
+if mem1 != 2:
 	if mem1 == 3:
-		jump b
+		jump a
 	else:
 		if mem1 == 4:
-			jump c
+			jump b
 		else:
 			if mem1 == 5:
-				jump d
+				jump c
 			else:
 				if mem1 == 6:
-					jump e
+					jump d
 				else:
 					if mem1 == 10:
-						jump f
+						jump e
 					else:
 						if mem1 == 11:
-							jump g
+							jump f
 						else:
-							jump h
+							jump g
 						endif
 					endif
 				endif
@@ -34,20 +33,17 @@ else:
 	endif
 endif
 comment 2
-a:
 step e
-jump i
+jump h
 mem1 = foreachdir e:
-	i:
+	h:
 	if mem1 == 1:
 		step e
 		step e
-		j:
-		jump j
 	else:
-		jump k
+		jump i
 		mem1 = foreachdir ne:
-			k:
+			i:
 			if mem1 == 1:
 				step ne
 				step e
@@ -61,18 +57,18 @@ mem1 = foreachdir e:
 endfor
 comment 0
 mem1 = foreachdir s:
-	b:
+	a:
 	if mem1 == datacube:
 		step s
-		jump l
+		jump j
 		mem1 = foreachdir s:
-			l:
+			j:
 			if mem1 == 2:
 				step s
 				step s
-				jump m
+				jump k
 				mem1 = foreachdir s:
-					m:
+					k:
 					if mem1 == hole:
 						step sw
 						step e
@@ -83,11 +79,7 @@ mem1 = foreachdir s:
 					endif
 				endfor
 			else:
-				step w
-				step sw
-				step sw
-				step sw
-				step e
+				step nw
 			endif
 		endfor
 	else:
@@ -98,7 +90,7 @@ mem1 = foreachdir s:
 	endif
 endfor
 comment 1
-c:
+b:
 step sw
 step sw
 step s
@@ -106,14 +98,12 @@ step s
 step w
 step w
 comment 3
-d:
+c:
 step nw
 step nw
 step n
 step n
-jump n
 mem1 = foreachdir n:
-	n:
 	if mem1 == 1:
 		step ne
 		step n
@@ -124,14 +114,13 @@ mem1 = foreachdir n:
 			step e
 		else:
 			step nw
-			step n
-			step w
+			step nw
 			step w
 		endif
 	endif
 endfor
 comment 4
-e:
+d:
 step nw
 step nw
 step nw
@@ -140,10 +129,10 @@ step nw
 step w
 step n
 comment 5
-f:
-o:
+e:
+l:
 step sw
-p:
+m:
 step sw
 step w
 step nw
@@ -154,11 +143,11 @@ step w
 step w
 step w
 comment 6
-g:
+f:
 step s
 mem1 = nearest datacube
 if mem1 == 10:
-	jump o
+	jump l
 else:
 	step se
 	step se
@@ -173,16 +162,15 @@ else:
 	step nw
 endif
 comment 7
-h:
+g:
 step se
 step s
 step s
 mem1 = nearest datacube
 if mem1 == 9:
-	jump p
+	jump m
 else:
-	step w
-	step s
+	step sw
 	step sw
 	step w
 	step w

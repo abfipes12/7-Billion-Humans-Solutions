@@ -1,6 +1,7 @@
 -- 7 Billion Humans (2214M) --
 -- 30: Fill the Floor --
 -- author: commonnickname
+-- contributor: motlin
 -- time: 81.92
 
 mem1 = nearest wall
@@ -72,11 +73,8 @@ if mem1 == mem2:
 	step mem2
 	step e
 	drop
-	step mem3
 	takefrom mem4
 	step se
-	drop
-	end
 else:
 	step w
 	mem1 = nearest datacube
@@ -86,8 +84,7 @@ else:
 		if c == datacube:
 			step w
 			if c == datacube:
-				step n
-				step e
+				step ne
 				step e
 				step ne
 				step se
@@ -103,10 +100,7 @@ else:
 				drop
 				mem2 = nearest datacube
 				step s
-				step w
-				step w
-				step w
-				step n
+				step se
 				takefrom mem4
 				step se
 				step mem2
@@ -137,7 +131,6 @@ else:
 				step n
 				drop
 				mem2 = nearest datacube
-				step mem1
 				takefrom mem4
 				step ne
 				step mem2
@@ -146,9 +139,7 @@ else:
 				if w == nothing:
 					mem3 = nearest wall
 				else:
-					if e != wall:
-						mem3 = nearest printer
-					else:
+					if e == wall:
 						end
 					endif
 				endif
@@ -166,8 +157,6 @@ else:
 				if mem3 == wall:
 					step n
 				endif
-				drop
-				end
 			endif
 		endif
 	endif
@@ -180,7 +169,6 @@ step mem2
 step s
 drop
 mem3 = nearest datacube
-step mem1
 takefrom mem4
 step sw
 step mem3
@@ -236,7 +224,6 @@ if mem2 != wall:
 	endif
 	end
 endif
-step mem3
 step mem1
 takefrom mem4
 step nw

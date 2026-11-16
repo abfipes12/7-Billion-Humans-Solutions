@@ -1,6 +1,7 @@
 -- 7 Billion Humans (2059) --
 -- 39: Printing Etiquette 1 --
 -- author: commonnickname
+-- contributor: motlin
 -- time: 35.52
 
 mem1 = nearest printer
@@ -35,34 +36,16 @@ step w
 step w
 step w
 drop
-step ne
-step e
-step e
 takefrom mem1
-step w
-step sw
-step sw
-drop
-step e
-step ne
-step n
-step ne
-takefrom mem1
-step se
-step se
 step e
 drop
-step nw
-step n
-step nw
-step w
+step ne
 takefrom mem1
-step w
-step w
-step w
-step w
+step ne
+step e
 drop
-end
+takefrom mem1
+step e
 comment 1
 b:
 drop
@@ -73,8 +56,7 @@ takefrom mem1
 step w
 step w
 drop
-step ne
-step e
+step nw
 takefrom mem1
 step w
 step sw
@@ -83,19 +65,13 @@ step n
 step ne
 step e
 takefrom mem1
-step se
 step e
 step e
 drop
-step n
-step nw
-step w
-step w
 takefrom mem1
 step w
 step n
-drop
-end
+step e
 comment 2
 c:
 drop
@@ -105,30 +81,18 @@ takefrom mem1
 step sw
 step sw
 drop
-step n
-step n
-step ne
-step e
+step nw
 takefrom mem1
 step se
 step e
 drop
-step n
-step n
-step w
-step w
 takefrom mem1
 step w
 step nw
 drop
-step ne
-step e
-step s
 takefrom mem1
-step e
-step n
+step ne
 drop
-end
 comment 3
 d:
 drop
@@ -139,29 +103,17 @@ step sw
 step w
 step w
 drop
-step ne
-step ne
-step e
 takefrom mem1
 step w
 step nw
 step w
 drop
-step e
-step e
-step e
 takefrom mem1
-step w
 step nw
-step n
 drop
-step e
-step e
-step s
 takefrom mem1
 step w
 drop
-end
 comment 4
 e:
 drop
@@ -170,17 +122,11 @@ takefrom mem1
 step se
 step se
 drop
-step n
-step n
-step w
+step ne
 takefrom mem1
-step w
-step nw
+step ne
 step nw
 drop
-step e
-step e
-step e
 takefrom mem1
 step e
 step e
