@@ -1612,7 +1612,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>⚡✍🏻<a href="Solutions/65: Defrag Ordered/twsc.7bh">Twcs</a></td>
     <td width=167>motlin</td>
     <td width=92>24</td>
-    <td width=117>150.832s</td>
+    <td width=117>149.712s</td>
   </tr>
 </table>
 
