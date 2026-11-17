@@ -12,9 +12,7 @@ if mem1 == datacube:
 	step sw
 	pickup ne
 	step n
-	mem2 = set c
-	mem2 = set c
-	mem2 = set c
+	pickup n
 	drop
 	step n
 	pickup se
@@ -59,7 +57,6 @@ else:
 			mem1 = set myitem
 			drop
 			pickup n
-			write 2
 			jump c
 		else:
 			if mem1 >= 0:
@@ -193,15 +190,13 @@ else:
 							step s
 							tell nobody hi
 							tell nobody hi
-							mem2 = set 0
-							mem2 = set 0
 							h:
+							mem2 = set 0
+							mem2 = set 0
 							step mem3
 							step e
 							tell everyone hi
 							tell nobody hi
-							mem2 = set 0
-							mem2 = set 0
 							mem2 = set 0
 							mem2 = set 0
 							mem2 = set 0
@@ -221,8 +216,8 @@ if mem1 >= 5:
 	write 3
 	jump k
 endif
-write 2
 c:
+write 2
 l:
 drop
 pickup c

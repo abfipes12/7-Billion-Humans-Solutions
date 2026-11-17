@@ -1667,7 +1667,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/67: Decimal Doubler/speed.7bh">Time</a></td>
     <td width=167>motlin<br>commonnickname</td>
-    <td width=92>226</td>
+    <td width=92>221</td>
     <td width=117>40.608s</td>
   </tr>
   <tr>
