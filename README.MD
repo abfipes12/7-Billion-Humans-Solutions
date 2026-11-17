@@ -652,7 +652,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/29: Biometric Access/time.7bh">Time</a></td>
     <td width=167>motlin</td>
-    <td width=92>206</td>
+    <td width=92>200</td>
     <td width=117>52.432s</td>
   </tr>
 </table>
