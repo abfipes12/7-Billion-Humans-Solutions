@@ -13,8 +13,8 @@ if mem4 == nothing:
 	pickup c
 	jump a
 else:
+	step s
 	if mem4 == worker:
-		step s
 		step se
 		step s
 		step n
@@ -38,7 +38,6 @@ else:
 		step n
 		step s
 	else:
-		step s
 		if e == nothing:
 			pickup c
 			step s

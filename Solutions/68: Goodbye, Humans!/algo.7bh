@@ -110,8 +110,6 @@ if mem1 == worker and
 					step e
 					step e
 					step s
-					step w
-					step w
 					jump m
 				endif
 				if mem4 == nothing:
@@ -169,89 +167,85 @@ if w == nothing:
 	step sw
 	jump v
 endif
-if e == wall:
-	jump w
-endif
-if mem3 == nothing:
-	step w
-	step n
-	jump x
-endif
-if w == worker and
- sw == wall and
- s == worker:
-	jump y
-endif
-tell everyone hi
-tell everyone hi
-if nw == hole or
- w == hole or
- sw == hole and
- n == worker:
-	step n
-	jump z
-endif
-if mem2 == wall and
- mem3 == wall:
-	step n
-	jump aa
-endif
-if se != hole:
-	mem1 = foreachdir nw,w,sw,n,s,ne,e,se:
-		tell everyone hi
-	endfor
-	if n == hole:
-		step se
-		jump ab
+if e != wall:
+	if mem3 == nothing:
+		step w
+		step n
+		jump x
 	endif
-	step se
-	step s
-	step se
-	step se
+	if w == worker and
+	 sw == wall and
+	 s == worker:
+		jump y
+	endif
 	tell everyone hi
-	mem4 = set 0
-	tell everyone goodbye
-	step se
-	step s
+	tell everyone hi
+	if nw == hole or
+	 w == hole or
+	 sw == hole and
+	 n == worker:
+		step n
+		jump z
+	endif
+	if mem2 == wall and
+	 mem3 == wall:
+		step n
+		jump aa
+	endif
+	if se != hole:
+		mem1 = foreachdir nw,w,sw,n,s,ne,e,se:
+			tell everyone hi
+		endfor
+		if n == hole:
+			step se
+			jump ab
+		endif
+		step se
+		step s
+		step se
+		step se
+		tell everyone hi
+		mem4 = set 0
+		tell everyone goodbye
+		step se
+		step s
+	endif
+	comment 2
+	step sw
+	step sw
+	jump ac
+	comment 1
+	ab:
+	z:
+	o:
+	step e
+	y:
+	x:
+	q:
+	step e
+	n:
+	i:
+	step e
+	jump ad
+	comment 0
+	aa:
+	step w
 endif
-comment 2
-step sw
-step sw
-step w
-step w
-jump ac
-comment 1
-ab:
-z:
-o:
-step e
-y:
-x:
-q:
-step e
-n:
-i:
-step e
-jump ad
-comment 0
-aa:
-step w
-w:
+m:
 step w
 u:
 j:
 g:
+ac:
 step w
 v:
 t:
 h:
 c:
-m:
 step w
 e:
 ad:
 ae:
-ac:
 step s
 jump ae
 

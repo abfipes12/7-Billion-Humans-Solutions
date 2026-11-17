@@ -479,31 +479,31 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/22: Number Royale/4i.7bh">Size 📋</a></td>
     <td width=167>abfipes</td>
     <td width=92>4</td>
-    <td width=117>~282s</td>
+    <td width=117>~278.856s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/22: Number Royale/2s.7bh">Time +50%🍀</a></td>
-    <td width=167>eiTTio<br>abfipes</td>
-    <td width=92>10</td>
-    <td width=117>2s</td>
+    <td width=167>abfipes<br>eiTTio</td>
+    <td width=92>9</td>
+    <td width=117>~2.426s</td>
   </tr>
   <tr>
-    <td width=190>✍🏻<a href="Solutions/22: Number Royale/to-fix.7bh">Size</a></td>
+    <td width=190>✍🏻<a href="Solutions/22: Number Royale/5i.7bh">Size</a></td>
     <td width=167>martinez8859</td>
     <td width=92>5</td>
-    <td width=117>~9s</td>
+    <td width=117>~11.044s</td>
   </tr>
   <tr>
-    <td width=190>⚡<a href="Solutions/22: Number Royale/also-to-fix.7bh">Time</a></td>
+    <td width=190>⚡<a href="Solutions/22: Number Royale/speed.7bh">Time</a></td>
     <td width=167>abfipes<br>martinez8859</td>
     <td width=92>20</td>
-    <td width=117>~5.5s</td>
+    <td width=117>~6.598s</td>
   </tr>
   <tr>
     <td width=190>⚡✍🏻<a href="Solutions/22: Number Royale/Royale.7bh">Twcs</a></td>
     <td width=167>hingston</td>
     <td width=92>6</td>
-    <td width=117>~7.5s</td>
+    <td width=117>~9.567s</td>
   </tr>
 </table>
 
@@ -614,14 +614,14 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>✍🏻⚡<a href="Solutions/26: Budget Brigade 2/fasty.7bh">Swtc</a></td>
     <td width=167>DFG.</td>
-    <td width=92>24</td>
-    <td width=117>67s</td>
+    <td width=92>23</td>
+    <td width=117>67.921s</td>
   </tr>
   <tr>
     <td width=190>⚡✍🏻<a href="Solutions/26: Budget Brigade 2/26.7bh">Twcs</a></td>
-    <td width=167>abfipes</td>
+    <td width=167>motlin<br>abfipes</td>
     <td width=92>10</td>
-    <td width=117>~119s</td>
+    <td width=117>~112.617s</td>
   </tr>
 </table>
 
@@ -652,7 +652,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/29: Biometric Access/time.7bh">Time</a></td>
     <td width=167>motlin</td>
-    <td width=92>206</td>
+    <td width=92>200</td>
     <td width=117>52.432s</td>
   </tr>
 </table>
@@ -677,7 +677,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/30: Fill the Floor/bloat.7bh">Time</a></td>
     <td width=167>commonnickname</td>
-    <td width=92>219</td>
+    <td width=92>218</td>
     <td width=117>81.92s</td>
   </tr>
   <tr>
@@ -708,7 +708,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/31: Checkerboard Organization/time.7bh">Time</a></td>
     <td width=167>motlin</td>
-    <td width=92>189</td>
+    <td width=92>183</td>
     <td width=117>31.712s</td>
   </tr>
   <tr>
@@ -789,8 +789,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/34: Seek and Destroy 1/speed.7bh">Time +50%🍀</a></td>
     <td width=167>commonnickname<br>abfipes</td>
-    <td width=92>53</td>
-    <td width=117>7s</td>
+    <td width=92>51</td>
+    <td width=117>~7.932s</td>
   </tr>
   <tr>
     <td width=190>✍🏻<a href="Solutions/34: Seek and Destroy 1/what.7bh">Size</a></td>
@@ -938,7 +938,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/39: Printing Etiquette 1/Speed.7bh">Time</a></td>
     <td width=167>commonnickname</td>
-    <td width=92>118</td>
+    <td width=92>115</td>
     <td width=117>35.52s</td>
   </tr>
   <tr>
@@ -1000,7 +1000,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/41: Image Decrypter/6s.7bh">Time</a></td>
     <td width=167>commonnickname</td>
-    <td width=92>45</td>
+    <td width=92>44</td>
     <td width=117>6.96s</td>
   </tr>
 </table>
@@ -1056,7 +1056,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/43: Multiplication Table/speed.7bh">Time</a></td>
     <td width=167>motlin</td>
-    <td width=92>227</td>
+    <td width=92>225</td>
     <td width=117>20.832s</td>
   </tr>
   <tr>
@@ -1306,14 +1306,14 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/54: Terrain Leveler/speed.7bh">Time</a></td>
     <td width=167>commonnickname</td>
-    <td width=92>87</td>
+    <td width=92>86</td>
     <td width=117>46.912s</td>
   </tr>
   <tr>
     <td width=190>🥇🥇<a href="Solutions/54: Terrain Leveler/swiss.7bh">Both Challenges</a></td>
-    <td width=167>thrfirs</td>
-    <td width=92>26</td>
-    <td width=117>87s</td>
+    <td width=167>motlin<br>thrfirs</td>
+    <td width=92>24</td>
+    <td width=117>~78.921s</td>
   </tr>
 </table>
 
@@ -1406,14 +1406,14 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/58: Good Neighbors/sw.7bh">Time</a></td>
     <td width=167>commonnickname</td>
-    <td width=92>103</td>
+    <td width=92>99</td>
     <td width=117>2.976s</td>
   </tr>
   <tr>
     <td width=190>🥇🥇<a href="Solutions/58: Good Neighbors/accept.7bh">Both Challenges</a></td>
-    <td width=167>abfipes</td>
+    <td width=167>motlin<br>abfipes</td>
     <td width=92>10</td>
-    <td width=117>~85.5s</td>
+    <td width=117>~76.815s</td>
   </tr>
 </table>
 
@@ -1549,14 +1549,14 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/63: Defrag Disordered/fast.7bh">Time</a></td>
     <td width=167>n05ucc4u<br>commonnickname</td>
-    <td width=92>57</td>
+    <td width=92>56</td>
     <td width=117>5.968s</td>
   </tr>
   <tr>
     <td width=190>🥇🥇<a href="Solutions/63: Defrag Disordered/frag.7bh">Both Challenges</a></td>
-    <td width=167>davidgauch</td>
-    <td width=92>27</td>
-    <td width=117>11.568s</td>
+    <td width=167>motlin<br>davidgauch</td>
+    <td width=92>24</td>
+    <td width=117>10.576s</td>
   </tr>
 </table>
 
@@ -1580,7 +1580,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/64: Binary Counter/100.7bh">Time</a></td>
     <td width=167>commonnickname</td>
-    <td width=92>99</td>
+    <td width=92>98</td>
     <td width=117>8.976s</td>
   </tr>
   <tr>
@@ -1612,7 +1612,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>⚡✍🏻<a href="Solutions/65: Defrag Ordered/twsc.7bh">Twcs</a></td>
     <td width=167>motlin</td>
     <td width=92>24</td>
-    <td width=117>150.832s</td>
+    <td width=117>149.712s</td>
   </tr>
 </table>
 
@@ -1636,7 +1636,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/66: Decimal Counter/time.7bh">Time</a></td>
     <td width=167>commonnickname</td>
-    <td width=92>246</td>
+    <td width=92>232</td>
     <td width=117>24.704s</td>
   </tr>
   <tr>
@@ -1667,13 +1667,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/67: Decimal Doubler/speed.7bh">Time</a></td>
     <td width=167>motlin<br>commonnickname</td>
-    <td width=92>226</td>
+    <td width=92>221</td>
     <td width=117>40.608s</td>
   </tr>
   <tr>
     <td width=190>✍🏻⚡<a href="Solutions/67: Decimal Doubler/swtc.7bh">Swtc</a></td>
     <td width=167>motlin</td>
-    <td width=92>15</td>
+    <td width=92>14</td>
     <td width=117>225.808s</td>
   </tr>
   <tr>
@@ -1698,7 +1698,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/68: Goodbye, Humans!/algo.7bh">Time</a></td>
     <td width=167>commonnickname</td>
-    <td width=92>158</td>
+    <td width=92>153</td>
     <td width=117>16.928s</td>
   </tr>
   <tr>
@@ -1731,7 +1731,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>motlin</td>
-      <td>27</td>
+      <td>31</td>
   </tr>
   <tr>
       <td>hingston</td>

@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2214M) --
 -- 65: Defrag Ordered --
 -- author: motlin
--- time: 150.832
+-- time: 149.712
 
 if w != nothing or
  e == nothing:
@@ -26,7 +26,6 @@ if mem1 == datacube and
 		step w
 	endfor
 	if n == nothing and
-	 e == nothing and
 	 se == nothing or
 	 c == datacube:
 		mem1 = nearest datacube

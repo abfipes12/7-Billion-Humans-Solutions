@@ -1,24 +1,23 @@
 -- 7 Billion Humans (2235) --
 -- 22: Number Royale --
--- author: eiTTio 
 -- author: abfipes
--- success: 59/100
--- time: 2
--- notes: calculated expected => 55.3%
--- notes: abfipes: see Other/Number_Royale.cpp (todo, calculate this and do not cpp)
+-- author: eiTTio 
+-- contributor: motlin
+-- success: 50/100
+-- times : 2.672 2.484 2.317 2.243 2.418 2.354 2.574 2.517 2.323 2.357
+-- notes: abfipes: expected successrate of "82 93 combo" is 59.2465% (see see Other/Number_Royale.cpp)
+-- notes: abfipes: "91 95 combo" is expected to give around 50.3673% (it feels like less because the game really wants 0.52% (13/25) from you to complete a year)
 
-if s < 85 or
+if s < 91 or
  sw > s or
  se > s:
 	jump a
 endif
 pickup s
-if myitem < 94:
+if myitem < 95:
 	if myitem == myitem:
 		if myitem == myitem:
-			if myitem == myitem:
-				if w == e:
-				endif
+			if w == e:
 			endif
 		endif
 	endif

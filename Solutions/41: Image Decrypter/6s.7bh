@@ -2,6 +2,7 @@
 -- 41: Image Decrypter --
 -- author: commonnickname
 -- contributor: abfipes
+-- contributor: motlin
 -- time: 6.96
 
 mem4 = nearest datacube
@@ -38,33 +39,31 @@ if myitem == 6 or
 	endif
 	jump f
 endif
-if myitem == 5:
-	jump g
-endif
-if myitem == 4:
-	if mem3 == 4:
-		step nw
-		f:
-		jump h
+if myitem != 5:
+	if myitem == 4:
+		if mem3 == 4:
+			step nw
+			f:
+			jump h
+		endif
+		jump i
 	endif
-	jump i
+	if myitem == 3:
+		jump j
+	endif
+	if myitem == 1:
+		jump k
+	endif
+	a:
+	step w
+	e:
+	step w
+	step w
+	d:
+	step w
+	h:
+	step w
 endif
-if myitem == 3:
-	jump j
-endif
-if myitem == 1:
-	jump k
-endif
-a:
-step w
-e:
-step w
-step w
-d:
-step w
-h:
-step w
-g:
 step w
 i:
 step w

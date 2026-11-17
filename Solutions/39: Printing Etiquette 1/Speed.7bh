@@ -8,25 +8,23 @@ mem1 = nearest printer
 takefrom mem1
 step w
 step s
-if c == nothing:
-	jump a
+if c != nothing:
+	step s
+	if c == nothing:
+		jump b
+	endif
+	step e
+	if c == nothing:
+		jump c
+	endif
+	step e
+	if c == nothing:
+		jump d
+	endif
+	step n
+	jump e
+	comment 0
 endif
-step s
-if c == nothing:
-	jump b
-endif
-step e
-if c == nothing:
-	jump c
-endif
-step e
-if c == nothing:
-	jump d
-endif
-step n
-jump e
-comment 0
-a:
 drop
 step se
 step ne
@@ -61,9 +59,7 @@ takefrom mem1
 step w
 step sw
 drop
-step n
-step ne
-step e
+drop
 takefrom mem1
 step e
 step e

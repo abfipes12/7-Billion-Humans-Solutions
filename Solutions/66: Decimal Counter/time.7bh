@@ -5,8 +5,8 @@
 -- time: 24.704
 
 mem2 = set s
+step s
 if mem2 != datacube:
-	step s
 	tell everyone hi
 	mem1 = set myitem
 	step s
@@ -55,7 +55,6 @@ if mem2 != datacube:
 	mem1 = set myitem
 	drop
 else:
-	step s
 	pickup c
 	step s
 	drop
@@ -184,20 +183,7 @@ else:
 					step s
 					drop
 					step mem2
-					mem1 = set myitem
-					mem1 = set myitem
-					mem1 = set myitem
-					mem1 = set myitem
-					mem1 = set myitem
-					mem1 = set myitem
-					mem1 = set myitem
-					mem1 = set myitem
-					mem1 = set myitem
-					mem1 = set myitem
-					mem1 = set myitem
-					mem1 = set myitem
-					mem1 = set myitem
-					mem1 = set myitem
+					mem1 = set c
 					pickup e
 					drop
 					pickup e

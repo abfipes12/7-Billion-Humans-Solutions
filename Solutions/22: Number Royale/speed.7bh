@@ -2,14 +2,11 @@
 -- 22: Number Royale --
 -- author: abfipes
 -- author: martinez8859
--- times: 5 6
--- notes: abfipes12: "myitem < 63" gives 99.015% success rate instead of 100% (todo, undo this cheese)
+-- times: 6.577 6.664 6.460 6.508 6.707 6.588 6.684
 
 pickup s
 if myitem < w or
- myitem < e or
- myitem < 63:
-	a:
+ myitem < e:
 	step s
 	step s
 endif
@@ -28,10 +25,10 @@ if myitem < w or
  myitem < se or
  myitem < e:
 	step sw
-	jump a
+	step s
 endif
 step se
-b:
+a:
 if myitem < nw or
  myitem < n or
  myitem < ne or
@@ -39,4 +36,4 @@ if myitem < nw or
  myitem < e:
 	step s
 endif
-jump b
+jump a

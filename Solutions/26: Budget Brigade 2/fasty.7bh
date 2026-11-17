@@ -1,7 +1,8 @@
 -- 7 Billion Humans (2235) --
 -- 26: Budget Brigade 2 --
 -- author: DFG.
--- time: 67
+-- contributor: motlin
+-- time: 67.921
 
 if s == printer:
 a:
@@ -36,7 +37,6 @@ giveto w
 endif
 jump d
 endif
-if ne != hole:
 e:
 if myitem >= 50:
 giveto ne
@@ -46,4 +46,3 @@ myitem >= 0:
 giveto nw
 endif
 jump e
-endif

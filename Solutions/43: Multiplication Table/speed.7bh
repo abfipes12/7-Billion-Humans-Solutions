@@ -36,8 +36,7 @@ if mem1 != mem3:
 		mem3 = set 18
 		mem4 = set 9
 	else:
-		mem3 = set 0
-		mem3 = set 0
+		step mem3
 		mem3 = set 0
 		pickup c
 		write 72
@@ -168,7 +167,6 @@ else:
 							mem2 = set 49
 							mem3 = set 42
 							mem4 = set 35
-							drop
 						else:
 							pickup c
 							write 45
@@ -176,8 +174,8 @@ else:
 							mem2 = set 35
 							mem3 = set 30
 							mem4 = set 25
-							drop
 						endif
+						drop
 					endif
 				endif
 			endif
