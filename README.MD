@@ -1310,10 +1310,16 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>46.912s</td>
   </tr>
   <tr>
-    <td width=190>🥇🥇<a href="Solutions/54: Terrain Leveler/swiss.7bh">Both Challenges</a></td>
+    <td width=190>✍🏻⚡<a href="Solutions/54: Terrain Leveler/swiss.7bh">Swtc</a></td>
     <td width=167>motlin<br>thrfirs</td>
     <td width=92>24</td>
     <td width=117>~78.921s</td>
+  </tr>
+  <tr>
+    <td width=190>⚡✍🏻<a href="Solutions/54: Terrain Leveler/twsc.7bh">Twcs</a></td>
+    <td width=167>thrfirs</td>
+    <td width=92>26</td>
+    <td width=117>~77.337s</td>
   </tr>
 </table>
 
@@ -1774,6 +1780,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
       <td>2</td>
   </tr>
   <tr>
+      <td>thrfirs</td>
+      <td>2</td>
+  </tr>
+  <tr>
       <td>wuenry</td>
       <td>2</td>
   </tr>
@@ -1875,10 +1885,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>Thineboot</td>
-      <td>1</td>
-  </tr>
-  <tr>
-      <td>thrfirs</td>
       <td>1</td>
   </tr>
   <tr>
