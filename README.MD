@@ -1000,7 +1000,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/41: Image Decrypter/6s.7bh">Time</a></td>
     <td width=167>commonnickname</td>
-    <td width=92>45</td>
+    <td width=92>44</td>
     <td width=117>6.96s</td>
   </tr>
 </table>
