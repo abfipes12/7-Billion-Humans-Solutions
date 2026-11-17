@@ -479,31 +479,31 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻<a href="Solutions/22: Number Royale/4i.7bh">Size 📋</a></td>
     <td width=167>abfipes</td>
     <td width=92>4</td>
-    <td width=117>~282s</td>
+    <td width=117>~278.856s</td>
   </tr>
   <tr>
     <td width=190>⚡<a href="Solutions/22: Number Royale/2s.7bh">Time +50%🍀</a></td>
-    <td width=167>eiTTio<br>abfipes</td>
+    <td width=167>abfipes<br>eiTTio</td>
     <td width=92>9</td>
-    <td width=117>2s</td>
+    <td width=117>~2.426s</td>
   </tr>
   <tr>
-    <td width=190>✍🏻<a href="Solutions/22: Number Royale/to-fix.7bh">Size</a></td>
+    <td width=190>✍🏻<a href="Solutions/22: Number Royale/5i.7bh">Size</a></td>
     <td width=167>martinez8859</td>
     <td width=92>5</td>
-    <td width=117>~9s</td>
+    <td width=117>~11.044s</td>
   </tr>
   <tr>
-    <td width=190>⚡<a href="Solutions/22: Number Royale/also-to-fix.7bh">Time</a></td>
+    <td width=190>⚡<a href="Solutions/22: Number Royale/speed.7bh">Time</a></td>
     <td width=167>abfipes<br>martinez8859</td>
     <td width=92>20</td>
-    <td width=117>~5.5s</td>
+    <td width=117>~6.598s</td>
   </tr>
   <tr>
     <td width=190>⚡✍🏻<a href="Solutions/22: Number Royale/Royale.7bh">Twcs</a></td>
     <td width=167>hingston</td>
     <td width=92>6</td>
-    <td width=117>~7.5s</td>
+    <td width=117>~9.567s</td>
   </tr>
 </table>
 

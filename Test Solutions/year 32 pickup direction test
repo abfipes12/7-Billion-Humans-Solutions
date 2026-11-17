@@ -1,0 +1,138 @@
+-- 7 Billion Humans (2144) --
+-- 32: Creative Writhing --
+-- notes: abfipes: Stepping off the cubes seems faster than climbing them (or vertical pickups are faster than central pickups (unlikely))
+
+if nw == nothing:
+	end
+endif
+if nw == wall:
+	pickup s
+	drop
+	step s
+	pickup s
+	drop
+	step s
+	step s
+	pickup s
+	drop
+	step s
+	pickup s
+	drop
+	step s
+	pickup s
+	drop
+	step s
+	pickup n
+	drop
+	step n
+	pickup n
+	drop
+	step n
+	pickup n
+	drop
+	step n
+	step n
+	pickup n
+	drop
+	step n
+	pickup n
+	drop
+	step n
+	pickup s
+	drop
+	step s
+	pickup s
+	drop
+	step s
+	step s
+	pickup s
+	drop
+	step s
+	pickup s
+	drop
+	step s
+	pickup s
+	drop
+	step s
+	pickup n
+	drop
+	step n
+	pickup n
+	drop
+	step n
+	pickup n
+	drop
+	step n
+	step n
+	pickup n
+	drop
+	step n
+	pickup n
+	drop
+	step n
+else:
+	step s
+	pickup c
+	drop
+	step s
+	pickup c
+	drop
+	step s
+	step s
+	pickup c
+	drop
+	step s
+	pickup c
+	drop
+	step s
+	pickup c
+	drop
+	pickup c
+	drop
+	step n
+	pickup c
+	drop
+	step n
+	pickup c
+	drop
+	step n
+	step n
+	pickup c
+	drop
+	step n
+	pickup c
+	drop
+	step n
+	step s
+	pickup c
+	drop
+	step s
+	pickup c
+	drop
+	step s
+	step s
+	pickup c
+	drop
+	step s
+	pickup c
+	drop
+	step s
+	pickup c
+	drop
+	pickup c
+	drop
+	step n
+	pickup c
+	drop
+	step n
+	pickup c
+	drop
+	step n
+	step n
+	pickup c
+	drop
+	step n
+	pickup c
+	drop
+	step n
+endif

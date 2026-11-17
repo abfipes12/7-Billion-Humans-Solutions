@@ -2,6 +2,8 @@
 
 #include <iostream>
 #include <random>
+#include <array>
+#include <algorithm>
 
 struct Solution
 {
@@ -16,16 +18,15 @@ int main()
 	std::seed_seq ss{ rd(), rd(), rd(), rd(), rd(), rd(), rd(), rd() };
 	std::mt19937 mt{ ss };
 
-	// Create a random cube generator
-	std::uniform_int_distribution cube{ 0, 99 };
+	std::uniform_int_distribution cube_generator{ 0, 99 };
 
-	// Store solution with most succesful runs
+	// Store solution with the most successful run
     Solution best_sol {0,0,0};
     
-    constexpr int runs_num { 100'000 }; // original was tested on 1'000'000
+    constexpr int runs_num { 1'000'000 };
     // 100'000 runs under 1 minute
 
-	for (int first = 50 ; first < 100; ++first)
+	for (int first = 63 ; first < 100; ++first)
     {
         for (int second = first; second < 100; ++second)
         {
@@ -34,13 +35,26 @@ int main()
             {
                 int surv_first = 0;
                 int surv_second = 0;
-                for (int i = 0; i < 10; ++i)
+                std::array<int, 10> workers;
+                std::generate(workers.begin(), workers.end(), [&](){ return cube_generator(mt);});
+                for (int i = 0; i < workers.size(); ++i)
                 {
-                    int worker = cube(mt);
-                    if (worker >= first)
+                    if (i != 0)
+                    {
+                        if (workers[i] < workers[i - 1])
+                            continue;
+                    }
+
+                    if (i != workers.size() - 1)
+                    {
+                        if (workers[i] < workers[i + 1])
+                            continue;
+                    }
+
+                    if (workers[i] >= first)
                         ++surv_first;
 
-                    if (worker >= second)
+                    if (workers[i] >= second)
                         ++surv_second;
                 }
 

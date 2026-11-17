@@ -1,9 +1,8 @@
 -- 7 Billion Humans (2235) --
 -- 22: Number Royale --
 -- author: hingston
--- contributor: abfipes
--- notes: abfipes12: "myitem < 63" gives 99.015% success rate instead of 100% (and so undo this too)--
--- times: 7 8
+-- notes: abfipes12: "myitem < 63" gives 99.015% success rate instead of 100% (not allowed) --
+-- times: 9.539 9.558 9.418 9.551 9.571 9.763
 
 pickup s
 a:
@@ -14,7 +13,7 @@ if myitem < sw or
  myitem < ne or
  myitem < e or
  myitem < se or
- myitem < 63:
+ myitem < s:
 	b:
 	step s
 	jump b

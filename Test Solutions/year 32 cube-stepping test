@@ -1,0 +1,7 @@
+-- 7 Billion Humans (2144) --
+-- 32: Creative Writhing --
+-- notes: Walking on cubes slows you down
+
+a:
+step s
+jump a
