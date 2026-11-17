@@ -1312,8 +1312,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>🥇🥇<a href="Solutions/54: Terrain Leveler/swiss.7bh">Both Challenges</a></td>
     <td width=167>thrfirs</td>
-    <td width=92>26</td>
-    <td width=117>87s</td>
+    <td width=92>24</td>
+    <td width=117>~78.921s</td>
   </tr>
 </table>
 

@@ -1,7 +1,8 @@
 -- 7 Billion Humans (2235) --
 -- 54: Terrain Leveler --
 -- author: thrfirs
--- time: 87
+-- contributor: motlin
+-- times: 78.929 78.971 78.908 78.950 78.881 78.806 78.860 78.908 78.971 78.902 78.971 78.908 78.992 78.950 78.950 78.929 78.929 78.908 78.812 78.812 78.971 78.886 78.929 78.950 78.881 78.886 78.971 78.950 78.971 78.992
 
 a:
 step n
@@ -19,19 +20,17 @@ if n != datacube:
 	write mem1
 	tell e hi
 	if e == worker:
-		listenfor morning
 		mem1 = set e
+		listenfor morning
 	else:
 		mem1 = calc mem1 / 49
 	endif
-	write mem1
 	tell w morning
-	drop
 	c:
+	write mem1
+	drop
 	step s
 	pickup c
-	write mem1
-	drop
 	jump c
 endif
 step n
