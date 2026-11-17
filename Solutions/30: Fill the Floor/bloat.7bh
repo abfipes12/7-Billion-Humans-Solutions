@@ -99,8 +99,7 @@ else:
 				endif
 				drop
 				mem2 = nearest datacube
-				step s
-				step se
+				drop
 				takefrom mem4
 				step se
 				step mem2
