@@ -1413,7 +1413,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>🥇🥇<a href="Solutions/58: Good Neighbors/accept.7bh">Both Challenges</a></td>
     <td width=167>abfipes</td>
     <td width=92>10</td>
-    <td width=117>~85.5s</td>
+    <td width=117>~76.815s</td>
   </tr>
 </table>
 
