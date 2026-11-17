@@ -621,7 +621,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>⚡✍🏻<a href="Solutions/26: Budget Brigade 2/26.7bh">Twcs</a></td>
     <td width=167>abfipes</td>
     <td width=92>10</td>
-    <td width=117>~119s</td>
+    <td width=117>~112.617s</td>
   </tr>
 </table>
 
