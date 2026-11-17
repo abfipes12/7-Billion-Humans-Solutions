@@ -1537,7 +1537,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>🥇🥇<a href="Solutions/62: The Sorting Floor/6767.7bh">Both Challenges</a></td>
     <td width=167>blue-raspberry-consulting</td>
     <td width=92>46</td>
-    <td width=117>~71.5s</td>
+    <td width=117>~67.378s</td>
   </tr>
 </table>
 
