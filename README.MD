@@ -1673,7 +1673,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>✍🏻⚡<a href="Solutions/67: Decimal Doubler/swtc.7bh">Swtc</a></td>
     <td width=167>motlin</td>
-    <td width=92>15</td>
+    <td width=92>14</td>
     <td width=117>225.808s</td>
   </tr>
   <tr>

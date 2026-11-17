@@ -5,8 +5,8 @@
 
 pickup s
 step s
-step s
 a:
+step s
 drop
 mem1 = calc c x 2
 step e
@@ -19,5 +19,4 @@ if e > 4:
 	mem1 = calc mem1 + 1
 endif
 write mem1
-step s
 jump a
