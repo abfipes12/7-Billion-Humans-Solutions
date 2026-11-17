@@ -615,11 +615,11 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>✍🏻⚡<a href="Solutions/26: Budget Brigade 2/fasty.7bh">Swtc</a></td>
     <td width=167>DFG.</td>
     <td width=92>23</td>
-    <td width=117>67s</td>
+    <td width=117>67.921s</td>
   </tr>
   <tr>
     <td width=190>⚡✍🏻<a href="Solutions/26: Budget Brigade 2/26.7bh">Twcs</a></td>
-    <td width=167>abfipes</td>
+    <td width=167>motlin<br>abfipes</td>
     <td width=92>10</td>
     <td width=117>~112.617s</td>
   </tr>
@@ -790,7 +790,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>⚡<a href="Solutions/34: Seek and Destroy 1/speed.7bh">Time +50%🍀</a></td>
     <td width=167>commonnickname<br>abfipes</td>
     <td width=92>51</td>
-    <td width=117>7s</td>
+    <td width=117>~7.932s</td>
   </tr>
   <tr>
     <td width=190>✍🏻<a href="Solutions/34: Seek and Destroy 1/what.7bh">Size</a></td>
@@ -1311,7 +1311,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
     <td width=190>🥇🥇<a href="Solutions/54: Terrain Leveler/swiss.7bh">Both Challenges</a></td>
-    <td width=167>thrfirs</td>
+    <td width=167>motlin<br>thrfirs</td>
     <td width=92>24</td>
     <td width=117>~78.921s</td>
   </tr>
@@ -1411,7 +1411,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
     <td width=190>🥇🥇<a href="Solutions/58: Good Neighbors/accept.7bh">Both Challenges</a></td>
-    <td width=167>abfipes</td>
+    <td width=167>motlin<br>abfipes</td>
     <td width=92>10</td>
     <td width=117>~76.815s</td>
   </tr>
@@ -1554,7 +1554,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
     <td width=190>🥇🥇<a href="Solutions/63: Defrag Disordered/frag.7bh">Both Challenges</a></td>
-    <td width=167>davidgauch</td>
+    <td width=167>motlin<br>davidgauch</td>
     <td width=92>24</td>
     <td width=117>10.576s</td>
   </tr>
@@ -1731,7 +1731,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>motlin</td>
-      <td>27</td>
+      <td>31</td>
   </tr>
   <tr>
       <td>hingston</td>

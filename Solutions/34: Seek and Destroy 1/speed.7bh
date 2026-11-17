@@ -4,8 +4,8 @@
 -- author: abfipes
 -- contributor: motlin
 -- success: 79/100
--- time: 7
--- notes: calculated expected => 71.4% ;
+-- times: 7.925 7.940 7.940 7.930 7.926
+-- notes: calculated expected is 71.4%
 
 mem1 = nearest wall
 step n

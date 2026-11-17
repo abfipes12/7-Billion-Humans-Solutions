@@ -1,7 +1,7 @@
 -- 7 Billion Humans (2231) --
 -- 63: Defrag Disordered --
+-- author: motlin
 -- author: davidgauch
--- contributor: motlin
 -- time: 10.576
 
 mem1 = nearest datacube
