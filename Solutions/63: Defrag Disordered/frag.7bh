@@ -1,12 +1,13 @@
 -- 7 Billion Humans (2231) --
 -- 63: Defrag Disordered --
 -- author: davidgauch
--- time: 11.568
+-- contributor: motlin
+-- time: 10.576
 
 mem1 = nearest datacube
 pickup mem1
-step nw
 step n
+step nw
 step n
 step n
 drop
@@ -15,10 +16,7 @@ if myitem == datacube:
 	jump a
 endif
 step se
-step s
-mem1 = nearest datacube
-pickup mem1
-step n
+pickup s
 drop
 a:
 step e

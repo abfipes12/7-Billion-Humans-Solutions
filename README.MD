@@ -1555,8 +1555,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>🥇🥇<a href="Solutions/63: Defrag Disordered/frag.7bh">Both Challenges</a></td>
     <td width=167>davidgauch</td>
-    <td width=92>27</td>
-    <td width=117>11.568s</td>
+    <td width=92>24</td>
+    <td width=117>10.576s</td>
   </tr>
 </table>
 
