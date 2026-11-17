@@ -938,7 +938,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/39: Printing Etiquette 1/Speed.7bh">Time</a></td>
     <td width=167>commonnickname</td>
-    <td width=92>118</td>
+    <td width=92>115</td>
     <td width=117>35.52s</td>
   </tr>
   <tr>
