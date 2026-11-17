@@ -265,8 +265,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡✍🏻<a href="Solutions/13: Injection Sites 2/balanced.7bh">Twcs</a></td>
     <td width=167>Dipscrip</td>
-    <td width=92>8</td>
-    <td width=117>14.368s</td>
+    <td width=92>10</td>
+    <td width=117>13.84s</td>
   </tr>
 </table>
 
