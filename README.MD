@@ -1416,7 +1416,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>2.976s</td>
   </tr>
   <tr>
-    <td width=190>🥇🥇<a href="Solutions/58: Good Neighbors/accept.7bh">Both Challenges</a></td>
+    <td width=190>✍🏻⚡<a href="Solutions/58: Good Neighbors/swtc.7bh">Swtc</a></td>
+    <td width=167>commonnickname</td>
+    <td width=92>9</td>
+    <td width=117>~170.752s</td>
+  </tr>
+  <tr>
+    <td width=190>⚡✍🏻<a href="Solutions/58: Good Neighbors/accept.7bh">Twcs</a></td>
     <td width=167>motlin<br>abfipes</td>
     <td width=92>10</td>
     <td width=117>~76.815s</td>
@@ -1729,7 +1735,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>commonnickname</td>
-      <td>45</td>
+      <td>46</td>
   </tr>
   <tr>
       <td>n05ucc4u</td>
