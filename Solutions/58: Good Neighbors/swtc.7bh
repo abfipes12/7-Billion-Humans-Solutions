@@ -1,0 +1,29 @@
+-- 7 Billion Humans (2235) --
+-- 58: Good Neighbors --
+-- author: commonnickname
+-- contributor: abfipes
+-- contributor: motlin
+-- times: 172.378 169.053 162.935 175.015 175.115 167.489 169.944 182.232 169.304 154.431 174.888 173.006 180.253 157.052 171.126 167.248 167.265 169.602 172.568 161.755 175.484 175.949 177.880 181.536 183.176 161.014 168.559 164.122 174.619 167.575
+
+a:
+step nw,sw,ne,se
+drop
+if nw == datacube or
+ ne == datacube or
+ sw == datacube or
+ se == datacube and
+ c == 8 and
+ myitem != datacube:
+	pickup c
+endif
+step nw,sw,ne,se
+if nw == datacube or
+ ne == datacube or
+ sw == datacube or
+ se == datacube and
+ c == 8 and
+ myitem != datacube:
+	pickup c
+endif
+step nw,sw,ne,se
+jump a
