@@ -1027,7 +1027,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>36.672s</td>
   </tr>
   <tr>
-    <td width=190>🥇🥇<a href="Solutions/40: Printing Etiquette 2/balance.7bh">Both Challenges</a></td>
+    <td width=190>✍🏻⚡<a href="Solutions/40: Printing Etiquette 2/swtc.7bh">Swtc</a></td>
+    <td width=167>motlin</td>
+    <td width=92>9</td>
+    <td width=117>~53.723s</td>
+  </tr>
+  <tr>
+    <td width=190>⚡✍🏻<a href="Solutions/40: Printing Etiquette 2/balance.7bh">Twcs</a></td>
     <td width=167>landfillbaby</td>
     <td width=92>10</td>
     <td width=117>~52.5s</td>
@@ -1791,7 +1797,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>motlin</td>
-      <td>36</td>
+      <td>37</td>
   </tr>
   <tr>
       <td>hingston</td>
