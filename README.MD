@@ -604,6 +604,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=92>32</td>
     <td width=117>129.776s</td>
   </tr>
+  <tr>
+    <td width=190>✍🏻⚡<a href="Solutions/25: My First Shredding Memory/swtc.7bh">Swtc</a></td>
+    <td width=167>motlin</td>
+    <td width=92>6</td>
+    <td width=117>132.08s</td>
+  </tr>
 </table>
 
 ### 🟩 Year 26 - Budget Brigade 2 🟩
@@ -1767,7 +1773,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>motlin</td>
-      <td>33</td>
+      <td>34</td>
   </tr>
   <tr>
       <td>hingston</td>
