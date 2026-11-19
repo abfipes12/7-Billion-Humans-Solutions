@@ -2,18 +2,15 @@
 -- 38: Seek and Destroy 3 --
 -- author: abfipes
 -- author: commonnickname
+-- contributor: motlin
+-- times: 10.458 10.416 10.248 10.253 10.029 10.346 10.291 10.246 10.083 10.265 10.250 10.439 10.355 10.624 10.237 10.061 10.317 10.318 10.235 10.582 10.286 10.324 10.383 10.564 10.038 10.177 9.992 10.204 10.336 10.404
 -- success: 425/425
--- times: 9 10
 
 mem1 = nearest datacube
 mem2 = nearest worker
 mem3 = nearest wall
 step n
 mem4 = nearest wall
-if mem1 == 0:
-	pickup n
-	jump a
-endif
 step n
 if mem3 != mem4:
 	mem3 = nearest wall
@@ -28,21 +25,18 @@ if mem3 != mem4:
 		step w
 		pickup c
 		pickup c
-		pickup c
-		step e
+		pickup n
 		step s
 		step s
 		step s
 		step s
-		step s
-		end
+		step mem1
 	endif
 endif
 step n
 mem4 = nearest datacube
 if mem4 <= mem1:
 	if mem4 == 0:
-		a:
 		jump b
 	endif
 	mem1 = nearest datacube
@@ -88,7 +82,7 @@ mem4 = nearest datacube
 if mem4 <= mem1:
 	if mem4 == 0:
 		f:
-		pickup mem4
+		pickup c
 		jump g
 	endif
 	mem1 = nearest datacube
@@ -99,13 +93,9 @@ if n <= mem1:
 		g:
 		jump h
 	endif
-	if myitem > 32:
-		jump i
-	endif
-	mem3 = nearest worker
+	step s
 else:
 	if mem1 > 32:
-		i:
 		jump j
 	endif
 	step mem1
@@ -136,7 +126,7 @@ if mem2 < myitem or
 	jump m
 endif
 step sw
-mem3 = nearest worker
+mem1 = nearest worker
 if mem2 < myitem or
  mem4 < myitem or
  mem1 < myitem or
@@ -145,7 +135,7 @@ if mem2 < myitem or
 	jump n
 endif
 step w
-mem4 = nearest worker
+mem3 = nearest worker
 if mem2 < myitem or
  mem4 < myitem or
  mem3 < myitem or
