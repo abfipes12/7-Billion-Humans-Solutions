@@ -218,6 +218,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=92>16</td>
     <td width=117>5.776s</td>
   </tr>
+  <tr>
+    <td width=190>✍🏻⚡<a href="Solutions/11: Injection Sites 1/swtc.7bh">Swtc</a></td>
+    <td width=167>hingston</td>
+    <td width=92>6</td>
+    <td width=117>7.36s</td>
+  </tr>
 </table>
 
 ### 🟩 Year 12 - Unzip 🟩
@@ -1753,7 +1759,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>hingston</td>
-      <td>21</td>
+      <td>22</td>
   </tr>
   <tr>
       <td>martinez8859</td>
