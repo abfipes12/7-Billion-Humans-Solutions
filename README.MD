@@ -1525,7 +1525,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>6.864s</td>
   </tr>
   <tr>
-    <td width=190>🥇🥇<a href="Solutions/59: Glory Hole/nor.7bh">Both Challenges</a></td>
+    <td width=190>✍🏻⚡<a href="Solutions/59: Glory Hole/swtc.7bh">Swtc</a></td>
+    <td width=167>motlin</td>
+    <td width=92>5</td>
+    <td width=117>15.696s</td>
+  </tr>
+  <tr>
+    <td width=190>⚡✍🏻<a href="Solutions/59: Glory Hole/nor.7bh">Twcs</a></td>
     <td width=167>JoeKing</td>
     <td width=92>6</td>
     <td width=117>12.512s</td>
@@ -1817,7 +1823,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>motlin</td>
-      <td>40</td>
+      <td>41</td>
   </tr>
   <tr>
       <td>n05ucc4u</td>
