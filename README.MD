@@ -1655,7 +1655,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>5.968s</td>
   </tr>
   <tr>
-    <td width=190>🥇🥇<a href="Solutions/63: Defrag Disordered/frag.7bh">Both Challenges</a></td>
+    <td width=190>✍🏻⚡<a href="Solutions/63: Defrag Disordered/swtc.7bh">Swtc</a></td>
+    <td width=167>motlin</td>
+    <td width=92>12</td>
+    <td width=117>87.296s</td>
+  </tr>
+  <tr>
+    <td width=190>⚡✍🏻<a href="Solutions/63: Defrag Disordered/frag.7bh">Twcs</a></td>
     <td width=167>motlin<br>davidgauch</td>
     <td width=92>24</td>
     <td width=117>10.576s</td>
@@ -1829,7 +1835,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>motlin</td>
-      <td>42</td>
+      <td>43</td>
   </tr>
   <tr>
       <td>n05ucc4u</td>

@@ -1,0 +1,22 @@
+-- 7 Billion Humans (2235) --
+-- 63: Defrag Disordered --
+-- author: motlin
+-- time: 87.296
+
+a:
+mem1 = foreachdir n,ne,e,se:
+	step n
+	if myitem == nothing:
+		pickup n
+		pickup ne
+	endif
+endfor
+mem1 = foreachdir n,ne,e:
+	step n
+	drop
+endfor
+step se
+mem1 = foreachdir n,ne,e,se,s,sw:
+	step s
+endfor
+jump a
