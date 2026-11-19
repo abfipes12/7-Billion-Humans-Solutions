@@ -1126,10 +1126,16 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>20.832s</td>
   </tr>
   <tr>
-    <td width=190>🥇🥇<a href="Solutions/43: Multiplication Table/balance.7bh">Both Challenges</a></td>
+    <td width=190>✍🏻⚡<a href="Solutions/43: Multiplication Table/balance.7bh">Swtc</a></td>
     <td width=167>abfipes</td>
     <td width=92>10</td>
     <td width=117>43.456s</td>
+  </tr>
+  <tr>
+    <td width=190>⚡✍🏻<a href="Solutions/43: Multiplication Table/twsc.7bh">Twcs</a></td>
+    <td width=167>motlin</td>
+    <td width=92>11</td>
+    <td width=117>41.36s</td>
   </tr>
 </table>
 
@@ -1805,7 +1811,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>motlin</td>
-      <td>38</td>
+      <td>39</td>
   </tr>
   <tr>
       <td>n05ucc4u</td>
