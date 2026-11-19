@@ -947,7 +947,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>~9.5s</td>
   </tr>
   <tr>
-    <td width=190>🥇🥇<a href="Solutions/38: Seek and Destroy 3/balanced.7bh">Both Challenges</a></td>
+    <td width=190>✍🏻⚡<a href="Solutions/38: Seek and Destroy 3/swtc.7bh">Swtc</a></td>
+    <td width=167>motlin</td>
+    <td width=92>16</td>
+    <td width=117>~26.883s</td>
+  </tr>
+  <tr>
+    <td width=190>⚡✍🏻<a href="Solutions/38: Seek and Destroy 3/balanced.7bh">Twcs</a></td>
     <td width=167>donpedro3000</td>
     <td width=92>22</td>
     <td width=117>17s</td>
@@ -1785,7 +1791,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>motlin</td>
-      <td>35</td>
+      <td>36</td>
   </tr>
   <tr>
       <td>hingston</td>
