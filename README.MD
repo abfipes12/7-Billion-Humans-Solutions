@@ -1057,6 +1057,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=92>44</td>
     <td width=117>6.96s</td>
   </tr>
+  <tr>
+    <td width=190>✍🏻⚡<a href="Solutions/41: Image Decrypter/swtc.7bh">Swtc</a></td>
+    <td width=167>motlin</td>
+    <td width=92>19</td>
+    <td width=117>15.072s</td>
+  </tr>
 </table>
 
 ### 🟦 Year 42 - Important Email Organization 🟦
@@ -1792,12 +1798,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
       <td>46</td>
   </tr>
   <tr>
-      <td>n05ucc4u</td>
+      <td>motlin</td>
       <td>38</td>
   </tr>
   <tr>
-      <td>motlin</td>
-      <td>37</td>
+      <td>n05ucc4u</td>
+      <td>38</td>
   </tr>
   <tr>
       <td>hingston</td>
