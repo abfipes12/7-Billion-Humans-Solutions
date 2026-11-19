@@ -406,7 +406,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>6.992s</td>
   </tr>
   <tr>
-    <td width=190>🥇🥇<a href="Solutions/18: Uniquely Disposed/balanced.7bh">Both Challenges</a></td>
+    <td width=190>✍🏻⚡<a href="Solutions/18: Uniquely Disposed/swtc.7bh">Swtc</a></td>
+    <td width=167>motlin</td>
+    <td width=92>6</td>
+    <td width=117>12.24s</td>
+  </tr>
+  <tr>
+    <td width=190>⚡✍🏻<a href="Solutions/18: Uniquely Disposed/balanced.7bh">Twcs</a></td>
     <td width=167>AlexMBrennan</td>
     <td width=92>7</td>
     <td width=117>11.552s</td>
@@ -1761,7 +1767,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>motlin</td>
-      <td>32</td>
+      <td>33</td>
   </tr>
   <tr>
       <td>hingston</td>

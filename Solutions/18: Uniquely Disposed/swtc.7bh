@@ -1,0 +1,13 @@
+-- 7 Billion Humans (2235) --
+-- 18: Uniquely Disposed --
+-- author: motlin
+-- time: 12.24
+
+step sw
+pickup n
+a:
+step se
+if s != shredder:
+	jump a
+endif
+giveto s
