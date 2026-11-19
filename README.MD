@@ -362,6 +362,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>7.536s</td>
   </tr>
   <tr>
+    <td width=190>✍🏻⚡<a href="Solutions/16: Little Exterminator 2/swtc.7bh">Swtc</a></td>
+    <td width=167>hingston<br>abfipes</td>
+    <td width=92>9</td>
+    <td width=117>9.984s</td>
+  </tr>
+  <tr>
     <td width=190>⚡✍🏻<a href="Solutions/16: Little Exterminator 2/balanced.7bh">Twcs</a></td>
     <td width=167>hingston<br>abfipes</td>
     <td width=92>8</td>
@@ -1759,7 +1765,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>hingston</td>
-      <td>22</td>
+      <td>23</td>
   </tr>
   <tr>
       <td>martinez8859</td>

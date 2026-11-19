@@ -1,0 +1,20 @@
+-- 7 Billion Humans (2235) --
+-- 16: Little Exterminator 2 --
+-- author: hingston
+-- author: abfipes
+-- contributor: motlin
+-- time: 9.984
+
+a:
+step s
+if s != datacube:
+	jump a
+endif
+pickup s
+step se
+b:
+step e
+if se != shredder:
+	jump b
+endif
+giveto se
