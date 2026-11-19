@@ -1089,7 +1089,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>~73s</td>
   </tr>
   <tr>
-    <td width=190>🥇🥇<a href="Solutions/42: Important Email Organization/balance.7bh">Both Challenges</a></td>
+    <td width=190>✍🏻⚡<a href="Solutions/42: Important Email Organization/swtc.7bh">Swtc</a></td>
+    <td width=167>landfillbaby</td>
+    <td width=92>17</td>
+    <td width=117>~193.081s</td>
+  </tr>
+  <tr>
+    <td width=190>⚡✍🏻<a href="Solutions/42: Important Email Organization/balance.7bh">Twcs</a></td>
     <td width=167>landfillbaby</td>
     <td width=92>18</td>
     <td width=117>~171.5s</td>
@@ -1818,12 +1824,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
       <td>19</td>
   </tr>
   <tr>
-      <td>main-gi</td>
+      <td>landfillbaby</td>
       <td>9</td>
   </tr>
   <tr>
-      <td>landfillbaby</td>
-      <td>8</td>
+      <td>main-gi</td>
+      <td>9</td>
   </tr>
   <tr>
       <td>AlexMBrennan</td>
