@@ -1,0 +1,28 @@
+-- 7 Billion Humans (2235) --
+-- 10: Emergency Escapades --
+-- author: motlin
+-- time: 25.728
+
+step sw
+a:
+if s == wall or
+ w == hole:
+	step n
+endif
+step w
+if e != datacube:
+	jump a
+endif
+step sw
+step s
+step sw
+step w
+step w
+step w
+step nw
+b:
+step n
+if e != 3:
+	jump b
+endif
+step nw
