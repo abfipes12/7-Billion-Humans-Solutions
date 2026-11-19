@@ -1637,6 +1637,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>110s</td>
   </tr>
   <tr>
+    <td width=190>✍🏻⚡<a href="Solutions/63: Defrag Disordered/swtc-paste.7bh">Swtc 📋</a></td>
+    <td width=167>motlin</td>
+    <td width=92>11</td>
+    <td width=117>81.664s</td>
+  </tr>
+  <tr>
     <td width=190>✍🏻<a href="Solutions/63: Defrag Disordered/curated.7bh">Size</a></td>
     <td width=167>commonnickname<br>dmr</td>
     <td width=92>11</td>
@@ -1823,7 +1829,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>motlin</td>
-      <td>41</td>
+      <td>42</td>
   </tr>
   <tr>
       <td>n05ucc4u</td>
