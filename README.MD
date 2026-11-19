@@ -711,6 +711,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>81.92s</td>
   </tr>
   <tr>
+    <td width=190>✍🏻⚡<a href="Solutions/30: Fill the Floor/swtc.7bh">Swtc</a></td>
+    <td width=167>martinez8859<br>NotABlueWhale</td>
+    <td width=92>8</td>
+    <td width=117>~152.783s</td>
+  </tr>
+  <tr>
     <td width=190>⚡✍🏻<a href="Solutions/30: Fill the Floor/spider.7bh">Twcs</a></td>
     <td width=167>martinez8859<br>NotABlueWhale</td>
     <td width=92>6</td>
@@ -1781,7 +1787,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>martinez8859</td>
-      <td>20</td>
+      <td>21</td>
   </tr>
   <tr>
       <td>dmr</td>
@@ -1809,6 +1815,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>H-J-Granger</td>
+      <td>2</td>
+  </tr>
+  <tr>
+      <td>NotABlueWhale</td>
       <td>2</td>
   </tr>
   <tr>
@@ -1893,10 +1903,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>Nomana</td>
-      <td>1</td>
-  </tr>
-  <tr>
-      <td>NotABlueWhale</td>
       <td>1</td>
   </tr>
   <tr>
