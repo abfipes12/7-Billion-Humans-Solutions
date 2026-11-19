@@ -1252,6 +1252,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>174.16s</td>
   </tr>
   <tr>
+    <td width=190>⚡✍🏻<a href="Solutions/50: Cubical Communication/twsc-paste.7bh">Twcs 📋</a></td>
+    <td width=167>motlin</td>
+    <td width=92>12</td>
+    <td width=117>28.464s</td>
+  </tr>
+  <tr>
     <td width=190>✍🏻<a href="Solutions/50: Cubical Communication/ae.7bh">Size</a></td>
     <td width=167>yifeixuer</td>
     <td width=92>6</td>
@@ -1811,7 +1817,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>motlin</td>
-      <td>39</td>
+      <td>40</td>
   </tr>
   <tr>
       <td>n05ucc4u</td>
