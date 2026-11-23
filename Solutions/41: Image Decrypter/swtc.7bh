@@ -1,0 +1,28 @@
+-- 7 Billion Humans (2235) --
+-- 41: Image Decrypter --
+-- author: motlin
+-- time: 15.072
+
+pickup w
+if myitem > 4:
+	step w
+	step w
+	step w
+	step w
+	mem1 = set 4
+endif
+if myitem > 8:
+	step w
+	step w
+	step w
+	step w
+	mem1 = set 8
+endif
+a:
+step w
+if myitem > mem1:
+	mem1 = calc mem1 + 1
+	jump a
+endif
+drop
+mem1 = calc 0 / 0

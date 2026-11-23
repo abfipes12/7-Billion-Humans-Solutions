@@ -188,6 +188,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>12.96s</td>
   </tr>
   <tr>
+    <td width=190>✍🏻⚡<a href="Solutions/10: Emergency Escapades/swtc.7bh">Swtc</a></td>
+    <td width=167>motlin</td>
+    <td width=92>17</td>
+    <td width=117>25.728s</td>
+  </tr>
+  <tr>
     <td width=190>⚡✍🏻<a href="Solutions/10: Emergency Escapades/balanced.7bh">Twcs</a></td>
     <td width=167>martinez8859<br>abfipes</td>
     <td width=92>9</td>
@@ -211,6 +217,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=167>martinez8859</td>
     <td width=92>16</td>
     <td width=117>5.776s</td>
+  </tr>
+  <tr>
+    <td width=190>✍🏻⚡<a href="Solutions/11: Injection Sites 1/swtc.7bh">Swtc</a></td>
+    <td width=167>hingston</td>
+    <td width=92>6</td>
+    <td width=117>7.36s</td>
   </tr>
 </table>
 
@@ -350,6 +362,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>7.536s</td>
   </tr>
   <tr>
+    <td width=190>✍🏻⚡<a href="Solutions/16: Little Exterminator 2/swtc.7bh">Swtc</a></td>
+    <td width=167>hingston<br>abfipes</td>
+    <td width=92>9</td>
+    <td width=117>9.984s</td>
+  </tr>
+  <tr>
     <td width=190>⚡✍🏻<a href="Solutions/16: Little Exterminator 2/balanced.7bh">Twcs</a></td>
     <td width=167>hingston<br>abfipes</td>
     <td width=92>8</td>
@@ -388,7 +406,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>6.992s</td>
   </tr>
   <tr>
-    <td width=190>🥇🥇<a href="Solutions/18: Uniquely Disposed/balanced.7bh">Both Challenges</a></td>
+    <td width=190>✍🏻⚡<a href="Solutions/18: Uniquely Disposed/swtc.7bh">Swtc</a></td>
+    <td width=167>motlin</td>
+    <td width=92>6</td>
+    <td width=117>12.24s</td>
+  </tr>
+  <tr>
+    <td width=190>⚡✍🏻<a href="Solutions/18: Uniquely Disposed/balanced.7bh">Twcs</a></td>
     <td width=167>AlexMBrennan</td>
     <td width=92>7</td>
     <td width=117>11.552s</td>
@@ -580,6 +604,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=92>32</td>
     <td width=117>129.776s</td>
   </tr>
+  <tr>
+    <td width=190>✍🏻⚡<a href="Solutions/25: My First Shredding Memory/swtc.7bh">Swtc</a></td>
+    <td width=167>motlin</td>
+    <td width=92>6</td>
+    <td width=117>132.08s</td>
+  </tr>
 </table>
 
 ### 🟩 Year 26 - Budget Brigade 2 🟩
@@ -679,6 +709,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=167>commonnickname</td>
     <td width=92>218</td>
     <td width=117>81.92s</td>
+  </tr>
+  <tr>
+    <td width=190>✍🏻⚡<a href="Solutions/30: Fill the Floor/swtc.7bh">Swtc</a></td>
+    <td width=167>martinez8859<br>NotABlueWhale</td>
+    <td width=92>8</td>
+    <td width=117>~152.783s</td>
   </tr>
   <tr>
     <td width=190>⚡✍🏻<a href="Solutions/30: Fill the Floor/spider.7bh">Twcs</a></td>
@@ -805,7 +841,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>8s</td>
   </tr>
   <tr>
-    <td width=190>🥇🥇<a href="Solutions/34: Seek and Destroy 1/swcs.7bh">Both Challenges</a></td>
+    <td width=190>✍🏻⚡<a href="Solutions/34: Seek and Destroy 1/swtc.7bh">Swtc</a></td>
+    <td width=167>motlin</td>
+    <td width=92>8</td>
+    <td width=117>~20.989s</td>
+  </tr>
+  <tr>
+    <td width=190>⚡✍🏻<a href="Solutions/34: Seek and Destroy 1/swcs.7bh">Twcs</a></td>
     <td width=167>n05ucc4u</td>
     <td width=92>9</td>
     <td width=117>15s</td>
@@ -901,11 +943,17 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/38: Seek and Destroy 3/fast.7bh">Time</a></td>
     <td width=167>abfipes<br>commonnickname</td>
-    <td width=92>142</td>
+    <td width=92>139</td>
     <td width=117>~10.485s</td>
   </tr>
   <tr>
-    <td width=190>🥇🥇<a href="Solutions/38: Seek and Destroy 3/balanced.7bh">Both Challenges</a></td>
+    <td width=190>✍🏻⚡<a href="Solutions/38: Seek and Destroy 3/swtc.7bh">Swtc</a></td>
+    <td width=167>motlin</td>
+    <td width=92>16</td>
+    <td width=117>~26.883s</td>
+  </tr>
+  <tr>
+    <td width=190>⚡✍🏻<a href="Solutions/38: Seek and Destroy 3/balanced.7bh">Twcs</a></td>
     <td width=167>donpedro3000</td>
     <td width=92>22</td>
     <td width=117>17s</td>
@@ -979,7 +1027,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>36.672s</td>
   </tr>
   <tr>
-    <td width=190>🥇🥇<a href="Solutions/40: Printing Etiquette 2/balance.7bh">Both Challenges</a></td>
+    <td width=190>✍🏻⚡<a href="Solutions/40: Printing Etiquette 2/swtc.7bh">Swtc</a></td>
+    <td width=167>motlin</td>
+    <td width=92>9</td>
+    <td width=117>~53.723s</td>
+  </tr>
+  <tr>
+    <td width=190>⚡✍🏻<a href="Solutions/40: Printing Etiquette 2/balance.7bh">Twcs</a></td>
     <td width=167>landfillbaby</td>
     <td width=92>10</td>
     <td width=117>~52.5s</td>
@@ -1002,6 +1056,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=167>commonnickname</td>
     <td width=92>44</td>
     <td width=117>6.96s</td>
+  </tr>
+  <tr>
+    <td width=190>✍🏻⚡<a href="Solutions/41: Image Decrypter/swtc.7bh">Swtc</a></td>
+    <td width=167>motlin</td>
+    <td width=92>19</td>
+    <td width=117>15.072s</td>
   </tr>
 </table>
 
@@ -1029,7 +1089,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>~73s</td>
   </tr>
   <tr>
-    <td width=190>🥇🥇<a href="Solutions/42: Important Email Organization/balance.7bh">Both Challenges</a></td>
+    <td width=190>✍🏻⚡<a href="Solutions/42: Important Email Organization/swtc.7bh">Swtc</a></td>
+    <td width=167>landfillbaby</td>
+    <td width=92>17</td>
+    <td width=117>~193.081s</td>
+  </tr>
+  <tr>
+    <td width=190>⚡✍🏻<a href="Solutions/42: Important Email Organization/balance.7bh">Twcs</a></td>
     <td width=167>landfillbaby</td>
     <td width=92>18</td>
     <td width=117>~171.5s</td>
@@ -1060,10 +1126,16 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>20.832s</td>
   </tr>
   <tr>
-    <td width=190>🥇🥇<a href="Solutions/43: Multiplication Table/balance.7bh">Both Challenges</a></td>
+    <td width=190>✍🏻⚡<a href="Solutions/43: Multiplication Table/balance.7bh">Swtc</a></td>
     <td width=167>abfipes</td>
     <td width=92>10</td>
     <td width=117>43.456s</td>
+  </tr>
+  <tr>
+    <td width=190>⚡✍🏻<a href="Solutions/43: Multiplication Table/twsc.7bh">Twcs</a></td>
+    <td width=167>motlin</td>
+    <td width=92>11</td>
+    <td width=117>41.36s</td>
   </tr>
 </table>
 
@@ -1178,6 +1250,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=167>abfipes</td>
     <td width=92>5</td>
     <td width=117>174.16s</td>
+  </tr>
+  <tr>
+    <td width=190>⚡✍🏻<a href="Solutions/50: Cubical Communication/twsc-paste.7bh">Twcs 📋</a></td>
+    <td width=167>motlin</td>
+    <td width=92>12</td>
+    <td width=117>28.464s</td>
   </tr>
   <tr>
     <td width=190>✍🏻<a href="Solutions/50: Cubical Communication/ae.7bh">Size</a></td>
@@ -1447,7 +1525,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>6.864s</td>
   </tr>
   <tr>
-    <td width=190>🥇🥇<a href="Solutions/59: Glory Hole/nor.7bh">Both Challenges</a></td>
+    <td width=190>✍🏻⚡<a href="Solutions/59: Glory Hole/swtc.7bh">Swtc</a></td>
+    <td width=167>motlin</td>
+    <td width=92>5</td>
+    <td width=117>15.696s</td>
+  </tr>
+  <tr>
+    <td width=190>⚡✍🏻<a href="Solutions/59: Glory Hole/nor.7bh">Twcs</a></td>
     <td width=167>JoeKing</td>
     <td width=92>6</td>
     <td width=117>12.512s</td>
@@ -1553,6 +1637,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>110s</td>
   </tr>
   <tr>
+    <td width=190>✍🏻⚡<a href="Solutions/63: Defrag Disordered/swtc-paste.7bh">Swtc 📋</a></td>
+    <td width=167>motlin</td>
+    <td width=92>11</td>
+    <td width=117>81.664s</td>
+  </tr>
+  <tr>
     <td width=190>✍🏻<a href="Solutions/63: Defrag Disordered/curated.7bh">Size</a></td>
     <td width=167>commonnickname<br>dmr</td>
     <td width=92>11</td>
@@ -1565,7 +1655,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>5.968s</td>
   </tr>
   <tr>
-    <td width=190>🥇🥇<a href="Solutions/63: Defrag Disordered/frag.7bh">Both Challenges</a></td>
+    <td width=190>✍🏻⚡<a href="Solutions/63: Defrag Disordered/swtc.7bh">Swtc</a></td>
+    <td width=167>motlin</td>
+    <td width=92>12</td>
+    <td width=117>87.296s</td>
+  </tr>
+  <tr>
+    <td width=190>⚡✍🏻<a href="Solutions/63: Defrag Disordered/frag.7bh">Twcs</a></td>
     <td width=167>motlin<br>davidgauch</td>
     <td width=92>24</td>
     <td width=117>10.576s</td>
@@ -1738,32 +1834,32 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
       <td>46</td>
   </tr>
   <tr>
+      <td>motlin</td>
+      <td>43</td>
+  </tr>
+  <tr>
       <td>n05ucc4u</td>
       <td>38</td>
   </tr>
   <tr>
-      <td>motlin</td>
-      <td>31</td>
-  </tr>
-  <tr>
       <td>hingston</td>
-      <td>21</td>
+      <td>23</td>
   </tr>
   <tr>
       <td>martinez8859</td>
-      <td>20</td>
+      <td>21</td>
   </tr>
   <tr>
       <td>dmr</td>
       <td>19</td>
   </tr>
   <tr>
-      <td>main-gi</td>
+      <td>landfillbaby</td>
       <td>9</td>
   </tr>
   <tr>
-      <td>landfillbaby</td>
-      <td>8</td>
+      <td>main-gi</td>
+      <td>9</td>
   </tr>
   <tr>
       <td>AlexMBrennan</td>
@@ -1779,6 +1875,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>H-J-Granger</td>
+      <td>2</td>
+  </tr>
+  <tr>
+      <td>NotABlueWhale</td>
       <td>2</td>
   </tr>
   <tr>
@@ -1863,10 +1963,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>Nomana</td>
-      <td>1</td>
-  </tr>
-  <tr>
-      <td>NotABlueWhale</td>
       <td>1</td>
   </tr>
   <tr>

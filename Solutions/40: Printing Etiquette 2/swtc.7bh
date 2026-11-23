@@ -1,0 +1,19 @@
+-- 7 Billion Humans (2235) --
+-- 40: Printing Etiquette 2 --
+-- author: motlin
+-- times: 53.663 53.184 53.789 54.440 53.723 53.172 53.192 54.506 52.559 54.907 53.325 53.786 54.972 54.148 51.284 51.953 54.661 54.194 54.580 51.928 54.493 53.672 52.963 54.368 55.635 53.601 52.685 55.018 54.228 53.048
+
+mem1 = nearest printer
+a:
+if mem2 < 5 and
+ myitem == nothing:
+	takefrom mem1
+endif
+step nw,w,sw,n,ne,e,se
+if c == nothing and
+ myitem == datacube:
+	mem2 = calc mem2 + 1
+	write mem2
+	drop
+endif
+jump a

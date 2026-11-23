@@ -1,0 +1,21 @@
+-- 7 Billion Humans (2235) --
+-- 50: Cubical Communication --
+-- author: motlin
+-- time: 28.464
+
+mem1 = nearest datacube
+if mem1 > 2:
+	step n
+	mem2 = calc mem1 + 1
+	tell everyone hi
+endif
+if mem1 == 2 or
+ mem1 == 4:
+	tell everyone hi
+	tell everyone hi
+endif
+a:
+takefrom sw,s
+giveto se
+giveto n
+jump a

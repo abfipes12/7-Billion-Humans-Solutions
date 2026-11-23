@@ -1,0 +1,17 @@
+-- 7 Billion Humans (2235) --
+-- 30: Fill the Floor --
+-- author: martinez8859
+-- author: NotABlueWhale
+-- contributor: motlin
+-- times: 150.771 155.498 156.048 158.977 149.944 154.122 154.615 152.916 158.771 151.576 155.714 164.640 144.984 152.097 151.558 142.365 151.241 160.321 149.754 145.404 153.281 157.839 145.439 144.850 159.750 146.063 152.285 150.543 155.277 156.861
+
+mem1 = nearest printer
+a:
+if c == nothing:
+	drop
+	mem2 = nearest wall
+	takefrom mem1
+	step mem2
+endif
+step ne,e,se,sw,w,nw
+jump a

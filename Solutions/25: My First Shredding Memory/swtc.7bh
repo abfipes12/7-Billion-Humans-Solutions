@@ -1,0 +1,13 @@
+-- 7 Billion Humans (2235) --
+-- 25: My First Shredding Memory --
+-- author: motlin
+-- time: 132.08
+
+mem1 = nearest shredder
+a:
+mem2 = nearest datacube
+pickup mem2
+if myitem == datacube:
+	giveto mem1
+	jump a
+endif

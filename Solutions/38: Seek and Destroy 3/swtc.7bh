@@ -1,0 +1,33 @@
+-- 7 Billion Humans (2235) --
+-- 38: Seek and Destroy 3 --
+-- author: motlin
+-- times: 25.846 27.396 26.532 25.099 27.208 27.766 27.261 26.750 26.868 26.073 25.841 29.325 24.948 27.480 25.492 26.786 25.341 28.815 28.537 27.259 26.447 26.715 28.521 25.564 26.623 28.385 27.929 26.195 26.518 26.977
+-- success: 4997/5000
+
+a:
+step n
+if c < mem1 or
+ mem1 != datacube:
+	mem1 = nearest datacube
+endif
+if n == datacube:
+	jump a
+endif
+pickup mem1
+c:
+mem2 = nearest worker
+if myitem == 0 or
+ mem2 == nothing:
+	mem3 = nearest shredder
+	giveto mem3
+endif
+if myitem > mem2 or
+ mem1 != datacube or
+ myitem != datacube:
+	mem1 = nearest hole
+	step mem1
+endif
+if mem2 == myitem:
+	step w,sw,s,e,se
+endif
+jump c

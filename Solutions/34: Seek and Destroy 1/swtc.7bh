@@ -1,0 +1,17 @@
+-- 7 Billion Humans (2235) --
+-- 34: Seek and Destroy 1 --
+-- author: motlin
+-- times: 20.996 20.992 20.989 20.996 20.979 20.988 21.005 20.993 20.982 20.991 20.984 20.989 20.989 20.998 20.988 20.993 20.985 20.989 20.986 20.988 20.986 20.982 20.985 20.980 20.995 20.979 20.986 20.991 20.995 20.991
+
+a:
+step n
+if c < mem2 or
+ mem2 != datacube:
+	mem2 = nearest datacube
+endif
+if n != wall:
+	jump a
+endif
+pickup mem2
+mem1 = nearest shredder
+giveto mem1
