@@ -901,13 +901,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡<a href="Solutions/38: Seek and Destroy 3/fast.7bh">Time</a></td>
     <td width=167>abfipes<br>commonnickname</td>
-<<<<<<< HEAD
     <td width=92>142</td>
     <td width=117>~10.485s</td>
-=======
-    <td width=92>135</td>
-    <td width=117>~10.292s</td>
->>>>>>> 6fc049988a0d26dcbb46270fe1aad4557ccdc32c
   </tr>
   <tr>
     <td width=190>🥇🥇<a href="Solutions/38: Seek and Destroy 3/balanced.7bh">Both Challenges</a></td>
