@@ -265,8 +265,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   <tr>
     <td width=190>⚡✍🏻<a href="Solutions/13: Injection Sites 2/balanced.7bh">Twcs</a></td>
     <td width=167>Dipscrip</td>
-    <td width=92>8</td>
-    <td width=117>14.368s</td>
+    <td width=92>10</td>
+    <td width=117>13.84s</td>
   </tr>
 </table>
 
@@ -902,7 +902,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>⚡<a href="Solutions/38: Seek and Destroy 3/fast.7bh">Time</a></td>
     <td width=167>abfipes<br>commonnickname</td>
     <td width=92>142</td>
-    <td width=117>~9.5s</td>
+    <td width=117>~10.485s</td>
   </tr>
   <tr>
     <td width=190>🥇🥇<a href="Solutions/38: Seek and Destroy 3/balanced.7bh">Both Challenges</a></td>
@@ -1310,10 +1310,16 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>46.912s</td>
   </tr>
   <tr>
-    <td width=190>🥇🥇<a href="Solutions/54: Terrain Leveler/swiss.7bh">Both Challenges</a></td>
+    <td width=190>✍🏻⚡<a href="Solutions/54: Terrain Leveler/swiss.7bh">Swtc</a></td>
     <td width=167>motlin<br>thrfirs</td>
     <td width=92>24</td>
     <td width=117>~78.921s</td>
+  </tr>
+  <tr>
+    <td width=190>⚡✍🏻<a href="Solutions/54: Terrain Leveler/twsc.7bh">Twcs</a></td>
+    <td width=167>thrfirs</td>
+    <td width=92>26</td>
+    <td width=117>~77.337s</td>
   </tr>
 </table>
 
@@ -1410,7 +1416,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=117>2.976s</td>
   </tr>
   <tr>
-    <td width=190>🥇🥇<a href="Solutions/58: Good Neighbors/accept.7bh">Both Challenges</a></td>
+    <td width=190>✍🏻⚡<a href="Solutions/58: Good Neighbors/swtc.7bh">Swtc</a></td>
+    <td width=167>commonnickname</td>
+    <td width=92>9</td>
+    <td width=117>~170.752s</td>
+  </tr>
+  <tr>
+    <td width=190>⚡✍🏻<a href="Solutions/58: Good Neighbors/accept.7bh">Twcs</a></td>
     <td width=167>motlin<br>abfipes</td>
     <td width=92>10</td>
     <td width=117>~76.815s</td>
@@ -1525,7 +1537,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
     <td width=190>🥇🥇<a href="Solutions/62: The Sorting Floor/6767.7bh">Both Challenges</a></td>
     <td width=167>blue-raspberry-consulting</td>
     <td width=92>46</td>
-    <td width=117>~71.5s</td>
+    <td width=117>~67.378s</td>
   </tr>
 </table>
 
@@ -1723,7 +1735,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>commonnickname</td>
-      <td>45</td>
+      <td>46</td>
   </tr>
   <tr>
       <td>n05ucc4u</td>
@@ -1771,6 +1783,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>Pukeface</td>
+      <td>2</td>
+  </tr>
+  <tr>
+      <td>thrfirs</td>
       <td>2</td>
   </tr>
   <tr>
@@ -1875,10 +1891,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how sizes and speeds are measured, ho
   </tr>
   <tr>
       <td>Thineboot</td>
-      <td>1</td>
-  </tr>
-  <tr>
-      <td>thrfirs</td>
       <td>1</td>
   </tr>
   <tr>

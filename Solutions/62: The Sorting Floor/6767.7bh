@@ -2,7 +2,8 @@
 -- 62: The Sorting Floor --
 -- author: blue-raspberry-consulting
 -- contributor: abfipes
--- times: 66 77
+-- contributor: motlin
+-- times: 69.130 71.766 69.274 62.069 71.989 70.179 64.572 65.624 63.694 66.460 64.525 59.204 66.621 62.295 70.924 66.171 69.224 72.132 63.002 65.985 69.852 69.617 71.339 74.109 68.456 68.484 67.692 67.706 63.985 65.274
 
 mem1 = foreachdir nw,w,n,ne,e:
 	step n
@@ -17,9 +18,6 @@ if w != hole and
 			mem3 = foreachdir e:
 				c:
 				mem4 = nearest datacube
-				if mem1 != worker:
-					jump b
-				endif
 				if mem1 > mem4:
 					pickup c
 					giveto w
@@ -31,6 +29,9 @@ if w != hole and
 					giveto e
 					pickup e
 					drop
+				endif
+				if mem1 != worker:
+					jump b
 				endif
 				if mem2 > mem1:
 					pickup w
@@ -55,12 +56,6 @@ mem1 = foreachdir w:
 	mem2 = foreachdir n:
 		mem3 = foreachdir e:
 			e:
-			if mem2 == nothing:
-				step n
-			endif
-			if myitem == datacube:
-				drop
-			endif
 			if mem3 != worker and
 			 mem1 != worker and
 			 myitem != datacube:
@@ -70,6 +65,12 @@ mem1 = foreachdir w:
 				else:
 					step n
 				endif
+			endif
+			if mem2 == nothing:
+				step n
+			endif
+			if myitem == datacube:
+				drop
 			endif
 		endfor
 	endfor

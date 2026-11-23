@@ -1,9 +1,15 @@
 -- 7 Billion Humans (2235) --
 -- 13: Injection Sites 2 --
 -- author: Dipscrip
--- time: 14.368
+-- contributor: motlin
+-- time: 13.840
 
 pickup s
+if e == worker and
+ s == datacube or
+ w == worker:
+	step se
+endif
 a:
 if e == worker and
  s == datacube or
