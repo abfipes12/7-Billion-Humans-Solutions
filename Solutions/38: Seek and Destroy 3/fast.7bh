@@ -3,19 +3,20 @@
 -- author: abfipes
 -- author: commonnickname
 -- contributor: motlin
+<<<<<<< HEAD
 -- times: 10.367 10.808 10.269 10.479 10.403 10.236 10.628 10.525 10.605 10.534
 -- success: 250/250
 -- notes: abfipes: getting success rate fixes slowed the solution a little; it is still not 100%, sadly.
+=======
+-- times: 10.458 10.416 10.248 10.253 10.029 10.346 10.291 10.246 10.083 10.265 10.250 10.439 10.355 10.624 10.237 10.061 10.317 10.318 10.235 10.582 10.286 10.324 10.383 10.564 10.038 10.177 9.992 10.204 10.336 10.404
+-- success: 425/425
+>>>>>>> 6fc049988a0d26dcbb46270fe1aad4557ccdc32c
 
 mem1 = nearest datacube
 mem2 = nearest worker
 mem3 = nearest wall
 step n
 mem4 = nearest wall
-if mem1 == 0:
-	pickup n
-	jump a
-endif
 step n
 if mem3 != mem4:
 	mem3 = nearest wall
@@ -25,25 +26,40 @@ if mem3 != mem4:
 		step ne
 		step nw
 		step n
+<<<<<<< HEAD
 		step ne
 		step nw
 		step se
 		pickup nw
 		pickup nw
+=======
+		step n
+		step n
+		step n
+		step n
+		step e
+		step w
+		pickup c
+		pickup c
+		pickup n
+>>>>>>> 6fc049988a0d26dcbb46270fe1aad4557ccdc32c
 		step s
 		step s
 		step s
 		step s
+<<<<<<< HEAD
 		step s
 		step se
 		end
+=======
+		step mem1
+>>>>>>> 6fc049988a0d26dcbb46270fe1aad4557ccdc32c
 	endif
 endif
 step n
 mem4 = nearest datacube
 if mem4 <= mem1:
 	if mem4 == 0:
-		a:
 		jump b
 	endif
 	mem1 = nearest datacube
@@ -100,11 +116,19 @@ if n <= mem1:
 		g:
 		jump h
 	endif
+<<<<<<< HEAD
 	mem3 = nearest worker
 	if myitem > mem3:
 		jump i
 	endif
 else:
+=======
+	step s
+else:
+	if mem1 > 32:
+		jump j
+	endif
+>>>>>>> 6fc049988a0d26dcbb46270fe1aad4557ccdc32c
 	step mem1
 	mem3 = nearest worker
 	if mem1 >= mem2 or
@@ -136,8 +160,13 @@ if mem2 < myitem or
 	k:
 	jump l
 endif
+<<<<<<< HEAD
 step w
 mem3 = nearest worker
+=======
+step sw
+mem1 = nearest worker
+>>>>>>> 6fc049988a0d26dcbb46270fe1aad4557ccdc32c
 if mem2 < myitem or
  mem4 < myitem or
  mem1 < myitem or
@@ -146,7 +175,7 @@ if mem2 < myitem or
 	jump m
 endif
 step w
-mem4 = nearest worker
+mem3 = nearest worker
 if mem2 < myitem or
  mem4 < myitem or
  mem3 < myitem or
